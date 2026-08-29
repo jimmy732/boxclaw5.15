@@ -9,6 +9,7 @@
     "start": "node server.mjs",
     "import:cerui-products": "node scripts/import-cerui-3d-products.mjs",
     "import:cerui-stock-products": "node scripts/import-cerui-stock-products.mjs",
+    "configure:cn-contact": "node scripts/configure-cn-runtime-contact.mjs",
     "sync:vehicle-directory": "node scripts/sync-vehicle-directory.mjs",
     "validate:vehicle-directory": "node scripts/validate-vehicle-directory.mjs",
     "qa:product-locales": "node scripts/qa-product-locales.mjs",

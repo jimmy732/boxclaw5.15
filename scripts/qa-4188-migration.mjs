@@ -23,7 +23,7 @@ const page = await browser.newPage({ viewport: { width: 1440, height: 960 } });
 page.on('console', message => { if (message.type() === 'error') errors.push(message.text()); });
 page.on('pageerror', error => errors.push(error.message));
 
-await page.goto(`${baseUrl}/`, { waitUntil: 'networkidle', timeout: 30_000 });
+await page.goto(`${baseUrl}/`, { waitUntil: 'domcontentloaded', timeout: 30_000 });
 await page.waitForFunction(() => document.querySelectorAll('[data-wf-make] option').length > 60, null, { timeout: 20_000 });
 const home = await page.evaluate(() => ({
   title: document.title,
@@ -51,6 +51,7 @@ await page.screenshot({ path: join(outputDir, 'home-after-sync.png'), fullPage: 
 await page.goto(`${baseUrl}/fitment-lab`, { waitUntil: 'domcontentloaded', timeout: 30_000 });
 await page.locator('.fitment-entry-path[data-mode="style-first"]').click();
 await page.locator('.fitment-flow-form[data-step="1"]').waitFor();
+await page.waitForFunction(() => Number(document.querySelector('[data-fitment-style-catalog]')?.dataset.total || 0) >= 48, null, { timeout: 30_000 });
 const catalog = page.locator('[data-fitment-style-catalog]');
 const preview = await catalog.evaluate(element => ({
   total: Number(element.dataset.total || 0),
@@ -92,8 +93,9 @@ const mobileFitment = await mobile.evaluate(() => ({
 await mobile.screenshot({ path: join(outputDir, 'fitment-mobile.png'), fullPage: false });
 
 await page.evaluate(() => localStorage.setItem('fbox-cookie', 'dismissed'));
-await page.goto(`${baseUrl}/?qa=store-showcase#store`, { waitUntil: 'networkidle', timeout: 30_000 });
+await page.goto(`${baseUrl}/?qa=store-showcase#store`, { waitUntil: 'domcontentloaded', timeout: 30_000 });
 await page.locator('.forged-product-card').first().waitFor();
+await page.waitForFunction(() => document.querySelectorAll('.forged-product-card').length >= 91, null, { timeout: 30_000 });
 const storeCatalog = await page.evaluate(() => ({
   cards: document.querySelectorAll('.forged-product-card').length,
   directInquiryButtons: document.querySelectorAll('.forged-product-card [data-action="contact-inquiry"]').length,
@@ -109,7 +111,6 @@ const storeCatalog = await page.evaluate(() => ({
   heroBackground: getComputedStyle(document.querySelector('.forged-catalog-hero')).backgroundImage
 }));
 await page.screenshot({ path: join(outputDir, 'store-showcase-only.png'), fullPage: false });
-await page.locator('.forged-product-card').first().screenshot({ path: join(outputDir, 'store-product-card.png') });
 await page.locator('.forged-product-card [data-action="contact-inquiry"]').first().click();
 await page.locator('.contact-inquiry-modal').waitFor();
 await page.waitForFunction(() => document.querySelector('[data-contact-qr]')?.complete && document.querySelector('[data-contact-qr]')?.naturalWidth > 0);
@@ -123,7 +124,7 @@ const contactInquiry = await page.evaluate(() => ({
 }));
 await page.screenshot({ path: join(outputDir, 'store-contact-inquiry.png'), fullPage: false });
 
-await page.goto(`${baseUrl}/?qa=showcase-product${storeCatalog.firstDetailHref}`, { waitUntil: 'networkidle', timeout: 30_000 });
+await page.goto(`${baseUrl}/?qa=showcase-product${storeCatalog.firstDetailHref}`, { waitUntil: 'domcontentloaded', timeout: 30_000 });
 await page.locator('.forged-detail').waitFor();
 const productDetail = await page.evaluate(() => ({
   priceBlocks: document.querySelectorAll('.forged-detail .detail-price,.forged-detail .detail-set').length,
@@ -136,8 +137,9 @@ await page.screenshot({ path: join(outputDir, 'store-product-showcase.png'), ful
 
 const mobileStore = await browser.newPage({ viewport: { width: 390, height: 844 } });
 await mobileStore.addInitScript(() => localStorage.setItem('fbox-cookie', 'dismissed'));
-await mobileStore.goto(`${baseUrl}/?qa=store-showcase-mobile#store`, { waitUntil: 'networkidle', timeout: 30_000 });
+await mobileStore.goto(`${baseUrl}/?qa=store-showcase-mobile#store`, { waitUntil: 'domcontentloaded', timeout: 30_000 });
 await mobileStore.locator('.forged-product-card').first().waitFor();
+await mobileStore.waitForFunction(() => document.querySelectorAll('.forged-product-card').length >= 91, null, { timeout: 30_000 });
 const mobileStoreCatalog = await mobileStore.evaluate(() => {
   const hero = document.querySelector('.forged-catalog-hero');
   const heading = hero?.querySelector('h1');
