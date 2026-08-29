@@ -1,0 +1,1565 @@
+{
+  "source": "F:/cerui/3D效果图",
+  "generated_at": "2026-08-27T15:16:26.442Z",
+  "product_count": 42,
+  "image_count": 122,
+  "main_image_rule": "Use 1.*; folder 2 and 大饼悬浮款2 use visually verified explicit front-view files.",
+  "products": [
+    {
+      "id": "cirui-3d-series-01",
+      "folder": "1",
+      "main_source": "1.png",
+      "image_count": 2,
+      "images": [
+        {
+          "source": "1/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-01-01.webp",
+          "main": true,
+          "width": 790,
+          "height": 751,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "1/03f79cf2f9904c8934cee77c6e18f2a1.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-01-02.webp",
+          "main": false,
+          "width": 1635,
+          "height": 1280,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-02",
+      "folder": "2",
+      "main_source": "2b0fd7d0-5205-4cb2-8aa9-b6653e38cf83.png",
+      "image_count": 2,
+      "images": [
+        {
+          "source": "2/2b0fd7d0-5205-4cb2-8aa9-b6653e38cf83.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-02-01.webp",
+          "main": true,
+          "width": 734,
+          "height": 703,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "2/3eedff5f52bb7bb8ad6af486a23db8e7.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-02-02.webp",
+          "main": false,
+          "width": 1800,
+          "height": 1794,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-03",
+      "folder": "3",
+      "main_source": "1.png",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "3/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-03-01.webp",
+          "main": true,
+          "width": 769,
+          "height": 746,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "3/5c2a4a12af29149c762ea9643b77a0b4.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-03-02.webp",
+          "main": false,
+          "width": 1280,
+          "height": 1280,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "3/a4375ac86960aef6ab40d5ccbcbf4602.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-03-03.webp",
+          "main": false,
+          "width": 1600,
+          "height": 1600,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-04",
+      "folder": "4",
+      "main_source": "1.jpg",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "4/1.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-04-01.webp",
+          "main": true,
+          "width": 1800,
+          "height": 1751,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "4/微信图片_20260818144028_968_11.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-04-02.webp",
+          "main": false,
+          "width": 1800,
+          "height": 1668,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "4/微信图片_20260818144029_969_11.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-04-03.webp",
+          "main": false,
+          "width": 1800,
+          "height": 1718,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-05",
+      "folder": "5",
+      "main_source": "1.png",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "5/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-05-01.webp",
+          "main": true,
+          "width": 838,
+          "height": 793,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "5/95635ecb0206098b74374cc06bccb927.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-05-02.webp",
+          "main": false,
+          "width": 821,
+          "height": 640,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "5/b9965d45d84f3567bf00860ad0258693.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-05-03.webp",
+          "main": false,
+          "width": 1533,
+          "height": 1196,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-06",
+      "folder": "6",
+      "main_source": "1.jpg",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "6/1.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-06-01.webp",
+          "main": true,
+          "width": 1800,
+          "height": 1723,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "6/微信图片_20260814130719_563_11.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-06-02.webp",
+          "main": false,
+          "width": 1800,
+          "height": 1723,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "6/微信图片_20260814130719_564_11.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-06-03.webp",
+          "main": false,
+          "width": 1800,
+          "height": 1723,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-07",
+      "folder": "7",
+      "main_source": "1.png",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "7/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-07-01.webp",
+          "main": true,
+          "width": 734,
+          "height": 722,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "7/92bd24098b1763b7e316859822875888.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-07-02.webp",
+          "main": false,
+          "width": 1664,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "7/b78a73165ee05dcad7b4168dbb4470a8.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-07-03.webp",
+          "main": false,
+          "width": 1664,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-08",
+      "folder": "8",
+      "main_source": "1.png",
+      "image_count": 2,
+      "images": [
+        {
+          "source": "8/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-08-01.webp",
+          "main": true,
+          "width": 751,
+          "height": 735,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "8/47066f00aad25da989d219f7f724766f.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-08-02.webp",
+          "main": false,
+          "width": 1800,
+          "height": 1794,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-09",
+      "folder": "9",
+      "main_source": "1.jpg",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "9/1.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-09-01.webp",
+          "main": true,
+          "width": 1600,
+          "height": 1600,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "9/微信图片_20260823162425_1360_11.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-09-02.webp",
+          "main": false,
+          "width": 1600,
+          "height": 1600,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "9/微信图片_20260823162432_1361_11.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-09-03.webp",
+          "main": false,
+          "width": 1600,
+          "height": 1600,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-10",
+      "folder": "10",
+      "main_source": "1.jpg",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "10/1.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-10-01.webp",
+          "main": true,
+          "width": 1664,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "10/微信图片_20260817191313_877_11.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-10-02.webp",
+          "main": false,
+          "width": 1664,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "10/微信图片_20260817191313_878_11.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-10-03.webp",
+          "main": false,
+          "width": 1664,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-11",
+      "folder": "11",
+      "main_source": "1.jpg",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "11/1.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-11-01.webp",
+          "main": true,
+          "width": 1664,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "11/微信图片_20260812191341_448_11.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-11-02.webp",
+          "main": false,
+          "width": 1664,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "11/微信图片_20260812191341_449_11.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-11-03.webp",
+          "main": false,
+          "width": 1664,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-12",
+      "folder": "12",
+      "main_source": "1.png",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "12/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-12-01.webp",
+          "main": true,
+          "width": 1747,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "12/微信图片_20260818175854_1008_11.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-12-02.webp",
+          "main": false,
+          "width": 1747,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "12/微信图片_20260818175855_1009_11.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-12-03.webp",
+          "main": false,
+          "width": 1747,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-13",
+      "folder": "13",
+      "main_source": "1.png",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "13/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-13-01.webp",
+          "main": true,
+          "width": 723,
+          "height": 712,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "13/06d8949977063ff56a177611586b9fc3.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-13-02.webp",
+          "main": false,
+          "width": 1800,
+          "height": 1794,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "13/38ca945ef9854ddfa1fd8cab5cb1982f.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-13-03.webp",
+          "main": false,
+          "width": 1285,
+          "height": 1280,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-14",
+      "folder": "14",
+      "main_source": "1.png",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "14/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-14-01.webp",
+          "main": true,
+          "width": 928,
+          "height": 833,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "14/4fbf4e1cfe89a21202a4370fdf54e061.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-14-02.webp",
+          "main": false,
+          "width": 1636,
+          "height": 1280,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "14/8c0a54b99f8873c38eb66a7f49eb021c.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-14-03.webp",
+          "main": false,
+          "width": 1636,
+          "height": 1280,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-15",
+      "folder": "15",
+      "main_source": "1.jpg",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "15/1.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-15-01.webp",
+          "main": true,
+          "width": 1800,
+          "height": 1694,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "15/微信图片_20260818122447_943_11.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-15-02.webp",
+          "main": false,
+          "width": 1800,
+          "height": 1694,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "15/微信图片_20260818122448_944_11.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-15-03.webp",
+          "main": false,
+          "width": 1800,
+          "height": 1694,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-16",
+      "folder": "16",
+      "main_source": "1.png",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "16/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-16-01.webp",
+          "main": true,
+          "width": 722,
+          "height": 713,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "16/5b36dfd9ea78d7e38f456185a93e99.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-16-02.webp",
+          "main": false,
+          "width": 1664,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "16/ebe3f5e6820977f2eae4476d2cb51a1b.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-16-03.webp",
+          "main": false,
+          "width": 1664,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-17",
+      "folder": "17",
+      "main_source": "1.png",
+      "image_count": 5,
+      "images": [
+        {
+          "source": "17/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-17-01.webp",
+          "main": true,
+          "width": 860,
+          "height": 838,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "17/微信图片_20260826094346_211_220.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-17-02.webp",
+          "main": false,
+          "width": 804,
+          "height": 816,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "17/微信图片_20260826094604_216_220.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-17-03.webp",
+          "main": false,
+          "width": 831,
+          "height": 816,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "17/微信图片_20260826095220_1532_61.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-17-04.webp",
+          "main": false,
+          "width": 723,
+          "height": 731,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "17/微信图片_20260826095449_1533_61.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-17-05.webp",
+          "main": false,
+          "width": 380,
+          "height": 409,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-18",
+      "folder": "18",
+      "main_source": "1.png",
+      "image_count": 2,
+      "images": [
+        {
+          "source": "18/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-18-01.webp",
+          "main": true,
+          "width": 756,
+          "height": 694,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "18/72f65d5d0fa52aa2c56da54055195eeb.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-18-02.webp",
+          "main": false,
+          "width": 1800,
+          "height": 1794,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-19",
+      "folder": "19",
+      "main_source": "1.png",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "19/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-19-01.webp",
+          "main": true,
+          "width": 734,
+          "height": 735,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "19/d02ecc635644408fcb3e6ecfc97c67ce.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-19-02.webp",
+          "main": false,
+          "width": 1664,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "19/d49f9f1d3ee77021e9047959d3e41a82.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-19-03.webp",
+          "main": false,
+          "width": 1280,
+          "height": 1385,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-20",
+      "folder": "20",
+      "main_source": "1.png",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "20/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-20-01.webp",
+          "main": true,
+          "width": 728,
+          "height": 715,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "20/微信图片_20260823150443_1351_11.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-20-02.webp",
+          "main": false,
+          "width": 1800,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "20/微信图片_20260823150445_1352_11.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-20-03.webp",
+          "main": false,
+          "width": 1800,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-21",
+      "folder": "21",
+      "main_source": "1.png",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "21/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-21-01.webp",
+          "main": true,
+          "width": 750,
+          "height": 731,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "21/微信图片_20260820174503_1282_11.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-21-02.webp",
+          "main": false,
+          "width": 1664,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "21/微信图片_20260820174504_1283_11.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-21-03.webp",
+          "main": false,
+          "width": 1664,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-22",
+      "folder": "22",
+      "main_source": "1.png",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "22/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-22-01.webp",
+          "main": true,
+          "width": 732,
+          "height": 700,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "22/185da909ebb706ff106eca1aa6d0f289.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-22-02.webp",
+          "main": false,
+          "width": 1800,
+          "height": 1794,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "22/7337a3db24569a0a92a8a506c2eb1af6.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-22-03.webp",
+          "main": false,
+          "width": 1800,
+          "height": 1794,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-23",
+      "folder": "23",
+      "main_source": "1.png",
+      "image_count": 2,
+      "images": [
+        {
+          "source": "23/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-23-01.webp",
+          "main": true,
+          "width": 762,
+          "height": 718,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "23/5a7b10b94b1b981e252d9104528a19c7.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-23-02.webp",
+          "main": false,
+          "width": 1285,
+          "height": 1280,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-24",
+      "folder": "24",
+      "main_source": "1.png",
+      "image_count": 4,
+      "images": [
+        {
+          "source": "24/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-24-01.webp",
+          "main": true,
+          "width": 744,
+          "height": 759,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "24/2 (2).jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-24-02.webp",
+          "main": false,
+          "width": 1600,
+          "height": 1600,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "24/2.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-24-03.webp",
+          "main": false,
+          "width": 1280,
+          "height": 1280,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "24/52a2f284-11c8-44d8-9a54-98abf0ff41641.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-24-04.webp",
+          "main": false,
+          "width": 1280,
+          "height": 1280,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-25",
+      "folder": "25",
+      "main_source": "1.jpg",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "25/1.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-25-01.webp",
+          "main": true,
+          "width": 1664,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "25/微信图片_20260820135137_1187_11.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-25-02.webp",
+          "main": false,
+          "width": 1664,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "25/微信图片_20260820135138_1188_11.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-25-03.webp",
+          "main": false,
+          "width": 1664,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-26",
+      "folder": "26",
+      "main_source": "1.png",
+      "image_count": 2,
+      "images": [
+        {
+          "source": "26/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-26-01.webp",
+          "main": true,
+          "width": 791,
+          "height": 786,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "26/570646da47716493c89b8e13f669a16f.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-26-02.webp",
+          "main": false,
+          "width": 1800,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-27",
+      "folder": "27",
+      "main_source": "1.png",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "27/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-27-01.webp",
+          "main": true,
+          "width": 785,
+          "height": 777,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "27/微信图片_20260820163441_1263_11.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-27-02.webp",
+          "main": false,
+          "width": 1800,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "27/微信图片_20260820163442_1264_11.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-27-03.webp",
+          "main": false,
+          "width": 1800,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-28",
+      "folder": "28",
+      "main_source": "1.png",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "28/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-28-01.webp",
+          "main": true,
+          "width": 900,
+          "height": 910,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "28/56dde98e906d5de67750e2b33c77d84a.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-28-02.webp",
+          "main": false,
+          "width": 1280,
+          "height": 1280,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "28/a339173045fad65c5d088766235bf80f.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-28-03.webp",
+          "main": false,
+          "width": 1600,
+          "height": 1600,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-29",
+      "folder": "29",
+      "main_source": "1.png",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "29/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-29-01.webp",
+          "main": true,
+          "width": 786,
+          "height": 791,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "29/26d6c0449c9fb8bb4b5d8eca52b8f52c.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-29-02.webp",
+          "main": false,
+          "width": 1664,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "29/610e555db52d17bc07190f3739b98c20.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-29-03.webp",
+          "main": false,
+          "width": 1280,
+          "height": 1385,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-30",
+      "folder": "30",
+      "main_source": "1.png",
+      "image_count": 2,
+      "images": [
+        {
+          "source": "30/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-30-01.webp",
+          "main": true,
+          "width": 813,
+          "height": 790,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "30/89538e25-90ac-485c-b678-f38c2c6971a1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-30-02.webp",
+          "main": false,
+          "width": 784,
+          "height": 806,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-31",
+      "folder": "31",
+      "main_source": "1.png",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "31/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-31-01.webp",
+          "main": true,
+          "width": 917,
+          "height": 820,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "31/9665a5d4-2711-4e2c-80f2-d60d2b250b68.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-31-02.webp",
+          "main": false,
+          "width": 833,
+          "height": 712,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "31/569167ea-a9a8-4961-9bcd-f63eac8d36df.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-31-03.webp",
+          "main": false,
+          "width": 756,
+          "height": 767,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-32",
+      "folder": "32",
+      "main_source": "1.png",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "32/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-32-01.webp",
+          "main": true,
+          "width": 744,
+          "height": 725,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "32/a3ac568e0d86ea8c29b233cf409bbe08.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-32-02.webp",
+          "main": false,
+          "width": 1285,
+          "height": 1280,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "32/b14b5bad6fd895175d0ec5473a025924.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-32-03.webp",
+          "main": false,
+          "width": 1800,
+          "height": 1794,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-33",
+      "folder": "33",
+      "main_source": "1.png",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "33/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-33-01.webp",
+          "main": true,
+          "width": 861,
+          "height": 820,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "33/微信图片_20260826094336_210_220.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-33-02.webp",
+          "main": false,
+          "width": 792,
+          "height": 811,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "33/c6003883-ae99-4b0e-8471-33bc8d711dce.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-33-03.webp",
+          "main": false,
+          "width": 975,
+          "height": 840,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-34",
+      "folder": "34",
+      "main_source": "1.jpg",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "34/1.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-34-01.webp",
+          "main": true,
+          "width": 1280,
+          "height": 1275,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "34/微信图片_20260826094106_206_220.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-34-02.webp",
+          "main": false,
+          "width": 877,
+          "height": 820,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "34/cd9a50bb-8b43-42e1-aaed-2239441497e1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-34-03.webp",
+          "main": false,
+          "width": 765,
+          "height": 721,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-35",
+      "folder": "35",
+      "main_source": "1.jpg",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "35/1.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-35-01.webp",
+          "main": true,
+          "width": 1800,
+          "height": 1694,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "35/微信图片_20260812233008_460_11.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-35-02.webp",
+          "main": false,
+          "width": 1800,
+          "height": 1694,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "35/微信图片_20260812233010_461_11.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-35-03.webp",
+          "main": false,
+          "width": 1800,
+          "height": 1694,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-series-36",
+      "folder": "36",
+      "main_source": "1.png",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "36/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-series-36-01.webp",
+          "main": true,
+          "width": 849,
+          "height": 816,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "36/c9b4a93686efc22ed7669ac193b8b62f.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-36-02.webp",
+          "main": false,
+          "width": 1560,
+          "height": 1280,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "36/d8026f0c9b3e07b265482e06ce8bede7.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-series-36-03.webp",
+          "main": false,
+          "width": 1560,
+          "height": 1280,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-heritage-mesh-01",
+      "folder": "bbs1",
+      "main_source": "1.jpg",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "bbs1/1.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-heritage-mesh-01-01.webp",
+          "main": true,
+          "width": 1800,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "bbs1/微信图片_20260819153749_1099_11.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-heritage-mesh-01-02.webp",
+          "main": false,
+          "width": 1800,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "bbs1/微信图片_20260819153750_1100_11.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-heritage-mesh-01-03.webp",
+          "main": false,
+          "width": 1800,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-heritage-mesh-02",
+      "folder": "bbs2",
+      "main_source": "1.jpg",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "bbs2/1.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-heritage-mesh-02-01.webp",
+          "main": true,
+          "width": 1800,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "bbs2/微信图片_20260819153747_1095_11.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-heritage-mesh-02-02.webp",
+          "main": false,
+          "width": 1800,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "bbs2/微信图片_20260819153748_1096_11.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-heritage-mesh-02-03.webp",
+          "main": false,
+          "width": 1800,
+          "height": 1800,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-aero-disc-01",
+      "folder": "大饼悬浮款1",
+      "main_source": "1.png",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "大饼悬浮款1/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-aero-disc-01-01.webp",
+          "main": true,
+          "width": 788,
+          "height": 765,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "大饼悬浮款1/40d2dff1fe29642beaa97bf1b4097368.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-aero-disc-01-02.webp",
+          "main": false,
+          "width": 1285,
+          "height": 1280,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "大饼悬浮款1/a7169770d866ee4dc2d15f25e1330839.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-aero-disc-01-03.webp",
+          "main": false,
+          "width": 1285,
+          "height": 1280,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-aero-disc-02",
+      "folder": "大饼悬浮款2",
+      "main_source": "d2b5938b-abe5-4d2c-a676-1d86a9cd4d8b.png",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "大饼悬浮款2/d2b5938b-abe5-4d2c-a676-1d86a9cd4d8b.png",
+          "output": "assets/products/cerui-3d/cirui-3d-aero-disc-02-01.webp",
+          "main": true,
+          "width": 936,
+          "height": 862,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "大饼悬浮款2/2f1443d73b862584f24bdc9b3b71a573.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-aero-disc-02-02.webp",
+          "main": false,
+          "width": 1635,
+          "height": 1280,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "大饼悬浮款2/15e6faf0f9e5daf2c779e0efad2d7f01.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-aero-disc-02-03.webp",
+          "main": false,
+          "width": 1635,
+          "height": 1280,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-aero-disc-03",
+      "folder": "大饼悬浮款3",
+      "main_source": "1.png",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "大饼悬浮款3/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-aero-disc-03-01.webp",
+          "main": true,
+          "width": 766,
+          "height": 708,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "大饼悬浮款3/77f78d7b2123e181aaa5e2e5dff0a6a1.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-aero-disc-03-02.webp",
+          "main": false,
+          "width": 1285,
+          "height": 1280,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "大饼悬浮款3/4672f4f7b7481676f59c3e812adc10d0.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-aero-disc-03-03.webp",
+          "main": false,
+          "width": 1285,
+          "height": 1280,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    },
+    {
+      "id": "cirui-3d-aero-disc-04",
+      "folder": "大饼悬浮款4",
+      "main_source": "1.png",
+      "image_count": 3,
+      "images": [
+        {
+          "source": "大饼悬浮款4/1.png",
+          "output": "assets/products/cerui-3d/cirui-3d-aero-disc-04-01.webp",
+          "main": true,
+          "width": 788,
+          "height": 756,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "大饼悬浮款4/7eac6648cfd570a49c4e365bc2b59541.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-aero-disc-04-02.webp",
+          "main": false,
+          "width": 1280,
+          "height": 1280,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        },
+        {
+          "source": "大饼悬浮款4/187b907d7a4b3f921f2fed0ce60b8b9b.jpg",
+          "output": "assets/products/cerui-3d/cirui-3d-aero-disc-04-03.webp",
+          "main": false,
+          "width": 1280,
+          "height": 1280,
+          "has_alpha": true,
+          "processing": "flat-background",
+          "background_removed": true
+        }
+      ]
+    }
+  ]
+}

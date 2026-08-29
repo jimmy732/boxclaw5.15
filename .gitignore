@@ -1,0 +1,21 @@
+.fbox-server*.log
+server-restart*.log
+work/
+node_modules/
+local-test-runtime*/
+.env
+.env.*
+!.env.example
+qa/
+.last-migration-backup.txt
+*.log
+
+# Superseded video masters/duplicates that are not referenced by the site or
+# the admin asset registry. Production keeps the optimized, active variants.
+assets/domestic/videos/cerui-global-hero-expo-race-4k60-repaired-master.mp4
+assets/domestic/videos/cerui-global-hero-expo-race-1080p60-repaired-web.mp4
+assets/domestic/videos/cerui-global-hero-expo-race-1080p-master.mp4
+assets/domestic/videos/cerui-global-hero-expo-race-1080p-web.mp4
+assets/domestic/videos/cerui-global-hero-expo-race-720p30-repaired-web.mp4
+assets/domestic/videos/cerui-global-hero-expo-race-720p-web.mp4
+assets/domestic/videos/bbs-ch-r-ii-hero-original-v1.mp4

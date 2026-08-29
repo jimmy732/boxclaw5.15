@@ -1,0 +1,10 @@
+{
+  "scope": "F-Box inquiry commerce and PayPal quote checkout",
+  "storefront": "http://127.0.0.1:4174/",
+  "admin": "http://127.0.0.1:4174/admin/",
+  "currency": "USD",
+  "customer_payment": "PayPal redirect",
+  "customer_billing": "sponsored",
+  "generated_preview_count": 3,
+  "status": "implemented-locally"
+}

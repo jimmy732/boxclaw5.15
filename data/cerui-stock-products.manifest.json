@@ -1,0 +1,266 @@
+{
+  "source_root": "F:\\cerui\\现货图片",
+  "generated_at": "2026-08-29T05:00:26.783Z",
+  "product_count": 43,
+  "image_count": 786,
+  "products": [
+    {
+      "id": "cirui-stock-e5e25cd55e",
+      "name": "CIRUI Audi Stock Wheel Collection",
+      "source_folder": "奥迪",
+      "image_count": 68
+    },
+    {
+      "id": "cirui-stock-8987671823",
+      "name": "CIRUI BMW Stock Wheel Collection",
+      "source_folder": "宝马",
+      "image_count": 4
+    },
+    {
+      "id": "cirui-stock-af6d5d2db3",
+      "name": "CIRUI BMW 1-7 Series 5x120 Stock Wheel Collection",
+      "source_folder": "宝马/1-7系列 5x120",
+      "image_count": 59
+    },
+    {
+      "id": "cirui-stock-24a30e4dc8",
+      "name": "CIRUI BMW 19New X5 20New 3 Series 5-7 Series 5x112 Stock Wheel Collection",
+      "source_folder": "宝马/19新款x5 20新3系 5-7系 5x112",
+      "image_count": 76
+    },
+    {
+      "id": "cirui-stock-246dc93a95",
+      "name": "CIRUI Porsche Stock Wheel Collection",
+      "source_folder": "保时捷",
+      "image_count": 3
+    },
+    {
+      "id": "cirui-stock-cea088e735",
+      "name": "CIRUI Porsche Porsche 718 Stock Wheel Collection",
+      "source_folder": "保时捷/保时捷718",
+      "image_count": 5
+    },
+    {
+      "id": "cirui-stock-61248ea071",
+      "name": "CIRUI Porsche Porsche 911 Stock Wheel Collection",
+      "source_folder": "保时捷/保时捷911",
+      "image_count": 6
+    },
+    {
+      "id": "cirui-stock-c4218dcd5c",
+      "name": "CIRUI Porsche Porsche 卡宴 Stock Wheel Collection",
+      "source_folder": "保时捷/保时捷卡宴",
+      "image_count": 18
+    },
+    {
+      "id": "cirui-stock-630b2129d4",
+      "name": "CIRUI Porsche Porsche 帕拉梅拉 Stock Wheel Collection",
+      "source_folder": "保时捷/保时捷帕拉梅拉",
+      "image_count": 35
+    },
+    {
+      "id": "cirui-stock-e0537eebdb",
+      "name": "CIRUI Porsche Porsche macan Stock Wheel Collection",
+      "source_folder": "保时捷/保时捷macan",
+      "image_count": 20
+    },
+    {
+      "id": "cirui-stock-053793dde2",
+      "name": "CIRUI Mercedes-Benz Stock Wheel Collection",
+      "source_folder": "奔驰",
+      "image_count": 5
+    },
+    {
+      "id": "cirui-stock-3e529e8229",
+      "name": "CIRUI Mercedes-Benz G-Class Off-Road Stock Wheel Collection",
+      "source_folder": "奔驰/大G 越野",
+      "image_count": 16
+    },
+    {
+      "id": "cirui-stock-a28a007b64",
+      "name": "CIRUI Mercedes-Benz A/B/C/S-Class Stock Wheel Collection",
+      "source_folder": "奔驰/ABCS级轿车",
+      "image_count": 81
+    },
+    {
+      "id": "cirui-stock-951eeba483",
+      "name": "CIRUI Buick Stock Wheel Collection",
+      "source_folder": "别克",
+      "image_count": 7
+    },
+    {
+      "id": "cirui-stock-109828ffaa",
+      "name": "CIRUI Bentley Stock Wheel Collection",
+      "source_folder": "宾利",
+      "image_count": 13
+    },
+    {
+      "id": "cirui-stock-a0c1469f02",
+      "name": "CIRUI GAC Trumpchi Stock Wheel Collection",
+      "source_folder": "传祺",
+      "image_count": 1
+    },
+    {
+      "id": "cirui-stock-20ca713e14",
+      "name": "CIRUI Volkswagen Stock Wheel Collection",
+      "source_folder": "大众",
+      "image_count": 18
+    },
+    {
+      "id": "cirui-stock-573b36508c",
+      "name": "CIRUI Toyota Stock Wheel Collection",
+      "source_folder": "丰田",
+      "image_count": 30
+    },
+    {
+      "id": "cirui-stock-a014328c5b",
+      "name": "CIRUI Toyota Land Cruiser Prado Stock Wheel Collection",
+      "source_folder": "丰田/丰田霸道",
+      "image_count": 3
+    },
+    {
+      "id": "cirui-stock-e267dbc4b1",
+      "name": "CIRUI Toyota Alphard Stock Wheel Collection",
+      "source_folder": "丰田/新款埃尔法",
+      "image_count": 5
+    },
+    {
+      "id": "cirui-stock-9715420e2d",
+      "name": "CIRUI Toyota Hiace Stock Wheel Collection",
+      "source_folder": "丰田海狮",
+      "image_count": 12
+    },
+    {
+      "id": "cirui-stock-a27b1efb11",
+      "name": "CIRUI Custom Designs Stock Wheel Collection",
+      "source_folder": "改装款",
+      "image_count": 17
+    },
+    {
+      "id": "cirui-stock-75b411f3ec",
+      "name": "CIRUI Hongqi Stock Wheel Collection",
+      "source_folder": "红旗",
+      "image_count": 4
+    },
+    {
+      "id": "cirui-stock-8fa7202712",
+      "name": "CIRUI Zeekr Stock Wheel Collection",
+      "source_folder": "极氪",
+      "image_count": 9
+    },
+    {
+      "id": "cirui-stock-0221ac2b2b",
+      "name": "CIRUI Jaguar Stock Wheel Collection",
+      "source_folder": "捷豹",
+      "image_count": 9
+    },
+    {
+      "id": "cirui-stock-b260886436",
+      "name": "CIRUI Cadillac Stock Wheel Collection",
+      "source_folder": "凯迪拉克",
+      "image_count": 17
+    },
+    {
+      "id": "cirui-stock-55729993b3",
+      "name": "CIRUI Rolls-Royce Stock Wheel Collection",
+      "source_folder": "劳斯莱斯",
+      "image_count": 14
+    },
+    {
+      "id": "cirui-stock-a85a5b58ce",
+      "name": "CIRUI Lexus Stock Wheel Collection",
+      "source_folder": "雷克萨斯",
+      "image_count": 3
+    },
+    {
+      "id": "cirui-stock-9680a604ce",
+      "name": "CIRUI Li Auto Stock Wheel Collection",
+      "source_folder": "理想",
+      "image_count": 7
+    },
+    {
+      "id": "cirui-stock-2324cd6fb8",
+      "name": "CIRUI Lincoln Stock Wheel Collection",
+      "source_folder": "林肯",
+      "image_count": 3
+    },
+    {
+      "id": "cirui-stock-40bfe32157",
+      "name": "CIRUI Land Rover Stock Wheel Collection",
+      "source_folder": "路虎",
+      "image_count": 4
+    },
+    {
+      "id": "cirui-stock-c9afbc7284",
+      "name": "CIRUI Land Rover Evoque / Discovery Sport / Velar / Discovery Stock Wheel Collection",
+      "source_folder": "路虎/极光神行 路虎星脉 揽胜星脉 发现 神行者",
+      "image_count": 10
+    },
+    {
+      "id": "cirui-stock-873d3a2b94",
+      "name": "CIRUI Land Rover Range Rover / Defender Stock Wheel Collection",
+      "source_folder": "路虎/揽胜发行 卫士",
+      "image_count": 85
+    },
+    {
+      "id": "cirui-stock-6a4b78f7a6",
+      "name": "CIRUI Land Rover New Range Rover Stock Wheel Collection",
+      "source_folder": "路虎/新款揽胜",
+      "image_count": 8
+    },
+    {
+      "id": "cirui-stock-4bcbeb3e4e",
+      "name": "CIRUI Alfa Romeo Stock Wheel Collection",
+      "source_folder": "罗密欧",
+      "image_count": 2
+    },
+    {
+      "id": "cirui-stock-0cecbf64c1",
+      "name": "CIRUI Maserati Stock Wheel Collection",
+      "source_folder": "玛莎拉蒂",
+      "image_count": 10
+    },
+    {
+      "id": "cirui-stock-565a95958d",
+      "name": "CIRUI Tank Stock Wheel Collection",
+      "source_folder": "坦克",
+      "image_count": 7
+    },
+    {
+      "id": "cirui-stock-3f426f96e0",
+      "name": "CIRUI Tesla Stock Wheel Collection",
+      "source_folder": "特斯拉",
+      "image_count": 11
+    },
+    {
+      "id": "cirui-stock-028b972797",
+      "name": "CIRUI Nissan Patrol Stock Wheel Collection",
+      "source_folder": "途乐",
+      "image_count": 3
+    },
+    {
+      "id": "cirui-stock-edb9cbd14e",
+      "name": "CIRUI NIO Stock Wheel Collection",
+      "source_folder": "蔚来",
+      "image_count": 16
+    },
+    {
+      "id": "cirui-stock-102ce08694",
+      "name": "CIRUI AITO Stock Wheel Collection",
+      "source_folder": "问界",
+      "image_count": 31
+    },
+    {
+      "id": "cirui-stock-1941078b8c",
+      "name": "CIRUI Xiaomi Stock Wheel Collection",
+      "source_folder": "小米",
+      "image_count": 17
+    },
+    {
+      "id": "cirui-stock-50a7c871e6",
+      "name": "CIRUI BBS Stock Wheel Collection",
+      "source_folder": "BBS",
+      "image_count": 14
+    }
+  ]
+}

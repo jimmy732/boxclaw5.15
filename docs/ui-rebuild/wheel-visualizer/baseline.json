@@ -1,0 +1,32 @@
+{
+  "scope": "wheel-visualizer",
+  "captured_at": "2026-08-16",
+  "repository": "f-box-fitment-store",
+  "scanner": {
+    "status": "not_applicable",
+    "reason": "The required BoxClaw scanner expects a repository with frontend/ and backend/ directories. This project is an intentionally independent no-build static SPA with index.html, app.js, styles.css and assets/.",
+    "command": "python scan_boxclaw.py --root . --output docs/ui-rebuild/wheel-visualizer/baseline.json"
+  },
+  "observed_boundary": {
+    "frontend": ["index.html", "app.js", "styles.css", "assets/"],
+    "backend": "F-Box independent Node backend is mounted by local-fbox-server.mjs; it calls LingkeAI directly and keeps the API key in local-mall-dev/.runtime",
+    "router": "hash routes: #home, #store, #cart, #product/:id",
+    "storage": ["fbox-cart", "fbox-wishlist", "fbox-vehicle", "fbox-locale", "fbox-mall-token", "fbox-cookie"],
+    "existing_api_calls": ["/api/home/content", "/api/sso/login", "/admin-api/swagger-ui.html"],
+    "new_documented_api_calls": ["GET /api/fbox-admin/status", "PUT /api/fbox-admin/config", "POST /api/wheel-visualizer/jobs", "GET /api/wheel-visualizer/jobs/:job_id", "POST https://api.lk888.ai/v1/media/generate", "GET https://api.lk888.ai/v1/media/status?task_id=:task_id"]
+  },
+  "frozen_interactions": [
+    "Year -> Make -> Model -> Trim -> Drive vehicle selector",
+    "Product gallery, price, ratings, reviews and related products",
+    "Add to cart, buy now, checkout and existing modal state",
+    "Home, store, cart and product hash routes",
+    "Manual and IP-detected locale behavior"
+  ],
+  "new_flow": {
+    "entry": "wheel product detail page",
+    "states": ["upload", "crop", "reference", "generating", "results", "error"],
+    "outputs": 3,
+    "billing": "officially sponsored by F-Box; no customer credits, price, plan or charge fields are sent by the browser",
+    "local_mode": "the 4174 independent backend calls LingkeAI after the operator saves a key; when the route is not configured or the provider fails, it returns a safe error and never falls back to a fake layout preview"
+  }
+}

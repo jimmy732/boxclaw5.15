@@ -1,0 +1,23 @@
+[Unit]
+Description=CIRUI China storefront, fitment lab and admin backend
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=admin
+WorkingDirectory=/opt/fbox/cerui-cn-site
+Environment=NODE_ENV=production
+Environment=FBOX_PORT=4188
+Environment=FBOX_RUNTIME_DIR=/var/lib/cerui-cn-site/runtime
+EnvironmentFile=-/etc/cerui-cn-site/cerui-cn-site.env
+ExecStart=/usr/bin/node /opt/fbox/cerui-cn-site/server.mjs
+Restart=always
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ReadWritePaths=/var/lib/cerui-cn-site/runtime
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>F-Box Admin · Visualizer Route</title>
+  <link rel="stylesheet" href="/console.css">
+  <style>
+    :root { color-scheme: dark; --ink:#080a0e; --panel:#11151b; --panel-2:#171d25; --line:rgba(255,255,255,.12); --muted:#89939e; --lime:#c8ff1a; --lav:#a98cff; --danger:#ff8d8d; --ok:#7de3b0; }
+    * { box-sizing:border-box; }
+    body { min-height:100vh; margin:0; color:#f7f8fa; background:radial-gradient(circle at 75% 0%, rgba(169,140,255,.18), transparent 34rem), var(--ink); font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    a { color:inherit; }
+    button, input { font:inherit; }
+    .topbar { display:flex; align-items:center; justify-content:space-between; gap:20px; padding:20px clamp(20px,5vw,72px); border-bottom:1px solid var(--line); }
+    .brand { display:flex; align-items:center; gap:10px; color:var(--lime); font-size:11px; font-weight:900; letter-spacing:.16em; text-transform:uppercase; }
+    .brand i { width:10px; height:10px; border-radius:50%; background:var(--lime); box-shadow:0 0 20px var(--lime); }
+    .back { color:var(--muted); font-size:12px; text-decoration:none; }
+    .back:hover { color:#fff; }
+    main { width:min(1060px, calc(100% - 40px)); margin:0 auto; padding:clamp(44px,8vw,92px) 0 80px; }
+    .eyebrow { margin:0 0 12px; color:var(--lime); font-size:10px; font-weight:900; letter-spacing:.17em; text-transform:uppercase; }
+    h1 { max-width:760px; margin:0; font-size:clamp(48px,8vw,94px); line-height:.86; letter-spacing:-.07em; text-transform:uppercase; }
+    h1 em { color:var(--lav); font-style:normal; }
+    .lede { max-width:640px; margin:24px 0 0; color:#b6c0ca; font-size:15px; line-height:1.65; }
+    .status-grid { display:grid; grid-template-columns:repeat(4, minmax(0,1fr)); gap:10px; margin-top:42px; }
+    .status-card, .panel { border:1px solid var(--line); border-radius:16px; background:linear-gradient(145deg, rgba(255,255,255,.06), rgba(255,255,255,.025)); }
+    .status-card { min-height:112px; padding:17px; }
+    .status-card span { display:block; margin-bottom:12px; color:var(--muted); font-size:10px; font-weight:800; letter-spacing:.11em; text-transform:uppercase; }
+    .status-card strong { display:block; overflow:hidden; color:#fff; font-size:14px; text-overflow:ellipsis; white-space:nowrap; }
+    .status-card strong.is-ok { color:var(--ok); }
+    .status-card strong.is-danger { color:var(--danger); }
+    .panel { margin-top:16px; padding:clamp(22px,4vw,38px); }
+    .panel-head { display:flex; align-items:flex-start; justify-content:space-between; gap:24px; margin-bottom:28px; }
+    .panel h2 { margin:0; font-size:25px; letter-spacing:-.04em; }
+    .panel-head p { max-width:430px; margin:6px 0 0; color:var(--muted); font-size:12px; line-height:1.6; }
+    .live-pill { display:inline-flex; align-items:center; gap:7px; flex:0 0 auto; padding:7px 10px; border:1px solid rgba(125,227,176,.35); border-radius:999px; color:var(--ok); font-size:10px; font-weight:900; letter-spacing:.08em; text-transform:uppercase; }
+    .live-pill i { width:6px; height:6px; border-radius:50%; background:currentColor; box-shadow:0 0 12px currentColor; }
+    .form-grid { display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:16px; }
+    label { display:grid; gap:8px; color:#b8c1cb; font-size:11px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; }
+    input { width:100%; border:1px solid var(--line); border-radius:10px; outline:0; padding:13px 14px; color:#fff; background:var(--panel-2); font-size:14px; letter-spacing:0; text-transform:none; }
+    input:focus { border-color:var(--lav); box-shadow:0 0 0 3px rgba(169,140,255,.14); }
+    input[readonly] { color:var(--lav); }
+    .field-wide { grid-column:1 / -1; }
+    .field-note { color:var(--muted); font-size:11px; font-weight:400; letter-spacing:0; line-height:1.5; text-transform:none; }
+    .actions { display:flex; align-items:center; gap:12px; margin-top:24px; }
+    .btn { border:1px solid transparent; border-radius:10px; cursor:pointer; padding:12px 17px; font-size:12px; font-weight:900; letter-spacing:.04em; }
+    .btn-primary { color:#111; background:var(--lime); box-shadow:0 0 25px rgba(200,255,26,.14); }
+    .btn-primary:hover { filter:brightness(1.08); }
+    .btn-outline { color:#fff; border-color:var(--line); background:transparent; }
+    .btn-outline:hover { border-color:rgba(255,255,255,.35); background:rgba(255,255,255,.05); }
+    .btn:disabled { cursor:wait; opacity:.55; }
+    .message { min-height:18px; margin:16px 0 0; color:var(--muted); font-size:12px; line-height:1.5; }
+    .message.ok { color:var(--ok); }
+    .message.error { color:var(--danger); }
+    .notice { display:grid; grid-template-columns:auto 1fr; gap:12px; align-items:start; margin-top:16px; padding:16px; border:1px solid rgba(200,255,26,.22); border-radius:13px; color:#cbd3dc; background:rgba(200,255,26,.055); font-size:12px; line-height:1.6; }
+    .notice b { color:var(--lime); }
+    .notice code { color:#fff; font-family:ui-monospace, SFMono-Regular, Menlo, monospace; }
+    footer { width:min(1060px, calc(100% - 40px)); margin:0 auto; padding:0 0 36px; color:#66717d; font-size:11px; }
+    body.fitment-console-page main { width:min(1680px, calc(100% - 32px)); padding:24px 0 48px; }
+    body.fitment-console-page main > :not(#console-auth):not(#console-app) { display:none !important; }
+    body.fitment-console-page footer { display:none; }
+    body.fitment-console-page .topbar .back { color:#fff; }
+    body.fitment-console-page .console-shell { min-height:calc(100vh - 132px); margin:0; }
+    body.fitment-console-page .console-nav-item:not([data-view="fitment"]) { display:none; }
+    body.site-assets-console-page main { width:min(1680px, calc(100% - 32px)); padding:24px 0 48px; }
+    body.site-assets-console-page main > :not(#console-auth):not(#console-app) { display:none !important; }
+    body.site-assets-console-page footer { display:none; }
+    body.site-assets-console-page .topbar .back { color:#fff; }
+    body.site-assets-console-page .console-shell { min-height:calc(100vh - 132px); margin:0; }
+    body.site-assets-console-page .console-nav-item:not([data-view="site-assets"]) { display:none; }
+    @media (max-width:760px) { main { width:calc(100% - 24px); padding-top:32px; } .topbar { align-items:flex-start; flex-direction:column; } h1 { max-width:100%; overflow-wrap:anywhere; font-size:clamp(38px,12vw,58px); letter-spacing:0; } .console-auth { width:100%; max-width:none; margin:0 auto 36px; } .console-login.panel { min-width:0; overflow:hidden; padding:18px; } .console-login h2 { max-width:100%; overflow-wrap:anywhere; font-size:clamp(22px,7vw,26px); line-height:1.12; letter-spacing:0; } .status-grid, .form-grid { grid-template-columns:1fr; } .field-wide { grid-column:auto; } .panel-head { flex-direction:column; } .actions { align-items:stretch; flex-direction:column; } .actions .btn { width:100%; } }
+  </style>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="/"><i></i><span>F-Box Admin</span></a><a class="back" href="/">← Back to storefront</a></header>
+  <main>
+    <section id="console-auth" class="console-auth" hidden>
+      <div class="console-login panel">
+        <p class="eyebrow">F-Box console</p>
+        <h2>Sign in to the operator console</h2>
+        <p class="console-login-note">Use your F-Box admin account (default <code>admin</code>) to access customer insights, traffic analytics, reviews and visualizer settings.</p>
+        <form id="console-login-form">
+          <label>Username<input name="username" autocomplete="username" value="admin" required></label>
+          <label>Password<input name="password" type="password" autocomplete="current-password" required></label>
+          <div class="actions"><button class="btn btn-primary" type="submit">Sign in</button></div>
+          <p class="message" id="console-login-message" role="status"></p>
+        </form>
+      </div>
+    </section>
+    <section id="console-app" hidden>
+      <div class="console-shell">
+        <aside class="console-side">
+          <div class="console-side-brand"><i></i>F-BOX CONSOLE</div>
+          <nav class="console-nav">
+            <button class="console-nav-item is-active" data-view="dashboard">数据面板</button>
+            <button class="console-nav-item" data-view="customers">客户管理</button>
+            <button class="console-nav-item" data-view="reviews">评价管理</button>
+            <button class="console-nav-item" data-view="blog">博客管理</button>
+            <button class="console-nav-item" data-view="fitment">适配实验室</button>
+            <button class="console-nav-item" data-view="site-assets">店铺装修图片</button>
+            <button class="console-nav-item" data-view="visualizer">效果图配置</button>
+          </nav>
+          <div class="console-side-foot"><span id="console-operator"></span><button class="console-logout" id="console-logout">退出登录</button></div>
+        </aside>
+        <div class="console-main">
+          <header class="console-top"><h2 id="console-view-title">数据面板</h2><div class="console-top-actions"><select id="console-range" class="console-range"><option value="24h">24 小时</option><option value="7d">7 天</option><option value="30d" selected>30 天</option><option value="90d">90 天</option><option value="all">全部</option></select><button class="btn btn-outline" id="console-refresh" type="button">刷新</button></div></header>
+          <div id="console-view" class="console-view"></div>
+        </div>
+      </div>
+    </section>
+    <p class="eyebrow">Sponsored visualizer control</p>
+    <h1>Route the real<br><em>image model.</em></h1>
+    <p class="lede">Configure the server-side LingkeAI connection used by F-Box Visual Studio. The customer storefront never receives this key, the fitment prompt stays on the F-Box backend, and every preview remains free for the customer.</p>
+
+    <section class="status-grid" aria-label="Route status">
+      <article class="status-card"><span>Route</span><strong id="status-route">Checking…</strong></article>
+      <article class="status-card"><span>Provider</span><strong id="status-provider">Checking…</strong></article>
+      <article class="status-card"><span>Model</span><strong id="status-model">gpt-image-2</strong></article>
+      <article class="status-card"><span>Customer billing</span><strong class="is-ok">Sponsored / $0</strong></article>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head"><div><h2>GPT Image 2 connection</h2><p>The key is sent to the F-Box independent backend, validated with <code>/v1/models</code>, then stored outside the public storefront. It is never rendered back into the browser.</p></div><span class="live-pill" id="status-pill"><i></i><span>Checking</span></span></div>
+      <form id="route-form">
+        <div class="form-grid">
+          <label>Provider<input value="LingkeAI" readonly></label>
+          <label>Model<input name="model" value="gpt-image-2" readonly></label>
+          <label class="field-wide">Base URL<input name="endpoint" value="https://api.lk888.ai/v1" autocomplete="url"><span class="field-note">Use the LingkeAI OpenAI-compatible base URL and keep the <code>/v1</code> suffix.</span></label>
+          <label class="field-wide">API key<input name="api_key" type="password" placeholder="Paste the LingkeAI API key here" autocomplete="new-password"><span class="field-note">Only enter this in the local admin page. Never paste it into product content or frontend code.</span></label>
+        </div>
+        <div class="actions"><button class="btn btn-primary" id="save-button" type="submit">Save & verify live route</button><button class="btn btn-outline" id="refresh-button" type="button">Refresh status</button></div>
+        <p class="message" id="message" role="status"></p>
+      </form>
+    </section>
+
+    <div class="notice"><strong>!</strong><div><b>How this is used:</b> after this route is verified, the product page sends the vehicle photo and selected wheel reference to the F-Box backend. The backend makes three server-side <code>gpt-image-2</code> image-edit calls. If the route is not configured, the storefront shows an error and does not fabricate a pasted-wheel result.</div></div>
+  </main>
+  <footer>Fanghe Overseas Intelligent Technology Co., Ltd. · F-Box Visual Studio · local operator surface</footer>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <script type="module" src="/console.js"></script>
+  <script>
+    const $ = selector => document.querySelector(selector);
+    const message = (text, kind = '') => { const el = $('#message'); el.textContent = text; el.className = `message ${kind}`; };
+    function renderStatus(data) {
+      const configured = Boolean(data?.configured);
+      $('#status-route').textContent = configured ? 'Live / ready' : 'Not configured';
+      $('#status-route').className = configured ? 'is-ok' : 'is-danger';
+      $('#status-provider').textContent = configured ? `${data.provider} · ${data.endpoint}` : 'LingkeAI';
+      $('#status-model').textContent = data?.model || 'gpt-image-2';
+      $('#status-pill').innerHTML = `<i></i><span>${configured ? 'Live route ready' : 'Needs API key'}</span>`;
+      $('#status-pill').className = `live-pill ${configured ? '' : 'is-danger'}`;
+    }
+    async function loadStatus() {
+      try {
+        const response = await fetch('/api/fbox-admin/status', { headers: { Accept: 'application/json' } });
+        const payload = await response.json();
+        if (!response.ok) throw new Error(payload.detail || 'The admin bridge is unavailable.');
+        renderStatus(payload.data || payload);
+      } catch (error) { renderStatus({ configured: false }); message(error.message, 'error'); }
+    }
+    $('#route-form').addEventListener('submit', async event => {
+      event.preventDefault();
+      const button = $('#save-button'); button.disabled = true; message('Verifying the LingkeAI route without creating an image task…');
+      const values = new FormData(event.currentTarget);
+      try {
+        const response = await fetch('/api/fbox-admin/config', { method:'PUT', headers:{'Accept':'application/json','Content-Type':'application/json'}, body:JSON.stringify({ endpoint: values.get('endpoint'), api_key: values.get('api_key'), provider:'lk888', model:'gpt-image-2' }) });
+        const payload = await response.json().catch(() => ({}));
+        if (!response.ok) throw new Error(payload.detail || payload.message || 'The route could not be verified.');
+        renderStatus(payload.data || payload); event.currentTarget.elements.api_key.value = ''; message('Live GPT Image 2 route verified and saved in the F-Box backend. You can return to the product page and generate three real angles.', 'ok');
+      } catch (error) { message(error.message, 'error'); }
+      finally { button.disabled = false; }
+    });
+    $('#refresh-button').addEventListener('click', () => { message('Refreshing route status…'); loadStatus(); });
+    loadStatus();
+  </script>
+</body>
+</html>

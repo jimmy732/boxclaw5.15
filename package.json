@@ -1,0 +1,26 @@
+{
+  "name": "fbox-storefront",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "import:cerui-products": "node scripts/import-cerui-3d-products.mjs",
+    "import:cerui-stock-products": "node scripts/import-cerui-stock-products.mjs",
+    "sync:vehicle-directory": "node scripts/sync-vehicle-directory.mjs",
+    "validate:vehicle-directory": "node scripts/validate-vehicle-directory.mjs",
+    "qa:product-locales": "node scripts/qa-product-locales.mjs",
+    "qa:fitment-style-catalog": "node scripts/qa-fitment-style-catalog.mjs",
+    "qa:fitment-ai-intake": "node scripts/qa-fitment-ai-intake.mjs",
+    "qa:vin": "node scripts/qa-vin-fitment.mjs",
+    "qa:vehicle-directory": "node scripts/qa-vehicle-directory.mjs",
+    "qa:4188-migration": "node scripts/qa-4188-migration.mjs",
+    "optimize:assets": "node scripts/optimize-assets.mjs",
+    "sync:qiniu": "node scripts/sync-assets-to-qiniu.mjs"
+  },
+  "dependencies": {
+    "sharp": "^0.35.3"
+  }
+}

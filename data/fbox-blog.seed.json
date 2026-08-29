@@ -1,0 +1,62 @@
+[
+  {
+    "id": "blog-fitment-before-finish",
+    "slug": "fitment-before-finish-custom-wheel-buying-guide",
+    "title": "Fitment Before Finish: A Better Way to Buy Custom Wheels",
+    "excerpt": "The finish gets the attention, but diameter, width, PCD, center bore, offset and brake clearance decide whether the build works.",
+    "category": "Fitment",
+    "cover_image": "halo-20-spoke-01.png",
+    "author": "F-Box Engineering",
+    "read_time": "6 min read",
+    "tags": ["fitment", "custom wheels", "brake clearance"],
+    "status": "published",
+    "featured": true,
+    "published_at": "2026-08-18T09:00:00.000Z",
+    "body": "A custom wheel should make the car look intentional and drive without surprises. That starts with the platform, not the color sample. Before choosing a deep concave profile or a polished lip, capture the vehicle year, make, model, trim, brake package and current suspension setup.\n\n## Start with the numbers\nDiameter and width set the tire envelope. PCD and center bore determine whether the wheel locates correctly on the hub. Offset controls how the wheel sits in the arch and how much room remains for the brake caliper. These values work together, so changing one can change the answer for all the others.\n\n## Check brake clearance early\nA wheel that clears the fender can still fail at the caliper. Ask for a brake template or a verified clearance check when the build uses a larger factory package, an aftermarket caliper or a track-focused rotor. F-Box keeps brake clearance in the brief before the design moves to production.\n\n## Finish comes last for a reason\nOnce the fitment is confirmed, the finish becomes a creative decision instead of a gamble. Satin, gloss, brushed, machined and custom color options can all work when the hard constraints are already locked. A good wheel brief makes the final design easier to approve because every visual decision has a usable foundation."
+  },
+  {
+    "id": "blog-read-wheel-specs",
+    "slug": "how-to-read-wheel-specs-diameter-width-pcd-et",
+    "title": "How to Read Wheel Specs Without Guessing",
+    "excerpt": "A quick guide to diameter, width, PCD, center bore and ET, with the practical questions to ask before ordering.",
+    "category": "Technical",
+    "cover_image": "meridian-multi-spoke-01.png",
+    "author": "F-Box Engineering",
+    "read_time": "5 min read",
+    "tags": ["wheel specs", "PCD", "offset", "center bore"],
+    "status": "published",
+    "featured": false,
+    "published_at": "2026-08-14T09:00:00.000Z",
+    "body": "Wheel specifications look compact because each number carries a lot of information. Learning the shorthand makes it easier to compare designs and much harder to order a wheel that only looks right in a product photo.\n\n## Diameter and width\nA 20 x 9 wheel is 20 inches in diameter and 9 inches wide. The tire must support that size range, and the available width affects sidewall shape, contact patch and clearance. The widest option is not automatically the best option for a daily-driven car.\n\n## PCD and center bore\nPCD describes the number of lugs and the diameter of the circle they form, such as 5x112 or 5x114.3. The center bore is the opening that locates the wheel on the hub. A larger bore can sometimes be managed with hub-centric rings, while a smaller bore will not install without a compatible design.\n\n## ET means offset\nET is the wheel offset in millimeters. A higher positive offset moves the wheel inward; a lower offset moves it outward. The right range depends on the vehicle, tire, suspension and brake package. Always compare the proposed offset with the stock reference and the actual clearance around the inner barrel, strut and fender.\n\n## The useful question\nDo not ask only whether a wheel is available in a certain size. Ask whether that size, offset and brake profile are approved for the exact vehicle and use case. That is the difference between a catalog match and a build-ready fitment."
+  },
+  {
+    "id": "blog-forged-vs-cast",
+    "slug": "forged-vs-cast-wheels-what-the-difference-means",
+    "title": "Forged vs. Cast Wheels: What the Difference Means on the Road",
+    "excerpt": "The manufacturing process changes how a wheel can be designed, tested and finished. Here is how to think about the trade-offs.",
+    "category": "Engineering",
+    "cover_image": "vanta-10-01.png",
+    "author": "F-Box Engineering",
+    "read_time": "7 min read",
+    "tags": ["forged wheels", "cast wheels", "engineering"],
+    "status": "published",
+    "featured": false,
+    "published_at": "2026-08-09T09:00:00.000Z",
+    "body": "Forged and cast wheels are made differently, but the label alone does not tell you whether a wheel is right for the build. The useful comparison is how the process supports the required strength, weight, design freedom, testing and budget.\n\n## What forging changes\nForging starts with a solid billet that is shaped under pressure and then machined to the final profile. The process can support a strong, relatively light wheel with precise control over the spoke, barrel and hub areas. It is especially useful when the design needs a specific offset, concavity or brake profile.\n\n## Where cast wheels fit\nCasting forms the wheel from molten alloy in a mold. It allows efficient production and a wide range of everyday designs at a more accessible cost. A properly specified and tested cast wheel can be a sensible choice for street use when its load rating and fitment are correct.\n\n## The decision is use-case first\nDaily mileage, road conditions, tire choice, brake package and visual priorities should drive the decision. A track or high-performance build may benefit from the control and weight targets of a forged wheel. A straightforward street build may prioritize proven sizing, availability and value.\n\n## Ask for the complete spec\nWhichever process you choose, check the load rating, test standard, actual weight, finish warranty and vehicle-specific fitment. Manufacturing language is useful only when it connects back to the way the wheel will be used."
+  },
+  {
+    "id": "blog-wheel-finish-guide",
+    "slug": "wheel-finish-guide-satin-gloss-brushed-and-polished",
+    "title": "Satin, Gloss, Brushed or Polished: Choosing a Wheel Finish",
+    "excerpt": "Finish changes the way a spoke profile reads in daylight, under street lighting and in the photos you keep coming back to.",
+    "category": "Finish",
+    "cover_image": "apex-split-spoke-01.jpg",
+    "author": "F-Box Design Studio",
+    "read_time": "4 min read",
+    "tags": ["wheel finish", "satin", "polished", "custom color"],
+    "status": "published",
+    "featured": false,
+    "published_at": "2026-08-03T09:00:00.000Z",
+    "body": "The same wheel design can feel understated, technical or dramatic depending on the finish. Start with the body color, the amount of brake hardware you want to show and the amount of maintenance you are comfortable with.\n\n## Satin and matte\nSatin finishes soften reflections and make complex spoke geometry easy to read. They suit daily builds that want a clean, technical surface without a mirror-like highlight. Matte surfaces make a strong statement, but they need careful cleaning products and a clear maintenance plan.\n\n## Gloss and custom color\nGloss finishes add depth and make darker colors look richer in photos and direct light. Custom color works best when the tone is considered alongside the body, trim and caliper color. Ask for a physical or controlled-light sample when the shade is important.\n\n## Brushed and polished\nBrushed metal keeps visible grain and a crafted feel. Polished surfaces create the brightest highlight and can make a simple spoke profile look more intricate. Both finishes reward regular care, especially in climates with road salt or heavy brake dust.\n\n## Make the finish serve the shape\nUse the finish to explain the wheel design. Satin can emphasize concavity, gloss can deepen a sculpted spoke, and brushed or polished details can trace the edge of a lip. The best choice is the one that makes the form easier to see and the car easier to live with."
+  }
+]
