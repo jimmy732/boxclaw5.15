@@ -45,6 +45,7 @@ function json(res, status, payload) {
 function staticCacheControl(filePath, useAdmin) {
   const extension = path.extname(filePath).toLowerCase();
   if (extension === '.html') return 'no-cache';
+  if (/cerui-global-hero-hd-montage-\d+p\d+-web\.mp4$/i.test(filePath)) return 'public, max-age=604800, stale-while-revalidate=2592000';
   if (filePath.includes(`${path.sep}assets${path.sep}cerui${path.sep}`)) return 'no-cache';
   if (filePath.includes(`${path.sep}assets${path.sep}domestic${path.sep}`)) return 'no-cache';
   if (useAdmin && /-[a-zA-Z0-9_-]{8,}\./.test(path.basename(filePath))) return 'public, max-age=31536000, immutable';

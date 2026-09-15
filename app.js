@@ -3509,6 +3509,9 @@ function isPaymentProductPageMounted() {
 
 function renderBackgroundUpdate() {
   if (isPaymentProductPageMounted()) return;
+  // The domestic homepage is static. Background catalog, account and content
+  // responses must not remount its hero video or replay its entrance state.
+  if (state.route.name === 'home' && document.querySelector('.wf-home')) return;
   render();
 }
 
@@ -3634,7 +3637,7 @@ async function loadBlogContent() {
     if (!response.ok) throw new Error(payload.detail || 'Journal unavailable');
     state.blogPosts = Array.isArray(payload.data) && payload.data.length ? payload.data : blogFallbackPosts;
     state.blogLoaded = true;
-    if (state.route.name === 'blog' || state.route.name === 'blog-post' || state.route.name === 'home') render();
+    if (state.route.name === 'blog' || state.route.name === 'blog-post') render();
   } catch {
     state.blogPosts = blogFallbackPosts;
   }
@@ -3654,7 +3657,6 @@ function formatWhatsAppNumber(value) {
 
 async function loadFBoxSettings() {
   try {
-    const previousLocale = state.locale;
     const response = await fetch('/api/fbox-content/settings', { headers: { Accept: 'application/json' }, signal: AbortSignal.timeout(8000) });
     const payload = await response.json().catch(() => ({}));
     if (!response.ok) throw new Error(payload.detail || 'Storefront settings unavailable');
@@ -3669,8 +3671,7 @@ async function loadFBoxSettings() {
     if (state.localeMode === 'auto' && browserLocale() === 'en' && localeOptions.some(([code]) => code === settings.default_locale)) {
       state.locale = settings.default_locale;
     }
-    if (state.locale !== previousLocale) render();
-    else renderBackgroundUpdate();
+    renderBackgroundUpdate();
   } catch {
     // The built-in contact value keeps the storefront usable while the API is unavailable.
   }
@@ -7057,7 +7058,7 @@ async function detectLocaleByIp() {
   if (preferredBrowserLocale !== 'en') {
     if (state.locale !== preferredBrowserLocale) {
       state.locale = preferredBrowserLocale;
-      render();
+      renderBackgroundUpdate();
     }
     return;
   }
@@ -7071,7 +7072,7 @@ async function detectLocaleByIp() {
     state.localeCountry = data.country_code || '';
     if (state.localeMode === 'auto' && detected !== state.locale) {
       state.locale = detected;
-      render();
+      renderBackgroundUpdate();
     }
   } catch {
     // Privacy extensions, offline previews and rate limits fall back to navigator.language or English.
@@ -7250,12 +7251,12 @@ function render() {
   const pageWithJournal = page;
   const appRoot = document.querySelector('#app');
   const existingHostedContainer = appRoot.querySelector('[data-paypal-hosted-container]');
-  const existingHeroVideo = appRoot.querySelector('.premium-hero-video');
+  const existingHeroVideo = appRoot.querySelector('.premium-hero-video, .wf-bbs-hero-video');
   const nextRoot = document.createElement('div');
   nextRoot.innerHTML = `${header()}${pageWithJournal}${footer()}${chat()}${whatsappFab()}${state.cookie ? `<div class="cookie-banner"><span>${uiLabel('By using CIRUI, you agree to our cookie policy and fitment analytics.')}</span><button data-action="dismiss-cookie">${uiLabel('Dismiss')}</button></div>` : ''}${modal()}${wheelVisualizerModal()}${wheelVisualizerImageViewer()}${state.toast ? `<div class="toast">${esc(state.toast)}</div>` : ''}`;
   const nextHostedContainer = nextRoot.querySelector('[data-paypal-hosted-container]');
   if (existingHostedContainer && nextHostedContainer) nextHostedContainer.replaceWith(existingHostedContainer);
-  const nextHeroVideo = nextRoot.querySelector('.premium-hero-video');
+  const nextHeroVideo = nextRoot.querySelector('.premium-hero-video, .wf-bbs-hero-video');
   const preservedHeroVideo = Boolean(existingHeroVideo && nextHeroVideo);
   if (preservedHeroVideo) nextHeroVideo.replaceWith(existingHeroVideo);
   appRoot.replaceChildren(...nextRoot.childNodes);
@@ -8050,7 +8051,7 @@ document.addEventListener('click', async event => {
   if (['add', 'buy-now', 'request-rfq', 'checkout', 'chat', 'write-review', 'customize', 'quote', 'whatsapp', 'whatsapp-fitment', 'whatsapp-product', 'whatsapp-visualizer', 'home-preview-wheel', 'home-preview-prev', 'home-preview-next'].includes(action)) {
     trackEvent('click', { path: location.pathname + location.hash, title: action, meta: { action, product_id: target.dataset.id || '' } });
   }
-  if (target.dataset.categoryLink !== undefined) { setCatalogCollection('all'); state.catalogNotice = ''; state.menuOpen = false; if (state.route.name === 'store') render(); else go('#store'); return; }
+  if (target.dataset.categoryLink !== undefined) { event.preventDefault(); setCatalogCollection('all'); state.catalogNotice = ''; state.menuOpen = false; if (state.route.name === 'store') render(); else go('#store'); return; }
   if (action === 'catalog-collection') { event.preventDefault(); setCatalogCollection(target.dataset.collection || 'all'); state.catalogNotice = ''; state.menuOpen = false; if (state.route.name === 'store') render(); else go('#store'); return; }
   if (action === 'catalog-visualizer') { event.preventDefault(); setCatalogCollection('all'); state.catalogNotice = 'visualizer'; state.menuOpen = false; if (state.route.name === 'store') render(); else go('#store'); return; }
   if (action === 'custom-section') {

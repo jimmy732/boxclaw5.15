@@ -88,14 +88,13 @@ export function domesticHomePage(uiIcons = {}) {
     <section class="wf-hero" aria-labelledby="wf-hero-title">
       <div class="wf-bbs-video-stage" aria-hidden="true">
         <video class="wf-bbs-hero-video" autoplay muted loop playsinline preload="auto" poster="/assets/domestic/videos/cerui-global-hero-hd-montage-poster.webp" data-wf-bbs-video>
-          <source media="(max-width: 720px)" src="/assets/domestic/videos/cerui-global-hero-hd-montage-720p30-web.mp4?v=20260827-stream-v2" type="video/mp4">
-          <source src="/assets/domestic/videos/cerui-global-hero-hd-montage-1080p30-web.mp4?v=20260827-stream-v2" type="video/mp4">
+          <source src="/assets/domestic/videos/cerui-global-hero-hd-montage-720p30-web.mp4?v=20260915-stream-v3" type="video/mp4">
         </video>
       </div>
       <div class="wf-hero-secondary-brand" aria-hidden="true">
         <img src="/assets/cerui/cerui-logo-black-v1.webp" alt="">
       </div>
-      <div class="wf-hero-copy" data-reveal>
+      <div class="wf-hero-copy">
         <p>始于 2008 · 中国锻造轮毂品牌</p>
         <h1 id="wf-hero-title">始终领先一步。</h1>
         <span>探索策锐锻造的轮毂、制造与车型适配能力。</span>
@@ -149,7 +148,7 @@ export function domesticHomePage(uiIcons = {}) {
 
     <section class="wf-products" id="wheels">
       <div class="wf-container">
-        <header class="wf-section-head" data-reveal><div><p class="wf-eyebrow">策锐轮毂</p><h2>精选轮毂系列</h2></div><a href="/fitment-lab" data-app-path>按车型查看适配款式</a></header>
+        <header class="wf-section-head" data-reveal><div><p class="wf-eyebrow">策锐轮毂</p><h2>精选轮毂系列</h2></div><a href="#store" data-category-link="Wheels">查看所有轮毂</a></header>
         <div class="wf-product-grid">${wheelProducts.map(productMarkup).join('')}</div>
       </div>
     </section>
@@ -204,10 +203,20 @@ export function domesticHomePage(uiIcons = {}) {
 
     <footer class="wf-footer">
       <div class="wf-container">
-        <div class="wf-footer-main"><div><img src="/assets/cerui/cerui-logo-black-v1.webp" alt="策锐锻造 CIRUI FORGED"><p>车型适配 · 锻造轮毂设计 · 参数计算 · 效果生成 · 定制生产</p></div><nav><section><h3>轮毂与适配</h3><a href="#wheels">轮毂系列</a><a href="/fitment-lab" data-app-path>车型适配实验室</a><a href="#technology">生产与技术</a></section><section><h3>品牌信息</h3><a href="#manufacture">制造实力</a><a href="#videos">视频专区</a><a href="#network">全国网络</a></section><section><h3>业务咨询 · 李炜</h3><a href="tel:+8618658191106">186 5819 1106</a><span>杭州策锐贸易有限公司</span></section></nav></div>
-        <div class="wf-footer-bottom"><span>© 2026 杭州策锐贸易有限公司</span><span>中国品牌官网 · 企业资料待正式上线确认</span></div>
+        <div class="wf-footer-main"><div><img src="/assets/cerui/cerui-logo-black-v1.webp" alt="策锐锻造 CIRUI FORGED"><p>车型适配 · 锻造轮毂设计 · 参数计算 · 效果生成 · 定制生产</p></div><nav><section><h3>轮毂与适配</h3><a href="#wheels">轮毂系列</a><a href="/fitment-lab" data-app-path>车型适配实验室</a><a href="#technology">生产与技术</a></section><section><h3>品牌信息</h3><a href="#manufacture">制造实力</a><a href="#videos">视频专区</a><a href="#network">全国网络</a></section><section class="wf-footer-contact"><h3>业务咨询 · 李炜</h3><button type="button" class="wf-footer-contact-phone" data-wf-contact-open>186 5819 1106</button><span>杭州策锐贸易有限公司</span><button type="button" class="wf-footer-wechat" data-wf-contact-open aria-label="打开李炜的电话和微信二维码联系卡片"><img src="/assets/domestic/media/cerui-wechat-contact-qr.webp" alt="李炜微信二维码" loading="lazy" decoding="async"><small>扫码加微信 · 点击查看</small></button></section></nav></div>
+        <div class="wf-footer-bottom"><span>© 2026 杭州策锐贸易有限公司</span><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">浙ICP备2026075816号-1</a></div>
       </div>
     </footer>
+    <dialog class="wf-contact-dialog" data-wf-contact-dialog aria-labelledby="wf-contact-title">
+      <button type="button" class="wf-contact-close" data-wf-contact-close aria-label="关闭联系卡片">×</button>
+      <p class="wf-contact-eyebrow">策锐锻造 · 业务咨询</p>
+      <h2 id="wf-contact-title">联系李炜</h2>
+      <p class="wf-contact-intro">确认车型适配、定制细节与轮毂方案。可直接拨打电话，或扫码添加微信。</p>
+      <div class="wf-contact-grid">
+        <a class="wf-contact-call" href="tel:+8618658191106"><small>电话咨询</small><strong>186 5819 1106</strong><span>点击拨打电话 ↗</span></a>
+        <div class="wf-contact-qr"><small>微信咨询 · 扫码加好友</small><a href="/assets/domestic/media/cerui-wechat-contact-qr.webp" target="_blank" rel="noopener noreferrer" aria-label="放大查看李炜的微信二维码"><img src="/assets/domestic/media/cerui-wechat-contact-qr.webp" alt="李炜微信二维码，扫码添加好友" loading="lazy" decoding="async"></a><span>点击二维码可放大查看</span></div>
+      </div>
+    </dialog>
   </main>`;
 }
 
@@ -216,6 +225,17 @@ export function wireDomesticHome() {
   if (!root) return;
 
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const contactDialog = root.querySelector('[data-wf-contact-dialog]');
+  root.querySelectorAll('[data-wf-contact-open]').forEach(button => button.addEventListener('click', () => contactDialog?.showModal()));
+  contactDialog?.querySelector('[data-wf-contact-close]')?.addEventListener('click', () => contactDialog.close());
+  contactDialog?.addEventListener('click', event => { if (event.target === contactDialog) contactDialog.close(); });
+  const heroVideo = root.querySelector('[data-wf-bbs-video]');
+  const showHeroVideo = () => heroVideo?.classList.add('is-ready');
+  if (heroVideo) {
+    if (!heroVideo.paused && heroVideo.readyState >= HTMLMediaElement.HAVE_FUTURE_DATA) showHeroVideo();
+    else heroVideo.addEventListener('playing', showHeroVideo, { once: true });
+    void heroVideo.play().catch(() => { /* The poster remains visible when autoplay is unavailable. */ });
+  }
   const header = root.querySelector('[data-wf-header]');
   const menu = root.querySelector('.wf-menu');
   const menuButton = root.querySelector('[data-wf-menu]');

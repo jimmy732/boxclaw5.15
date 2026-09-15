@@ -22,9 +22,32 @@ const browser = await chromium.launch({ headless: true, executablePath });
 const page = await browser.newPage({ viewport: { width: 1440, height: 960 } });
 page.on('console', message => { if (message.type() === 'error') errors.push(message.text()); });
 page.on('pageerror', error => errors.push(error.message));
+await page.addInitScript(() => {
+  window.__wfHeroDiagnostics = { copyMounts: 0, copyRemovals: 0, videoMounts: 0, videoRemovals: 0 };
+  const countMatches = (node, selector) => {
+    if (!(node instanceof Element)) return 0;
+    return Number(node.matches(selector)) + node.querySelectorAll(selector).length;
+  };
+  new MutationObserver(mutations => mutations.forEach(mutation => {
+    mutation.addedNodes.forEach(node => {
+      window.__wfHeroDiagnostics.copyMounts += countMatches(node, '.wf-hero-copy');
+      window.__wfHeroDiagnostics.videoMounts += countMatches(node, '.wf-bbs-hero-video');
+    });
+    mutation.removedNodes.forEach(node => {
+      window.__wfHeroDiagnostics.copyRemovals += countMatches(node, '.wf-hero-copy');
+      window.__wfHeroDiagnostics.videoRemovals += countMatches(node, '.wf-bbs-hero-video');
+    });
+  })).observe(document, { childList: true, subtree: true });
+});
 
 await page.goto(`${baseUrl}/`, { waitUntil: 'domcontentloaded', timeout: 30_000 });
+await page.locator('.wf-bbs-hero-video').waitFor();
+await page.evaluate(() => {
+  window.__wfInitialHeroVideo = document.querySelector('.wf-bbs-hero-video');
+  window.__wfInitialHeroTime = window.__wfInitialHeroVideo?.currentTime || 0;
+});
 await page.waitForFunction(() => document.querySelectorAll('[data-wf-make] option').length > 60, null, { timeout: 20_000 });
+await page.waitForTimeout(4_000);
 const home = await page.evaluate(() => ({
   title: document.title,
   bodyClass: document.body.className,
@@ -38,8 +61,17 @@ const home = await page.evaluate(() => ({
   vehicleMakes: document.querySelectorAll('[data-wf-make] option').length,
   vehicleNote: document.querySelector('[data-wf-vehicle-note]')?.textContent?.trim() || '',
   featureImageFilter: getComputedStyle(document.querySelector('.wf-feature img')).filter,
-  icpNumber: document.querySelector('.footer-bottom a[href="https://beian.miit.gov.cn/"]')?.textContent?.trim() || '',
-  icpPosition: document.querySelector('.footer-bottom a[href="https://beian.miit.gov.cn/"]')?.parentElement === document.querySelector('.footer-bottom span:last-child'),
+  icpNumber: document.querySelector('.wf-footer-bottom a[href="https://beian.miit.gov.cn/"]')?.textContent?.trim() || '',
+  icpPosition: document.querySelector('.wf-footer-bottom a[href="https://beian.miit.gov.cn/"]')?.parentElement === document.querySelector('.wf-footer-bottom'),
+  icpPlaceholderRemoved: !document.querySelector('.wf-footer-bottom')?.textContent?.includes('企业资料待正式上线确认'),
+  footerQrSource: document.querySelector('.wf-footer-wechat img')?.getAttribute('src') || '',
+  footerPhoneOpensCard: document.querySelector('.wf-footer-contact-phone')?.hasAttribute('data-wf-contact-open'),
+  heroCopyStable: !document.querySelector('.wf-hero-copy')?.hasAttribute('data-reveal')
+    && Number.parseFloat(getComputedStyle(document.querySelector('.wf-hero-copy')).opacity) === 1,
+  heroVideoStable: document.querySelector('.wf-bbs-hero-video') === window.__wfInitialHeroVideo,
+  heroVideoSource: document.querySelector('.wf-bbs-hero-video')?.currentSrc || '',
+  heroVideoProgressed: (document.querySelector('.wf-bbs-hero-video')?.currentTime || 0) >= window.__wfInitialHeroTime,
+  heroDiagnostics: window.__wfHeroDiagnostics,
   overflow: document.documentElement.scrollWidth - document.documentElement.clientWidth
 }));
 await page.selectOption('[data-wf-year]', '2008');
@@ -49,6 +81,31 @@ const homeVehicleDirectory = await page.evaluate(() => ({
   models: [...document.querySelectorAll('[data-wf-model] option')].map(option => option.value).filter(Boolean)
 }));
 await page.screenshot({ path: join(outputDir, 'home-after-sync.png'), fullPage: true });
+await page.locator('.wf-hero').screenshot({ path: join(outputDir, 'home-hero-stable.png') });
+await page.locator('.wf-footer-contact-phone').click();
+await page.waitForFunction(() => document.querySelector('.wf-contact-dialog img')?.naturalWidth > 0);
+const footerContact = await page.evaluate(() => ({
+  dialogOpen: document.querySelector('.wf-contact-dialog')?.open || false,
+  phoneHref: document.querySelector('.wf-contact-call')?.getAttribute('href') || '',
+  qrSource: document.querySelector('.wf-contact-qr img')?.getAttribute('src') || '',
+  qrLoaded: document.querySelector('.wf-contact-qr img')?.naturalWidth > 0,
+  qrExpandHref: document.querySelector('.wf-contact-qr a')?.getAttribute('href') || ''
+}));
+await page.screenshot({ path: join(outputDir, 'home-contact-card.png') });
+await page.locator('.wf-contact-close').click();
+await page.locator('.wf-footer-wechat').click();
+footerContact.qrButtonOpensCard = await page.locator('.wf-contact-dialog').evaluate(dialog => dialog.open);
+await page.locator('.wf-contact-close').click();
+await page.evaluate(() => { document.documentElement.style.scrollBehavior = 'auto'; window.scrollTo(0, document.documentElement.scrollHeight); });
+await page.screenshot({ path: join(outputDir, 'home-icp-footer.png') });
+await page.locator('.wf-products .wf-section-head a').click();
+await page.waitForFunction(() => document.querySelectorAll('.forged-product-card').length >= 91, null, { timeout: 30_000 });
+const allWheelsEntry = await page.evaluate(() => ({
+  locationHash: location.hash,
+  catalogCards: document.querySelectorAll('.forged-product-card').length,
+  domesticHomeGone: !document.querySelector('.wf-home'),
+  fitmentLabGone: !document.querySelector('.fitment-entry-page')
+}));
 
 await page.goto(`${baseUrl}/fitment-lab`, { waitUntil: 'domcontentloaded', timeout: 30_000 });
 await page.locator('.fitment-entry-path[data-mode="style-first"]').click();
@@ -81,6 +138,20 @@ await page.screenshot({ path: join(outputDir, 'fitment-style-catalog.png'), full
 const mobile = await browser.newPage({ viewport: { width: 390, height: 844 } });
 mobile.on('console', message => { if (message.type() === 'error') errors.push(`mobile: ${message.text()}`); });
 mobile.on('pageerror', error => errors.push(`mobile: ${error.message}`));
+await mobile.goto(`${baseUrl}/`, { waitUntil: 'domcontentloaded', timeout: 30_000 });
+await mobile.locator('.wf-footer-contact-phone').click();
+const mobileFooterContact = await mobile.evaluate(() => {
+  const dialog = document.querySelector('.wf-contact-dialog');
+  const bounds = dialog?.getBoundingClientRect();
+  return {
+    dialogOpen: dialog?.open || false,
+    dialogFitsViewport: Boolean(bounds && bounds.width <= innerWidth && bounds.height <= innerHeight),
+    pageOverflow: document.documentElement.scrollWidth - document.documentElement.clientWidth,
+    qrPresent: Boolean(dialog?.querySelector('.wf-contact-qr img'))
+  };
+});
+await mobile.screenshot({ path: join(outputDir, 'home-contact-card-mobile.png') });
+await mobile.locator('.wf-contact-close').click();
 await mobile.goto(`${baseUrl}/fitment-lab`, { waitUntil: 'domcontentloaded', timeout: 30_000 });
 await mobile.locator('.fitment-entry-path[data-mode="style-first"]').click();
 await mobile.locator('[data-action="fitment-style-toggle"]').click();
@@ -220,7 +291,12 @@ const checks = {
   home_vehicle_directory_connected: home.vehicleYears === 34 && home.vehicleMakes === 70 && home.vehicleNote.includes('19236'),
   home_vehicle_year_filter_works: homeVehicleDirectory.makeValue === 'Audi' && homeVehicleDirectory.models.length === 16 && ['A3', 'A4', 'A5', 'R8', 'S4', 'TTS'].every(model => homeVehicleDirectory.models.includes(model)),
   feature_images_keep_original_color: !home.featureImageFilter.includes('grayscale') && home.featureImageFilter.includes('saturate'),
-  icp_filing_visible_in_footer: home.icpNumber === '浙ICP备2026075816号-1' && home.icpPosition,
+  icp_filing_visible_in_footer: home.icpNumber === '浙ICP备2026075816号-1' && home.icpPosition && home.icpPlaceholderRemoved,
+  footer_wechat_qr_and_contact_card_ready: home.footerQrSource.includes('cerui-wechat-contact-qr.webp') && home.footerPhoneOpensCard && footerContact.dialogOpen && footerContact.phoneHref === 'tel:+8618658191106' && footerContact.qrSource === home.footerQrSource && footerContact.qrLoaded && footerContact.qrExpandHref === home.footerQrSource && footerContact.qrButtonOpensCard,
+  home_all_wheels_entry_opens_catalog: allWheelsEntry.locationHash === '#store' && allWheelsEntry.catalogCards === 91 && allWheelsEntry.domesticHomeGone && allWheelsEntry.fitmentLabGone,
+  mobile_footer_contact_card_ready: mobileFooterContact.dialogOpen && mobileFooterContact.dialogFitsViewport && mobileFooterContact.pageOverflow === 0 && mobileFooterContact.qrPresent,
+  home_hero_text_does_not_flash: home.heroCopyStable && home.heroDiagnostics.copyMounts === 1 && home.heroDiagnostics.copyRemovals === 0,
+  home_hero_video_is_not_remounted: home.heroVideoStable && home.heroVideoSource.includes('720p30-web.mp4') && !home.heroVideoSource.includes('1080p') && home.heroVideoProgressed && home.heroDiagnostics.videoMounts === 1 && home.heroDiagnostics.videoRemovals === 0,
   home_no_overflow: home.overflow === 0,
   fitment_module_styles_active: fitment.bodyClass.includes('fbox-global-premium') && fitment.cssMedia === 'all',
   wheel_catalog_preview: preview.total >= 48 && preview.visibleCards === 8 && preview.hasSearch && preview.hasExpand,
@@ -247,7 +323,7 @@ const checks = {
   no_console_errors: errors.length === 0
 };
 const pass = Object.values(checks).every(Boolean);
-const report = { generated_at: new Date().toISOString(), pass, checks, home, homeVehicleDirectory, preview, expanded, fitment, mobileFitment, storeCatalog, contactInquiry, productDetail, mobileStoreCatalog, backendCatalog, adminAssets, statuses, video, errors };
+const report = { generated_at: new Date().toISOString(), pass, checks, home, footerContact, mobileFooterContact, allWheelsEntry, homeVehicleDirectory, preview, expanded, fitment, mobileFitment, storeCatalog, contactInquiry, productDetail, mobileStoreCatalog, backendCatalog, adminAssets, statuses, video, errors };
 writeFileSync(join(outputDir, 'report.json'), JSON.stringify(report, null, 2));
 console.log(JSON.stringify(report, null, 2));
 await mobile.close();
