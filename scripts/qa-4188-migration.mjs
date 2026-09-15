@@ -106,6 +106,46 @@ const allWheelsEntry = await page.evaluate(() => ({
   domesticHomeGone: !document.querySelector('.wf-home'),
   fitmentLabGone: !document.querySelector('.fitment-entry-page')
 }));
+await page.goto(`${baseUrl}/#about`, { waitUntil: 'domcontentloaded', timeout: 30_000 });
+await page.waitForFunction(() => document.querySelector('.cerui-about-gallery .factory-film-trigger > img')?.naturalWidth > 0);
+const aboutFactoryFilm = await page.evaluate(() => {
+  const trigger = document.querySelector('.cerui-about-gallery .factory-film-trigger');
+  const play = trigger?.querySelector('.factory-film-play');
+  const poster = trigger?.querySelector('img');
+  return {
+    premiumStylesActive: document.body.classList.contains('fbox-global-premium') && document.querySelector('#fitment-module-styles')?.media === 'all',
+    posterLoaded: Boolean(poster && poster.naturalWidth > 0),
+    posterBackground: trigger ? getComputedStyle(trigger).backgroundImage : '',
+    triggerPosition: trigger ? getComputedStyle(trigger).position : '',
+    playWidth: play?.getBoundingClientRect().width || 0
+  };
+});
+await page.evaluate(() => { document.documentElement.style.scrollBehavior = 'auto'; document.querySelector('.cerui-about-gallery')?.scrollIntoView({ behavior: 'instant', block: 'center' }); });
+await page.screenshot({ path: join(outputDir, 'about-factory-film.png') });
+await page.locator('.cerui-about-gallery .factory-film-trigger').click();
+aboutFactoryFilm.playerOpen = await page.locator('[data-factory-film-player]').isVisible();
+aboutFactoryFilm.playerSource = await page.locator('[data-factory-film-player] source').getAttribute('src');
+await page.locator('.factory-film-dialog .modal-close').click();
+const aiStudioHomeNavigation = {};
+for (const section of ['manufacture', 'network', 'videos']) {
+  await page.goto(`${baseUrl}/ai-wheel-studio`, { waitUntil: 'domcontentloaded', timeout: 30_000 });
+  await page.locator(`.nav-row a[data-home-section="${section}"]`).click();
+  await page.waitForFunction(id => {
+    const target = document.getElementById(id);
+    return location.pathname === '/' && location.hash === `#${id}`
+      && document.body.classList.contains('domestic-home-active')
+      && target && target.getBoundingClientRect().top >= 0 && target.getBoundingClientRect().top < 140;
+  }, section, { timeout: 10_000 });
+  aiStudioHomeNavigation[section] = await page.evaluate(id => ({
+    pathname: location.pathname,
+    hash: location.hash,
+    sectionTop: document.getElementById(id)?.getBoundingClientRect().top || 0,
+    scrollY: window.scrollY
+  }), section);
+}
+await page.goto(`${baseUrl}/#network`, { waitUntil: 'domcontentloaded', timeout: 30_000 });
+await page.waitForFunction(() => document.getElementById('network')?.getBoundingClientRect().top < 140);
+aiStudioHomeNavigation.directLinkScrollY = await page.evaluate(() => window.scrollY);
 
 await page.goto(`${baseUrl}/fitment-lab`, { waitUntil: 'domcontentloaded', timeout: 30_000 });
 await page.locator('.fitment-entry-path[data-mode="style-first"]').click();
@@ -250,7 +290,7 @@ const backendCatalog = {
 };
 const adminPage = await browser.newPage({ viewport: { width: 1440, height: 960 } });
 await adminPage.addInitScript(token => localStorage.setItem('fbox-console-token', token), adminToken);
-await adminPage.goto(`${baseUrl}/admin/site-assets`, { waitUntil: 'networkidle', timeout: 30_000 });
+await adminPage.goto(`${baseUrl}/admin/site-assets`, { waitUntil: 'domcontentloaded', timeout: 30_000 });
 await adminPage.waitForFunction(() => document.querySelectorAll('[data-site-asset-card]').length >= 42);
 const adminAssets = await adminPage.evaluate(() => ({
   cards: document.querySelectorAll('[data-site-asset-card]').length,
@@ -294,6 +334,8 @@ const checks = {
   icp_filing_visible_in_footer: home.icpNumber === '浙ICP备2026075816号-1' && home.icpPosition && home.icpPlaceholderRemoved,
   footer_wechat_qr_and_contact_card_ready: home.footerQrSource.includes('cerui-wechat-contact-qr.webp') && home.footerPhoneOpensCard && footerContact.dialogOpen && footerContact.phoneHref === 'tel:+8618658191106' && footerContact.qrSource === home.footerQrSource && footerContact.qrLoaded && footerContact.qrExpandHref === home.footerQrSource && footerContact.qrButtonOpensCard,
   home_all_wheels_entry_opens_catalog: allWheelsEntry.locationHash === '#store' && allWheelsEntry.catalogCards === 91 && allWheelsEntry.domesticHomeGone && allWheelsEntry.fitmentLabGone,
+  about_factory_film_card_and_player_ready: aboutFactoryFilm.premiumStylesActive && aboutFactoryFilm.posterLoaded && aboutFactoryFilm.posterBackground.includes('cerui-factory-line-v1.webp') && aboutFactoryFilm.triggerPosition === 'absolute' && aboutFactoryFilm.playWidth >= 65 && aboutFactoryFilm.playWidth <= 75 && aboutFactoryFilm.playerOpen && aboutFactoryFilm.playerSource.includes('cerui-factory-story-720p30-web.mp4'),
+  ai_studio_header_home_sections_work: ['manufacture', 'network', 'videos'].every(section => aiStudioHomeNavigation[section]?.pathname === '/' && aiStudioHomeNavigation[section]?.hash === `#${section}` && aiStudioHomeNavigation[section]?.sectionTop < 140 && aiStudioHomeNavigation[section]?.scrollY > 0) && aiStudioHomeNavigation.directLinkScrollY > 0,
   mobile_footer_contact_card_ready: mobileFooterContact.dialogOpen && mobileFooterContact.dialogFitsViewport && mobileFooterContact.pageOverflow === 0 && mobileFooterContact.qrPresent,
   home_hero_text_does_not_flash: home.heroCopyStable && home.heroDiagnostics.copyMounts === 1 && home.heroDiagnostics.copyRemovals === 0,
   home_hero_video_is_not_remounted: home.heroVideoStable && home.heroVideoSource.includes('720p30-web.mp4') && !home.heroVideoSource.includes('1080p') && home.heroVideoProgressed && home.heroDiagnostics.videoMounts === 1 && home.heroDiagnostics.videoRemovals === 0,
@@ -323,7 +365,7 @@ const checks = {
   no_console_errors: errors.length === 0
 };
 const pass = Object.values(checks).every(Boolean);
-const report = { generated_at: new Date().toISOString(), pass, checks, home, footerContact, mobileFooterContact, allWheelsEntry, homeVehicleDirectory, preview, expanded, fitment, mobileFitment, storeCatalog, contactInquiry, productDetail, mobileStoreCatalog, backendCatalog, adminAssets, statuses, video, errors };
+const report = { generated_at: new Date().toISOString(), pass, checks, home, footerContact, mobileFooterContact, allWheelsEntry, aboutFactoryFilm, aiStudioHomeNavigation, homeVehicleDirectory, preview, expanded, fitment, mobileFitment, storeCatalog, contactInquiry, productDetail, mobileStoreCatalog, backendCatalog, adminAssets, statuses, video, errors };
 writeFileSync(join(outputDir, 'report.json'), JSON.stringify(report, null, 2));
 console.log(JSON.stringify(report, null, 2));
 await mobile.close();

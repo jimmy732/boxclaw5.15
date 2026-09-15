@@ -2980,6 +2980,13 @@ function homePreviewProduct() {
 function homePreviewShortName(item) { return String(item?.name || 'CIRUI wheel').replace(/^CIRUI\s+/i, '').split(' - ')[0]; }
 function persist() { localStorage.setItem('fbox-cart', JSON.stringify(state.cart)); localStorage.setItem('fbox-wishlist', JSON.stringify(state.wishlist)); if (state.vehicle) localStorage.setItem('fbox-vehicle', JSON.stringify(state.vehicle)); }
 function setToast(message) { state.toast = message; render(); window.clearTimeout(setToast.timer); setToast.timer = window.setTimeout(() => { state.toast = ''; render(); }, 2800); }
+const domesticHomeSections = new Set(['vehicle', 'manufacture', 'wheels', 'technology', 'videos', 'network']);
+function scrollToDomesticHomeHash() {
+  if (state.route.name !== 'home') return;
+  const id = location.hash.replace(/^#/, '');
+  if (!domesticHomeSections.has(id)) return;
+  window.requestAnimationFrame(() => document.getElementById(id)?.scrollIntoView({ behavior: 'instant', block: 'start' }));
+}
 function go(hash) {
   const normalizedHash = `#${String(hash || 'home').replace(/^#/, '')}`;
   state.modal = null;
@@ -2988,6 +2995,7 @@ function go(hash) {
   history.pushState({}, '', `/${normalizedHash}`);
   render();
   window.scrollTo({ top: 0, behavior: 'instant' });
+  scrollToDomesticHomeHash();
   trackPageView();
 }
 function goPath(path) {
@@ -5285,9 +5293,9 @@ function header() {
            <a class="nav-link ${active === 'SHOP' ? 'is-active' : ''}" href="#store" data-category-link="Wheels">轮毂系列</a>
            <a class="nav-link ${active === 'FITMENT' ? 'is-active' : ''}" href="/fitment-lab" data-app-path>适配实验室</a>
           <a class="nav-link nav-link-ai ${active === 'AI-DESIGN' ? 'is-active' : ''}" href="/ai-wheel-studio" data-app-path>AI 原创设计<small>NEW</small></a>
-           <a class="nav-link" href="#manufacture">制造实力</a>
-          <a class="nav-link" href="#network">全国网络</a>
-          <a class="nav-link" href="#videos">视频专区</a>
+           <a class="nav-link" href="/#manufacture" data-home-section="manufacture">制造实力</a>
+          <a class="nav-link" href="/#network" data-home-section="network">全国网络</a>
+          <a class="nav-link" href="/#videos" data-home-section="videos">视频专区</a>
           <a class="nav-link ${active === 'ABOUT' ? 'is-active' : ''}" href="#about">关于策锐</a>
         </nav>
         <div class="nav-meta"><span>适配咨询</span><a href="tel:${company.tel}">${company.phone}</a></div>
@@ -7240,7 +7248,7 @@ function render() {
   syncRouteDocumentTitle();
   const fitmentModuleActive = ['fitment', 'fitment-result', 'fitment-share'].includes(state.route.name)
     || String(state.modal?.type || '').startsWith('fitment-');
-  const premiumSurfaceActive = fitmentModuleActive || ['store', 'product', 'ai-wheel-design'].includes(state.route.name);
+  const premiumSurfaceActive = fitmentModuleActive || ['store', 'product', 'ai-wheel-design', 'about'].includes(state.route.name);
   document.body.classList.toggle('fbox-global-premium', premiumSurfaceActive);
   const fitmentModuleStyles = document.querySelector('#fitment-module-styles');
   if (fitmentModuleStyles) fitmentModuleStyles.media = premiumSurfaceActive ? 'all' : 'not all';
@@ -8011,6 +8019,12 @@ document.addEventListener('click', async event => {
   if (event.target.closest('.mobile-nav-shortcut')) {
     state.mobileNav = false;
     state.menuOpen = false;
+  }
+  const homeSectionLink = event.target.closest('a[data-home-section]');
+  if (homeSectionLink && domesticHomeSections.has(homeSectionLink.dataset.homeSection)) {
+    event.preventDefault();
+    go(`#${homeSectionLink.dataset.homeSection}`);
+    return;
   }
   const appPath = event.target.closest('a[data-app-path]');
   if (appPath) {
@@ -9006,8 +9020,8 @@ document.addEventListener('keydown', event => {
   if (state.modal) { state.modal = null; render(); return; }
   if (state.wheelVisualizer?.open) wheelVisualizerClose();
 });
-window.addEventListener('hashchange', () => { state.menuOpen = false; state.mobileNav = false; state.modal = null; state.reviewLimit = 3; render(); if (state.route.name === 'fitment') void loadFitmentPartsContent(); if (state.route.name === 'fitment-share') void loadWorkshopShare(state.route.token); window.scrollTo({ top: 0, behavior: 'instant' }); trackPageView(); });
-window.addEventListener('popstate', () => { state.menuOpen = false; state.mobileNav = false; state.modal = null; render(); if (state.route.name === 'fitment') void loadFitmentPartsContent(); if (state.route.name === 'fitment-share') void loadWorkshopShare(state.route.token); if (state.route.name === 'account') void loadWorkshopProjects(); window.scrollTo({ top: 0, behavior: 'instant' }); trackPageView(); });
+window.addEventListener('hashchange', () => { state.menuOpen = false; state.mobileNav = false; state.modal = null; state.reviewLimit = 3; render(); if (state.route.name === 'fitment') void loadFitmentPartsContent(); if (state.route.name === 'fitment-share') void loadWorkshopShare(state.route.token); window.scrollTo({ top: 0, behavior: 'instant' }); scrollToDomesticHomeHash(); trackPageView(); });
+window.addEventListener('popstate', () => { state.menuOpen = false; state.mobileNav = false; state.modal = null; render(); if (state.route.name === 'fitment') void loadFitmentPartsContent(); if (state.route.name === 'fitment-share') void loadWorkshopShare(state.route.token); if (state.route.name === 'account') void loadWorkshopProjects(); window.scrollTo({ top: 0, behavior: 'instant' }); scrollToDomesticHomeHash(); trackPageView(); });
 window.addEventListener('languagechange', () => {
   if (state.localeMode !== 'auto') return;
   const nextLocale = browserLocale();
@@ -9018,6 +9032,7 @@ window.addEventListener('languagechange', () => {
   }
 });
 render();
+scrollToDomesticHomeHash();
 loadVehicleDirectory();
 void captureReturnedPayPalPayment();
 detectLocaleByIp();
