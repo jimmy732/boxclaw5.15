@@ -3,9 +3,12 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const runtimeDir = process.env.FBOX_RUNTIME_DIR
+  ? path.resolve(process.env.FBOX_RUNTIME_DIR)
+  : path.join(root, 'work', 'runtime-cn');
 const targets = [
   path.join(root, 'data', 'fbox-store.seed.json'),
-  path.join(root, 'work', 'runtime-cn', 'fbox-store.json')
+  path.join(runtimeDir, 'fbox-store.json')
 ];
 
 const legacyNames = new Map(Object.entries({

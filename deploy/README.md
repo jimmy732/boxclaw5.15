@@ -26,6 +26,7 @@ git clone --branch codex/cerui-cn-site-4188 --single-branch \
   https://github.com/jimmy732/boxclaw5.15.git /opt/fbox/cerui-cn-site
 cd /opt/fbox/cerui-cn-site
 npm ci --omit=dev
+sudo -u admin env FBOX_RUNTIME_DIR=/var/lib/cerui-cn-site/runtime npm run data:localize-cn-products
 sudo cp deploy/cerui-cn-site.service /etc/systemd/system/cerui-cn-site.service
 sudo systemctl daemon-reload
 sudo systemctl enable --now cerui-cn-site.service
@@ -39,6 +40,7 @@ git fetch origin codex/cerui-cn-site-4188
 git switch codex/cerui-cn-site-4188
 git pull --ff-only origin codex/cerui-cn-site-4188
 npm ci --omit=dev
+sudo -u admin env FBOX_RUNTIME_DIR=/var/lib/cerui-cn-site/runtime npm run data:localize-cn-products
 sudo systemctl restart cerui-cn-site.service
 ```
 
