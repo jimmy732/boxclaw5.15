@@ -26,7 +26,7 @@ git clone --branch codex/cerui-cn-site-4188 --single-branch \
   https://github.com/jimmy732/boxclaw5.15.git /opt/fbox/cerui-cn-site
 cd /opt/fbox/cerui-cn-site
 npm ci --omit=dev
-sudo cp deploy/fbox.service /etc/systemd/system/cerui-cn-site.service
+sudo cp deploy/cerui-cn-site.service /etc/systemd/system/cerui-cn-site.service
 sudo systemctl daemon-reload
 sudo systemctl enable --now cerui-cn-site.service
 ```
@@ -51,8 +51,9 @@ curl -fsS http://127.0.0.1:4188/admin >/dev/null
 sudo systemctl --no-pager --full status cerui-cn-site.service
 ```
 
-The sample Nginx proxy uses port `4188`. Merge it only into the dedicated
-Chinese-site hostname after that hostname and certificate are confirmed.
+The sample `deploy/crforged.cn.nginx.conf` proxy uses port `4188`. Merge it
+only into the dedicated Chinese-site hostname after its certificate is
+confirmed. Never install the overseas `forcarbox.cn` server block here.
 
 ## Optional Qiniu asset mirror
 

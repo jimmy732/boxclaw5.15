@@ -38,6 +38,8 @@ const home = await page.evaluate(() => ({
   vehicleMakes: document.querySelectorAll('[data-wf-make] option').length,
   vehicleNote: document.querySelector('[data-wf-vehicle-note]')?.textContent?.trim() || '',
   featureImageFilter: getComputedStyle(document.querySelector('.wf-feature img')).filter,
+  icpNumber: document.querySelector('.footer-bottom a[href="https://beian.miit.gov.cn/"]')?.textContent?.trim() || '',
+  icpPosition: document.querySelector('.footer-bottom a[href="https://beian.miit.gov.cn/"]')?.parentElement === document.querySelector('.footer-bottom span:last-child'),
   overflow: document.documentElement.scrollWidth - document.documentElement.clientWidth
 }));
 await page.selectOption('[data-wf-year]', '2008');
@@ -211,13 +213,14 @@ const partText = JSON.stringify([await gt6Response.json(), await f40Response.jso
 
 const checks = {
   domestic_home_preserved: home.homeRoot && home.bodyClass.includes('domestic-home-active') && home.h1 === '始终领先一步。',
-  domestic_navigation_preserved: JSON.stringify(home.nav) === JSON.stringify(['首页', '轮毂系列', '适配实验室', '制造实力', '全国网络', '视频专区', '关于策锐']),
+  domestic_navigation_preserved: JSON.stringify(home.nav) === JSON.stringify(['首页', '轮毂系列', '适配实验室', 'AI 原创设计NEW', '制造实力', '全国网络', '视频专区', '关于策锐']),
   domestic_sections_preserved: JSON.stringify(home.sections) === JSON.stringify(['vehicle', 'manufacture', 'wheels', 'technology', 'videos', 'network']),
   fitment_css_isolated_from_home: home.fitmentCssMedia === 'not all' && !home.bodyClass.includes('fbox-global-premium'),
   factory_video_present: home.factoryVideo.includes('cerui-factory-story-720p30-web.mp4'),
   home_vehicle_directory_connected: home.vehicleYears === 34 && home.vehicleMakes === 70 && home.vehicleNote.includes('19236'),
   home_vehicle_year_filter_works: homeVehicleDirectory.makeValue === 'Audi' && homeVehicleDirectory.models.length === 16 && ['A3', 'A4', 'A5', 'R8', 'S4', 'TTS'].every(model => homeVehicleDirectory.models.includes(model)),
   feature_images_keep_original_color: !home.featureImageFilter.includes('grayscale') && home.featureImageFilter.includes('saturate'),
+  icp_filing_visible_in_footer: home.icpNumber === '浙ICP备2026075816号-1' && home.icpPosition,
   home_no_overflow: home.overflow === 0,
   fitment_module_styles_active: fitment.bodyClass.includes('fbox-global-premium') && fitment.cssMedia === 'all',
   wheel_catalog_preview: preview.total >= 48 && preview.visibleCards === 8 && preview.hasSearch && preview.hasExpand,

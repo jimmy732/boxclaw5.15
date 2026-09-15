@@ -21,7 +21,13 @@ const NAV_GROUPS = [
   {
     label: '工作台',
     items: [
-      { label: '运营工作台', href: '#/operations/index', icon: 'overview', routes: ['/operations'] },
+      { label: '运营工作台', href: '#/operations/index', icon: 'overview', routes: ['/operations', '/operations/index'], match: 'exact' },
+      { label: '数据面板', href: '#/analytics/index', icon: 'analytics', routes: ['/analytics'] },
+      { label: '车型适配', href: '#/vehicle-library/index', icon: 'vehicle', routes: ['/vehicle-library'] },
+      { label: '效果图任务', href: '#/operations/index?tab=jobs', icon: 'image', routes: ['/operations/index?tab=jobs'], match: 'exact' },
+      { label: '评价审核', href: '#/operations/index?tab=reviews', icon: 'review', routes: ['/operations/index?tab=reviews'], match: 'exact' },
+      { label: '案例发布', href: '#/operations/index?tab=cases', icon: 'image', routes: ['/operations/index?tab=cases'], match: 'exact' },
+      { label: '咨询线索', href: '#/inquiries/index', icon: 'inquiry', routes: ['/inquiries'] },
     ],
   },
   {
@@ -30,14 +36,11 @@ const NAV_GROUPS = [
       { label: '商品与库存', href: '#/pms/product', icon: 'product', routes: ['/pms'] },
       { label: '订单与售后', href: '#/oms/order', icon: 'order', routes: ['/oms'] },
       { label: '客户管理', href: '#/customers/index', icon: 'customers', routes: ['/customers'] },
-      { label: '询价线索', href: '#/inquiries/index', icon: 'inquiry', routes: ['/inquiries'] },
     ],
   },
   {
-    label: '内容与车型',
+    label: '内容',
     items: [
-      { label: '车型适配', href: '#/vehicle-library/index', icon: 'vehicle', routes: ['/vehicle-library'] },
-      { label: '评价与案例', href: '#/reviews/index', icon: 'review', routes: ['/reviews'] },
       { label: '店铺装修素材', href: '/admin/site-assets', icon: 'image', routes: [] },
     ],
   },
@@ -47,13 +50,12 @@ const NAV_GROUPS = [
       { label: '轮毂定制实验室', href: '/admin/fitment-lab', icon: 'lab', routes: [] },
       { label: 'AI 效果图配置', href: '#/fbox/visualizer', icon: 'ai', routes: ['/fbox/visualizer'] },
       { label: '站点与接口设置', href: '#/fbox/settings', icon: 'settings', routes: ['/fbox/settings'] },
-      { label: '数据面板', href: '#/analytics/index', icon: 'analytics', routes: ['/analytics'] },
     ],
   },
 ];
 
 const ADVANCED_ITEMS = [
-  { label: 'F-Box 状态总览', href: '#/fbox/overview', icon: 'overview', routes: ['/fbox/overview', '/home'] },
+  { label: '策锐官网 状态总览', href: '#/fbox/overview', icon: 'overview', routes: ['/fbox/overview', '/home'] },
   { label: '添加商品', href: '#/pms/addProduct', icon: 'product', routes: ['/pms/addProduct', '/pms/updateProduct'] },
   { label: '商品分类', href: '#/pms/productCate', icon: 'product', routes: ['/pms/productCate'] },
   { label: '订单设置', href: '#/oms/orderSetting', icon: 'order', routes: ['/oms/orderSetting'] },
@@ -62,9 +64,12 @@ const ADVANCED_ITEMS = [
 ];
 
 const ROUTE_LABELS = [
+  ['/operations/index?tab=jobs', '效果图任务'],
+  ['/operations/index?tab=reviews', '评价审核'],
+  ['/operations/index?tab=cases', '案例发布'],
   ['/operations', '运营工作台'],
   ['/inquiries', '询价线索'],
-  ['/reviews', '评价与案例'],
+  ['/reviews', '评价审核'],
   ['/vehicle-library', '车型适配'],
   ['/pms', '商品与库存'],
   ['/oms', '订单与售后'],
@@ -72,13 +77,48 @@ const ROUTE_LABELS = [
   ['/analytics', '数据面板'],
   ['/fbox/visualizer', 'AI 效果图配置'],
   ['/fbox/settings', '站点与接口设置'],
-  ['/fbox', 'F-Box 状态总览'],
+  ['/fbox', '策锐官网 状态总览'],
   ['/sms', '营销活动'],
   ['/ums', '账号与权限'],
 ];
 
+function domesticBrandText(value) {
+  return String(value || '')
+    .replace(/F-Box\s+Admin|FORCARBOX\s+ADMIN|Forcarbox\s+Admin/gi, '策锐官网后台')
+    .replace(/F-Box\s*独立站|F-Box\s*自有后台/gi, '策锐官网')
+    .replace(/F-BOX\s*控制中心/gi, '策锐官网控制中心')
+    .replace(/F-BOX\s*系统/gi, '策锐官网系统')
+    .replace(/F-?BOX|FORCARBOX/gi, '策锐官网')
+    .replace(/线上独立站|独立站/g, '策锐官网')
+    .replace(/127\.0\.0\.1:4174/g, '127.0.0.1:4188')
+    .replace(/4174(?=\s*前台服务)/g, '4188')
+    .replace(/([\u3400-\u9fff])\s+策锐官网/g, '$1策锐官网')
+    .replace(/策锐官网\s+([\u3400-\u9fff])/g, '策锐官网$1');
+}
+
+function localizeDomesticBrandText(root = document) {
+  document.title = domesticBrandText(document.title);
+  const scope = root.body || root;
+  if (!scope) return;
+  const walker = document.createTreeWalker(scope, NodeFilter.SHOW_TEXT);
+  let node = walker.nextNode();
+  while (node) {
+    const next = domesticBrandText(node.nodeValue);
+    if (next !== node.nodeValue) node.nodeValue = next;
+    node = walker.nextNode();
+  }
+  scope.querySelectorAll?.('[title],[aria-label],[placeholder],[alt]').forEach((element) => {
+    ['title', 'aria-label', 'placeholder', 'alt'].forEach((attribute) => {
+      if (!element.hasAttribute(attribute)) return;
+      const current = element.getAttribute(attribute);
+      const next = domesticBrandText(current);
+      if (next !== current) element.setAttribute(attribute, next);
+    });
+  });
+}
+
 function navLink(item) {
-  return `<a class="cirui-nav-link" href="${item.href}" data-nav-label="${item.label.toLowerCase()}" data-routes="${item.routes.join('|')}" title="${item.label}">${ICONS[item.icon]}<span>${item.label}</span></a>`;
+  return `<a class="cirui-nav-link" href="${item.href}" data-nav-label="${item.label.toLowerCase()}" data-routes="${item.routes.join('|')}" data-match="${item.match || 'prefix'}" title="${item.label}">${ICONS[item.icon]}<span>${item.label}</span></a>`;
 }
 
 function sidebarTemplate() {
@@ -91,7 +131,7 @@ function sidebarTemplate() {
     <aside id="cirui-admin-sidebar" aria-label="后台主导航">
       <header class="cirui-sidebar-head">
         <span class="cirui-brand-mark" aria-hidden="true">CR</span>
-        <div class="cirui-brand-copy"><strong>CIRUI OPS</strong><span>Forcarbox Admin</span></div>
+        <div class="cirui-brand-copy"><strong>CIRUI OPS</strong><span>策锐官网后台</span></div>
         <button id="cirui-sidebar-collapse" class="cirui-icon-button" type="button" aria-label="收起导航">${ICONS.collapse}</button>
       </header>
       <label class="cirui-search-wrap">
@@ -126,7 +166,7 @@ function updateActiveNavigation() {
   const route = currentRoute();
   document.querySelectorAll('#cirui-admin-sidebar .cirui-nav-link').forEach((link) => {
     const prefixes = String(link.dataset.routes || '').split('|').filter(Boolean);
-    const isActive = prefixes.some((prefix) => route.startsWith(prefix));
+    const isActive = prefixes.some((prefix) => link.dataset.match === 'exact' ? route === prefix : route.startsWith(prefix));
     link.classList.toggle('is-active', isActive);
     if (isActive) link.setAttribute('aria-current', 'page');
     else link.removeAttribute('aria-current');
@@ -189,12 +229,44 @@ function installTopbarContext() {
   navbar.prepend(context);
 }
 
-function activateOperationsTab(label) {
+const OPERATIONS_TAB_ROUTES = {
+  '运营总览': '/operations/index',
+  '车型适配': '/vehicle-library/index',
+  '效果图任务': '/operations/index?tab=jobs',
+  '评价审核': '/operations/index?tab=reviews',
+  '案例发布': '/operations/index?tab=cases',
+  '咨询线索': '/inquiries/index',
+};
+
+function activateOperationsTab(label, updateRoute = true) {
+  const targetRoute = OPERATIONS_TAB_ROUTES[label];
+  if (updateRoute && targetRoute && currentRoute() !== targetRoute) {
+    window.location.hash = targetRoute;
+    return;
+  }
   const tab = [...document.querySelectorAll('.operations-page .el-tabs__item')]
     .find((item) => item.textContent.trim() === label || (label === '运营总览' && item.textContent.trim() === '能力映射'));
-  tab?.click();
-  tab?.focus({ preventScroll: true });
-  document.querySelector('.operations-page .ops-tabs')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  if (!tab || tab.classList.contains('is-active')) return;
+  tab.click();
+}
+
+function syncOperationsTabFromRoute() {
+  const route = currentRoute();
+  let label = '';
+  if (route.startsWith('/inquiries')) label = '咨询线索';
+  else if (route.startsWith('/vehicle-library')) label = '车型适配';
+  else if (route.startsWith('/reviews')) label = '评价审核';
+  else if (route.startsWith('/operations')) {
+    const tab = new URLSearchParams(route.split('?')[1] || '').get('tab');
+    label = {
+      jobs: '效果图任务',
+      reviews: '评价审核',
+      cases: '案例发布',
+      inquiries: '咨询线索',
+      vehicles: '车型适配',
+    }[tab] || '运营总览';
+  }
+  if (label) activateOperationsTab(label, false);
 }
 
 function decorateOperationsPage() {
@@ -207,7 +279,7 @@ function decorateOperationsPage() {
   const intro = page.querySelector('.operations-header p');
   if (kicker) kicker.textContent = 'CIRUI OPERATIONS / 运营工作台';
   if (heading) heading.textContent = '把今日待办，变成清晰的下一步。';
-  if (intro) intro.textContent = '从评价审核、AI 任务、案例发布和海外客户会话进入对应工作流；商品、SKU、库存、订单与车型适配继续由 F-Box 自有后台承接。';
+  if (intro) intro.textContent = '从评价审核、AI 任务、案例发布和客户咨询进入对应工作流；商品、SKU、库存、订单与车型适配继续由 CIRUI 自有后台承接。';
 
   const metrics = page.querySelector('.metric-grid');
   if (metrics && !page.querySelector('.cirui-task-strip-title')) {
@@ -237,6 +309,33 @@ function decorateOperationsPage() {
   const panelTitles = [...page.querySelectorAll('.mapping-grid .panel-title strong')];
   if (panelTitles[0]) panelTitles[0].textContent = '交易基础能力';
   if (panelTitles[1]) panelTitles[1].textContent = '内容与售前协作';
+}
+
+const PRODUCT_ADMIN_TEXT = new Map([
+  ['Wheels', '轮毂'],
+  ['Calipers', '卡钳'],
+  ['Rotors', '刹车盘'],
+  ['Brake Pads', '刹车片'],
+  ['轮毂 / Wheels', '轮毂'],
+  ['卡钳 / Calipers', '卡钳'],
+  ['刹车盘 / Rotors', '刹车盘'],
+  ['刹车片 / Brake Pads', '刹车片'],
+  ['Satin Black', '缎面黑'],
+  ['Custom finish', '支持定制颜色'],
+  ['Forged Aluminum Alloy', '锻造铝合金']
+]);
+
+function localizeProductAdminText() {
+  if (!currentRoute().startsWith('/pms/')) return;
+  const main = document.querySelector('.app-main');
+  if (!main) return;
+  const walker = document.createTreeWalker(main, NodeFilter.SHOW_TEXT);
+  let node = walker.nextNode();
+  while (node) {
+    const source = node.nodeValue?.trim();
+    if (source && PRODUCT_ADMIN_TEXT.has(source)) node.nodeValue = node.nodeValue.replace(source, PRODUCT_ADMIN_TEXT.get(source));
+    node = walker.nextNode();
+  }
 }
 
 function closeMobileNavFromBackdrop(event) {
@@ -270,10 +369,13 @@ function enhanceAdmin() {
   scheduled = true;
   requestAnimationFrame(() => {
     scheduled = false;
+    localizeDomesticBrandText();
     installAdminShell();
     if (!document.getElementById('cirui-admin-sidebar')) return;
     installTopbarContext();
     decorateOperationsPage();
+    syncOperationsTabFromRoute();
+    localizeProductAdminText();
     updateActiveNavigation();
   });
 }

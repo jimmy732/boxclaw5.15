@@ -1,0 +1,227 @@
+.fbox-provider-key-manager {
+  display: grid;
+  width: 100%;
+  margin: 0 0 14px;
+  padding: 14px;
+  gap: 10px;
+  border: 1px solid #dcdfe6;
+  border-radius: 6px;
+  background: #fafafa;
+}
+.fbox-provider-key-manager [hidden] {
+  display: none !important;
+}
+
+.fbox-provider-key-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.fbox-provider-key-title strong {
+  color: #303133;
+  font-size: 14px;
+}
+
+.fbox-provider-key-title span,
+.fbox-provider-key-copy small,
+.fbox-provider-key-add small {
+  color: #909399;
+  font-size: 12px;
+}
+
+.fbox-provider-key-list {
+  display: grid;
+  gap: 8px;
+}
+
+.fbox-provider-key-card {
+  display: grid;
+  grid-template-columns: 18px minmax(0, 1fr) auto;
+  align-items: center;
+  min-height: 64px;
+  padding: 10px 12px;
+  gap: 8px 10px;
+  border: 1px solid #dcdfe6;
+  border-radius: 6px;
+  background: #fff;
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.fbox-provider-key-card.is-selected,
+.fbox-provider-key-card.is-primary {
+  border-color: #67c23a;
+  box-shadow: 0 0 0 2px rgba(103, 194, 58, 0.1);
+}
+
+.fbox-provider-key-radio,
+.fbox-provider-key-add > input {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  accent-color: #67c23a;
+}
+
+.fbox-provider-key-copy,
+.fbox-provider-key-add > span {
+  display: grid;
+  min-width: 0;
+  gap: 2px;
+}
+
+.fbox-provider-key-copy strong,
+.fbox-provider-key-add b {
+  overflow: hidden;
+  color: #303133;
+  font-size: 13px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fbox-provider-key-copy small {
+  overflow-wrap: anywhere;
+}
+
+.fbox-provider-key-badge {
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #f4f4f5;
+  color: #909399;
+  font-size: 11px;
+  font-style: normal;
+  white-space: nowrap;
+}
+
+.fbox-provider-key-badge[data-primary="true"] {
+  background: #f0f9eb;
+  color: #529b2e;
+}
+
+.fbox-provider-key-actions {
+  display: flex;
+  grid-column: 2 / -1;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.fbox-provider-key-actions button {
+  min-height: 28px;
+  padding: 4px 9px;
+  border: 1px solid #c0c4cc;
+  border-radius: 4px;
+  color: #606266;
+  background: #fff;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.fbox-provider-key-actions button:hover:not(:disabled) {
+  border-color: #409eff;
+  color: #409eff;
+}
+
+.fbox-provider-key-actions button:disabled {
+  cursor: wait;
+  opacity: 0.6;
+}
+
+.fbox-provider-key-secret {
+  grid-column: 2 / -1;
+  overflow-wrap: anywhere;
+  padding: 7px 9px;
+  border-radius: 4px;
+  background: #1f2329;
+  color: #f4f6f8;
+  font-size: 12px;
+  user-select: all;
+}
+
+.fbox-provider-key-add {
+  display: grid;
+  grid-template-columns: 18px minmax(0, 1fr);
+  align-items: center;
+  min-height: 58px;
+  padding: 10px 12px;
+  gap: 10px;
+  border: 1px dashed #c0c4cc;
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.fbox-provider-key-add:has(input:checked) {
+  border-style: solid;
+  border-color: #409eff;
+  box-shadow: 0 0 0 2px rgba(64, 158, 255, 0.1);
+}
+
+.fbox-provider-key-label {
+  display: grid;
+  grid-template-columns: 140px minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+}
+
+.fbox-provider-key-label span {
+  color: #606266;
+  font-size: 12px;
+}
+
+.fbox-provider-key-label input {
+  width: 100%;
+  min-height: 32px;
+  padding: 0 10px;
+  border: 1px solid #dcdfe6;
+  border-radius: 4px;
+  color: #303133;
+  background: #fff;
+  outline: none;
+}
+
+.fbox-provider-key-label input:focus {
+  border-color: #409eff;
+}
+
+.fbox-provider-key-empty {
+  padding: 16px;
+  border: 1px dashed #dcdfe6;
+  border-radius: 6px;
+  color: #909399;
+  text-align: center;
+}
+
+.fbox-provider-key-feedback {
+  min-height: 18px;
+  margin: 0;
+  color: #606266;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.fbox-provider-key-feedback[data-kind="success"] { color: #529b2e; }
+.fbox-provider-key-feedback[data-kind="error"] { color: #f56c6c; }
+.fbox-provider-key-feedback[data-kind="info"] { color: #337ecc; }
+
+.fbox-provider-key-manager:not(.is-adding-new) + .el-input {
+  opacity: 0.72;
+}
+
+@media (max-width: 640px) {
+  .fbox-provider-key-title,
+  .fbox-provider-key-label {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3px;
+  }
+
+  .fbox-provider-key-card {
+    grid-template-columns: 18px minmax(0, 1fr);
+  }
+
+  .fbox-provider-key-badge {
+    grid-column: 2;
+    justify-self: start;
+  }
+}

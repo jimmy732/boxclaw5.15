@@ -5,7 +5,7 @@ import { join } from 'node:path';
 const runtimeModules = process.env.CODEX_NODE_MODULES || join(process.env.USERPROFILE || '', '.cache', 'codex-runtimes', 'codex-primary-runtime', 'dependencies', 'node', 'node_modules');
 const requireFromRuntime = createRequire(join(runtimeModules, 'qa-vehicle-directory-loader.cjs'));
 const { chromium } = requireFromRuntime('playwright');
-const baseUrl = process.env.FBOX_QA_URL || 'http://127.0.0.1:4174';
+const baseUrl = process.env.FBOX_QA_URL || 'http://127.0.0.1:4188';
 const executablePath = [
   process.env.QA_BROWSER_EXECUTABLE,
   'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe',

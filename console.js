@@ -1,6 +1,6 @@
-// F-Box operator console: traffic analytics, customer management and review
+// 策锐官网 operator console: traffic analytics, customer management and review
 // moderation. Runs alongside the visualizer-route admin page; talks only to
-// the same-origin F-Box backend.
+// the same-origin 策锐官网 backend.
 
 const fitmentConsolePage = ['/admin/fitment-lab', '/admin/fitment-lab/'].includes(location.pathname);
 const siteAssetsConsolePage = ['/admin/site-assets', '/admin/site-assets/'].includes(location.pathname);
@@ -19,17 +19,17 @@ function storedAdminToken() {
 
 if (fitmentConsolePage) {
   document.body.classList.add('fitment-console-page');
-  document.title = 'F-Box Admin · 轮毂定制计算器';
+  document.title = '策锐官网后台 · 轮毂定制计算器';
   const back = document.querySelector('.topbar .back');
-  if (back) { back.href = '/admin/#/fbox/overview'; back.textContent = '返回 F-Box 管理后台'; }
+  if (back) { back.href = '/admin/#/fbox/overview'; back.textContent = '返回 策锐官网 管理后台'; }
   const brand = document.querySelector('.topbar .brand');
   if (brand) brand.href = '/admin/#/fbox/overview';
 }
 if (siteAssetsConsolePage) {
   document.body.classList.add('site-assets-console-page');
-  document.title = 'F-Box Admin · 店铺装修图片';
+  document.title = '策锐官网后台 · 店铺装修图片';
   const back = document.querySelector('.topbar .back');
-  if (back) { back.href = '/admin/#/fbox/overview'; back.textContent = '返回 F-Box 管理后台'; }
+  if (back) { back.href = '/admin/#/fbox/overview'; back.textContent = '返回 策锐官网 管理后台'; }
   const brand = document.querySelector('.topbar .brand');
   if (brand) brand.href = '/admin/#/fbox/overview';
 }
@@ -390,7 +390,7 @@ function localDateTime(value) {
 
 function blogEditorMarkup(post = {}) {
   const editing = Boolean(post.id);
-  return `<div class="console-card blog-editor"><div class="blog-editor-head"><div><h3>${editing ? '编辑文章' : '新建文章'}</h3><p class="card-note">发布后文章会立即出现在前台 Journal；草稿不会公开。</p></div><button class="console-btn" type="button" data-blog-cancel>取消</button></div><form id="blog-form" class="blog-form"><input type="hidden" name="id" value="${esc(post.id || '')}"><div class="blog-form-grid"><label>标题<input name="title" required value="${esc(post.title || '')}" placeholder="例如: How to Read Wheel Specs"></label><label>Slug<input name="slug" value="${esc(post.slug || '')}" placeholder="留空则按标题生成"></label><label>分类<input name="category" value="${esc(post.category || 'Guides')}" placeholder="Fitment / Technical / Engineering"></label><label>封面图片<input name="cover_image" value="${esc(post.cover_image || 'halo-20-spoke-01.png')}" placeholder="assets/your-image.png"></label><label>作者<input name="author" value="${esc(post.author || 'F-Box Editorial')}"></label><label>阅读时间<input name="read_time" value="${esc(post.read_time || '5 min read')}"></label><label class="field-wide">摘要<textarea name="excerpt" rows="3" required placeholder="列表页和社交分享使用的短摘要">${esc(post.excerpt || '')}</textarea></label><label>状态<select name="status"><option value="draft" ${post.status === 'draft' || !post.status ? 'selected' : ''}>草稿</option><option value="published" ${post.status === 'published' ? 'selected' : ''}>发布</option><option value="archived" ${post.status === 'archived' ? 'selected' : ''}>归档</option></select></label><label>发布时间<input name="published_at" type="datetime-local" value="${esc(localDateTime(post.published_at))}"></label><label class="field-wide">标签<input name="tags" value="${esc((post.tags || []).join(', '))}" placeholder="fitment, custom wheels, brake clearance"></label><label class="blog-featured-toggle"><input name="featured" type="checkbox" ${post.featured ? 'checked' : ''}> 设为首页精选文章</label><label class="field-wide">正文<textarea name="body" rows="18" required placeholder="段落之间空一行；用 ## 开头表示小标题">${esc(post.body || '')}</textarea><span class="field-note">支持普通段落；单独一行以 ## 开头会显示为文章小标题。</span></label></div><div class="actions"><button class="console-btn is-primary" type="submit">${editing ? '保存修改' : '创建文章'}</button></div><p class="message" id="blog-form-message" role="status"></p></form></div>`;
+  return `<div class="console-card blog-editor"><div class="blog-editor-head"><div><h3>${editing ? '编辑文章' : '新建文章'}</h3><p class="card-note">发布后文章会立即出现在前台 Journal；草稿不会公开。</p></div><button class="console-btn" type="button" data-blog-cancel>取消</button></div><form id="blog-form" class="blog-form"><input type="hidden" name="id" value="${esc(post.id || '')}"><div class="blog-form-grid"><label>标题<input name="title" required value="${esc(post.title || '')}" placeholder="例如: How to Read Wheel Specs"></label><label>Slug<input name="slug" value="${esc(post.slug || '')}" placeholder="留空则按标题生成"></label><label>分类<input name="category" value="${esc(post.category || 'Guides')}" placeholder="Fitment / Technical / Engineering"></label><label>封面图片<input name="cover_image" value="${esc(post.cover_image || 'halo-20-spoke-01.png')}" placeholder="assets/your-image.png"></label><label>作者<input name="author" value="${esc(post.author || '策锐官网 Editorial')}"></label><label>阅读时间<input name="read_time" value="${esc(post.read_time || '5 min read')}"></label><label class="field-wide">摘要<textarea name="excerpt" rows="3" required placeholder="列表页和社交分享使用的短摘要">${esc(post.excerpt || '')}</textarea></label><label>状态<select name="status"><option value="draft" ${post.status === 'draft' || !post.status ? 'selected' : ''}>草稿</option><option value="published" ${post.status === 'published' ? 'selected' : ''}>发布</option><option value="archived" ${post.status === 'archived' ? 'selected' : ''}>归档</option></select></label><label>发布时间<input name="published_at" type="datetime-local" value="${esc(localDateTime(post.published_at))}"></label><label class="field-wide">标签<input name="tags" value="${esc((post.tags || []).join(', '))}" placeholder="fitment, custom wheels, brake clearance"></label><label class="blog-featured-toggle"><input name="featured" type="checkbox" ${post.featured ? 'checked' : ''}> 设为首页精选文章</label><label class="field-wide">正文<textarea name="body" rows="18" required placeholder="段落之间空一行；用 ## 开头表示小标题">${esc(post.body || '')}</textarea><span class="field-note">支持普通段落；单独一行以 ## 开头会显示为文章小标题。</span></label></div><div class="actions"><button class="console-btn is-primary" type="submit">${editing ? '保存修改' : '创建文章'}</button></div><p class="message" id="blog-form-message" role="status"></p></form></div>`;
 }
 
 function blogMarkup(posts) {
@@ -510,7 +510,7 @@ function fitmentAdminVehicleReferenceMarkup() {
   const specs = exact?.oem_wheel_specs || {};
   const verified = exact?.spec_status === 'verified';
   const wheelSpec = [specs.diameter && specs.width ? `${specs.diameter} × ${specs.width}J` : specs.diameter ? `${specs.diameter} in` : '', specs.offset ? `ET ${specs.offset}` : '', specs.tire || ''].filter(Boolean).join(' · ') || platform?.wheel_target_not_approved || '—';
-  const source = [...new Set([exact?.spec_source || specs.source || '', platform?.source_limitations || ''].filter(Boolean))].join(' · ') || 'F-Box reference library';
+  const source = [...new Set([exact?.spec_source || specs.source || '', platform?.source_limitations || ''].filter(Boolean))].join(' · ') || '策锐官网 reference library';
   return `<section id="fitment-admin-vehicle-reference" class="fitment-admin-vehicle-reference ${verified ? 'is-verified' : ''}"><header><div><small>车型参数参考</small><strong>${esc(exact ? [exact.year, exact.make, exact.model, exact.trim, exact.drive].filter(Boolean).join(' ') : platform.platform)}</strong></div><span>${verified ? '准确车型已核验' : '参考值 · 不自动批准'}</span></header><dl><div><dt>PCD</dt><dd>${esc(specs.pcd || platform?.pcd || '—')}</dd></div><div><dt>中心孔</dt><dd>${esc(specs.center_bore || platform?.center_bore_mm || '—')}${specs.center_bore || platform?.center_bore_mm ? ' mm' : ''}</dd></div><div><dt>原厂 / 常见轮毂与轮胎</dt><dd>${esc(wheelSpec)}</dd></div><div><dt>刹车基线</dt><dd>${esc(platform?.oem_brake_baseline || exact?.notes || '—')}</dd></div></dl><footer><span>来源：${esc(source)}</span>${platform?.source_url ? `<a href="${esc(platform.source_url)}" target="_blank" rel="noreferrer">查看来源</a>` : ''}</footer><p>只有“准确车型已核验”的 PCD / 中心孔记录可参与硬校验；ET、轮宽、轮胎和刹车间隙仍按当前配置与实测计算。</p></section>`;
 }
 
@@ -842,7 +842,7 @@ function visualizerJobCard(job) {
 function visualizerViewerMarkup() {
   const viewer = state.visualizerViewer;
   if (!viewer?.url) return '';
-  return `<div class="visualizer-image-viewer" data-visualizer-close><div class="visualizer-image-viewer-panel" role="dialog" aria-modal="true" aria-label="效果图放大查看"><header><div><span>F-BOX VISUAL TASK</span><h3>${esc(viewer.title || '效果图')}</h3></div><button class="console-btn" type="button" data-visualizer-close>关闭</button></header><div class="visualizer-image-viewer-stage"><img src="${esc(viewer.url)}" alt="${esc(viewer.title || '效果图')}"></div></div></div>`;
+  return `<div class="visualizer-image-viewer" data-visualizer-close><div class="visualizer-image-viewer-panel" role="dialog" aria-modal="true" aria-label="效果图放大查看"><header><div><span>策锐官网 VISUAL TASK</span><h3>${esc(viewer.title || '效果图')}</h3></div><button class="console-btn" type="button" data-visualizer-close>关闭</button></header><div class="visualizer-image-viewer-stage"><img src="${esc(viewer.url)}" alt="${esc(viewer.title || '效果图')}"></div></div></div>`;
 }
 function visualizerGalleryMarkup(jobs) {
   const completed = jobs.filter(job => ['succeeded', 'reviewed'].includes(job.status)).length;

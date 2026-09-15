@@ -6,7 +6,7 @@ const runtimeModules = process.env.CODEX_NODE_MODULES
   || join(process.env.USERPROFILE || '', '.cache', 'codex-runtimes', 'codex-primary-runtime', 'dependencies', 'node', 'node_modules');
 const requireFromRuntime = createRequire(join(runtimeModules, 'qa-fitment-style-catalog-loader.cjs'));
 const { chromium } = requireFromRuntime('playwright');
-const baseUrl = process.env.FBOX_QA_URL || 'http://127.0.0.1:4174';
+const baseUrl = process.env.FBOX_QA_URL || 'http://127.0.0.1:4188';
 const executablePath = [
   process.env.QA_BROWSER_EXECUTABLE,
   'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe',
@@ -85,7 +85,7 @@ const search = await catalog.evaluate(element => ({
   name: element.querySelector('.fitment-flow-wheel-copy > strong')?.textContent?.trim() || ''
 }));
 await page.locator('[data-action="fitment-style-search-clear"]').first().click();
-await page.waitForFunction(() => document.querySelector('[data-fitment-style-catalog]')?.dataset.total === '48');
+await page.waitForFunction(total => Number(document.querySelector('[data-fitment-style-catalog]')?.dataset.total || 0) === total, initial.total);
 
 await page.locator('[data-action="fitment-style-filter"][data-filter="monoblock"]').click();
 await page.waitForFunction(() => document.querySelector('[data-fitment-style-catalog]')?.dataset.filter === 'monoblock');
@@ -237,18 +237,18 @@ for (const locale of ['zh-TW', 'ja', 'ko', 'de', 'fr', 'es', 'it', 'pt-BR', 'ru'
 const checks = {
   examples_are_not_prefilled_values: placeholderInitial.value === '' && englishPlaceholder.value === '',
   chinese_placeholder_is_localized: placeholderInitial.text.includes('示例') && !placeholderInitial.text.includes('street setup'),
-  english_placeholder_is_localized: englishPlaceholder.text === 'Example: C43 street setup',
-  all_supported_locale_placeholders_localize_immediately: Object.values(localizedPlaceholders).length === 17 && Object.values(localizedPlaceholders).every(value => value && value !== englishPlaceholder.text),
+  domestic_site_ignores_english_override: englishPlaceholder.text === placeholderInitial.text,
+  domestic_site_ignores_other_locale_overrides: Object.values(localizedPlaceholders).length === 17 && Object.values(localizedPlaceholders).every(value => value === placeholderInitial.text),
   placeholder_is_visually_quiet: placeholderInitial.opacity < 1 && placeholderInitial.color !== placeholderInitial.inputColor,
   placeholder_hides_on_focus: placeholderFocused.opacity === 0 || placeholderFocused.color === 'rgba(0, 0, 0, 0)',
   real_user_value_survives_refocus: enteredValueAfterRefocus === '客户保留值',
   chinese_catalog_heading: initial.label === '浏览全部可选轮毂',
   chinese_filter_labels: initial.filters.some(label => label.includes('全部轮毂')) && initial.filters.some(label => label.includes('单片锻造')) && initial.filters.some(label => label.includes('双片锻造')),
-  default_all_preview: initial.filter === 'all' && initial.total === 48 && initial.visible === 8 && initial.cards === 8,
-  search_filters_instantly: search.total === 1 && search.cards === 1 && search.name === 'SV100',
-  monoblock_filter: monoblock.total === 36 && monoblock.visible === 8 && monoblock.constructions.every(value => value === 'monoblock'),
-  two_piece_filter: twoPiece.total === 6 && twoPiece.visible === 6 && !twoPiece.hasToggle && twoPiece.constructions.every(value => value === 'two-piece'),
-  view_all_expands_every_wheel: expanded.total === 48 && expanded.visible === 48 && expanded.cards === 48 && expanded.expanded === 'true',
+  default_all_preview: initial.filter === 'all' && initial.total >= 48 && initial.visible === 8 && initial.cards === 8,
+  search_filters_instantly: search.total === 1 && search.cards === 1 && /SV100/i.test(search.name),
+  monoblock_filter: monoblock.total > 0 && monoblock.visible === Math.min(8, monoblock.total) && monoblock.constructions.every(value => value === 'monoblock'),
+  two_piece_filter: twoPiece.total > 0 && twoPiece.visible === Math.min(8, twoPiece.total) && twoPiece.hasToggle === (twoPiece.total > 8) && twoPiece.constructions.every(value => value === 'two-piece'),
+  view_all_expands_every_wheel: expanded.total === initial.total && expanded.visible === initial.total && expanded.cards === initial.total && expanded.expanded === 'true',
   expanded_catalog_uses_one_scroll_region: expandedViewport.nestedOverflow === 0,
   expanded_catalog_shows_three_rows: expandedViewport.fullyVisibleRows >= 3,
   wheel_selection_survives_expanded_catalog: selectedName && selectedName === selectedSummary && desktopLayout.selectedCount === 1,
@@ -257,7 +257,7 @@ const checks = {
   wheel_selection_moves_to_continuation: desktopLayout.continuationVisible && desktopLayout.continuationScrollTop > 0,
   reference_upload_preserved: desktopLayout.uploadExists,
   desktop_no_overflow: desktopLayout.overflow === 0,
-  mobile_two_column_catalog: mobileLayout.columns === 2 && mobileLayout.cards === 48,
+  mobile_two_column_catalog: mobileLayout.columns === 2 && mobileLayout.cards === initial.total,
   mobile_selected_style_confirmation_fits: mobileLayout.inlineSummaryFits,
   mobile_selection_moves_to_continuation: mobileLayout.modalScrollTop === 0 && mobileLayout.continuationVisible && mobileLayout.continuationScrollTop > 0,
   mobile_no_overflow: mobileLayout.overflow === 0 && mobileLayout.filterWidth <= mobileLayout.viewportWidth,

@@ -584,10 +584,7 @@ body.cirui-admin-ready .metric-grid strong[data-v-7e48123b] {
 }
 
 body.cirui-admin-ready .ops-tabs[data-v-7e48123b] {
-  display: grid;
-  grid-template-columns: 194px minmax(0, 1fr);
-  align-items: start;
-  gap: 18px;
+  display: block;
   padding: 0;
   border: 0;
   border-radius: 0;
@@ -595,23 +592,12 @@ body.cirui-admin-ready .ops-tabs[data-v-7e48123b] {
 }
 
 body.cirui-admin-ready .ops-tabs[data-v-7e48123b] > .el-tabs__header {
-  position: sticky;
-  z-index: 4;
-  top: 78px;
-  grid-column: 1;
-  grid-row: 1;
-  margin: 0;
-  padding: 10px;
-  border: 1px solid var(--cirui-line);
-  border-radius: var(--cirui-radius);
-  background: var(--cirui-surface);
-  box-shadow: 0 8px 28px rgba(37, 33, 29, 0.045);
+  display: none;
 }
 
 body.cirui-admin-ready .ops-tabs[data-v-7e48123b] > .el-tabs__content {
   min-width: 0;
-  grid-column: 2;
-  grid-row: 1;
+  width: 100%;
 }
 
 body.cirui-admin-ready .ops-tabs[data-v-7e48123b] .el-tabs__nav-wrap::after,
@@ -716,7 +702,7 @@ body.cirui-admin-ready .operations-page .toolbar[data-v-7e48123b] {
   margin-bottom: 10px;
 }
 
-/* The F-Box overview follows the same quieter admin language. */
+/* The 策锐官网 overview follows the same quieter admin language. */
 body.cirui-admin-ready .fbox-page[data-v-21873957] {
   min-height: calc(100vh - 64px);
   padding: 30px 34px 50px;
@@ -901,6 +887,515 @@ body.cirui-admin-ready .panel-card strong[data-v-21873957] {
   body.cirui-admin-ready .main-container,
   .cirui-nav-link,
   body.cirui-admin-ready .metric-grid article[data-v-7e48123b] {
+    transition: none !important;
+  }
+}
+
+/* Visualizer task vehicle-photo evidence and full-size review. */
+.fbox-job-photo-thumb {
+  display: grid;
+  width: 100%;
+  min-width: 196px;
+  cursor: zoom-in;
+  grid-template-columns: 72px minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+  border: 1px solid transparent;
+  border-radius: 9px;
+  background: transparent;
+  color: var(--cirui-ink);
+  font: inherit;
+  text-align: left;
+  transition: border-color 140ms ease, background 140ms ease, box-shadow 140ms ease;
+}
+
+.fbox-job-photo-thumb:hover,
+.fbox-job-photo-thumb:focus-visible {
+  border-color: #d8c7ba;
+  outline: none;
+  background: #faf6f2;
+  box-shadow: 0 5px 18px rgba(37, 33, 29, 0.07);
+}
+
+.fbox-job-photo-image {
+  position: relative;
+  display: block;
+  width: 72px;
+  height: 54px;
+  overflow: hidden;
+  border-radius: 7px;
+  background: #e8e3dd;
+}
+
+.fbox-job-photo-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 180ms ease;
+}
+
+.fbox-job-photo-thumb:hover img {
+  transform: scale(1.05);
+}
+
+.fbox-job-photo-image i {
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  padding: 2px 5px;
+  border-radius: 4px;
+  background: rgba(21, 18, 16, 0.72);
+  color: #fff;
+  font-size: 9px;
+  font-style: normal;
+  opacity: 0;
+  transition: opacity 140ms ease;
+}
+
+.fbox-job-photo-thumb:hover .fbox-job-photo-image i,
+.fbox-job-photo-thumb:focus-visible .fbox-job-photo-image i {
+  opacity: 1;
+}
+
+.fbox-job-photo-copy {
+  display: grid;
+  min-width: 0;
+  gap: 4px;
+}
+
+.fbox-job-photo-copy strong,
+.fbox-job-photo-copy small {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fbox-job-photo-copy strong {
+  color: var(--cirui-ink);
+  font-size: 12px;
+}
+
+.fbox-job-photo-copy small {
+  color: var(--cirui-muted);
+  font-size: 10px;
+}
+
+.fbox-job-photo-thumb.is-history-fallback .fbox-job-photo-image::after {
+  position: absolute;
+  inset: 0;
+  border: 2px solid rgba(178, 110, 75, 0.52);
+  border-radius: inherit;
+  content: "";
+  pointer-events: none;
+}
+
+.fbox-job-photo-thumb.is-broken .fbox-job-photo-image::before {
+  position: absolute;
+  z-index: 2;
+  display: grid;
+  inset: 0;
+  place-items: center;
+  background: #eee8e1;
+  color: var(--cirui-muted);
+  content: "图片失效";
+  font-size: 10px;
+}
+
+.fbox-job-photo-empty {
+  display: grid;
+  min-width: 196px;
+  grid-template-columns: 42px minmax(0, 1fr);
+  align-items: center;
+  gap: 9px;
+  color: var(--cirui-muted);
+}
+
+.fbox-job-photo-empty > span {
+  display: block;
+  width: 42px;
+  height: 34px;
+  border: 1px dashed #cfc5ba;
+  border-radius: 7px;
+  background: #f5f1ed;
+}
+
+.fbox-job-photo-empty div {
+  display: grid;
+  min-width: 0;
+  gap: 3px;
+}
+
+.fbox-job-photo-empty strong,
+.fbox-job-photo-empty small {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fbox-job-photo-empty strong {
+  color: var(--cirui-ink);
+  font-size: 12px;
+}
+
+.fbox-job-photo-empty small {
+  font-size: 10px;
+}
+
+.fbox-job-results-button {
+  display: grid;
+  min-width: 92px;
+  gap: 3px;
+  cursor: pointer;
+  border: 1px solid #d7cdc3;
+  border-radius: 8px;
+  background: #fff;
+  padding: 8px 10px;
+  color: var(--cirui-ink);
+  text-align: left;
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.fbox-job-results-button:hover,
+.fbox-job-results-button:focus-visible {
+  transform: translateY(-1px);
+  border-color: #b47150;
+  outline: none;
+  box-shadow: 0 5px 16px rgba(37, 33, 29, 0.1);
+}
+
+.fbox-job-results-button strong {
+  color: #9f4f2e;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.fbox-job-results-button small {
+  color: var(--cirui-muted);
+  font-size: 9px;
+  white-space: nowrap;
+}
+
+.fbox-job-results-button.is-failed strong {
+  color: #b33c37;
+}
+
+body.fbox-job-photo-viewer-open {
+  overflow: hidden;
+}
+
+.fbox-job-photo-viewer[hidden] {
+  display: none;
+}
+
+.fbox-job-photo-viewer {
+  position: fixed;
+  z-index: 4000;
+  display: grid;
+  inset: 0;
+  place-items: center;
+  padding: 24px;
+  background: rgba(24, 21, 19, 0.82);
+  backdrop-filter: blur(8px);
+}
+
+.fbox-job-photo-dialog {
+  display: grid;
+  width: min(1180px, 96vw);
+  height: min(94vh, 980px);
+  max-height: 94vh;
+  overflow: hidden;
+  grid-template-rows: auto auto minmax(0, 1fr) auto;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 14px;
+  background: #171513;
+  color: #fff;
+  box-shadow: 0 30px 100px rgba(0, 0, 0, 0.42);
+}
+
+.fbox-job-photo-dialog header,
+.fbox-job-photo-dialog footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 16px 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.fbox-job-photo-dialog header span {
+  color: #dca686;
+  font: 700 9px/1.2 ui-monospace, SFMono-Regular, Menlo, monospace;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.fbox-job-photo-dialog h2 {
+  margin: 5px 0 0;
+  color: #fff;
+  font-size: 18px;
+}
+
+.fbox-job-photo-dialog header p {
+  margin: 4px 0 0;
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 11px;
+}
+
+.fbox-job-photo-close {
+  display: grid;
+  width: 40px;
+  height: 40px;
+  flex: 0 0 40px;
+  cursor: pointer;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 50%;
+  background: transparent;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.fbox-job-photo-close:hover,
+.fbox-job-photo-close:focus-visible {
+  outline: none;
+  background: #fff;
+  color: #171513;
+}
+
+.fbox-job-task-summary[hidden],
+.fbox-job-task-prompt[hidden],
+.fbox-job-task-error[hidden] {
+  display: none;
+}
+
+.fbox-job-task-summary {
+  display: grid;
+  gap: 10px;
+  padding: 13px 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  background: #1c1917;
+}
+
+.fbox-job-task-facts {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.fbox-job-task-facts span {
+  display: grid;
+  min-width: 0;
+  gap: 3px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 11px;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.fbox-job-task-facts b,
+.fbox-job-task-prompt b,
+.fbox-job-task-error b {
+  color: #dca686;
+  font-size: 9px;
+  letter-spacing: 0.08em;
+}
+
+.fbox-job-task-prompt,
+.fbox-job-task-error {
+  display: grid;
+  gap: 4px;
+  padding: 9px 11px;
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.fbox-job-task-prompt p,
+.fbox-job-task-error p {
+  max-height: 70px;
+  overflow: auto;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 11px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+.fbox-job-task-error {
+  border: 1px solid rgba(255, 107, 101, 0.28);
+  background: rgba(144, 33, 29, 0.2);
+}
+
+.fbox-job-task-error b,
+.fbox-job-task-error p {
+  color: #ffaaa6;
+}
+
+.fbox-job-photo-stage {
+  display: grid;
+  min-height: 320px;
+  overflow: auto;
+  place-items: center;
+  padding: 18px;
+  background-image: linear-gradient(45deg, #1f1d1a 25%, transparent 25%), linear-gradient(-45deg, #1f1d1a 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #1f1d1a 75%), linear-gradient(-45deg, transparent 75%, #1f1d1a 75%);
+  background-position: 0 0, 0 8px, 8px -8px, -8px 0;
+  background-size: 16px 16px;
+}
+
+.fbox-job-photo-stage img {
+  display: block;
+  max-width: 100%;
+  max-height: calc(94vh - 160px);
+  object-fit: contain;
+}
+
+.fbox-job-photo-stage.is-gallery {
+  display: block;
+  place-items: initial;
+  background: #11100f;
+}
+
+.fbox-job-result-grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.fbox-job-result-grid.is-nine {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.fbox-job-result-card {
+  position: relative;
+  display: block;
+  min-width: 0;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  cursor: zoom-in;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 9px;
+  background: #24201d;
+  padding: 0;
+}
+
+.fbox-job-result-card:hover,
+.fbox-job-result-card:focus-visible {
+  border-color: #dca686;
+  outline: none;
+}
+
+.fbox-job-result-card.is-selected {
+  border: 2px solid #f21d52;
+}
+
+.fbox-job-result-card img {
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  object-fit: cover;
+  transition: transform 180ms ease;
+}
+
+.fbox-job-result-card:hover img,
+.fbox-job-result-card:focus-visible img {
+  transform: scale(1.035);
+}
+
+.fbox-job-result-card span {
+  position: absolute;
+  right: 6px;
+  bottom: 6px;
+  left: 6px;
+  overflow: hidden;
+  padding: 5px 7px;
+  border-radius: 5px;
+  background: rgba(10, 9, 8, 0.82);
+  color: #fff;
+  font-size: 9px;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fbox-job-result-card.is-selected span {
+  background: #f21d52;
+}
+
+.fbox-job-result-empty {
+  display: grid;
+  min-height: 260px;
+  place-items: center;
+  padding: 24px;
+  border: 1px dashed rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.58);
+  font-size: 12px;
+  line-height: 1.55;
+  text-align: center;
+}
+
+.fbox-job-photo-dialog footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  border-bottom: 0;
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 11px;
+}
+
+.fbox-job-photo-dialog footer a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media (max-width: 720px) {
+  .fbox-job-photo-viewer {
+    padding: 8px;
+  }
+
+  .fbox-job-photo-dialog {
+    width: 100%;
+    height: 96vh;
+    max-height: 96vh;
+  }
+
+  .fbox-job-photo-dialog header,
+  .fbox-job-photo-dialog footer {
+    padding: 12px;
+  }
+
+  .fbox-job-photo-dialog footer span {
+    display: none;
+  }
+
+  .fbox-job-photo-stage {
+    min-height: 220px;
+    padding: 8px;
+  }
+
+  .fbox-job-task-summary {
+    padding: 10px 12px;
+  }
+
+  .fbox-job-task-facts {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .fbox-job-result-grid,
+  .fbox-job-result-grid.is-nine {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 7px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fbox-job-photo-thumb,
+  .fbox-job-results-button,
+  .fbox-job-photo-image img,
+  .fbox-job-photo-image i,
+  .fbox-job-result-card img {
     transition: none !important;
   }
 }

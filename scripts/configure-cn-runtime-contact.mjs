@@ -11,7 +11,9 @@ config.storefront = {
   company_name: '杭州策锐贸易有限公司',
   phone: '+86 186 5819 1106',
   whatsapp_number: '8618658191106',
-  default_locale: 'zh-CN'
+  domain: 'crforged.cn',
+  default_locale: 'zh-CN',
+  language_auto_detect: false
 };
 
 const tempPath = `${configPath}.next`;

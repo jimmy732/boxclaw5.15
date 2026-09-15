@@ -13,5 +13,6 @@ if ($nodeCommand) {
 }
 
 $env:FBOX_PORT = '4188'
+$env:FBOX_RUNTIME_DIR = Join-Path $siteRoot 'work\runtime-cn'
 Set-Location -LiteralPath $siteRoot
 & $nodeExecutable 'server.mjs'

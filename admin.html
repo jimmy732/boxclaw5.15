@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>F-Box Admin · Visualizer Route</title>
+  <title>策锐官网后台 · Visualizer Route</title>
   <link rel="stylesheet" href="/console.css">
   <style>
     :root { color-scheme: dark; --ink:#080a0e; --panel:#11151b; --panel-2:#171d25; --line:rgba(255,255,255,.12); --muted:#89939e; --lime:#c8ff1a; --lav:#a98cff; --danger:#ff8d8d; --ok:#7de3b0; }
@@ -71,13 +71,13 @@
   </style>
 </head>
 <body>
-  <header class="topbar"><a class="brand" href="/"><i></i><span>F-Box Admin</span></a><a class="back" href="/">← Back to storefront</a></header>
+  <header class="topbar"><a class="brand" href="/"><i></i><span>策锐官网后台</span></a><a class="back" href="/">← Back to storefront</a></header>
   <main>
     <section id="console-auth" class="console-auth" hidden>
       <div class="console-login panel">
-        <p class="eyebrow">F-Box console</p>
+        <p class="eyebrow">策锐官网 console</p>
         <h2>Sign in to the operator console</h2>
-        <p class="console-login-note">Use your F-Box admin account (default <code>admin</code>) to access customer insights, traffic analytics, reviews and visualizer settings.</p>
+        <p class="console-login-note">Use your 策锐官网 admin account (default <code>admin</code>) to access customer insights, traffic analytics, reviews and visualizer settings.</p>
         <form id="console-login-form">
           <label>Username<input name="username" autocomplete="username" value="admin" required></label>
           <label>Password<input name="password" type="password" autocomplete="current-password" required></label>
@@ -89,7 +89,7 @@
     <section id="console-app" hidden>
       <div class="console-shell">
         <aside class="console-side">
-          <div class="console-side-brand"><i></i>F-BOX CONSOLE</div>
+          <div class="console-side-brand"><i></i>策锐官网 CONSOLE</div>
           <nav class="console-nav">
             <button class="console-nav-item is-active" data-view="dashboard">数据面板</button>
             <button class="console-nav-item" data-view="customers">客户管理</button>
@@ -109,7 +109,7 @@
     </section>
     <p class="eyebrow">Sponsored visualizer control</p>
     <h1>Route the real<br><em>image model.</em></h1>
-    <p class="lede">Configure the server-side LingkeAI connection used by F-Box Visual Studio. The customer storefront never receives this key, the fitment prompt stays on the F-Box backend, and every preview remains free for the customer.</p>
+    <p class="lede">Configure the server-side LingkeAI connection used by 策锐官网 Visual Studio. The customer storefront never receives this key, the fitment prompt stays on the 策锐官网 backend, and every preview remains free for the customer.</p>
 
     <section class="status-grid" aria-label="Route status">
       <article class="status-card"><span>Route</span><strong id="status-route">Checking…</strong></article>
@@ -119,7 +119,7 @@
     </section>
 
     <section class="panel">
-      <div class="panel-head"><div><h2>GPT Image 2 connection</h2><p>The key is sent to the F-Box independent backend, validated with <code>/v1/models</code>, then stored outside the public storefront. It is never rendered back into the browser.</p></div><span class="live-pill" id="status-pill"><i></i><span>Checking</span></span></div>
+      <div class="panel-head"><div><h2>GPT Image 2 connection</h2><p>The key is sent to the 策锐官网 independent backend, validated with <code>/v1/models</code>, then stored outside the public storefront. It is never rendered back into the browser.</p></div><span class="live-pill" id="status-pill"><i></i><span>Checking</span></span></div>
       <form id="route-form">
         <div class="form-grid">
           <label>Provider<input value="LingkeAI" readonly></label>
@@ -132,9 +132,9 @@
       </form>
     </section>
 
-    <div class="notice"><strong>!</strong><div><b>How this is used:</b> after this route is verified, the product page sends the vehicle photo and selected wheel reference to the F-Box backend. The backend makes three server-side <code>gpt-image-2</code> image-edit calls. If the route is not configured, the storefront shows an error and does not fabricate a pasted-wheel result.</div></div>
+    <div class="notice"><strong>!</strong><div><b>How this is used:</b> after this route is verified, the product page sends the vehicle photo and selected wheel reference to the 策锐官网 backend. The backend makes three server-side <code>gpt-image-2</code> image-edit calls. If the route is not configured, the storefront shows an error and does not fabricate a pasted-wheel result.</div></div>
   </main>
-  <footer>Fanghe Overseas Intelligent Technology Co., Ltd. · F-Box Visual Studio · local operator surface</footer>
+  <footer>Fanghe Overseas Intelligent Technology Co., Ltd. · 策锐官网 Visual Studio · local operator surface</footer>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
   <script type="module" src="/console.js"></script>
   <script>
@@ -165,7 +165,7 @@
         const response = await fetch('/api/fbox-admin/config', { method:'PUT', headers:{'Accept':'application/json','Content-Type':'application/json'}, body:JSON.stringify({ endpoint: values.get('endpoint'), api_key: values.get('api_key'), provider:'lk888', model:'gpt-image-2' }) });
         const payload = await response.json().catch(() => ({}));
         if (!response.ok) throw new Error(payload.detail || payload.message || 'The route could not be verified.');
-        renderStatus(payload.data || payload); event.currentTarget.elements.api_key.value = ''; message('Live GPT Image 2 route verified and saved in the F-Box backend. You can return to the product page and generate three real angles.', 'ok');
+        renderStatus(payload.data || payload); event.currentTarget.elements.api_key.value = ''; message('Live GPT Image 2 route verified and saved in the 策锐官网 backend. You can return to the product page and generate three real angles.', 'ok');
       } catch (error) { message(error.message, 'error'); }
       finally { button.disabled = false; }
     });

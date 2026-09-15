@@ -356,7 +356,7 @@ const siteChromeTranslationKeys = [
   'Motorsport',
   'Journal',
   'Fitment help',
-  'FORCARBOX · OFFICIAL GLOBAL SITE',
+  '策锐官网 · OFFICIAL GLOBAL SITE',
   'Factory-direct custom forged wheels built around the exact vehicle, fitment and finish.',
   'Forged wheels',
   'All wheel directions',
@@ -380,24 +380,24 @@ const siteChromeTranslationKeys = [
 ];
 
 const siteChromeTranslations = {
-  'zh-CN': ['CIRUI 源头工厂', '支持 DDP 完税到门', '生产 + 运输目标约 30 个工作日', '搜索轮毂、车型适配、表面处理…', '语言', '语言选择', '打开导航', '适配实验室', '按车型选购', '关于 CIRUI', '赛事运动', '杂志', '适配咨询', 'FORCARBOX · 官方海外网站', '围绕准确车型、适配参数和表面处理，提供工厂直供定制锻造轮毂。', '锻造轮毂', '全部轮毂款式', '定制适配', '工具', '车辆效果图预览', '适配杂志', '客户评价', '工厂 + 配送', '生产制造', 'DDP 配送', '联系', '订单 + 合作伙伴', '查询订单', '我的账户', '批发合作', 'WhatsApp 适配咨询', '车辆制造商名称仅用于识别适配性。CIRUI Forged 与这些车辆制造商没有隶属或认可关系。', '条款 · 隐私 · CCPA', '继续使用 CIRUI 即表示您同意 Cookie 政策与适配分析。'],
-  'zh-TW': ['CIRUI 源頭工廠', '支援 DDP 完稅到門', '生產 + 運輸目標約 30 個工作日', '搜尋輪圈、車型適配、表面處理…', '語言', '語言選擇', '開啟導覽', '適配實驗室', '依車型選購', '關於 CIRUI', '賽事運動', '雜誌', '適配諮詢', 'FORCARBOX · 官方海外網站', '依照準確車型、適配參數與表面處理，提供工廠直供的客製鍛造輪圈。', '鍛造輪圈', '全部輪圈款式', '客製適配', '工具', '車輛效果圖預覽', '適配雜誌', '客戶評價', '工廠 + 配送', '生產製造', 'DDP 配送', '聯絡', '訂單 + 合作夥伴', '查詢訂單', '我的帳戶', '批發合作', 'WhatsApp 適配諮詢', '車輛製造商名稱僅用於識別適配性。CIRUI Forged 與這些車輛製造商並無隸屬或認可關係。', '條款 · 隱私 · CCPA', '繼續使用 CIRUI 即表示您同意 Cookie 政策與適配分析。'],
-  ja: ['CIRUI 製造元工場', 'DDP配送に対応', '製造＋輸送の目安は約30営業日', 'ホイール、車種適合、仕上げを検索…', '言語', '言語の選択', 'ナビゲーションを開く', 'フィットメントラボ', '車種から選ぶ', 'CIRUIについて', 'モータースポーツ', 'ジャーナル', '適合サポート', 'FORCARBOX · 公式グローバルサイト', '正確な車両、適合寸法、仕上げに合わせて製造元から直送するカスタム鍛造ホイール。', '鍛造ホイール', 'すべてのホイールデザイン', 'カスタムフィットメント', 'ツール', '車両写真プレビュー', 'フィットメントジャーナル', 'お客様の声', '工場＋配送', '製造工程', 'DDP配送', 'お問い合わせ', '注文＋パートナー', '注文を追跡', 'マイアカウント', '卸売プログラム', 'WhatsApp適合サポート', '車両メーカー名は適合性を示す目的でのみ使用しています。CIRUI Forgedは各車両メーカーと提携または承認関係にありません。', '利用規約 · プライバシー · CCPA', 'CIRUIを利用すると、Cookieポリシーと適合分析に同意したものとみなされます。'],
-  ko: ['CIRUI 원천 공장', 'DDP 배송 가능', '생산 + 운송 목표 약 30영업일', '휠, 차량 핏먼트, 마감 검색…', '언어', '언어 선택', '탐색 메뉴 열기', '핏먼트 랩', '차량별 쇼핑', 'CIRUI 소개', '모터스포츠', '저널', '핏먼트 지원', 'FORCARBOX · 공식 글로벌 사이트', '정확한 차량, 핏먼트 수치와 마감에 맞춘 공장 직영 커스텀 단조 휠.', '단조 휠', '모든 휠 디자인', '커스텀 핏먼트', '도구', '차량 사진 미리보기', '핏먼트 저널', '고객 후기', '공장 + 배송', '제조', 'DDP 배송', '문의', '주문 + 파트너', '주문 조회', '내 계정', '도매 프로그램', 'WhatsApp 핏먼트 지원', '차량 제조사 이름은 호환성 식별 목적으로만 사용됩니다. CIRUI Forged는 해당 제조사와 제휴하거나 승인을 받지 않았습니다.', '이용약관 · 개인정보 · CCPA', 'CIRUI를 계속 사용하면 쿠키 정책과 핏먼트 분석에 동의하게 됩니다.'],
-  de: ['CIRUI Herstellerwerk', 'DDP-Lieferung verfügbar', 'Ziel: Produktion + Transport in etwa 30 Werktagen', 'Räder, Fahrzeug-Fitment, Oberflächen suchen…', 'Sprache', 'Sprachauswahl', 'Navigation öffnen', 'Fitment-Labor', 'Nach Fahrzeug einkaufen', 'Über CIRUI', 'Motorsport', 'Magazin', 'Fitment-Hilfe', 'FORCARBOX · OFFIZIELLE GLOBALE WEBSITE', 'Werksdirekte, maßgefertigte Schmiederäder für das genaue Fahrzeug, Fitment und Finish.', 'Schmiederäder', 'Alle Raddesigns', 'Individuelles Fitment', 'Werkzeuge', 'Vorschau am Fahrzeugfoto', 'Fitment-Magazin', 'Kundenfeedback', 'Werk + Lieferung', 'Fertigung', 'DDP-Lieferung', 'Kontakt', 'Bestellungen + Partner', 'Bestellung verfolgen', 'Mein Konto', 'Großhandelsprogramm', 'WhatsApp Fitment-Hilfe', 'Fahrzeugherstellernamen dienen ausschließlich zur Bestimmung der Kompatibilität. CIRUI Forged ist mit diesen Herstellern weder verbunden noch von ihnen empfohlen.', 'AGB · Datenschutz · CCPA', 'Mit der Nutzung von CIRUI stimmen Sie unserer Cookie-Richtlinie und Fitment-Analyse zu.'],
-  fr: ['Usine source CIRUI', 'Livraison DDP disponible', 'Objectif : production + transport en environ 30 jours ouvrés', 'Rechercher des jantes, compatibilités, finitions…', 'Langue', 'Choix de la langue', 'Ouvrir la navigation', 'Laboratoire de compatibilité', 'Acheter par véhicule', 'À propos de CIRUI', 'Sport automobile', 'Journal', 'Aide compatibilité', 'FORCARBOX · SITE MONDIAL OFFICIEL', 'Des jantes forgées sur mesure en direct de l’usine, selon le véhicule, la compatibilité et la finition exacts.', 'Jantes forgées', 'Tous les designs de jantes', 'Compatibilité sur mesure', 'Outils', 'Aperçu sur photo du véhicule', 'Journal de compatibilité', 'Avis clients', 'Usine + livraison', 'Fabrication', 'Livraison DDP', 'Contact', 'Commandes + partenaires', 'Suivre la commande', 'Mon compte', 'Programme de gros', 'Aide compatibilité WhatsApp', 'Les noms des constructeurs automobiles servent uniquement à identifier la compatibilité. CIRUI Forged n’est ni affilié ni approuvé par ces constructeurs.', 'Conditions · Confidentialité · CCPA', 'En utilisant CIRUI, vous acceptez notre politique relative aux cookies et l’analyse de compatibilité.'],
-  es: ['Fábrica de origen CIRUI', 'Entrega DDP disponible', 'Objetivo: producción + transporte en unos 30 días laborables', 'Buscar llantas, compatibilidad, acabados…', 'Idioma', 'Selección de idioma', 'Abrir navegación', 'Laboratorio de compatibilidad', 'Comprar por vehículo', 'Sobre CIRUI', 'Automovilismo', 'Revista', 'Ayuda de compatibilidad', 'FORCARBOX · SITIO GLOBAL OFICIAL', 'Llantas forjadas a medida, directas de fábrica y creadas para el vehículo, ajuste y acabado exactos.', 'Llantas forjadas', 'Todos los diseños de llantas', 'Compatibilidad a medida', 'Herramientas', 'Vista previa en foto del vehículo', 'Revista de compatibilidad', 'Opiniones de clientes', 'Fábrica + entrega', 'Fabricación', 'Entrega DDP', 'Contacto', 'Pedidos + socios', 'Seguir pedido', 'Mi cuenta', 'Programa mayorista', 'Ayuda de compatibilidad por WhatsApp', 'Los nombres de fabricantes de vehículos se utilizan únicamente para identificar la compatibilidad. CIRUI Forged no está afiliada ni respaldada por dichos fabricantes.', 'Términos · Privacidad · CCPA', 'Al utilizar CIRUI, aceptas nuestra política de cookies y el análisis de compatibilidad.'],
-  it: ['Fabbrica CIRUI', 'Consegna DDP disponibile', 'Obiettivo: produzione + trasporto in circa 30 giorni lavorativi', 'Cerca cerchi, compatibilità, finiture…', 'Lingua', 'Selezione lingua', 'Apri navigazione', 'Laboratorio di compatibilità', 'Acquista per veicolo', 'Chi è CIRUI', 'Motorsport', 'Magazine', 'Assistenza compatibilità', 'FORCARBOX · SITO GLOBALE UFFICIALE', 'Cerchi forgiati su misura direttamente dalla fabbrica, progettati per veicolo, compatibilità e finitura esatti.', 'Cerchi forgiati', 'Tutti i design dei cerchi', 'Compatibilità su misura', 'Strumenti', 'Anteprima sulla foto del veicolo', 'Magazine compatibilità', 'Feedback clienti', 'Fabbrica + consegna', 'Produzione', 'Consegna DDP', 'Contatti', 'Ordini + partner', 'Traccia ordine', 'Il mio account', 'Programma rivenditori', 'Assistenza compatibilità WhatsApp', 'I nomi dei produttori di veicoli sono usati solo per identificare la compatibilità. CIRUI Forged non è affiliata né approvata da tali produttori.', 'Termini · Privacy · CCPA', 'Utilizzando CIRUI, accetti la nostra politica sui cookie e l’analisi di compatibilità.'],
-  'pt-BR': ['Fábrica de origem CIRUI', 'Entrega DDP disponível', 'Meta: produção + transporte em cerca de 30 dias úteis', 'Buscar rodas, compatibilidade, acabamentos…', 'Idioma', 'Seleção de idioma', 'Abrir navegação', 'Laboratório de compatibilidade', 'Comprar por veículo', 'Sobre a CIRUI', 'Automobilismo', 'Revista', 'Ajuda de compatibilidade', 'FORCARBOX · SITE GLOBAL OFICIAL', 'Rodas forjadas sob medida, direto da fábrica e feitas para o veículo, encaixe e acabamento exatos.', 'Rodas forjadas', 'Todos os designs de rodas', 'Compatibilidade sob medida', 'Ferramentas', 'Prévia na foto do veículo', 'Revista de compatibilidade', 'Avaliações de clientes', 'Fábrica + entrega', 'Fabricação', 'Entrega DDP', 'Contato', 'Pedidos + parceiros', 'Rastrear pedido', 'Minha conta', 'Programa de atacado', 'Ajuda de compatibilidade no WhatsApp', 'Os nomes dos fabricantes de veículos são usados apenas para identificar compatibilidade. A CIRUI Forged não é afiliada nem endossada por esses fabricantes.', 'Termos · Privacidade · CCPA', 'Ao usar a CIRUI, você concorda com nossa política de cookies e análise de compatibilidade.'],
-  ru: ['Завод-изготовитель CIRUI', 'Доставка DDP доступна', 'Цель: производство + доставка примерно за 30 рабочих дней', 'Поиск дисков, совместимости, отделки…', 'Язык', 'Выбор языка', 'Открыть навигацию', 'Лаборатория фитмента', 'Подбор по автомобилю', 'О CIRUI', 'Автоспорт', 'Журнал', 'Помощь по фитменту', 'FORCARBOX · ОФИЦИАЛЬНЫЙ МЕЖДУНАРОДНЫЙ САЙТ', 'Кованые диски на заказ напрямую с завода под точный автомобиль, фитмент и отделку.', 'Кованые диски', 'Все дизайны дисков', 'Индивидуальный фитмент', 'Инструменты', 'Примерка на фото автомобиля', 'Журнал о фитменте', 'Отзывы клиентов', 'Завод + доставка', 'Производство', 'Доставка DDP', 'Контакты', 'Заказы + партнёры', 'Отследить заказ', 'Мой аккаунт', 'Оптовая программа', 'Помощь по фитменту в WhatsApp', 'Названия производителей автомобилей используются только для определения совместимости. CIRUI Forged не связана с этими производителями и не одобрена ими.', 'Условия · Конфиденциальность · CCPA', 'Используя CIRUI, вы соглашаетесь с нашей политикой cookie и аналитикой фитмента.'],
-  ar: ['مصنع CIRUI المصدر', 'توصيل DDP متاح', 'الهدف: الإنتاج + النقل خلال نحو 30 يوم عمل', 'ابحث عن العجلات وتوافق السيارة والتشطيبات…', 'اللغة', 'اختيار اللغة', 'فتح التنقل', 'مختبر التوافق', 'التسوق حسب السيارة', 'عن CIRUI', 'رياضة المحركات', 'المجلة', 'مساعدة التوافق', 'FORCARBOX · الموقع العالمي الرسمي', 'عجلات مطروقة مخصصة مباشرة من المصنع وفق السيارة والتوافق والتشطيب بدقة.', 'عجلات مطروقة', 'جميع تصاميم العجلات', 'توافق مخصص', 'الأدوات', 'معاينة على صورة السيارة', 'مجلة التوافق', 'آراء العملاء', 'المصنع + التوصيل', 'التصنيع', 'توصيل DDP', 'اتصل بنا', 'الطلبات + الشركاء', 'تتبع الطلب', 'حسابي', 'برنامج الجملة', 'مساعدة التوافق عبر WhatsApp', 'تُستخدم أسماء مصنّعي المركبات فقط لتحديد التوافق. CIRUI Forged غير تابعة لهؤلاء المصنعين ولا معتمدة منهم.', 'الشروط · الخصوصية · CCPA', 'باستخدام CIRUI، فإنك توافق على سياسة ملفات تعريف الارتباط وتحليلات التوافق.'],
-  nl: ['CIRUI-bronfabriek', 'DDP-levering beschikbaar', 'Doel: productie + transport in circa 30 werkdagen', 'Zoek wielen, voertuigfitment, afwerkingen…', 'Taal', 'Taalkeuze', 'Navigatie openen', 'Fitmentlab', 'Shop op voertuig', 'Over CIRUI', 'Motorsport', 'Journaal', 'Fitmenthulp', 'FORCARBOX · OFFICIËLE WERELDWIJDE SITE', 'Fabrieksdirecte gesmede maatwielen voor het exacte voertuig, de fitment en afwerking.', 'Gesmede wielen', 'Alle wielontwerpen', 'Fitment op maat', 'Tools', 'Voorbeeld op voertuigfoto', 'Fitmentjournaal', 'Klantfeedback', 'Fabriek + levering', 'Productie', 'DDP-levering', 'Contact', 'Bestellingen + partners', 'Bestelling volgen', 'Mijn account', 'Groothandelsprogramma', 'WhatsApp-fitmenthulp', 'Namen van voertuigfabrikanten worden alleen gebruikt om compatibiliteit aan te duiden. CIRUI Forged is niet verbonden met of goedgekeurd door deze fabrikanten.', 'Voorwaarden · Privacy · CCPA', 'Door CIRUI te gebruiken gaat u akkoord met ons cookiebeleid en fitmentanalyse.'],
-  tr: ['CIRUI kaynak fabrika', 'DDP teslimat mevcut', 'Hedef: üretim + taşıma yaklaşık 30 iş günü', 'Jant, araç uyumu ve kaplama ara…', 'Dil', 'Dil seçimi', 'Navigasyonu aç', 'Uyum laboratuvarı', 'Araca göre alışveriş', 'CIRUI hakkında', 'Motor sporları', 'Dergi', 'Uyum desteği', 'FORCARBOX · RESMÎ KÜRESEL SİTE', 'Tam araç, uyum ve kaplamaya göre fabrikadan doğrudan özel dövme jantlar.', 'Dövme jantlar', 'Tüm jant tasarımları', 'Özel uyum', 'Araçlar', 'Araç fotoğrafında önizleme', 'Uyum dergisi', 'Müşteri görüşleri', 'Fabrika + teslimat', 'Üretim', 'DDP teslimat', 'İletişim', 'Siparişler + ortaklar', 'Sipariş takibi', 'Hesabım', 'Toptan satış programı', 'WhatsApp uyum desteği', 'Araç üreticisi adları yalnızca uyumluluğu tanımlamak için kullanılır. CIRUI Forged bu üreticilerle bağlantılı değildir veya onlar tarafından desteklenmez.', 'Şartlar · Gizlilik · CCPA', 'CIRUI’yi kullanarak çerez politikamızı ve uyum analizini kabul edersiniz.'],
-  pl: ['Fabryka źródłowa CIRUI', 'Dostawa DDP dostępna', 'Cel: produkcja + transport w około 30 dni roboczych', 'Szukaj felg, dopasowania pojazdu, wykończeń…', 'Język', 'Wybór języka', 'Otwórz nawigację', 'Laboratorium dopasowania', 'Kupuj według pojazdu', 'O CIRUI', 'Motorsport', 'Magazyn', 'Pomoc w dopasowaniu', 'FORCARBOX · OFICJALNA STRONA GLOBALNA', 'Kute felgi na zamówienie prosto z fabryki, dopasowane do konkretnego pojazdu, parametrów i wykończenia.', 'Kute felgi', 'Wszystkie wzory felg', 'Dopasowanie na zamówienie', 'Narzędzia', 'Podgląd na zdjęciu pojazdu', 'Magazyn o dopasowaniu', 'Opinie klientów', 'Fabryka + dostawa', 'Produkcja', 'Dostawa DDP', 'Kontakt', 'Zamówienia + partnerzy', 'Śledź zamówienie', 'Moje konto', 'Program hurtowy', 'Pomoc w dopasowaniu przez WhatsApp', 'Nazwy producentów pojazdów służą wyłącznie do identyfikacji kompatybilności. CIRUI Forged nie jest powiązana ani wspierana przez tych producentów.', 'Warunki · Prywatność · CCPA', 'Korzystając z CIRUI, akceptujesz politykę plików cookie i analizę dopasowania.'],
-  vi: ['Nhà máy nguồn CIRUI', 'Có giao hàng DDP', 'Mục tiêu: sản xuất + vận chuyển trong khoảng 30 ngày làm việc', 'Tìm mâm, độ tương thích xe, bề mặt hoàn thiện…', 'Ngôn ngữ', 'Chọn ngôn ngữ', 'Mở điều hướng', 'Phòng thí nghiệm tương thích', 'Mua theo xe', 'Về CIRUI', 'Đua xe thể thao', 'Tạp chí', 'Hỗ trợ tương thích', 'FORCARBOX · TRANG TOÀN CẦU CHÍNH THỨC', 'Mâm rèn tùy chỉnh trực tiếp từ nhà máy, theo đúng xe, thông số và bề mặt hoàn thiện.', 'Mâm rèn', 'Tất cả thiết kế mâm', 'Tương thích tùy chỉnh', 'Công cụ', 'Xem trước trên ảnh xe', 'Tạp chí tương thích', 'Phản hồi khách hàng', 'Nhà máy + giao hàng', 'Sản xuất', 'Giao hàng DDP', 'Liên hệ', 'Đơn hàng + đối tác', 'Theo dõi đơn hàng', 'Tài khoản của tôi', 'Chương trình bán sỉ', 'Hỗ trợ tương thích qua WhatsApp', 'Tên nhà sản xuất xe chỉ được dùng để xác định khả năng tương thích. CIRUI Forged không liên kết hoặc được các nhà sản xuất đó chứng thực.', 'Điều khoản · Quyền riêng tư · CCPA', 'Khi sử dụng CIRUI, bạn đồng ý với chính sách cookie và phân tích tương thích.'],
-  th: ['โรงงานต้นทาง CIRUI', 'มีบริการจัดส่ง DDP', 'เป้าหมาย: ผลิต + ขนส่งประมาณ 30 วันทำการ', 'ค้นหาล้อ ความเข้ากันได้ของรถ และงานผิว…', 'ภาษา', 'เลือกภาษา', 'เปิดเมนูนำทาง', 'ห้องทดลองความเข้ากันได้', 'เลือกซื้อตามรถ', 'เกี่ยวกับ CIRUI', 'มอเตอร์สปอร์ต', 'บทความ', 'ช่วยเหลือด้านความเข้ากันได้', 'FORCARBOX · เว็บไซต์สากลอย่างเป็นทางการ', 'ล้อฟอร์จสั่งทำตรงจากโรงงานตามรถ ขนาดติดตั้ง และงานผิวที่แม่นยำ', 'ล้อฟอร์จ', 'ดีไซน์ล้อทั้งหมด', 'ความเข้ากันได้แบบสั่งทำ', 'เครื่องมือ', 'ดูตัวอย่างบนภาพรถ', 'บทความความเข้ากันได้', 'ความคิดเห็นลูกค้า', 'โรงงาน + การจัดส่ง', 'การผลิต', 'จัดส่ง DDP', 'ติดต่อ', 'คำสั่งซื้อ + พันธมิตร', 'ติดตามคำสั่งซื้อ', 'บัญชีของฉัน', 'โปรแกรมขายส่ง', 'ช่วยเหลือผ่าน WhatsApp', 'ชื่อผู้ผลิตรถใช้เพื่อระบุความเข้ากันได้เท่านั้น CIRUI Forged ไม่มีความเกี่ยวข้องหรือการรับรองจากผู้ผลิตเหล่านั้น', 'ข้อกำหนด · ความเป็นส่วนตัว · CCPA', 'การใช้ CIRUI ถือว่าคุณยอมรับนโยบายคุกกี้และการวิเคราะห์ความเข้ากันได้'],
-  id: ['Pabrik sumber CIRUI', 'Pengiriman DDP tersedia', 'Target: produksi + transportasi sekitar 30 hari kerja', 'Cari velg, kecocokan kendaraan, finishing…', 'Bahasa', 'Pilihan bahasa', 'Buka navigasi', 'Laboratorium kecocokan', 'Belanja berdasarkan kendaraan', 'Tentang CIRUI', 'Motorsport', 'Jurnal', 'Bantuan kecocokan', 'FORCARBOX · SITUS GLOBAL RESMI', 'Velg forged kustom langsung dari pabrik untuk kendaraan, kecocokan, dan finishing yang tepat.', 'Velg forged', 'Semua desain velg', 'Kecocokan kustom', 'Alat', 'Pratinjau pada foto kendaraan', 'Jurnal kecocokan', 'Ulasan pelanggan', 'Pabrik + pengiriman', 'Produksi', 'Pengiriman DDP', 'Kontak', 'Pesanan + mitra', 'Lacak pesanan', 'Akun saya', 'Program grosir', 'Bantuan kecocokan WhatsApp', 'Nama produsen kendaraan hanya digunakan untuk mengidentifikasi kompatibilitas. CIRUI Forged tidak berafiliasi atau didukung oleh produsen tersebut.', 'Ketentuan · Privasi · CCPA', 'Dengan menggunakan CIRUI, Anda menyetujui kebijakan cookie dan analitik kecocokan kami.'],
-  hi: ['CIRUI स्रोत फैक्ट्री', 'DDP डिलीवरी उपलब्ध', 'लक्ष्य: उत्पादन + परिवहन लगभग 30 कार्य दिवस', 'व्हील, वाहन फिटमेंट और फिनिश खोजें…', 'भाषा', 'भाषा चयन', 'नेविगेशन खोलें', 'फिटमेंट लैब', 'वाहन के अनुसार खरीदें', 'CIRUI के बारे में', 'मोटरस्पोर्ट', 'जर्नल', 'फिटमेंट सहायता', 'FORCARBOX · आधिकारिक वैश्विक साइट', 'सटीक वाहन, फिटमेंट और फिनिश के अनुसार फैक्ट्री-डायरेक्ट कस्टम फोर्ज्ड व्हील।', 'फोर्ज्ड व्हील', 'सभी व्हील डिज़ाइन', 'कस्टम फिटमेंट', 'टूल्स', 'वाहन फोटो पर पूर्वावलोकन', 'फिटमेंट जर्नल', 'ग्राहक प्रतिक्रिया', 'फैक्ट्री + डिलीवरी', 'निर्माण', 'DDP डिलीवरी', 'संपर्क', 'ऑर्डर + साझेदार', 'ऑर्डर ट्रैक करें', 'मेरा खाता', 'थोक कार्यक्रम', 'WhatsApp फिटमेंट सहायता', 'वाहन निर्माताओं के नाम केवल अनुकूलता पहचानने के लिए उपयोग किए जाते हैं। CIRUI Forged उन निर्माताओं से संबद्ध या समर्थित नहीं है।', 'शर्तें · गोपनीयता · CCPA', 'CIRUI का उपयोग करके आप हमारी कुकी नीति और फिटमेंट एनालिटिक्स से सहमत होते हैं।']
+  'zh-CN': ['CIRUI 源头工厂', '支持 DDP 完税到门', '生产 + 运输目标约 30 个工作日', '搜索轮毂、车型适配、表面处理…', '语言', '语言选择', '打开导航', '适配实验室', '按车型选购', '关于 CIRUI', '赛事运动', '杂志', '适配咨询', '策锐官网 · 官方海外网站', '围绕准确车型、适配参数和表面处理，提供工厂直供定制锻造轮毂。', '锻造轮毂', '全部轮毂款式', '定制适配', '工具', '车辆效果图预览', '适配杂志', '客户评价', '工厂 + 配送', '生产制造', 'DDP 配送', '联系', '订单 + 合作伙伴', '查询订单', '我的账户', '批发合作', 'WhatsApp 适配咨询', '车辆制造商名称仅用于识别适配性。CIRUI Forged 与这些车辆制造商没有隶属或认可关系。', '条款 · 隐私 · CCPA', '继续使用 CIRUI 即表示您同意 Cookie 政策与适配分析。'],
+  'zh-TW': ['CIRUI 源頭工廠', '支援 DDP 完稅到門', '生產 + 運輸目標約 30 個工作日', '搜尋輪圈、車型適配、表面處理…', '語言', '語言選擇', '開啟導覽', '適配實驗室', '依車型選購', '關於 CIRUI', '賽事運動', '雜誌', '適配諮詢', '策锐官网 · 官方海外網站', '依照準確車型、適配參數與表面處理，提供工廠直供的客製鍛造輪圈。', '鍛造輪圈', '全部輪圈款式', '客製適配', '工具', '車輛效果圖預覽', '適配雜誌', '客戶評價', '工廠 + 配送', '生產製造', 'DDP 配送', '聯絡', '訂單 + 合作夥伴', '查詢訂單', '我的帳戶', '批發合作', 'WhatsApp 適配諮詢', '車輛製造商名稱僅用於識別適配性。CIRUI Forged 與這些車輛製造商並無隸屬或認可關係。', '條款 · 隱私 · CCPA', '繼續使用 CIRUI 即表示您同意 Cookie 政策與適配分析。'],
+  ja: ['CIRUI 製造元工場', 'DDP配送に対応', '製造＋輸送の目安は約30営業日', 'ホイール、車種適合、仕上げを検索…', '言語', '言語の選択', 'ナビゲーションを開く', 'フィットメントラボ', '車種から選ぶ', 'CIRUIについて', 'モータースポーツ', 'ジャーナル', '適合サポート', '策锐官网 · 公式グローバルサイト', '正確な車両、適合寸法、仕上げに合わせて製造元から直送するカスタム鍛造ホイール。', '鍛造ホイール', 'すべてのホイールデザイン', 'カスタムフィットメント', 'ツール', '車両写真プレビュー', 'フィットメントジャーナル', 'お客様の声', '工場＋配送', '製造工程', 'DDP配送', 'お問い合わせ', '注文＋パートナー', '注文を追跡', 'マイアカウント', '卸売プログラム', 'WhatsApp適合サポート', '車両メーカー名は適合性を示す目的でのみ使用しています。CIRUI Forgedは各車両メーカーと提携または承認関係にありません。', '利用規約 · プライバシー · CCPA', 'CIRUIを利用すると、Cookieポリシーと適合分析に同意したものとみなされます。'],
+  ko: ['CIRUI 원천 공장', 'DDP 배송 가능', '생산 + 운송 목표 약 30영업일', '휠, 차량 핏먼트, 마감 검색…', '언어', '언어 선택', '탐색 메뉴 열기', '핏먼트 랩', '차량별 쇼핑', 'CIRUI 소개', '모터스포츠', '저널', '핏먼트 지원', '策锐官网 · 공식 글로벌 사이트', '정확한 차량, 핏먼트 수치와 마감에 맞춘 공장 직영 커스텀 단조 휠.', '단조 휠', '모든 휠 디자인', '커스텀 핏먼트', '도구', '차량 사진 미리보기', '핏먼트 저널', '고객 후기', '공장 + 배송', '제조', 'DDP 배송', '문의', '주문 + 파트너', '주문 조회', '내 계정', '도매 프로그램', 'WhatsApp 핏먼트 지원', '차량 제조사 이름은 호환성 식별 목적으로만 사용됩니다. CIRUI Forged는 해당 제조사와 제휴하거나 승인을 받지 않았습니다.', '이용약관 · 개인정보 · CCPA', 'CIRUI를 계속 사용하면 쿠키 정책과 핏먼트 분석에 동의하게 됩니다.'],
+  de: ['CIRUI Herstellerwerk', 'DDP-Lieferung verfügbar', 'Ziel: Produktion + Transport in etwa 30 Werktagen', 'Räder, Fahrzeug-Fitment, Oberflächen suchen…', 'Sprache', 'Sprachauswahl', 'Navigation öffnen', 'Fitment-Labor', 'Nach Fahrzeug einkaufen', 'Über CIRUI', 'Motorsport', 'Magazin', 'Fitment-Hilfe', '策锐官网 · OFFIZIELLE GLOBALE WEBSITE', 'Werksdirekte, maßgefertigte Schmiederäder für das genaue Fahrzeug, Fitment und Finish.', 'Schmiederäder', 'Alle Raddesigns', 'Individuelles Fitment', 'Werkzeuge', 'Vorschau am Fahrzeugfoto', 'Fitment-Magazin', 'Kundenfeedback', 'Werk + Lieferung', 'Fertigung', 'DDP-Lieferung', 'Kontakt', 'Bestellungen + Partner', 'Bestellung verfolgen', 'Mein Konto', 'Großhandelsprogramm', 'WhatsApp Fitment-Hilfe', 'Fahrzeugherstellernamen dienen ausschließlich zur Bestimmung der Kompatibilität. CIRUI Forged ist mit diesen Herstellern weder verbunden noch von ihnen empfohlen.', 'AGB · Datenschutz · CCPA', 'Mit der Nutzung von CIRUI stimmen Sie unserer Cookie-Richtlinie und Fitment-Analyse zu.'],
+  fr: ['Usine source CIRUI', 'Livraison DDP disponible', 'Objectif : production + transport en environ 30 jours ouvrés', 'Rechercher des jantes, compatibilités, finitions…', 'Langue', 'Choix de la langue', 'Ouvrir la navigation', 'Laboratoire de compatibilité', 'Acheter par véhicule', 'À propos de CIRUI', 'Sport automobile', 'Journal', 'Aide compatibilité', '策锐官网 · SITE MONDIAL OFFICIEL', 'Des jantes forgées sur mesure en direct de l’usine, selon le véhicule, la compatibilité et la finition exacts.', 'Jantes forgées', 'Tous les designs de jantes', 'Compatibilité sur mesure', 'Outils', 'Aperçu sur photo du véhicule', 'Journal de compatibilité', 'Avis clients', 'Usine + livraison', 'Fabrication', 'Livraison DDP', 'Contact', 'Commandes + partenaires', 'Suivre la commande', 'Mon compte', 'Programme de gros', 'Aide compatibilité WhatsApp', 'Les noms des constructeurs automobiles servent uniquement à identifier la compatibilité. CIRUI Forged n’est ni affilié ni approuvé par ces constructeurs.', 'Conditions · Confidentialité · CCPA', 'En utilisant CIRUI, vous acceptez notre politique relative aux cookies et l’analyse de compatibilité.'],
+  es: ['Fábrica de origen CIRUI', 'Entrega DDP disponible', 'Objetivo: producción + transporte en unos 30 días laborables', 'Buscar llantas, compatibilidad, acabados…', 'Idioma', 'Selección de idioma', 'Abrir navegación', 'Laboratorio de compatibilidad', 'Comprar por vehículo', 'Sobre CIRUI', 'Automovilismo', 'Revista', 'Ayuda de compatibilidad', '策锐官网 · SITIO GLOBAL OFICIAL', 'Llantas forjadas a medida, directas de fábrica y creadas para el vehículo, ajuste y acabado exactos.', 'Llantas forjadas', 'Todos los diseños de llantas', 'Compatibilidad a medida', 'Herramientas', 'Vista previa en foto del vehículo', 'Revista de compatibilidad', 'Opiniones de clientes', 'Fábrica + entrega', 'Fabricación', 'Entrega DDP', 'Contacto', 'Pedidos + socios', 'Seguir pedido', 'Mi cuenta', 'Programa mayorista', 'Ayuda de compatibilidad por WhatsApp', 'Los nombres de fabricantes de vehículos se utilizan únicamente para identificar la compatibilidad. CIRUI Forged no está afiliada ni respaldada por dichos fabricantes.', 'Términos · Privacidad · CCPA', 'Al utilizar CIRUI, aceptas nuestra política de cookies y el análisis de compatibilidad.'],
+  it: ['Fabbrica CIRUI', 'Consegna DDP disponibile', 'Obiettivo: produzione + trasporto in circa 30 giorni lavorativi', 'Cerca cerchi, compatibilità, finiture…', 'Lingua', 'Selezione lingua', 'Apri navigazione', 'Laboratorio di compatibilità', 'Acquista per veicolo', 'Chi è CIRUI', 'Motorsport', 'Magazine', 'Assistenza compatibilità', '策锐官网 · SITO GLOBALE UFFICIALE', 'Cerchi forgiati su misura direttamente dalla fabbrica, progettati per veicolo, compatibilità e finitura esatti.', 'Cerchi forgiati', 'Tutti i design dei cerchi', 'Compatibilità su misura', 'Strumenti', 'Anteprima sulla foto del veicolo', 'Magazine compatibilità', 'Feedback clienti', 'Fabbrica + consegna', 'Produzione', 'Consegna DDP', 'Contatti', 'Ordini + partner', 'Traccia ordine', 'Il mio account', 'Programma rivenditori', 'Assistenza compatibilità WhatsApp', 'I nomi dei produttori di veicoli sono usati solo per identificare la compatibilità. CIRUI Forged non è affiliata né approvata da tali produttori.', 'Termini · Privacy · CCPA', 'Utilizzando CIRUI, accetti la nostra politica sui cookie e l’analisi di compatibilità.'],
+  'pt-BR': ['Fábrica de origem CIRUI', 'Entrega DDP disponível', 'Meta: produção + transporte em cerca de 30 dias úteis', 'Buscar rodas, compatibilidade, acabamentos…', 'Idioma', 'Seleção de idioma', 'Abrir navegação', 'Laboratório de compatibilidade', 'Comprar por veículo', 'Sobre a CIRUI', 'Automobilismo', 'Revista', 'Ajuda de compatibilidade', '策锐官网 · SITE GLOBAL OFICIAL', 'Rodas forjadas sob medida, direto da fábrica e feitas para o veículo, encaixe e acabamento exatos.', 'Rodas forjadas', 'Todos os designs de rodas', 'Compatibilidade sob medida', 'Ferramentas', 'Prévia na foto do veículo', 'Revista de compatibilidade', 'Avaliações de clientes', 'Fábrica + entrega', 'Fabricação', 'Entrega DDP', 'Contato', 'Pedidos + parceiros', 'Rastrear pedido', 'Minha conta', 'Programa de atacado', 'Ajuda de compatibilidade no WhatsApp', 'Os nomes dos fabricantes de veículos são usados apenas para identificar compatibilidade. A CIRUI Forged não é afiliada nem endossada por esses fabricantes.', 'Termos · Privacidade · CCPA', 'Ao usar a CIRUI, você concorda com nossa política de cookies e análise de compatibilidade.'],
+  ru: ['Завод-изготовитель CIRUI', 'Доставка DDP доступна', 'Цель: производство + доставка примерно за 30 рабочих дней', 'Поиск дисков, совместимости, отделки…', 'Язык', 'Выбор языка', 'Открыть навигацию', 'Лаборатория фитмента', 'Подбор по автомобилю', 'О CIRUI', 'Автоспорт', 'Журнал', 'Помощь по фитменту', '策锐官网 · ОФИЦИАЛЬНЫЙ МЕЖДУНАРОДНЫЙ САЙТ', 'Кованые диски на заказ напрямую с завода под точный автомобиль, фитмент и отделку.', 'Кованые диски', 'Все дизайны дисков', 'Индивидуальный фитмент', 'Инструменты', 'Примерка на фото автомобиля', 'Журнал о фитменте', 'Отзывы клиентов', 'Завод + доставка', 'Производство', 'Доставка DDP', 'Контакты', 'Заказы + партнёры', 'Отследить заказ', 'Мой аккаунт', 'Оптовая программа', 'Помощь по фитменту в WhatsApp', 'Названия производителей автомобилей используются только для определения совместимости. CIRUI Forged не связана с этими производителями и не одобрена ими.', 'Условия · Конфиденциальность · CCPA', 'Используя CIRUI, вы соглашаетесь с нашей политикой cookie и аналитикой фитмента.'],
+  ar: ['مصنع CIRUI المصدر', 'توصيل DDP متاح', 'الهدف: الإنتاج + النقل خلال نحو 30 يوم عمل', 'ابحث عن العجلات وتوافق السيارة والتشطيبات…', 'اللغة', 'اختيار اللغة', 'فتح التنقل', 'مختبر التوافق', 'التسوق حسب السيارة', 'عن CIRUI', 'رياضة المحركات', 'المجلة', 'مساعدة التوافق', '策锐官网 · الموقع العالمي الرسمي', 'عجلات مطروقة مخصصة مباشرة من المصنع وفق السيارة والتوافق والتشطيب بدقة.', 'عجلات مطروقة', 'جميع تصاميم العجلات', 'توافق مخصص', 'الأدوات', 'معاينة على صورة السيارة', 'مجلة التوافق', 'آراء العملاء', 'المصنع + التوصيل', 'التصنيع', 'توصيل DDP', 'اتصل بنا', 'الطلبات + الشركاء', 'تتبع الطلب', 'حسابي', 'برنامج الجملة', 'مساعدة التوافق عبر WhatsApp', 'تُستخدم أسماء مصنّعي المركبات فقط لتحديد التوافق. CIRUI Forged غير تابعة لهؤلاء المصنعين ولا معتمدة منهم.', 'الشروط · الخصوصية · CCPA', 'باستخدام CIRUI، فإنك توافق على سياسة ملفات تعريف الارتباط وتحليلات التوافق.'],
+  nl: ['CIRUI-bronfabriek', 'DDP-levering beschikbaar', 'Doel: productie + transport in circa 30 werkdagen', 'Zoek wielen, voertuigfitment, afwerkingen…', 'Taal', 'Taalkeuze', 'Navigatie openen', 'Fitmentlab', 'Shop op voertuig', 'Over CIRUI', 'Motorsport', 'Journaal', 'Fitmenthulp', '策锐官网 · OFFICIËLE WERELDWIJDE SITE', 'Fabrieksdirecte gesmede maatwielen voor het exacte voertuig, de fitment en afwerking.', 'Gesmede wielen', 'Alle wielontwerpen', 'Fitment op maat', 'Tools', 'Voorbeeld op voertuigfoto', 'Fitmentjournaal', 'Klantfeedback', 'Fabriek + levering', 'Productie', 'DDP-levering', 'Contact', 'Bestellingen + partners', 'Bestelling volgen', 'Mijn account', 'Groothandelsprogramma', 'WhatsApp-fitmenthulp', 'Namen van voertuigfabrikanten worden alleen gebruikt om compatibiliteit aan te duiden. CIRUI Forged is niet verbonden met of goedgekeurd door deze fabrikanten.', 'Voorwaarden · Privacy · CCPA', 'Door CIRUI te gebruiken gaat u akkoord met ons cookiebeleid en fitmentanalyse.'],
+  tr: ['CIRUI kaynak fabrika', 'DDP teslimat mevcut', 'Hedef: üretim + taşıma yaklaşık 30 iş günü', 'Jant, araç uyumu ve kaplama ara…', 'Dil', 'Dil seçimi', 'Navigasyonu aç', 'Uyum laboratuvarı', 'Araca göre alışveriş', 'CIRUI hakkında', 'Motor sporları', 'Dergi', 'Uyum desteği', '策锐官网 · RESMÎ KÜRESEL SİTE', 'Tam araç, uyum ve kaplamaya göre fabrikadan doğrudan özel dövme jantlar.', 'Dövme jantlar', 'Tüm jant tasarımları', 'Özel uyum', 'Araçlar', 'Araç fotoğrafında önizleme', 'Uyum dergisi', 'Müşteri görüşleri', 'Fabrika + teslimat', 'Üretim', 'DDP teslimat', 'İletişim', 'Siparişler + ortaklar', 'Sipariş takibi', 'Hesabım', 'Toptan satış programı', 'WhatsApp uyum desteği', 'Araç üreticisi adları yalnızca uyumluluğu tanımlamak için kullanılır. CIRUI Forged bu üreticilerle bağlantılı değildir veya onlar tarafından desteklenmez.', 'Şartlar · Gizlilik · CCPA', 'CIRUI’yi kullanarak çerez politikamızı ve uyum analizini kabul edersiniz.'],
+  pl: ['Fabryka źródłowa CIRUI', 'Dostawa DDP dostępna', 'Cel: produkcja + transport w około 30 dni roboczych', 'Szukaj felg, dopasowania pojazdu, wykończeń…', 'Język', 'Wybór języka', 'Otwórz nawigację', 'Laboratorium dopasowania', 'Kupuj według pojazdu', 'O CIRUI', 'Motorsport', 'Magazyn', 'Pomoc w dopasowaniu', '策锐官网 · OFICJALNA STRONA GLOBALNA', 'Kute felgi na zamówienie prosto z fabryki, dopasowane do konkretnego pojazdu, parametrów i wykończenia.', 'Kute felgi', 'Wszystkie wzory felg', 'Dopasowanie na zamówienie', 'Narzędzia', 'Podgląd na zdjęciu pojazdu', 'Magazyn o dopasowaniu', 'Opinie klientów', 'Fabryka + dostawa', 'Produkcja', 'Dostawa DDP', 'Kontakt', 'Zamówienia + partnerzy', 'Śledź zamówienie', 'Moje konto', 'Program hurtowy', 'Pomoc w dopasowaniu przez WhatsApp', 'Nazwy producentów pojazdów służą wyłącznie do identyfikacji kompatybilności. CIRUI Forged nie jest powiązana ani wspierana przez tych producentów.', 'Warunki · Prywatność · CCPA', 'Korzystając z CIRUI, akceptujesz politykę plików cookie i analizę dopasowania.'],
+  vi: ['Nhà máy nguồn CIRUI', 'Có giao hàng DDP', 'Mục tiêu: sản xuất + vận chuyển trong khoảng 30 ngày làm việc', 'Tìm mâm, độ tương thích xe, bề mặt hoàn thiện…', 'Ngôn ngữ', 'Chọn ngôn ngữ', 'Mở điều hướng', 'Phòng thí nghiệm tương thích', 'Mua theo xe', 'Về CIRUI', 'Đua xe thể thao', 'Tạp chí', 'Hỗ trợ tương thích', '策锐官网 · TRANG TOÀN CẦU CHÍNH THỨC', 'Mâm rèn tùy chỉnh trực tiếp từ nhà máy, theo đúng xe, thông số và bề mặt hoàn thiện.', 'Mâm rèn', 'Tất cả thiết kế mâm', 'Tương thích tùy chỉnh', 'Công cụ', 'Xem trước trên ảnh xe', 'Tạp chí tương thích', 'Phản hồi khách hàng', 'Nhà máy + giao hàng', 'Sản xuất', 'Giao hàng DDP', 'Liên hệ', 'Đơn hàng + đối tác', 'Theo dõi đơn hàng', 'Tài khoản của tôi', 'Chương trình bán sỉ', 'Hỗ trợ tương thích qua WhatsApp', 'Tên nhà sản xuất xe chỉ được dùng để xác định khả năng tương thích. CIRUI Forged không liên kết hoặc được các nhà sản xuất đó chứng thực.', 'Điều khoản · Quyền riêng tư · CCPA', 'Khi sử dụng CIRUI, bạn đồng ý với chính sách cookie và phân tích tương thích.'],
+  th: ['โรงงานต้นทาง CIRUI', 'มีบริการจัดส่ง DDP', 'เป้าหมาย: ผลิต + ขนส่งประมาณ 30 วันทำการ', 'ค้นหาล้อ ความเข้ากันได้ของรถ และงานผิว…', 'ภาษา', 'เลือกภาษา', 'เปิดเมนูนำทาง', 'ห้องทดลองความเข้ากันได้', 'เลือกซื้อตามรถ', 'เกี่ยวกับ CIRUI', 'มอเตอร์สปอร์ต', 'บทความ', 'ช่วยเหลือด้านความเข้ากันได้', '策锐官网 · เว็บไซต์สากลอย่างเป็นทางการ', 'ล้อฟอร์จสั่งทำตรงจากโรงงานตามรถ ขนาดติดตั้ง และงานผิวที่แม่นยำ', 'ล้อฟอร์จ', 'ดีไซน์ล้อทั้งหมด', 'ความเข้ากันได้แบบสั่งทำ', 'เครื่องมือ', 'ดูตัวอย่างบนภาพรถ', 'บทความความเข้ากันได้', 'ความคิดเห็นลูกค้า', 'โรงงาน + การจัดส่ง', 'การผลิต', 'จัดส่ง DDP', 'ติดต่อ', 'คำสั่งซื้อ + พันธมิตร', 'ติดตามคำสั่งซื้อ', 'บัญชีของฉัน', 'โปรแกรมขายส่ง', 'ช่วยเหลือผ่าน WhatsApp', 'ชื่อผู้ผลิตรถใช้เพื่อระบุความเข้ากันได้เท่านั้น CIRUI Forged ไม่มีความเกี่ยวข้องหรือการรับรองจากผู้ผลิตเหล่านั้น', 'ข้อกำหนด · ความเป็นส่วนตัว · CCPA', 'การใช้ CIRUI ถือว่าคุณยอมรับนโยบายคุกกี้และการวิเคราะห์ความเข้ากันได้'],
+  id: ['Pabrik sumber CIRUI', 'Pengiriman DDP tersedia', 'Target: produksi + transportasi sekitar 30 hari kerja', 'Cari velg, kecocokan kendaraan, finishing…', 'Bahasa', 'Pilihan bahasa', 'Buka navigasi', 'Laboratorium kecocokan', 'Belanja berdasarkan kendaraan', 'Tentang CIRUI', 'Motorsport', 'Jurnal', 'Bantuan kecocokan', '策锐官网 · SITUS GLOBAL RESMI', 'Velg forged kustom langsung dari pabrik untuk kendaraan, kecocokan, dan finishing yang tepat.', 'Velg forged', 'Semua desain velg', 'Kecocokan kustom', 'Alat', 'Pratinjau pada foto kendaraan', 'Jurnal kecocokan', 'Ulasan pelanggan', 'Pabrik + pengiriman', 'Produksi', 'Pengiriman DDP', 'Kontak', 'Pesanan + mitra', 'Lacak pesanan', 'Akun saya', 'Program grosir', 'Bantuan kecocokan WhatsApp', 'Nama produsen kendaraan hanya digunakan untuk mengidentifikasi kompatibilitas. CIRUI Forged tidak berafiliasi atau didukung oleh produsen tersebut.', 'Ketentuan · Privasi · CCPA', 'Dengan menggunakan CIRUI, Anda menyetujui kebijakan cookie dan analitik kecocokan kami.'],
+  hi: ['CIRUI स्रोत फैक्ट्री', 'DDP डिलीवरी उपलब्ध', 'लक्ष्य: उत्पादन + परिवहन लगभग 30 कार्य दिवस', 'व्हील, वाहन फिटमेंट और फिनिश खोजें…', 'भाषा', 'भाषा चयन', 'नेविगेशन खोलें', 'फिटमेंट लैब', 'वाहन के अनुसार खरीदें', 'CIRUI के बारे में', 'मोटरस्पोर्ट', 'जर्नल', 'फिटमेंट सहायता', '策锐官网 · आधिकारिक वैश्विक साइट', 'सटीक वाहन, फिटमेंट और फिनिश के अनुसार फैक्ट्री-डायरेक्ट कस्टम फोर्ज्ड व्हील।', 'फोर्ज्ड व्हील', 'सभी व्हील डिज़ाइन', 'कस्टम फिटमेंट', 'टूल्स', 'वाहन फोटो पर पूर्वावलोकन', 'फिटमेंट जर्नल', 'ग्राहक प्रतिक्रिया', 'फैक्ट्री + डिलीवरी', 'निर्माण', 'DDP डिलीवरी', 'संपर्क', 'ऑर्डर + साझेदार', 'ऑर्डर ट्रैक करें', 'मेरा खाता', 'थोक कार्यक्रम', 'WhatsApp फिटमेंट सहायता', 'वाहन निर्माताओं के नाम केवल अनुकूलता पहचानने के लिए उपयोग किए जाते हैं। CIRUI Forged उन निर्माताओं से संबद्ध या समर्थित नहीं है।', 'शर्तें · गोपनीयता · CCPA', 'CIRUI का उपयोग करके आप हमारी कुकी नीति और फिटमेंट एनालिटिक्स से सहमत होते हैं।']
 };
 
 Object.entries(siteChromeTranslations).forEach(([locale, values]) => {
@@ -494,7 +494,7 @@ const homeIntroTranslationKeys = [
   'CIRUI FORGED · OFFICIAL GLOBAL SITE',
   'Forged at the source.',
   'Fitted to your car.',
-  'Forcarbox is the official overseas website of CIRUI Forged — a source wheel factory turning your exact vehicle, stance and finish into a production-ready forged wheel.',
+  '策锐官网 is the official overseas website of CIRUI Forged — a source wheel factory turning your exact vehicle, stance and finish into a production-ready forged wheel.',
   'Build my exact fitment',
   'Meet the factory',
   'Factory direct',
@@ -531,24 +531,24 @@ const homeIntroTranslationKeys = [
 ];
 
 const homeIntroTranslations = {
-  'zh-CN': ['CIRUI 锻造 · 官方海外网站', '源头锻造。', '为你的车精准适配。', 'Forcarbox 是 CIRUI 策锐锻造的官方海外网站。我们是一家源头轮毂工厂，把你的准确车型、姿态与表面处理转化为可生产的定制锻造轮毂。', '开始精准适配', '了解工厂', '工厂直供', '设计 · 锻造 · 加工 · 表面处理', '3 角度效果预览', '生产前先看上车效果', '支持 DDP', '让海外买家更清楚掌握到门成本', '准确车型适配', '定制锻造设计', '工厂生产', 'DDP 配送支持', '源头轮毂工厂', '真实生产、机加工与成品库存。', '按你的参数制造', '直径、宽度、PCD、ET、CB 与刹车间隙。', '生产前预览', '上传车辆照片，生成三个角度的轮毂效果。', '约 30 个工作日', '生产 + 配送目标时间按目的地最终确认。', '适配优先', '从车辆开始。', '不是通用轮毂。', '网购轮毂最大的风险是适配。先选定准确平台，让轮毂图纸同时考虑轴头、刹车、悬挂、轮胎包络与使用场景。', 'PCD + 中心孔', '前 + 后 ET', '卡钳间隙', '街道 + 展示 + 赛道', '01 / 车辆需求', '告诉 CIRUI 你开什么车。', '现有定制适配计算器仍是网站的工程核心。', '打开适配实验室', '正在加载 CIRUI 效果工作室…'],
-  'zh-TW': ['CIRUI 鍛造 · 官方海外網站', '源頭鍛造。', '為你的車精準適配。', 'Forcarbox 是 CIRUI 策銳鍛造的官方海外網站。我們是源頭輪圈工廠，將你的準確車型、姿態與表面處理轉化為可生產的客製鍛造輪圈。', '開始精準適配', '了解工廠', '工廠直供', '設計 · 鍛造 · 加工 · 表面處理', '3 角度效果預覽', '生產前先看上車效果', '支援 DDP', '讓海外買家更清楚掌握到門成本', '準確車型適配', '客製鍛造設計', '工廠生產', 'DDP 配送支援', '源頭輪圈工廠', '真實生產、機加工與成品庫存。', '依你的參數製造', '直徑、寬度、PCD、ET、CB 與煞車間隙。', '生產前預覽', '上傳車輛照片，產生三個角度的輪圈效果。', '約 30 個工作日', '生產 + 配送目標時間依目的地最終確認。', '適配優先', '從車輛開始。', '不是通用輪圈。', '網購輪圈最大的風險是適配。先選定準確平台，讓輪圈圖紙同時考慮軸頭、煞車、懸吊、輪胎包絡與使用場景。', 'PCD + 中心孔', '前 + 後 ET', '卡鉗間隙', '街道 + 展示 + 賽道', '01 / 車輛需求', '告訴 CIRUI 你開什麼車。', '現有客製適配計算器仍是網站的工程核心。', '開啟適配實驗室', '正在載入 CIRUI 效果工作室…'],
-  ja: ['CIRUI FORGED · 公式グローバルサイト', '製造元で鍛造。', 'あなたの車に正確に適合。', 'ForcarboxはCIRUI Forgedの公式海外サイトです。製造元のホイール工場として、正確な車種、スタンス、仕上げを生産可能なカスタム鍛造ホイールへ落とし込みます。', '正確なフィットメントを作る', '工場を見る', '工場直販', '設計 · 鍛造 · 加工 · 仕上げ', '3方向プレビュー', '生産前に装着イメージを確認', 'DDP対応', '海外購入者にも分かりやすい着地コスト', '正確な車両フィットメント', 'カスタム鍛造デザイン', '工場生産', 'DDP配送サポート', '製造元ホイール工場', '実際の生産、機械加工、完成品在庫。', 'あなたの数値で製作', '直径、幅、PCD、ET、CB、ブレーキクリアランス。', '生産前プレビュー', '車両写真をアップロードし、3方向のホイール表示を生成。', '約30営業日', '生産＋配送の目安は目的地ごとに確定します。', 'フィットメント優先', 'まず車から。', '汎用ホイールではありません。', 'オンラインでホイールを買う最大のリスクは適合です。正確な車両から始め、ハブ、ブレーキ、サスペンション、タイヤ外形、用途を図面に反映します。', 'PCD + センターボア', 'フロント + リアET', 'キャリパークリアランス', 'ストリート + ショー + サーキット', '01 / 車両情報', 'お車をCIRUIに教えてください。', '既存のフィットメント計算機がサイトの技術的な中核です。', 'フィットメントラボを開く', 'CIRUIビジュアルスタジオを読み込み中…'],
-  ko: ['CIRUI FORGED · 공식 글로벌 사이트', '원천에서 단조.', '내 차에 정확히 장착.', 'Forcarbox는 CIRUI Forged의 공식 해외 웹사이트입니다. 원천 휠 공장으로서 정확한 차량, 자세와 마감을 생산 가능한 커스텀 단조 휠로 구현합니다.', '정확한 핏먼트 시작', '공장 보기', '공장 직영', '설계 · 단조 · 가공 · 마감', '3각도 미리보기', '생산 전 내 차에서 확인', 'DDP 가능', '해외 구매자의 도착 비용을 더 명확하게', '정확한 차량 핏먼트', '커스텀 단조 디자인', '공장 생산', 'DDP 배송 지원', '원천 휠 공장', '실제 생산, 가공 및 완제품 재고.', '내 수치에 맞춰 제작', '직경, 폭, PCD, ET, CB 및 브레이크 간극.', '생산 전 미리보기', '차량 사진을 업로드해 3개 각도의 휠 모습을 생성하세요.', '약 30영업일', '생산 + 배송 목표 일정은 목적지별로 확정됩니다.', '핏먼트 우선', '차량에서 시작하세요.', '범용 휠이 아닙니다.', '온라인 휠 구매의 가장 큰 위험은 호환성입니다. 정확한 플랫폼부터 시작해 허브, 브레이크, 서스펜션, 타이어 공간과 용도를 도면에 반영합니다.', 'PCD + 센터 보어', '앞 + 뒤 ET', '캘리퍼 간극', '스트리트 + 쇼 + 트랙', '01 / 차량 정보', '어떤 차를 타는지 CIRUI에 알려주세요.', '기존 핏먼트 계산기는 사이트의 엔지니어링 핵심으로 유지됩니다.', '핏먼트 랩 열기', 'CIRUI 비주얼 스튜디오 로딩 중…'],
-  de: ['CIRUI FORGED · OFFIZIELLE GLOBALE WEBSITE', 'An der Quelle geschmiedet.', 'Für Ihr Fahrzeug angepasst.', 'Forcarbox ist die offizielle internationale Website von CIRUI Forged – einem Herstellerwerk, das Ihr genaues Fahrzeug, die gewünschte Haltung und das Finish in ein produktionsreifes Schmiederad überführt.', 'Mein exaktes Fitment erstellen', 'Das Werk kennenlernen', 'Direkt ab Werk', 'Design · Schmieden · Bearbeiten · Finish', '3-Perspektiven-Vorschau', 'Vor der Produktion am eigenen Auto ansehen', 'DDP verfügbar', 'Transparentere Gesamtkosten für internationale Käufer', 'Exaktes Fahrzeug-Fitment', 'Individuelles Schmiederad-Design', 'Fertigung im Werk', 'DDP-Lieferservice', 'Herstellerwerk für Räder', 'Echte Produktion, Bearbeitung und Fertigradbestand.', 'Nach Ihren Maßen gefertigt', 'Durchmesser, Breite, PCD, ET, CB und Bremsfreigang.', 'Vorschau vor der Produktion', 'Fahrzeugfoto hochladen und drei Radansichten erzeugen.', 'Etwa 30 Werktage', 'Zielzeit für Produktion + Lieferung, je Zielort bestätigt.', 'FITMENT ZUERST', 'Beginnen Sie mit dem Fahrzeug.', 'Kein universelles Rad.', 'Die Passgenauigkeit ist das größte Risiko beim Online-Radkauf. Beginnen Sie mit der genauen Plattform, damit Nabe, Bremsen, Fahrwerk, Reifenraum und Einsatzzweck in die Zeichnung einfließen.', 'PCD + Mittenbohrung', 'ET vorne + hinten', 'Bremssattelfreigang', 'Straße + Show + Rennstrecke', '01 / Fahrzeugbrief', 'Sagen Sie CIRUI, was Sie fahren.', 'Der vorhandene Fitment-Rechner bleibt der technische Kern der Website.', 'Fitment-Labor öffnen', 'CIRUI Visual Studio wird geladen…'],
-  fr: ['CIRUI FORGED · SITE MONDIAL OFFICIEL', 'Forgées à la source.', 'Adaptées à votre voiture.', 'Forcarbox est le site international officiel de CIRUI Forged, une usine de jantes qui transforme votre véhicule exact, sa posture et sa finition en jantes forgées sur mesure prêtes à produire.', 'Créer ma compatibilité exacte', 'Découvrir l’usine', 'Direct usine', 'Conception · forge · usinage · finition', 'Aperçu sous 3 angles', 'Visualisez-les sur votre voiture avant production', 'DDP disponible', 'Un coût rendu plus clair pour les acheteurs internationaux', 'Compatibilité exacte du véhicule', 'Design forgé sur mesure', 'Production en usine', 'Assistance livraison DDP', 'Usine de jantes source', 'Production, usinage et stock de jantes finies réels.', 'Fabriquées selon vos mesures', 'Diamètre, largeur, PCD, ET, CB et dégagement des freins.', 'Aperçu avant production', 'Importez une photo du véhicule et générez trois vues des jantes.', 'Environ 30 jours ouvrés', 'Délai cible de production + livraison confirmé selon la destination.', 'LA COMPATIBILITÉ D’ABORD', 'Commencez par la voiture.', 'Pas une jante générique.', 'La compatibilité est le principal risque lors de l’achat de jantes en ligne. Commencez par la plateforme exacte afin que le moyeu, les freins, la suspension, l’enveloppe du pneu et l’usage soient intégrés au plan.', 'PCD + alésage central', 'ET avant + arrière', 'Dégagement de l’étrier', 'Route + exposition + circuit', '01 / Fiche véhicule', 'Indiquez à CIRUI ce que vous conduisez.', 'Le calculateur de compatibilité existant reste le cœur technique du site.', 'Ouvrir le laboratoire', 'Chargement du Studio Visuel CIRUI…'],
-  es: ['CIRUI FORGED · SITIO GLOBAL OFICIAL', 'Forjadas en origen.', 'Ajustadas a tu coche.', 'Forcarbox es el sitio internacional oficial de CIRUI Forged, una fábrica de llantas que convierte tu vehículo exacto, postura y acabado en una llanta forjada lista para producción.', 'Crear mi ajuste exacto', 'Conocer la fábrica', 'Directo de fábrica', 'Diseño · forja · mecanizado · acabado', 'Vista previa en 3 ángulos', 'Míralas en tu coche antes de producirlas', 'DDP disponible', 'Coste final más claro para compradores internacionales', 'Ajuste exacto del vehículo', 'Diseño forjado a medida', 'Producción en fábrica', 'Soporte de entrega DDP', 'Fábrica de llantas de origen', 'Producción, mecanizado e inventario terminado reales.', 'Fabricadas con tus medidas', 'Diámetro, ancho, PCD, ET, CB y espacio para frenos.', 'Vista previa antes de producción', 'Sube una foto del vehículo y genera tres vistas de las llantas.', 'Unos 30 días laborables', 'Plazo objetivo de producción + entrega, confirmado por destino.', 'PRIMERO EL AJUSTE', 'Empieza por el coche.', 'No por una llanta genérica.', 'La compatibilidad es el mayor riesgo al comprar llantas online. Empieza por la plataforma exacta para que el dibujo contemple buje, frenos, suspensión, espacio del neumático y uso previsto.', 'PCD + buje central', 'ET delantero + trasero', 'Espacio para la pinza', 'Calle + exposición + circuito', '01 / Datos del vehículo', 'Dile a CIRUI qué conduces.', 'El calculador de compatibilidad existente sigue siendo el núcleo técnico del sitio.', 'Abrir laboratorio de compatibilidad', 'Cargando CIRUI Visual Studio…'],
-  it: ['CIRUI FORGED · SITO GLOBALE UFFICIALE', 'Forgiati alla fonte.', 'Adattati alla tua auto.', 'Forcarbox è il sito internazionale ufficiale di CIRUI Forged, una fabbrica di cerchi che trasforma veicolo, assetto e finitura esatti in un cerchio forgiato pronto per la produzione.', 'Crea il mio fitment esatto', 'Scopri la fabbrica', 'Diretto dalla fabbrica', 'Design · forgiatura · lavorazione · finitura', 'Anteprima a 3 angoli', 'Guardali sulla tua auto prima della produzione', 'DDP disponibile', 'Costo a destinazione più chiaro per gli acquirenti internazionali', 'Fitment esatto del veicolo', 'Design forgiato su misura', 'Produzione in fabbrica', 'Supporto consegna DDP', 'Fabbrica di cerchi', 'Produzione, lavorazione e scorte finite reali.', 'Realizzati secondo le tue misure', 'Diametro, larghezza, PCD, ET, CB e spazio freni.', 'Anteprima prima della produzione', 'Carica una foto del veicolo e genera tre viste dei cerchi.', 'Circa 30 giorni lavorativi', 'Tempi obiettivo di produzione + consegna confermati per destinazione.', 'PRIMA IL FITMENT', 'Parti dall’auto.', 'Non da un cerchio generico.', 'La compatibilità è il rischio principale nell’acquisto online. Parti dalla piattaforma esatta, così il disegno considera mozzo, freni, sospensioni, ingombro pneumatici e utilizzo.', 'PCD + foro centrale', 'ET anteriore + posteriore', 'Spazio pinza', 'Strada + show + pista', '01 / Dati veicolo', 'Dì a CIRUI cosa guidi.', 'Il calcolatore di fitment esistente resta il cuore tecnico del sito.', 'Apri laboratorio di fitment', 'Caricamento di CIRUI Visual Studio…'],
-  'pt-BR': ['CIRUI FORGED · SITE GLOBAL OFICIAL', 'Forjadas na origem.', 'Ajustadas ao seu carro.', 'Forcarbox é o site internacional oficial da CIRUI Forged, uma fábrica de rodas que transforma seu veículo exato, postura e acabamento em uma roda forjada pronta para produção.', 'Criar meu encaixe exato', 'Conhecer a fábrica', 'Direto da fábrica', 'Design · forja · usinagem · acabamento', 'Prévia em 3 ângulos', 'Veja no seu carro antes da produção', 'DDP disponível', 'Custo final mais claro para compradores internacionais', 'Encaixe exato do veículo', 'Design forjado sob medida', 'Produção na fábrica', 'Suporte de entrega DDP', 'Fábrica de rodas de origem', 'Produção, usinagem e estoque acabado reais.', 'Feitas com suas medidas', 'Diâmetro, largura, PCD, ET, CB e folga dos freios.', 'Prévia antes da produção', 'Envie uma foto do veículo e gere três vistas das rodas.', 'Cerca de 30 dias úteis', 'Prazo-alvo de produção + entrega confirmado por destino.', 'ENCAIXE PRIMEIRO', 'Comece pelo carro.', 'Não por uma roda genérica.', 'A compatibilidade é o maior risco na compra online. Comece pela plataforma exata para que cubo, freios, suspensão, espaço do pneu e uso previsto entrem no desenho.', 'PCD + furo central', 'ET dianteiro + traseiro', 'Folga da pinça', 'Rua + exposição + pista', '01 / Dados do veículo', 'Conte à CIRUI o que você dirige.', 'O calculador de encaixe existente continua sendo o núcleo técnico do site.', 'Abrir laboratório de compatibilidade', 'Carregando o CIRUI Visual Studio…'],
-  ru: ['CIRUI FORGED · ОФИЦИАЛЬНЫЙ МЕЖДУНАРОДНЫЙ САЙТ', 'Ковка у источника.', 'Точно под ваш автомобиль.', 'Forcarbox — официальный международный сайт CIRUI Forged, завода дисков, который превращает точный автомобиль, посадку и отделку в готовый к производству кованый диск.', 'Создать точный фитмент', 'Познакомиться с заводом', 'Напрямую с завода', 'Дизайн · ковка · обработка · отделка', 'Предпросмотр в 3 ракурсах', 'Посмотрите на своём авто до производства', 'DDP доступна', 'Более понятная итоговая стоимость для зарубежных покупателей', 'Точный фитмент автомобиля', 'Индивидуальный дизайн кованых дисков', 'Заводское производство', 'Поддержка доставки DDP', 'Завод-производитель дисков', 'Реальное производство, обработка и склад готовых дисков.', 'Изготовлено по вашим параметрам', 'Диаметр, ширина, PCD, ET, CB и зазор тормозов.', 'Предпросмотр до производства', 'Загрузите фото автомобиля и создайте три вида дисков.', 'Около 30 рабочих дней', 'Целевой срок производства + доставки подтверждается для каждого направления.', 'СНАЧАЛА ФИТМЕНТ', 'Начните с автомобиля.', 'Не с универсального диска.', 'Совместимость — главный риск покупки дисков онлайн. Начните с точной платформы, чтобы учесть ступицу, тормоза, подвеску, габарит шины и назначение.', 'PCD + центральное отверстие', 'ET спереди + сзади', 'Зазор суппорта', 'Улица + шоу + трек', '01 / Данные автомобиля', 'Расскажите CIRUI, на чём вы ездите.', 'Существующий калькулятор фитмента остаётся инженерным ядром сайта.', 'Открыть лабораторию фитмента', 'Загрузка CIRUI Visual Studio…'],
-  ar: ['CIRUI FORGED · الموقع العالمي الرسمي', 'مطروقة في المصدر.', 'ملائمة لسيارتك بدقة.', 'Forcarbox هو الموقع الدولي الرسمي لـ CIRUI Forged، مصنع عجلات يحوّل سيارتك الدقيقة ووقفتها وتشطيبها إلى عجلة مطروقة مخصصة جاهزة للإنتاج.', 'إنشاء التوافق الدقيق', 'تعرّف على المصنع', 'مباشرة من المصنع', 'تصميم · طرق · تشغيل · تشطيب', 'معاينة من 3 زوايا', 'شاهدها على سيارتك قبل الإنتاج', 'DDP متاح', 'تكلفة وصول أوضح للمشترين الدوليين', 'توافق دقيق مع السيارة', 'تصميم مطروق مخصص', 'إنتاج المصنع', 'دعم توصيل DDP', 'مصنع العجلات المصدر', 'إنتاج وتشغيل ومخزون نهائي حقيقي.', 'مصنوعة حسب أرقامك', 'القطر والعرض وPCD وET وCB وخلوص المكابح.', 'معاينة قبل الإنتاج', 'ارفع صورة السيارة وأنشئ ثلاث زوايا للعجلات.', 'نحو 30 يوم عمل', 'توقيت الإنتاج + التوصيل المستهدف يؤكد حسب الوجهة.', 'التوافق أولًا', 'ابدأ بالسيارة.', 'وليست عجلة عامة.', 'التوافق هو أكبر مخاطر شراء العجلات عبر الإنترنت. ابدأ بالمنصة الدقيقة حتى يراعي الرسم الصرة والمكابح والتعليق وحيز الإطار والاستخدام المقصود.', 'PCD + الفتحة المركزية', 'ET أمامي + خلفي', 'خلوص الكليبر', 'شارع + عرض + حلبة', '01 / بيانات السيارة', 'أخبر CIRUI بما تقود.', 'تبقى حاسبة التوافق الحالية القلب الهندسي للموقع.', 'فتح مختبر التوافق', 'جارٍ تحميل CIRUI Visual Studio…'],
-  nl: ['CIRUI FORGED · OFFICIËLE WERELDWIJDE SITE', 'Gesmeed bij de bron.', 'Passend voor uw auto.', 'Forcarbox is de officiële internationale website van CIRUI Forged, een wielfabriek die uw exacte voertuig, houding en afwerking omzet in een productierijp gesmeed wiel.', 'Mijn exacte fitment maken', 'Maak kennis met de fabriek', 'Direct uit de fabriek', 'Ontwerp · smeden · bewerken · afwerken', 'Voorbeeld uit 3 hoeken', 'Bekijk het voor productie op uw auto', 'DDP beschikbaar', 'Duidelijkere totaalprijs voor internationale kopers', 'Exacte voertuigfitment', 'Gesmeed ontwerp op maat', 'Productie in de fabriek', 'DDP-leveringsondersteuning', 'Wielfabriek bij de bron', 'Echte productie, bewerking en voorraad afgewerkte wielen.', 'Gemaakt volgens uw maten', 'Diameter, breedte, PCD, ET, CB en remvrijloop.', 'Voorbeeld vóór productie', 'Upload een voertuigfoto en genereer drie wielaanzichten.', 'Ongeveer 30 werkdagen', 'Streeftijd voor productie + levering, bevestigd per bestemming.', 'FITMENT EERST', 'Begin met de auto.', 'Niet met een generiek wiel.', 'Compatibiliteit is het grootste risico bij online wielen kopen. Begin met het exacte platform zodat naaf, remmen, onderstel, bandenruimte en gebruik in de tekening worden meegenomen.', 'PCD + naafdiameter', 'ET voor + achter', 'Remklauwvrijloop', 'Straat + show + circuit', '01 / Voertuiggegevens', 'Vertel CIRUI wat u rijdt.', 'De bestaande fitmentcalculator blijft de technische kern van de site.', 'Fitmentlab openen', 'CIRUI Visual Studio laden…'],
-  tr: ['CIRUI FORGED · RESMÎ KÜRESEL SİTE', 'Kaynağında dövüldü.', 'Aracınıza tam uyumlu.', 'Forcarbox, CIRUI Forged’un resmî uluslararası sitesidir; kaynak jant fabrikası olarak tam aracınızı, duruşu ve kaplamayı üretime hazır özel dövme janta dönüştürür.', 'Tam uyumumu oluştur', 'Fabrikayı tanıyın', 'Doğrudan fabrika', 'Tasarım · dövme · işleme · kaplama', '3 açılı önizleme', 'Üretimden önce aracınızda görün', 'DDP mevcut', 'Uluslararası alıcılar için daha net teslim maliyeti', 'Tam araç uyumu', 'Özel dövme tasarım', 'Fabrika üretimi', 'DDP teslimat desteği', 'Kaynak jant fabrikası', 'Gerçek üretim, işleme ve bitmiş jant stoğu.', 'Ölçülerinize göre üretim', 'Çap, genişlik, PCD, ET, CB ve fren boşluğu.', 'Üretim öncesi önizleme', 'Araç fotoğrafı yükleyin ve üç jant görünümü oluşturun.', 'Yaklaşık 30 iş günü', 'Üretim + teslimat hedef süresi varış yerine göre doğrulanır.', 'ÖNCE UYUM', 'Araçla başlayın.', 'Genel bir jantla değil.', 'Çevrimiçi jant alırken en büyük risk uyumdur. Çizimde göbek, fren, süspansiyon, lastik zarfı ve kullanım amacı hesaba katılsın diye tam platformla başlayın.', 'PCD + merkez deliği', 'Ön + arka ET', 'Kaliper boşluğu', 'Cadde + fuar + pist', '01 / Araç bilgisi', 'CIRUI’ye ne kullandığınızı söyleyin.', 'Mevcut uyum hesaplayıcısı sitenin mühendislik çekirdeği olarak kalır.', 'Uyum laboratuvarını aç', 'CIRUI Visual Studio yükleniyor…'],
-  pl: ['CIRUI FORGED · OFICJALNA STRONA GLOBALNA', 'Kute u źródła.', 'Dopasowane do Twojego auta.', 'Forcarbox to oficjalna międzynarodowa strona CIRUI Forged — fabryki felg, która przekłada dokładny pojazd, pozycję i wykończenie na gotową do produkcji kutą felgę.', 'Utwórz dokładne dopasowanie', 'Poznaj fabrykę', 'Prosto z fabryki', 'Projekt · kucie · obróbka · wykończenie', 'Podgląd z 3 kątów', 'Zobacz na swoim aucie przed produkcją', 'DDP dostępne', 'Bardziej przejrzysty koszt dostawy dla klientów zagranicznych', 'Dokładne dopasowanie pojazdu', 'Indywidualny projekt kuty', 'Produkcja fabryczna', 'Wsparcie dostawy DDP', 'Fabryka felg u źródła', 'Prawdziwa produkcja, obróbka i zapas gotowych felg.', 'Wykonane według Twoich parametrów', 'Średnica, szerokość, PCD, ET, CB i prześwit hamulców.', 'Podgląd przed produkcją', 'Prześlij zdjęcie pojazdu i wygeneruj trzy widoki felg.', 'Około 30 dni roboczych', 'Docelowy czas produkcji + dostawy potwierdzany dla miejsca docelowego.', 'NAJPIERW DOPASOWANIE', 'Zacznij od auta.', 'Nie od uniwersalnej felgi.', 'Kompatybilność to największe ryzyko zakupu felg online. Zacznij od dokładnej platformy, aby rysunek uwzględniał piastę, hamulce, zawieszenie, obrys opony i zastosowanie.', 'PCD + otwór centralny', 'ET przód + tył', 'Prześwit zacisku', 'Ulica + pokaz + tor', '01 / Dane pojazdu', 'Powiedz CIRUI, czym jeździsz.', 'Istniejący kalkulator dopasowania pozostaje technicznym rdzeniem strony.', 'Otwórz laboratorium dopasowania', 'Ładowanie CIRUI Visual Studio…'],
-  vi: ['CIRUI FORGED · TRANG TOÀN CẦU CHÍNH THỨC', 'Rèn tại nguồn.', 'Lắp chuẩn cho xe của bạn.', 'Forcarbox là trang quốc tế chính thức của CIRUI Forged, nhà máy mâm biến đúng mẫu xe, dáng xe và bề mặt bạn muốn thành mâm rèn tùy chỉnh sẵn sàng sản xuất.', 'Tạo thông số chính xác', 'Khám phá nhà máy', 'Trực tiếp từ nhà máy', 'Thiết kế · rèn · gia công · hoàn thiện', 'Xem trước 3 góc', 'Xem trên xe trước khi sản xuất', 'Có DDP', 'Chi phí đến nơi rõ ràng hơn cho khách quốc tế', 'Tương thích chính xác với xe', 'Thiết kế rèn tùy chỉnh', 'Sản xuất tại nhà máy', 'Hỗ trợ giao hàng DDP', 'Nhà máy mâm nguồn', 'Sản xuất, gia công và kho thành phẩm thực tế.', 'Làm theo thông số của bạn', 'Đường kính, chiều rộng, PCD, ET, CB và khoảng hở phanh.', 'Xem trước trước sản xuất', 'Tải ảnh xe lên và tạo ba góc nhìn của mâm.', 'Khoảng 30 ngày làm việc', 'Thời gian sản xuất + giao hàng mục tiêu được xác nhận theo điểm đến.', 'ƯU TIÊN TƯƠNG THÍCH', 'Bắt đầu từ chiếc xe.', 'Không phải mâm chung chung.', 'Khả năng tương thích là rủi ro lớn nhất khi mua mâm trực tuyến. Bắt đầu với đúng nền tảng để bản vẽ tính đến moay-ơ, phanh, hệ treo, không gian lốp và mục đích sử dụng.', 'PCD + lỗ tâm', 'ET trước + sau', 'Khoảng hở heo dầu', 'Đường phố + trưng bày + đường đua', '01 / Thông tin xe', 'Cho CIRUI biết bạn đang lái xe gì.', 'Công cụ tính tương thích hiện có vẫn là lõi kỹ thuật của trang.', 'Mở phòng thí nghiệm', 'Đang tải CIRUI Visual Studio…'],
-  th: ['CIRUI FORGED · เว็บไซต์สากลอย่างเป็นทางการ', 'ฟอร์จจากต้นทาง', 'ติดตั้งให้ตรงกับรถของคุณ', 'Forcarbox คือเว็บไซต์ต่างประเทศอย่างเป็นทางการของ CIRUI Forged โรงงานล้อต้นทางที่เปลี่ยนข้อมูลรถ ท่าทาง และงานผิวที่แม่นยำให้เป็นล้อฟอร์จสั่งทำพร้อมผลิต', 'สร้างสเปกติดตั้งที่แม่นยำ', 'รู้จักโรงงาน', 'ตรงจากโรงงาน', 'ออกแบบ · ฟอร์จ · กลึง · ทำผิว', 'ดูตัวอย่าง 3 มุม', 'ดูกับรถของคุณก่อนผลิต', 'มี DDP', 'ค่าใช้จ่ายถึงปลายทางชัดเจนขึ้นสำหรับผู้ซื้อต่างประเทศ', 'ความเข้ากันได้ตรงรุ่น', 'ดีไซน์ฟอร์จสั่งทำ', 'ผลิตในโรงงาน', 'รองรับการจัดส่ง DDP', 'โรงงานล้อต้นทาง', 'การผลิต การกลึง และสต็อกสำเร็จจริง', 'ผลิตตามตัวเลขของคุณ', 'เส้นผ่านศูนย์กลาง ความกว้าง PCD, ET, CB และระยะห่างเบรก', 'ดูตัวอย่างก่อนผลิต', 'อัปโหลดภาพรถและสร้างภาพล้อ 3 มุม', 'ประมาณ 30 วันทำการ', 'ระยะเวลาเป้าหมายการผลิต + จัดส่งยืนยันตามปลายทาง', 'เริ่มจากความเข้ากันได้', 'เริ่มจากรถ', 'ไม่ใช่ล้อทั่วไป', 'ความเข้ากันได้คือความเสี่ยงหลักของการซื้อล้อออนไลน์ เริ่มจากแพลตฟอร์มรถที่ถูกต้องเพื่อให้แบบคำนึงถึงดุม เบรก ช่วงล่าง ขอบเขตยาง และการใช้งาน', 'PCD + รูดุมกลาง', 'ET หน้า + หลัง', 'ระยะห่างคาลิเปอร์', 'ถนน + โชว์ + สนาม', '01 / ข้อมูลรถ', 'บอก CIRUI ว่าคุณขับรถอะไร', 'เครื่องคำนวณความเข้ากันได้เดิมยังคงเป็นแกนวิศวกรรมของเว็บไซต์', 'เปิดห้องทดลองความเข้ากันได้', 'กำลังโหลด CIRUI Visual Studio…'],
-  id: ['CIRUI FORGED · SITUS GLOBAL RESMI', 'Ditempa di sumbernya.', 'Dipasang tepat untuk mobil Anda.', 'Forcarbox adalah situs internasional resmi CIRUI Forged, pabrik velg sumber yang mengubah kendaraan, stance, dan finishing Anda menjadi velg forged kustom siap produksi.', 'Buat kecocokan presisi', 'Kenali pabrik', 'Langsung dari pabrik', 'Desain · tempa · mesin · finishing', 'Pratinjau 3 sudut', 'Lihat pada mobil Anda sebelum produksi', 'DDP tersedia', 'Biaya tiba yang lebih jelas bagi pembeli internasional', 'Kecocokan kendaraan presisi', 'Desain forged kustom', 'Produksi pabrik', 'Dukungan pengiriman DDP', 'Pabrik velg sumber', 'Produksi, pemesinan, dan stok jadi yang nyata.', 'Dibuat sesuai angka Anda', 'Diameter, lebar, PCD, ET, CB, dan celah rem.', 'Pratinjau sebelum produksi', 'Unggah foto kendaraan dan buat tiga tampilan velg.', 'Sekitar 30 hari kerja', 'Target waktu produksi + pengiriman dikonfirmasi per tujuan.', 'UTAMAKAN KECOCOKAN', 'Mulai dari mobil.', 'Bukan velg generik.', 'Kompatibilitas adalah risiko terbesar membeli velg online. Mulailah dari platform yang tepat agar gambar memperhitungkan hub, rem, suspensi, ruang ban, dan penggunaan.', 'PCD + lubang tengah', 'ET depan + belakang', 'Celah kaliper', 'Jalan + pameran + trek', '01 / Data kendaraan', 'Beri tahu CIRUI apa yang Anda kendarai.', 'Kalkulator kecocokan yang ada tetap menjadi inti teknik situs.', 'Buka laboratorium kecocokan', 'Memuat CIRUI Visual Studio…'],
-  hi: ['CIRUI FORGED · आधिकारिक वैश्विक साइट', 'स्रोत पर फोर्ज्ड।', 'आपकी कार के लिए सटीक फिट।', 'Forcarbox CIRUI Forged की आधिकारिक अंतरराष्ट्रीय वेबसाइट है—एक स्रोत व्हील फैक्ट्री जो आपके सटीक वाहन, स्टांस और फिनिश को उत्पादन-तैयार कस्टम फोर्ज्ड व्हील में बदलती है।', 'मेरा सटीक फिटमेंट बनाएँ', 'फैक्ट्री देखें', 'सीधे फैक्ट्री से', 'डिज़ाइन · फोर्ज · मशीनिंग · फिनिश', '3-एंगल पूर्वावलोकन', 'उत्पादन से पहले अपनी कार पर देखें', 'DDP उपलब्ध', 'अंतरराष्ट्रीय खरीदारों के लिए स्पष्ट पहुँच लागत', 'सटीक वाहन फिटमेंट', 'कस्टम फोर्ज्ड डिज़ाइन', 'फैक्ट्री उत्पादन', 'DDP डिलीवरी सहायता', 'स्रोत व्हील फैक्ट्री', 'वास्तविक उत्पादन, मशीनिंग और तैयार स्टॉक।', 'आपके माप के अनुसार निर्मित', 'व्यास, चौड़ाई, PCD, ET, CB और ब्रेक क्लीयरेंस।', 'उत्पादन से पहले पूर्वावलोकन', 'वाहन फोटो अपलोड करें और व्हील के तीन दृश्य बनाएँ।', 'लगभग 30 कार्य दिवस', 'लक्षित उत्पादन + डिलीवरी समय गंतव्य के अनुसार पुष्ट होता है।', 'पहले फिटमेंट', 'कार से शुरू करें।', 'सामान्य व्हील से नहीं।', 'ऑनलाइन व्हील खरीदने में अनुकूलता सबसे बड़ा जोखिम है। सटीक प्लेटफॉर्म से शुरू करें ताकि ड्रॉइंग में हब, ब्रेक, सस्पेंशन, टायर स्थान और उपयोग शामिल हों।', 'PCD + सेंटर बोर', 'आगे + पीछे ET', 'कैलिपर क्लीयरेंस', 'स्ट्रीट + शो + ट्रैक', '01 / वाहन जानकारी', 'CIRUI को बताएं कि आप क्या चलाते हैं।', 'मौजूदा फिटमेंट कैलकुलेटर वेबसाइट का इंजीनियरिंग केंद्र बना रहता है।', 'फिटमेंट लैब खोलें', 'CIRUI Visual Studio लोड हो रहा है…']
+  'zh-CN': ['CIRUI 锻造 · 官方海外网站', '源头锻造。', '为你的车精准适配。', '策锐官网 是 CIRUI 策锐锻造的官方海外网站。我们是一家源头轮毂工厂，把你的准确车型、姿态与表面处理转化为可生产的定制锻造轮毂。', '开始精准适配', '了解工厂', '工厂直供', '设计 · 锻造 · 加工 · 表面处理', '3 角度效果预览', '生产前先看上车效果', '支持 DDP', '让海外买家更清楚掌握到门成本', '准确车型适配', '定制锻造设计', '工厂生产', 'DDP 配送支持', '源头轮毂工厂', '真实生产、机加工与成品库存。', '按你的参数制造', '直径、宽度、PCD、ET、CB 与刹车间隙。', '生产前预览', '上传车辆照片，生成三个角度的轮毂效果。', '约 30 个工作日', '生产 + 配送目标时间按目的地最终确认。', '适配优先', '从车辆开始。', '不是通用轮毂。', '网购轮毂最大的风险是适配。先选定准确平台，让轮毂图纸同时考虑轴头、刹车、悬挂、轮胎包络与使用场景。', 'PCD + 中心孔', '前 + 后 ET', '卡钳间隙', '街道 + 展示 + 赛道', '01 / 车辆需求', '告诉 CIRUI 你开什么车。', '现有定制适配计算器仍是网站的工程核心。', '打开适配实验室', '正在加载 CIRUI 效果工作室…'],
+  'zh-TW': ['CIRUI 鍛造 · 官方海外網站', '源頭鍛造。', '為你的車精準適配。', '策锐官网 是 CIRUI 策銳鍛造的官方海外網站。我們是源頭輪圈工廠，將你的準確車型、姿態與表面處理轉化為可生產的客製鍛造輪圈。', '開始精準適配', '了解工廠', '工廠直供', '設計 · 鍛造 · 加工 · 表面處理', '3 角度效果預覽', '生產前先看上車效果', '支援 DDP', '讓海外買家更清楚掌握到門成本', '準確車型適配', '客製鍛造設計', '工廠生產', 'DDP 配送支援', '源頭輪圈工廠', '真實生產、機加工與成品庫存。', '依你的參數製造', '直徑、寬度、PCD、ET、CB 與煞車間隙。', '生產前預覽', '上傳車輛照片，產生三個角度的輪圈效果。', '約 30 個工作日', '生產 + 配送目標時間依目的地最終確認。', '適配優先', '從車輛開始。', '不是通用輪圈。', '網購輪圈最大的風險是適配。先選定準確平台，讓輪圈圖紙同時考慮軸頭、煞車、懸吊、輪胎包絡與使用場景。', 'PCD + 中心孔', '前 + 後 ET', '卡鉗間隙', '街道 + 展示 + 賽道', '01 / 車輛需求', '告訴 CIRUI 你開什麼車。', '現有客製適配計算器仍是網站的工程核心。', '開啟適配實驗室', '正在載入 CIRUI 效果工作室…'],
+  ja: ['CIRUI FORGED · 公式グローバルサイト', '製造元で鍛造。', 'あなたの車に正確に適合。', '策锐官网はCIRUI Forgedの公式海外サイトです。製造元のホイール工場として、正確な車種、スタンス、仕上げを生産可能なカスタム鍛造ホイールへ落とし込みます。', '正確なフィットメントを作る', '工場を見る', '工場直販', '設計 · 鍛造 · 加工 · 仕上げ', '3方向プレビュー', '生産前に装着イメージを確認', 'DDP対応', '海外購入者にも分かりやすい着地コスト', '正確な車両フィットメント', 'カスタム鍛造デザイン', '工場生産', 'DDP配送サポート', '製造元ホイール工場', '実際の生産、機械加工、完成品在庫。', 'あなたの数値で製作', '直径、幅、PCD、ET、CB、ブレーキクリアランス。', '生産前プレビュー', '車両写真をアップロードし、3方向のホイール表示を生成。', '約30営業日', '生産＋配送の目安は目的地ごとに確定します。', 'フィットメント優先', 'まず車から。', '汎用ホイールではありません。', 'オンラインでホイールを買う最大のリスクは適合です。正確な車両から始め、ハブ、ブレーキ、サスペンション、タイヤ外形、用途を図面に反映します。', 'PCD + センターボア', 'フロント + リアET', 'キャリパークリアランス', 'ストリート + ショー + サーキット', '01 / 車両情報', 'お車をCIRUIに教えてください。', '既存のフィットメント計算機がサイトの技術的な中核です。', 'フィットメントラボを開く', 'CIRUIビジュアルスタジオを読み込み中…'],
+  ko: ['CIRUI FORGED · 공식 글로벌 사이트', '원천에서 단조.', '내 차에 정확히 장착.', '策锐官网는 CIRUI Forged의 공식 해외 웹사이트입니다. 원천 휠 공장으로서 정확한 차량, 자세와 마감을 생산 가능한 커스텀 단조 휠로 구현합니다.', '정확한 핏먼트 시작', '공장 보기', '공장 직영', '설계 · 단조 · 가공 · 마감', '3각도 미리보기', '생산 전 내 차에서 확인', 'DDP 가능', '해외 구매자의 도착 비용을 더 명확하게', '정확한 차량 핏먼트', '커스텀 단조 디자인', '공장 생산', 'DDP 배송 지원', '원천 휠 공장', '실제 생산, 가공 및 완제품 재고.', '내 수치에 맞춰 제작', '직경, 폭, PCD, ET, CB 및 브레이크 간극.', '생산 전 미리보기', '차량 사진을 업로드해 3개 각도의 휠 모습을 생성하세요.', '약 30영업일', '생산 + 배송 목표 일정은 목적지별로 확정됩니다.', '핏먼트 우선', '차량에서 시작하세요.', '범용 휠이 아닙니다.', '온라인 휠 구매의 가장 큰 위험은 호환성입니다. 정확한 플랫폼부터 시작해 허브, 브레이크, 서스펜션, 타이어 공간과 용도를 도면에 반영합니다.', 'PCD + 센터 보어', '앞 + 뒤 ET', '캘리퍼 간극', '스트리트 + 쇼 + 트랙', '01 / 차량 정보', '어떤 차를 타는지 CIRUI에 알려주세요.', '기존 핏먼트 계산기는 사이트의 엔지니어링 핵심으로 유지됩니다.', '핏먼트 랩 열기', 'CIRUI 비주얼 스튜디오 로딩 중…'],
+  de: ['CIRUI FORGED · OFFIZIELLE GLOBALE WEBSITE', 'An der Quelle geschmiedet.', 'Für Ihr Fahrzeug angepasst.', '策锐官网 ist die offizielle internationale Website von CIRUI Forged – einem Herstellerwerk, das Ihr genaues Fahrzeug, die gewünschte Haltung und das Finish in ein produktionsreifes Schmiederad überführt.', 'Mein exaktes Fitment erstellen', 'Das Werk kennenlernen', 'Direkt ab Werk', 'Design · Schmieden · Bearbeiten · Finish', '3-Perspektiven-Vorschau', 'Vor der Produktion am eigenen Auto ansehen', 'DDP verfügbar', 'Transparentere Gesamtkosten für internationale Käufer', 'Exaktes Fahrzeug-Fitment', 'Individuelles Schmiederad-Design', 'Fertigung im Werk', 'DDP-Lieferservice', 'Herstellerwerk für Räder', 'Echte Produktion, Bearbeitung und Fertigradbestand.', 'Nach Ihren Maßen gefertigt', 'Durchmesser, Breite, PCD, ET, CB und Bremsfreigang.', 'Vorschau vor der Produktion', 'Fahrzeugfoto hochladen und drei Radansichten erzeugen.', 'Etwa 30 Werktage', 'Zielzeit für Produktion + Lieferung, je Zielort bestätigt.', 'FITMENT ZUERST', 'Beginnen Sie mit dem Fahrzeug.', 'Kein universelles Rad.', 'Die Passgenauigkeit ist das größte Risiko beim Online-Radkauf. Beginnen Sie mit der genauen Plattform, damit Nabe, Bremsen, Fahrwerk, Reifenraum und Einsatzzweck in die Zeichnung einfließen.', 'PCD + Mittenbohrung', 'ET vorne + hinten', 'Bremssattelfreigang', 'Straße + Show + Rennstrecke', '01 / Fahrzeugbrief', 'Sagen Sie CIRUI, was Sie fahren.', 'Der vorhandene Fitment-Rechner bleibt der technische Kern der Website.', 'Fitment-Labor öffnen', 'CIRUI Visual Studio wird geladen…'],
+  fr: ['CIRUI FORGED · SITE MONDIAL OFFICIEL', 'Forgées à la source.', 'Adaptées à votre voiture.', '策锐官网 est le site international officiel de CIRUI Forged, une usine de jantes qui transforme votre véhicule exact, sa posture et sa finition en jantes forgées sur mesure prêtes à produire.', 'Créer ma compatibilité exacte', 'Découvrir l’usine', 'Direct usine', 'Conception · forge · usinage · finition', 'Aperçu sous 3 angles', 'Visualisez-les sur votre voiture avant production', 'DDP disponible', 'Un coût rendu plus clair pour les acheteurs internationaux', 'Compatibilité exacte du véhicule', 'Design forgé sur mesure', 'Production en usine', 'Assistance livraison DDP', 'Usine de jantes source', 'Production, usinage et stock de jantes finies réels.', 'Fabriquées selon vos mesures', 'Diamètre, largeur, PCD, ET, CB et dégagement des freins.', 'Aperçu avant production', 'Importez une photo du véhicule et générez trois vues des jantes.', 'Environ 30 jours ouvrés', 'Délai cible de production + livraison confirmé selon la destination.', 'LA COMPATIBILITÉ D’ABORD', 'Commencez par la voiture.', 'Pas une jante générique.', 'La compatibilité est le principal risque lors de l’achat de jantes en ligne. Commencez par la plateforme exacte afin que le moyeu, les freins, la suspension, l’enveloppe du pneu et l’usage soient intégrés au plan.', 'PCD + alésage central', 'ET avant + arrière', 'Dégagement de l’étrier', 'Route + exposition + circuit', '01 / Fiche véhicule', 'Indiquez à CIRUI ce que vous conduisez.', 'Le calculateur de compatibilité existant reste le cœur technique du site.', 'Ouvrir le laboratoire', 'Chargement du Studio Visuel CIRUI…'],
+  es: ['CIRUI FORGED · SITIO GLOBAL OFICIAL', 'Forjadas en origen.', 'Ajustadas a tu coche.', '策锐官网 es el sitio internacional oficial de CIRUI Forged, una fábrica de llantas que convierte tu vehículo exacto, postura y acabado en una llanta forjada lista para producción.', 'Crear mi ajuste exacto', 'Conocer la fábrica', 'Directo de fábrica', 'Diseño · forja · mecanizado · acabado', 'Vista previa en 3 ángulos', 'Míralas en tu coche antes de producirlas', 'DDP disponible', 'Coste final más claro para compradores internacionales', 'Ajuste exacto del vehículo', 'Diseño forjado a medida', 'Producción en fábrica', 'Soporte de entrega DDP', 'Fábrica de llantas de origen', 'Producción, mecanizado e inventario terminado reales.', 'Fabricadas con tus medidas', 'Diámetro, ancho, PCD, ET, CB y espacio para frenos.', 'Vista previa antes de producción', 'Sube una foto del vehículo y genera tres vistas de las llantas.', 'Unos 30 días laborables', 'Plazo objetivo de producción + entrega, confirmado por destino.', 'PRIMERO EL AJUSTE', 'Empieza por el coche.', 'No por una llanta genérica.', 'La compatibilidad es el mayor riesgo al comprar llantas online. Empieza por la plataforma exacta para que el dibujo contemple buje, frenos, suspensión, espacio del neumático y uso previsto.', 'PCD + buje central', 'ET delantero + trasero', 'Espacio para la pinza', 'Calle + exposición + circuito', '01 / Datos del vehículo', 'Dile a CIRUI qué conduces.', 'El calculador de compatibilidad existente sigue siendo el núcleo técnico del sitio.', 'Abrir laboratorio de compatibilidad', 'Cargando CIRUI Visual Studio…'],
+  it: ['CIRUI FORGED · SITO GLOBALE UFFICIALE', 'Forgiati alla fonte.', 'Adattati alla tua auto.', '策锐官网 è il sito internazionale ufficiale di CIRUI Forged, una fabbrica di cerchi che trasforma veicolo, assetto e finitura esatti in un cerchio forgiato pronto per la produzione.', 'Crea il mio fitment esatto', 'Scopri la fabbrica', 'Diretto dalla fabbrica', 'Design · forgiatura · lavorazione · finitura', 'Anteprima a 3 angoli', 'Guardali sulla tua auto prima della produzione', 'DDP disponibile', 'Costo a destinazione più chiaro per gli acquirenti internazionali', 'Fitment esatto del veicolo', 'Design forgiato su misura', 'Produzione in fabbrica', 'Supporto consegna DDP', 'Fabbrica di cerchi', 'Produzione, lavorazione e scorte finite reali.', 'Realizzati secondo le tue misure', 'Diametro, larghezza, PCD, ET, CB e spazio freni.', 'Anteprima prima della produzione', 'Carica una foto del veicolo e genera tre viste dei cerchi.', 'Circa 30 giorni lavorativi', 'Tempi obiettivo di produzione + consegna confermati per destinazione.', 'PRIMA IL FITMENT', 'Parti dall’auto.', 'Non da un cerchio generico.', 'La compatibilità è il rischio principale nell’acquisto online. Parti dalla piattaforma esatta, così il disegno considera mozzo, freni, sospensioni, ingombro pneumatici e utilizzo.', 'PCD + foro centrale', 'ET anteriore + posteriore', 'Spazio pinza', 'Strada + show + pista', '01 / Dati veicolo', 'Dì a CIRUI cosa guidi.', 'Il calcolatore di fitment esistente resta il cuore tecnico del sito.', 'Apri laboratorio di fitment', 'Caricamento di CIRUI Visual Studio…'],
+  'pt-BR': ['CIRUI FORGED · SITE GLOBAL OFICIAL', 'Forjadas na origem.', 'Ajustadas ao seu carro.', '策锐官网 é o site internacional oficial da CIRUI Forged, uma fábrica de rodas que transforma seu veículo exato, postura e acabamento em uma roda forjada pronta para produção.', 'Criar meu encaixe exato', 'Conhecer a fábrica', 'Direto da fábrica', 'Design · forja · usinagem · acabamento', 'Prévia em 3 ângulos', 'Veja no seu carro antes da produção', 'DDP disponível', 'Custo final mais claro para compradores internacionais', 'Encaixe exato do veículo', 'Design forjado sob medida', 'Produção na fábrica', 'Suporte de entrega DDP', 'Fábrica de rodas de origem', 'Produção, usinagem e estoque acabado reais.', 'Feitas com suas medidas', 'Diâmetro, largura, PCD, ET, CB e folga dos freios.', 'Prévia antes da produção', 'Envie uma foto do veículo e gere três vistas das rodas.', 'Cerca de 30 dias úteis', 'Prazo-alvo de produção + entrega confirmado por destino.', 'ENCAIXE PRIMEIRO', 'Comece pelo carro.', 'Não por uma roda genérica.', 'A compatibilidade é o maior risco na compra online. Comece pela plataforma exata para que cubo, freios, suspensão, espaço do pneu e uso previsto entrem no desenho.', 'PCD + furo central', 'ET dianteiro + traseiro', 'Folga da pinça', 'Rua + exposição + pista', '01 / Dados do veículo', 'Conte à CIRUI o que você dirige.', 'O calculador de encaixe existente continua sendo o núcleo técnico do site.', 'Abrir laboratório de compatibilidade', 'Carregando o CIRUI Visual Studio…'],
+  ru: ['CIRUI FORGED · ОФИЦИАЛЬНЫЙ МЕЖДУНАРОДНЫЙ САЙТ', 'Ковка у источника.', 'Точно под ваш автомобиль.', '策锐官网 — официальный международный сайт CIRUI Forged, завода дисков, который превращает точный автомобиль, посадку и отделку в готовый к производству кованый диск.', 'Создать точный фитмент', 'Познакомиться с заводом', 'Напрямую с завода', 'Дизайн · ковка · обработка · отделка', 'Предпросмотр в 3 ракурсах', 'Посмотрите на своём авто до производства', 'DDP доступна', 'Более понятная итоговая стоимость для зарубежных покупателей', 'Точный фитмент автомобиля', 'Индивидуальный дизайн кованых дисков', 'Заводское производство', 'Поддержка доставки DDP', 'Завод-производитель дисков', 'Реальное производство, обработка и склад готовых дисков.', 'Изготовлено по вашим параметрам', 'Диаметр, ширина, PCD, ET, CB и зазор тормозов.', 'Предпросмотр до производства', 'Загрузите фото автомобиля и создайте три вида дисков.', 'Около 30 рабочих дней', 'Целевой срок производства + доставки подтверждается для каждого направления.', 'СНАЧАЛА ФИТМЕНТ', 'Начните с автомобиля.', 'Не с универсального диска.', 'Совместимость — главный риск покупки дисков онлайн. Начните с точной платформы, чтобы учесть ступицу, тормоза, подвеску, габарит шины и назначение.', 'PCD + центральное отверстие', 'ET спереди + сзади', 'Зазор суппорта', 'Улица + шоу + трек', '01 / Данные автомобиля', 'Расскажите CIRUI, на чём вы ездите.', 'Существующий калькулятор фитмента остаётся инженерным ядром сайта.', 'Открыть лабораторию фитмента', 'Загрузка CIRUI Visual Studio…'],
+  ar: ['CIRUI FORGED · الموقع العالمي الرسمي', 'مطروقة في المصدر.', 'ملائمة لسيارتك بدقة.', '策锐官网 هو الموقع الدولي الرسمي لـ CIRUI Forged، مصنع عجلات يحوّل سيارتك الدقيقة ووقفتها وتشطيبها إلى عجلة مطروقة مخصصة جاهزة للإنتاج.', 'إنشاء التوافق الدقيق', 'تعرّف على المصنع', 'مباشرة من المصنع', 'تصميم · طرق · تشغيل · تشطيب', 'معاينة من 3 زوايا', 'شاهدها على سيارتك قبل الإنتاج', 'DDP متاح', 'تكلفة وصول أوضح للمشترين الدوليين', 'توافق دقيق مع السيارة', 'تصميم مطروق مخصص', 'إنتاج المصنع', 'دعم توصيل DDP', 'مصنع العجلات المصدر', 'إنتاج وتشغيل ومخزون نهائي حقيقي.', 'مصنوعة حسب أرقامك', 'القطر والعرض وPCD وET وCB وخلوص المكابح.', 'معاينة قبل الإنتاج', 'ارفع صورة السيارة وأنشئ ثلاث زوايا للعجلات.', 'نحو 30 يوم عمل', 'توقيت الإنتاج + التوصيل المستهدف يؤكد حسب الوجهة.', 'التوافق أولًا', 'ابدأ بالسيارة.', 'وليست عجلة عامة.', 'التوافق هو أكبر مخاطر شراء العجلات عبر الإنترنت. ابدأ بالمنصة الدقيقة حتى يراعي الرسم الصرة والمكابح والتعليق وحيز الإطار والاستخدام المقصود.', 'PCD + الفتحة المركزية', 'ET أمامي + خلفي', 'خلوص الكليبر', 'شارع + عرض + حلبة', '01 / بيانات السيارة', 'أخبر CIRUI بما تقود.', 'تبقى حاسبة التوافق الحالية القلب الهندسي للموقع.', 'فتح مختبر التوافق', 'جارٍ تحميل CIRUI Visual Studio…'],
+  nl: ['CIRUI FORGED · OFFICIËLE WERELDWIJDE SITE', 'Gesmeed bij de bron.', 'Passend voor uw auto.', '策锐官网 is de officiële internationale website van CIRUI Forged, een wielfabriek die uw exacte voertuig, houding en afwerking omzet in een productierijp gesmeed wiel.', 'Mijn exacte fitment maken', 'Maak kennis met de fabriek', 'Direct uit de fabriek', 'Ontwerp · smeden · bewerken · afwerken', 'Voorbeeld uit 3 hoeken', 'Bekijk het voor productie op uw auto', 'DDP beschikbaar', 'Duidelijkere totaalprijs voor internationale kopers', 'Exacte voertuigfitment', 'Gesmeed ontwerp op maat', 'Productie in de fabriek', 'DDP-leveringsondersteuning', 'Wielfabriek bij de bron', 'Echte productie, bewerking en voorraad afgewerkte wielen.', 'Gemaakt volgens uw maten', 'Diameter, breedte, PCD, ET, CB en remvrijloop.', 'Voorbeeld vóór productie', 'Upload een voertuigfoto en genereer drie wielaanzichten.', 'Ongeveer 30 werkdagen', 'Streeftijd voor productie + levering, bevestigd per bestemming.', 'FITMENT EERST', 'Begin met de auto.', 'Niet met een generiek wiel.', 'Compatibiliteit is het grootste risico bij online wielen kopen. Begin met het exacte platform zodat naaf, remmen, onderstel, bandenruimte en gebruik in de tekening worden meegenomen.', 'PCD + naafdiameter', 'ET voor + achter', 'Remklauwvrijloop', 'Straat + show + circuit', '01 / Voertuiggegevens', 'Vertel CIRUI wat u rijdt.', 'De bestaande fitmentcalculator blijft de technische kern van de site.', 'Fitmentlab openen', 'CIRUI Visual Studio laden…'],
+  tr: ['CIRUI FORGED · RESMÎ KÜRESEL SİTE', 'Kaynağında dövüldü.', 'Aracınıza tam uyumlu.', '策锐官网, CIRUI Forged’un resmî uluslararası sitesidir; kaynak jant fabrikası olarak tam aracınızı, duruşu ve kaplamayı üretime hazır özel dövme janta dönüştürür.', 'Tam uyumumu oluştur', 'Fabrikayı tanıyın', 'Doğrudan fabrika', 'Tasarım · dövme · işleme · kaplama', '3 açılı önizleme', 'Üretimden önce aracınızda görün', 'DDP mevcut', 'Uluslararası alıcılar için daha net teslim maliyeti', 'Tam araç uyumu', 'Özel dövme tasarım', 'Fabrika üretimi', 'DDP teslimat desteği', 'Kaynak jant fabrikası', 'Gerçek üretim, işleme ve bitmiş jant stoğu.', 'Ölçülerinize göre üretim', 'Çap, genişlik, PCD, ET, CB ve fren boşluğu.', 'Üretim öncesi önizleme', 'Araç fotoğrafı yükleyin ve üç jant görünümü oluşturun.', 'Yaklaşık 30 iş günü', 'Üretim + teslimat hedef süresi varış yerine göre doğrulanır.', 'ÖNCE UYUM', 'Araçla başlayın.', 'Genel bir jantla değil.', 'Çevrimiçi jant alırken en büyük risk uyumdur. Çizimde göbek, fren, süspansiyon, lastik zarfı ve kullanım amacı hesaba katılsın diye tam platformla başlayın.', 'PCD + merkez deliği', 'Ön + arka ET', 'Kaliper boşluğu', 'Cadde + fuar + pist', '01 / Araç bilgisi', 'CIRUI’ye ne kullandığınızı söyleyin.', 'Mevcut uyum hesaplayıcısı sitenin mühendislik çekirdeği olarak kalır.', 'Uyum laboratuvarını aç', 'CIRUI Visual Studio yükleniyor…'],
+  pl: ['CIRUI FORGED · OFICJALNA STRONA GLOBALNA', 'Kute u źródła.', 'Dopasowane do Twojego auta.', '策锐官网 to oficjalna międzynarodowa strona CIRUI Forged — fabryki felg, która przekłada dokładny pojazd, pozycję i wykończenie na gotową do produkcji kutą felgę.', 'Utwórz dokładne dopasowanie', 'Poznaj fabrykę', 'Prosto z fabryki', 'Projekt · kucie · obróbka · wykończenie', 'Podgląd z 3 kątów', 'Zobacz na swoim aucie przed produkcją', 'DDP dostępne', 'Bardziej przejrzysty koszt dostawy dla klientów zagranicznych', 'Dokładne dopasowanie pojazdu', 'Indywidualny projekt kuty', 'Produkcja fabryczna', 'Wsparcie dostawy DDP', 'Fabryka felg u źródła', 'Prawdziwa produkcja, obróbka i zapas gotowych felg.', 'Wykonane według Twoich parametrów', 'Średnica, szerokość, PCD, ET, CB i prześwit hamulców.', 'Podgląd przed produkcją', 'Prześlij zdjęcie pojazdu i wygeneruj trzy widoki felg.', 'Około 30 dni roboczych', 'Docelowy czas produkcji + dostawy potwierdzany dla miejsca docelowego.', 'NAJPIERW DOPASOWANIE', 'Zacznij od auta.', 'Nie od uniwersalnej felgi.', 'Kompatybilność to największe ryzyko zakupu felg online. Zacznij od dokładnej platformy, aby rysunek uwzględniał piastę, hamulce, zawieszenie, obrys opony i zastosowanie.', 'PCD + otwór centralny', 'ET przód + tył', 'Prześwit zacisku', 'Ulica + pokaz + tor', '01 / Dane pojazdu', 'Powiedz CIRUI, czym jeździsz.', 'Istniejący kalkulator dopasowania pozostaje technicznym rdzeniem strony.', 'Otwórz laboratorium dopasowania', 'Ładowanie CIRUI Visual Studio…'],
+  vi: ['CIRUI FORGED · TRANG TOÀN CẦU CHÍNH THỨC', 'Rèn tại nguồn.', 'Lắp chuẩn cho xe của bạn.', '策锐官网 là trang quốc tế chính thức của CIRUI Forged, nhà máy mâm biến đúng mẫu xe, dáng xe và bề mặt bạn muốn thành mâm rèn tùy chỉnh sẵn sàng sản xuất.', 'Tạo thông số chính xác', 'Khám phá nhà máy', 'Trực tiếp từ nhà máy', 'Thiết kế · rèn · gia công · hoàn thiện', 'Xem trước 3 góc', 'Xem trên xe trước khi sản xuất', 'Có DDP', 'Chi phí đến nơi rõ ràng hơn cho khách quốc tế', 'Tương thích chính xác với xe', 'Thiết kế rèn tùy chỉnh', 'Sản xuất tại nhà máy', 'Hỗ trợ giao hàng DDP', 'Nhà máy mâm nguồn', 'Sản xuất, gia công và kho thành phẩm thực tế.', 'Làm theo thông số của bạn', 'Đường kính, chiều rộng, PCD, ET, CB và khoảng hở phanh.', 'Xem trước trước sản xuất', 'Tải ảnh xe lên và tạo ba góc nhìn của mâm.', 'Khoảng 30 ngày làm việc', 'Thời gian sản xuất + giao hàng mục tiêu được xác nhận theo điểm đến.', 'ƯU TIÊN TƯƠNG THÍCH', 'Bắt đầu từ chiếc xe.', 'Không phải mâm chung chung.', 'Khả năng tương thích là rủi ro lớn nhất khi mua mâm trực tuyến. Bắt đầu với đúng nền tảng để bản vẽ tính đến moay-ơ, phanh, hệ treo, không gian lốp và mục đích sử dụng.', 'PCD + lỗ tâm', 'ET trước + sau', 'Khoảng hở heo dầu', 'Đường phố + trưng bày + đường đua', '01 / Thông tin xe', 'Cho CIRUI biết bạn đang lái xe gì.', 'Công cụ tính tương thích hiện có vẫn là lõi kỹ thuật của trang.', 'Mở phòng thí nghiệm', 'Đang tải CIRUI Visual Studio…'],
+  th: ['CIRUI FORGED · เว็บไซต์สากลอย่างเป็นทางการ', 'ฟอร์จจากต้นทาง', 'ติดตั้งให้ตรงกับรถของคุณ', '策锐官网 คือเว็บไซต์ต่างประเทศอย่างเป็นทางการของ CIRUI Forged โรงงานล้อต้นทางที่เปลี่ยนข้อมูลรถ ท่าทาง และงานผิวที่แม่นยำให้เป็นล้อฟอร์จสั่งทำพร้อมผลิต', 'สร้างสเปกติดตั้งที่แม่นยำ', 'รู้จักโรงงาน', 'ตรงจากโรงงาน', 'ออกแบบ · ฟอร์จ · กลึง · ทำผิว', 'ดูตัวอย่าง 3 มุม', 'ดูกับรถของคุณก่อนผลิต', 'มี DDP', 'ค่าใช้จ่ายถึงปลายทางชัดเจนขึ้นสำหรับผู้ซื้อต่างประเทศ', 'ความเข้ากันได้ตรงรุ่น', 'ดีไซน์ฟอร์จสั่งทำ', 'ผลิตในโรงงาน', 'รองรับการจัดส่ง DDP', 'โรงงานล้อต้นทาง', 'การผลิต การกลึง และสต็อกสำเร็จจริง', 'ผลิตตามตัวเลขของคุณ', 'เส้นผ่านศูนย์กลาง ความกว้าง PCD, ET, CB และระยะห่างเบรก', 'ดูตัวอย่างก่อนผลิต', 'อัปโหลดภาพรถและสร้างภาพล้อ 3 มุม', 'ประมาณ 30 วันทำการ', 'ระยะเวลาเป้าหมายการผลิต + จัดส่งยืนยันตามปลายทาง', 'เริ่มจากความเข้ากันได้', 'เริ่มจากรถ', 'ไม่ใช่ล้อทั่วไป', 'ความเข้ากันได้คือความเสี่ยงหลักของการซื้อล้อออนไลน์ เริ่มจากแพลตฟอร์มรถที่ถูกต้องเพื่อให้แบบคำนึงถึงดุม เบรก ช่วงล่าง ขอบเขตยาง และการใช้งาน', 'PCD + รูดุมกลาง', 'ET หน้า + หลัง', 'ระยะห่างคาลิเปอร์', 'ถนน + โชว์ + สนาม', '01 / ข้อมูลรถ', 'บอก CIRUI ว่าคุณขับรถอะไร', 'เครื่องคำนวณความเข้ากันได้เดิมยังคงเป็นแกนวิศวกรรมของเว็บไซต์', 'เปิดห้องทดลองความเข้ากันได้', 'กำลังโหลด CIRUI Visual Studio…'],
+  id: ['CIRUI FORGED · SITUS GLOBAL RESMI', 'Ditempa di sumbernya.', 'Dipasang tepat untuk mobil Anda.', '策锐官网 adalah situs internasional resmi CIRUI Forged, pabrik velg sumber yang mengubah kendaraan, stance, dan finishing Anda menjadi velg forged kustom siap produksi.', 'Buat kecocokan presisi', 'Kenali pabrik', 'Langsung dari pabrik', 'Desain · tempa · mesin · finishing', 'Pratinjau 3 sudut', 'Lihat pada mobil Anda sebelum produksi', 'DDP tersedia', 'Biaya tiba yang lebih jelas bagi pembeli internasional', 'Kecocokan kendaraan presisi', 'Desain forged kustom', 'Produksi pabrik', 'Dukungan pengiriman DDP', 'Pabrik velg sumber', 'Produksi, pemesinan, dan stok jadi yang nyata.', 'Dibuat sesuai angka Anda', 'Diameter, lebar, PCD, ET, CB, dan celah rem.', 'Pratinjau sebelum produksi', 'Unggah foto kendaraan dan buat tiga tampilan velg.', 'Sekitar 30 hari kerja', 'Target waktu produksi + pengiriman dikonfirmasi per tujuan.', 'UTAMAKAN KECOCOKAN', 'Mulai dari mobil.', 'Bukan velg generik.', 'Kompatibilitas adalah risiko terbesar membeli velg online. Mulailah dari platform yang tepat agar gambar memperhitungkan hub, rem, suspensi, ruang ban, dan penggunaan.', 'PCD + lubang tengah', 'ET depan + belakang', 'Celah kaliper', 'Jalan + pameran + trek', '01 / Data kendaraan', 'Beri tahu CIRUI apa yang Anda kendarai.', 'Kalkulator kecocokan yang ada tetap menjadi inti teknik situs.', 'Buka laboratorium kecocokan', 'Memuat CIRUI Visual Studio…'],
+  hi: ['CIRUI FORGED · आधिकारिक वैश्विक साइट', 'स्रोत पर फोर्ज्ड।', 'आपकी कार के लिए सटीक फिट।', '策锐官网 CIRUI Forged की आधिकारिक अंतरराष्ट्रीय वेबसाइट है—एक स्रोत व्हील फैक्ट्री जो आपके सटीक वाहन, स्टांस और फिनिश को उत्पादन-तैयार कस्टम फोर्ज्ड व्हील में बदलती है।', 'मेरा सटीक फिटमेंट बनाएँ', 'फैक्ट्री देखें', 'सीधे फैक्ट्री से', 'डिज़ाइन · फोर्ज · मशीनिंग · फिनिश', '3-एंगल पूर्वावलोकन', 'उत्पादन से पहले अपनी कार पर देखें', 'DDP उपलब्ध', 'अंतरराष्ट्रीय खरीदारों के लिए स्पष्ट पहुँच लागत', 'सटीक वाहन फिटमेंट', 'कस्टम फोर्ज्ड डिज़ाइन', 'फैक्ट्री उत्पादन', 'DDP डिलीवरी सहायता', 'स्रोत व्हील फैक्ट्री', 'वास्तविक उत्पादन, मशीनिंग और तैयार स्टॉक।', 'आपके माप के अनुसार निर्मित', 'व्यास, चौड़ाई, PCD, ET, CB और ब्रेक क्लीयरेंस।', 'उत्पादन से पहले पूर्वावलोकन', 'वाहन फोटो अपलोड करें और व्हील के तीन दृश्य बनाएँ।', 'लगभग 30 कार्य दिवस', 'लक्षित उत्पादन + डिलीवरी समय गंतव्य के अनुसार पुष्ट होता है।', 'पहले फिटमेंट', 'कार से शुरू करें।', 'सामान्य व्हील से नहीं।', 'ऑनलाइन व्हील खरीदने में अनुकूलता सबसे बड़ा जोखिम है। सटीक प्लेटफॉर्म से शुरू करें ताकि ड्रॉइंग में हब, ब्रेक, सस्पेंशन, टायर स्थान और उपयोग शामिल हों।', 'PCD + सेंटर बोर', 'आगे + पीछे ET', 'कैलिपर क्लीयरेंस', 'स्ट्रीट + शो + ट्रैक', '01 / वाहन जानकारी', 'CIRUI को बताएं कि आप क्या चलाते हैं।', 'मौजूदा फिटमेंट कैलकुलेटर वेबसाइट का इंजीनियरिंग केंद्र बना रहता है।', 'फिटमेंट लैब खोलें', 'CIRUI Visual Studio लोड हो रहा है…']
 };
 
 Object.entries(homeIntroTranslations).forEach(([locale, values]) => {
@@ -1858,7 +1858,7 @@ Object.assign(localeDictionaries['zh-CN'], homeMiddleChineseTranslations);
 Object.assign(localeDictionaries['zh-TW'], Object.fromEntries(Object.entries(homeMiddleChineseTranslations).map(([key, value]) => [key, traditionalizeFitmentText(value)])));
 
 const publicSiteChineseTranslations = {
-  'FORCARBOX · GLOBAL': 'FORCARBOX · 官方海外网站',
+  '策锐官网 · GLOBAL': '策锐官网 · 官方海外网站',
   'Home': '首页',
   'Shop': '商城',
   'Wheels': '轮毂',
@@ -1879,16 +1879,16 @@ const publicSiteChineseTranslations = {
   '6 min read': '阅读约 6 分钟',
   '7 min read': '阅读约 7 分钟',
   'Fitment · 6 min read': '适配 · 阅读约 6 分钟',
-  'FORCARBOX · OFFICIAL GLOBAL SITE': 'FORCARBOX · 官方海外网站',
+  '策锐官网 · OFFICIAL GLOBAL SITE': '策锐官网 · 官方海外网站',
 
   'ABOUT CIRUI FORGED': '关于 CIRUI 策锐锻造',
   'A source wheel factory': '一家源头轮毂工厂',
   'built for global custom projects.': '为全球定制项目而生。',
-  'Forcarbox is the official overseas website of CIRUI Forged, connecting European and North American drivers, tuning shops and partners directly with the people engineering and producing the wheels.': 'Forcarbox 是 CIRUI 策锐锻造的官方海外网站，让欧洲与北美车主、改装店和合作伙伴直接对接轮毂的工程设计与源头生产团队。',
+  '策锐官网 is the official overseas website of CIRUI Forged, connecting European and North American drivers, tuning shops and partners directly with the people engineering and producing the wheels.': '策锐官网 是 CIRUI 策锐锻造的官方海外网站，让欧洲与北美车主、改装店和合作伙伴直接对接轮毂的工程设计与源头生产团队。',
   'Factory capability.': '源头工厂能力。',
   'Fitment intelligence.': '专业适配能力。',
   'CIRUI is positioned around one simple advantage: the product and the technical conversation live close to the source. The same site that helps a buyer calculate fitment and preview the wheel also explains how the wheel moves into production.': 'CIRUI 的核心优势很直接：产品制造与技术沟通都贴近源头。你可以在同一网站计算轮毂适配、预览上车效果，并清楚了解方案如何进入生产。',
-  '“Forcarbox is CIRUI Forged for the global market.”': '“Forcarbox，就是面向全球市场的 CIRUI 策锐锻造。”',
+  '“策锐官网 is CIRUI Forged for the global market.”': '“策锐官网，就是面向全球市场的 CIRUI 策锐锻造。”',
   'HOW WE WORK': '我们的生产方式',
   'Real production,': '真实生产，',
   'shown clearly.': '清晰呈现。',
@@ -2084,8 +2084,8 @@ const publicSiteChineseTranslations = {
   'Finish changes the way a spoke profile reads in daylight, under street lighting and in the photos you keep coming back to.': '不同表面工艺会改变辐条轮廓在日光、街灯与照片中的视觉表现。',
   'Journal post not found.': '未找到这篇杂志文章。',
   'Back to Journal': '返回杂志',
-  'By F-Box Engineering': '作者：F-Box 工程团队',
-  'By F-Box Design Studio': '作者：F-Box 设计工作室',
+  'By 策锐官网 Engineering': '作者：策锐官网 工程团队',
+  'By 策锐官网 Design Studio': '作者：策锐官网 设计工作室',
   'Have a build in mind?': '已经有改装想法？',
   'Bring the vehicle, the stance and the finish. CIRUI will help turn the brief into a build-ready spec.': '告诉我们车型、姿态与表面处理方向，CIRUI 会协助把需求转化为可生产的规格。',
   'In this post': '本文内容',
@@ -2107,7 +2107,7 @@ const publicSiteChineseTranslations = {
   'Start with the numbers': '先从参数开始',
   'Diameter and width set the tire envelope. PCD and center bore determine whether the wheel locates correctly on the hub. Offset controls how the wheel sits in the arch and how much room remains for the brake caliper. These values work together, so changing one can change the answer for all the others.': '直径与宽度决定轮胎包络，PCD 与中心孔决定轮毂能否正确定位在轮毂轴承上，偏距则控制轮毂在轮拱中的位置以及留给卡钳的空间。这些数值相互关联，任何一项变化都可能影响其他参数。',
   'Check brake clearance early': '尽早核对刹车间隙',
-  'A wheel that clears the fender can still fail at the caliper. Ask for a brake template or a verified clearance check when the build uses a larger factory package, an aftermarket caliper or a track-focused rotor. F-Box keeps brake clearance in the brief before the design moves to production.': '即使轮毂与翼子板不干涉，也可能与卡钳冲突。若车辆使用更大的原厂刹车套件、改装卡钳或赛道刹车盘，应索取刹车模板或完成已验证的间隙检查。F-Box 会在设计进入生产前，把刹车间隙纳入技术需求。',
+  'A wheel that clears the fender can still fail at the caliper. Ask for a brake template or a verified clearance check when the build uses a larger factory package, an aftermarket caliper or a track-focused rotor. 策锐官网 keeps brake clearance in the brief before the design moves to production.': '即使轮毂与翼子板不干涉，也可能与卡钳冲突。若车辆使用更大的原厂刹车套件、改装卡钳或赛道刹车盘，应索取刹车模板或完成已验证的间隙检查。策锐官网 会在设计进入生产前，把刹车间隙纳入技术需求。',
   'Finish comes last for a reason': '最后再确定表面处理是有原因的',
   'Once the fitment is confirmed, the finish becomes a creative decision instead of a gamble. Satin, gloss, brushed, machined and custom color options can all work when the hard constraints are already locked. A good wheel brief makes the final design easier to approve because every visual decision has a usable foundation.': '适配确认后，表面处理才能从冒险变成纯粹的创意选择。当硬性参数全部锁定，缎面、亮光、拉丝、机加工与定制颜色都可以放心评估。清晰的轮毂需求让最终设计更容易确认，因为每个视觉决定都有可靠基础。',
   'Wheel specifications look compact because each number carries a lot of information. Learning the shorthand makes it easier to compare designs and much harder to order a wheel that only looks right in a product photo.': '轮毂规格看起来很简短，是因为每个数字都承载了大量信息。理解这些缩写后，你会更容易比较不同设计，也更不容易买到只在商品图里看起来合适的轮毂。',
@@ -2180,7 +2180,7 @@ const publicSiteChineseTranslations = {
   '{total} set of four · was {each} each': '四件套 {total} · 原价每件 {each}',
   '{total} set of four · build pricing available': '四件套 {total} · 可询价定制',
   'Pay over time with CIRUI financing. Starting at {amount}/month with approved credit.': '支持 CIRUI 分期付款。信用审核通过后，每月 {amount} 起。',
-  'CIRUI Forged Custom Wheels | Official Forcarbox Global Site': 'CIRUI 策锐锻造定制轮毂 | Forcarbox 官方海外网站',
+  'CIRUI Forged Custom Wheels | Official 策锐官网 Global Site': 'CIRUI 策锐锻造定制轮毂 | 策锐官网 官方海外网站',
   'About CIRUI Forged | Source Custom Wheel Factory': '关于 CIRUI 策锐锻造 | 源头定制轮毂工厂',
   'CIRUI Performance Parts': 'CIRUI 性能部件',
   'CIRUI Shopping Cart': 'CIRUI 购物车',
@@ -2533,6 +2533,92 @@ Object.entries(fitmentPlaceholderTranslations).forEach(([locale, values]) => {
   Object.assign(localeDictionaries[locale], Object.fromEntries(fitmentPlaceholderTranslationKeys.map((key, index) => [key, values[index] || key])));
 });
 
+const aiWheelStudioZhCN = {
+  'AI Original Design': 'AI 原创设计',
+  'AI Wheel Design Studio': 'AI 轮毂原创设计室',
+  'FROM IDEA TO A CONSISTENT CONCEPT': '从想法到一致的概念方案',
+  'Describe it. Reference it. Make it original.': '文字描述，也可上传参考图，生成你的原创方向。',
+  'Start with words, an optional reference image, or both. CIRUI generates four original wheel directions; after you select one, the studio renders eight locked angles as a nine-cell review board.': '可以只输入文字、只用参考图配合修改要求，或两者结合。CIRUI 先生成 4 个原创轮毂方向；选定后再锁定设计，生成 8 个固定角度并组成九宫格审核图。',
+  '01 Brief': '01 描述需求',
+  '02 Choose': '02 选择方案',
+  '03 Multi-view': '03 九宫格多视图',
+  'Write what you want': '写下你想要的轮毂',
+  'Reference an existing direction': '参考现有方向再创新',
+  'Use text + reference': '文字 + 参考图',
+  'Text only': '只用文字',
+  'Reference + changes': '参考图 + 修改要求',
+  'Text + reference': '文字 + 参考图',
+  'Describe the wheel direction': '描述想要的轮毂方向',
+  'Example: an original lightweight 10-spoke forged wheel, deep concavity, thin paired spokes, brushed face and polished step lip; technical motorsport character rather than luxury.': '例如：原创轻量化 10 辐锻造轮毂，深凹面，纤细双辐，拉丝轮面配抛光阶梯唇，偏技术赛车风而不是豪华风。',
+  'Be specific about spoke count, spoke shape, concavity, lip, center area and finish. Brand names are treated only as broad inspiration and are never copied.': '尽量写清辐条数量、造型、凹度、轮唇、中心区域和表面处理。品牌名称只能作为宽泛风格参考，不会照抄现有产品。',
+  'Optional reference image': '可选参考图',
+  'Upload a wheel image': '上传轮毂图片',
+  'JPG, PNG or WebP · up to 14 MB': 'JPG、PNG 或 WebP · 不超过 14MB',
+  'What should stay?': '参考图中保留什么？',
+  'Example: keep the thin paired-spoke rhythm and deep center.': '例如：保留纤细双辐节奏和深凹中心。',
+  'What should change?': '需要改成什么？',
+  'Example: change to 10 spokes, cleaner center and bronze brushed finish.': '例如：改成 10 辐、更干净的中心区域和古铜拉丝表面。',
+  'Construction': '结构',
+  'Forged monoblock': '单片式锻造',
+  'Forged 2-piece': '双片式锻造',
+  'Forged 3-piece': '三片式锻造',
+  'Design character': '设计风格',
+  'Performance / motorsport': '性能 / 赛车',
+  'Luxury / executive': '豪华 / 商务',
+  'Heritage / classic': '复古 / 经典',
+  'Aero / technical': '空气动力 / 技术感',
+  'SUV / off-road': 'SUV / 越野',
+  'Spoke direction': '辐条方向',
+  'Let AI propose': '由 AI 提议',
+  '5-spoke': '5 辐',
+  '6-spoke': '6 辐',
+  '7-spoke': '7 辐',
+  '8-spoke': '8 辐',
+  '10-spoke': '10 辐',
+  'Multi-spoke': '多辐',
+  'Finish direction': '表面处理方向',
+  'Brushed clear': '透明拉丝',
+  'Satin black': '缎面黑',
+  'Polished silver': '抛光银',
+  'Bronze': '古铜色',
+  'Two-tone custom': '双色定制',
+  'Visual diameter': '视觉轮径',
+  'Not fixed': '暂不限定',
+  'Vehicle context inherited': '已继承车型信息',
+  'No vehicle selected': '尚未选择车型',
+  'The vehicle is used only as design context. Fitment, brake clearance and load are still checked separately in the Fitment Lab.': '车型这里只用于辅助设计方向；实际适配、刹车间隙和载荷仍需在适配实验室单独核验。',
+  'Generate 4 original concepts': '生成 4 个原创方案',
+  'Sign in to generate concepts': '登录后生成方案',
+  'Concept preview only': '仅作为概念预览',
+  'AI images do not approve fitment, strength or manufacturing. Final production requires CIRUI engineering CAD, load review and physical-clearance approval.': 'AI 图片不代表适配、强度或制造批准。最终生产必须由 CIRUI 工程师完成 CAD、载荷审核和实体间隙确认。',
+  'Creating four original directions': '正在生成 4 个原创方向',
+  'The studio is varying the spoke rhythm, concavity and surface breaks while keeping your brief fixed.': '系统会在锁定需求的前提下，探索不同辐条节奏、凹度和表面转折。',
+  'Choose one direction': '选择一个设计方向',
+  'The selected image becomes the only visual identity reference for every multi-view angle.': '你选中的图片将成为后续所有角度唯一的视觉身份参考。',
+  'Selected': '已选择',
+  'Edit brief': '修改需求',
+  'Generate nine-cell multi-view': '生成九宫格多视图',
+  'Choose a concept first.': '请先选择一个方案。',
+  'Rendering eight locked angles': '正在生成 8 个锁定角度',
+  'Each image uses the selected concept as the same identity reference. This may take several minutes.': '每一张图都以选中方案为同一个身份参考，整个过程可能需要几分钟。',
+  'Nine-cell concept review': '九宫格概念审核',
+  'Eight generated angles surround the selected hero concept. Review spoke count, center, lip, barrel and finish consistency before sending it to engineering.': '8 个生成角度围绕中间的选中方案。请检查辐条数量、中心区、轮唇、轮辋和表面处理是否一致，再交给工程师。',
+  'Selected concept': '选中方案',
+  'Regenerate multi-view': '重新生成多视图',
+  'Start a new design': '开始新设计',
+  'Discuss with CIRUI': '联系 CIRUI 继续沟通',
+  'Open AI Original Design Studio': '打开 AI 轮毂原创设计室',
+  'Create four original directions first, then return with the selected concept for vehicle fitment and quoting.': '先独立生成 4 个原创方向并完成九宫格审核，再把选中的方案带回车型适配和询价流程。',
+  'This reference will guide the new design': '这张参考图将用于引导原创设计',
+  'Remove reference': '移除参考图',
+  'View larger': '放大查看',
+  'Generation failed': '生成失败',
+  'Try again': '重试',
+  'Return to brief': '返回修改需求'
+};
+Object.assign(localeDictionaries['zh-CN'], aiWheelStudioZhCN);
+Object.assign(localeDictionaries['zh-TW'], Object.fromEntries(Object.entries(aiWheelStudioZhCN).map(([key, value]) => [key, value.replace(/[\u3400-\u9fff]/g, character => exportTraditionalCharacters[character] || character)])));
+
 function uiLabel(key, fallback = key) {
   return localeDictionaries[state.locale]?.[key] || fallback;
 }
@@ -2607,6 +2693,34 @@ function readLocalJson(key, fallback) {
 const localWorkshopProjects = readLocalJson('fbox-workshop-projects', []);
 const localWorkshopCurrentToken = localStorage.getItem('fbox-workshop-current') || '';
 const localWorkshopCurrentProject = localWorkshopProjects.find(item => item.share_token === localWorkshopCurrentToken) || null;
+const initialAiWheelDraft = readLocalJson('cirui-ai-wheel-draft', {});
+
+function aiWheelDesignDefaults() {
+  return {
+    stage: 'brief',
+    status: 'idle',
+    error: '',
+    jobId: '',
+    conceptJobId: '',
+    draft: {
+      mode: 'text-reference',
+      prompt: '',
+      reference_keep: '',
+      reference_change: '',
+      construction: 'Forged monoblock',
+      character: 'Performance / motorsport',
+      spoke_count: '',
+      finish: 'Brushed clear',
+      diameter: '',
+      ...initialAiWheelDraft
+    },
+    referenceData: '',
+    referenceName: '',
+    concepts: [],
+    selectedIndex: -1,
+    views: []
+  };
+}
 
 const state = {
   route: getRoute(),
@@ -2646,6 +2760,7 @@ const state = {
   accountOrders: [],
   accountOrdersLoading: false,
   wheelVisualizer: null,
+  aiWheelDesign: aiWheelDesignDefaults(),
   homePreviewProductId: 'fbox-rse',
   homeWheelPage: 0,
   homeWheelAutoPausedUntil: 0,
@@ -2702,6 +2817,7 @@ function getRoute() {
   if (buildMatch || caseMatch) return { name: 'fitment-share', token: decodeURIComponent((buildMatch || caseMatch)[1]), publicCase: Boolean(caseMatch) };
   if (pathName === '/fitment-lab') return { name: 'fitment' };
   if (pathName === '/fitment-lab/result') return { name: 'fitment-result' };
+  if (pathName === '/ai-wheel-studio') return { name: 'ai-wheel-design' };
   if (pathName === '/account') return { name: 'account' };
 
   const rawHash = location.hash.replace(/^#/, '');
@@ -4399,10 +4515,8 @@ function workshopWheelPickerMarkup(project = {}) {
 }
 
 function workshopConceptMarkup(project = {}) {
-  const design = project.design || {};
-  const front = project.result?.axles?.front?.recommendation || {};
-  const rear = project.result?.axles?.rear?.recommendation || {};
-  return `<form class="workshop-path-panel workshop-concept-form" data-form="workshop-concept"><div class="workshop-panel-head"><div><p class="eyebrow">${uiLabel('Customer co-design studio')}</p><h3>${uiLabel('Describe it. Reference it. See it on the car.')}</h3></div><p>${uiLabel('The customer supplies a style reference and a written brief. CIRUI generates visual concepts while the saved fitment project keeps the engineering questions attached.')}</p></div><div class="workshop-concept-layout"><label class="workshop-concept-prompt"><span>${uiLabel('Describe the wheel you want')} <b>*</b></span><textarea name="design_prompt" rows="7" required placeholder="${esc(uiLabel('Example: a lightweight forged 10-spoke design, deep center, brushed face with polished step lip, motorsport rather than luxury.'))}">${esc(design.prompt || '')}</textarea><small>${uiLabel('Describe spoke count, spoke shape, lip, concavity, center cap and finish. Do not use the visual result as installation approval.')}</small></label><label class="workshop-reference-upload"><input type="file" name="reference_image" accept="image/jpeg,image/png,image/webp" required><span>${icons.image}</span><strong>${uiLabel('Upload a wheel reference image')}</strong><small>${uiLabel('JPG, PNG or WebP. The next step asks for the customer vehicle photo.')}</small></label></div><div class="workshop-design-fields"><label><span>${uiLabel('Finish')}</span><select name="finish"><option value="Brushed clear">${uiLabel('Brushed clear')}</option><option value="Satin black">${uiLabel('Satin black')}</option><option value="Polished silver">${uiLabel('Polished silver')}</option><option value="Bronze">${uiLabel('Bronze')}</option><option value="Custom finish">${uiLabel('Custom finish')}</option></select></label><label><span>${uiLabel('Construction')}</span><select name="construction"><option value="Forged monoblock">${uiLabel('Forged monoblock')}</option><option value="Forged 2-piece">${uiLabel('Forged 2-piece')}</option><option value="Forged 3-piece">${uiLabel('Forged 3-piece')}</option></select></label><label><span>${uiLabel('Diameter (in)')}</span><input name="diameter" type="number" min="12" max="30" step="0.5" value="${esc(design.diameter || front.diameter_min_in || rear.diameter_min_in || '')}" placeholder="19"></label><label><span>${uiLabel('Front width / ET')}</span><input name="front_spec" value="${esc([design.front_width, design.front_offset].filter(Boolean).join(' / '))}" placeholder="9.0 / ET35"></label><label><span>${uiLabel('Rear width / ET')}</span><input name="rear_spec" value="${esc([design.rear_width, design.rear_offset].filter(Boolean).join(' / '))}" placeholder="10.0 / ET40"></label></div><div class="workshop-path-actions"><button class="btn btn-primary" type="submit">${icons.spark} ${uiLabel('Start visual concept')}</button><span>${uiLabel('A free CIRUI account is requested only after the vehicle photo is uploaded.')}</span></div></form>`;
+  const vehicle = workshopVehicleLabel(project);
+  return `<div class="workshop-path-panel workshop-ai-studio-entry"><div class="workshop-panel-head"><div><p class="eyebrow">${uiLabel('Customer co-design studio')}</p><h3>${uiLabel('AI Wheel Design Studio')}</h3></div><p>${uiLabel('Create four original directions first, then return with the selected concept for vehicle fitment and quoting.')}</p></div><div class="workshop-ai-studio-context">${icons.shield}<span><small>${uiLabel('Vehicle context inherited')}</small><strong>${esc(vehicle)}</strong></span></div><div class="workshop-path-actions"><a class="btn btn-primary" href="/ai-wheel-studio" data-app-path>${icons.spark} ${uiLabel('Open AI Original Design Studio')} ${icons.arrowRight}</a><span>${uiLabel('Concept preview only')}</span></div></div>`;
 }
 
 function workshopDealerQuoteMarkup(project = {}) {
@@ -5153,7 +5267,7 @@ function partnerAttributionBar() {
 }
 
 function header() {
-  const active = state.route.name === 'store' ? 'SHOP' : state.route.name === 'about' ? 'ABOUT' : ['blog', 'blog-post'].includes(state.route.name) ? 'JOURNAL' : ['fitment', 'fitment-result', 'fitment-share'].includes(state.route.name) ? 'FITMENT' : '';
+  const active = state.route.name === 'store' ? 'SHOP' : state.route.name === 'about' ? 'ABOUT' : state.route.name === 'ai-wheel-design' ? 'AI-DESIGN' : ['blog', 'blog-post'].includes(state.route.name) ? 'JOURNAL' : ['fitment', 'fitment-result', 'fitment-share'].includes(state.route.name) ? 'FITMENT' : '';
   return `<div class="announcement">策锐锻造 · <span>中国品牌官网</span> · 车型适配与效果生成</div>${partnerAttributionBar()}
   <header class="site-header">
     <div class="container header-main">
@@ -5167,9 +5281,10 @@ function header() {
       <div class="container nav-inner">
         <nav class="nav-links">
           <a class="nav-link" href="#home">首页</a>
-          <a class="nav-link ${active === 'SHOP' ? 'is-active' : ''}" href="#store" data-category-link="Wheels">轮毂系列</a>
-          <a class="nav-link ${active === 'FITMENT' ? 'is-active' : ''}" href="/fitment-lab" data-app-path>适配实验室</a>
-          <a class="nav-link" href="#manufacture">制造实力</a>
+           <a class="nav-link ${active === 'SHOP' ? 'is-active' : ''}" href="#store" data-category-link="Wheels">轮毂系列</a>
+           <a class="nav-link ${active === 'FITMENT' ? 'is-active' : ''}" href="/fitment-lab" data-app-path>适配实验室</a>
+          <a class="nav-link nav-link-ai ${active === 'AI-DESIGN' ? 'is-active' : ''}" href="/ai-wheel-studio" data-app-path>AI 原创设计<small>NEW</small></a>
+           <a class="nav-link" href="#manufacture">制造实力</a>
           <a class="nav-link" href="#network">全国网络</a>
           <a class="nav-link" href="#videos">视频专区</a>
           <a class="nav-link ${active === 'ABOUT' ? 'is-active' : ''}" href="#about">关于策锐</a>
@@ -5183,7 +5298,7 @@ function megaMenu() {
   return `<div class="mega-menu" id="shop-catalog-menu" aria-label="${esc(uiLabel('Forged wheel catalog'))}"><div class="container mega-grid">
     <div class="mega-col"><h3>${uiLabel('Wheel construction')}</h3><a href="#store" data-action="catalog-collection" data-collection="all">${uiLabel('All forged wheels')}</a><a href="#store" data-action="catalog-collection" data-collection="monoblock">${uiLabel('Monoblock forged')}</a><a href="#store" data-action="catalog-collection" data-collection="two-piece">${uiLabel('2-piece forged')}</a><a href="#store" data-action="catalog-collection" data-collection="aero-floating">${uiLabel('Aero & floating')}</a><a href="#store" data-action="catalog-collection" data-collection="suv-off-road">${uiLabel('SUV & off-road')}</a></div>
     <div class="mega-col"><h3>${uiLabel('Fitment tools')}</h3><a href="/fitment-lab" data-action="open-fitment-lab" data-fitment-focus="vehicle">${uiLabel('Vehicle fitment')}</a><a href="/fitment-lab" data-action="open-fitment-lab" data-fitment-focus="brakes">${uiLabel('Brake clearance')}</a><a href="#store" data-action="catalog-visualizer">${uiLabel('Vehicle photo visualizer')}</a><a href="/fitment-lab" data-action="open-fitment-lab" data-fitment-focus="offset">${uiLabel('Offset & stance calculator')}</a></div>
-    <div class="mega-col"><h3>${uiLabel('Customization')}</h3><a href="#custom" data-action="custom-section" data-section="finishes">${uiLabel('Finishes & colors')}</a><a href="#custom" data-action="custom-section" data-section="lips">${uiLabel('Lip profiles')}</a><a href="#custom" data-action="custom-section" data-section="caps">${uiLabel('Center caps')}</a><a href="#custom" data-action="custom-section" data-section="hardware">${uiLabel('Hardware options')}</a></div>
+    <div class="mega-col"><h3>${uiLabel('Customization')}</h3><a href="/ai-wheel-studio" data-app-path>${uiLabel('AI Original Design')}</a><a href="#custom" data-action="custom-section" data-section="finishes">${uiLabel('Finishes & colors')}</a><a href="#custom" data-action="custom-section" data-section="lips">${uiLabel('Lip profiles')}</a><a href="#custom" data-action="custom-section" data-section="caps">${uiLabel('Center caps')}</a><a href="#custom" data-action="custom-section" data-section="hardware">${uiLabel('Hardware options')}</a></div>
     <div class="mega-col"><h3>${uiLabel('Factory & trade')}</h3><a href="#about">${uiLabel('Meet the factory')}</a><a href="#trade">${uiLabel('DDP Europe & North America')}</a><a href="#trade" data-action="trade-rfq" data-buyer-type="dealer">${uiLabel('Dealer & wholesale')}</a><a href="#store">${uiLabel('Browse forged wheels')}</a></div>
   </div></div>`;
 }
@@ -5243,7 +5358,7 @@ function ceruiHomePage() {
   ];
   const vehicleCards = ceruiVehicleProducts.map((item, index) => `<a class="cerui-vehicle-card reveal delay-${index % 4}" href="#product/${esc(item.id)}"><figure><img src="${esc(assetUrl(item.image))}" alt="${esc(item.vehicle_label)} custom forged wheel direction" loading="lazy" decoding="async" width="1200" height="1200"></figure><div><span>${esc(item.vehicle_group)}</span><h3>${esc(item.vehicle_label)}</h3><p>${esc(item.name)}</p><b>${productPriceText(item)} <i>View + preview</i></b></div></a>`).join('');
   return `<main class="cerui-home">
-  <section class="cerui-hero" id="home"><img class="cerui-hero-media" src="${assetUrl('cerui/cerui-motorsport-53-v1.webp')}" alt="CIRUI Forged supported number 53 race car on circuit" width="1800" height="1200" loading="eager" decoding="async" fetchpriority="high"><div class="cerui-hero-shade"></div><div class="container cerui-hero-grid"><div class="cerui-hero-copy reveal"><p class="cerui-overline"><span></span>CIRUI FORGED · OFFICIAL GLOBAL SITE</p><h1>Forged at the source.<br><em>Fitted to your car.</em></h1><p>Forcarbox is the official overseas website of CIRUI Forged — a source wheel factory turning your exact vehicle, stance and finish into a production-ready forged wheel.</p><div class="cerui-hero-actions"><a class="btn btn-primary" href="/fitment-lab" data-app-path>Build my exact fitment</a><a class="btn btn-light" href="#home#vehicles">Shop by vehicle</a><a class="cerui-text-link" href="#about">Meet the factory ${icons.arrowRight}</a></div><div class="cerui-hero-facts"><span><strong>Factory direct</strong><small>Design · forge · machine · finish</small></span><span><strong>3-angle preview</strong><small>See it on your car before production</small></span><span><strong>DDP available</strong><small>Clearer landed delivery for global buyers</small></span></div></div><div class="custom-wheel-stage cerui-visualizer-stage"><div class="cerui-preview-placeholder"><img src="${assetUrl('cerui/catalog-bmw-v1.webp')}" alt="CIRUI forged wheel preview"><span>Loading CIRUI Visual Studio…</span></div></div></div><div class="container cerui-hero-rail"><span><b>01</b> Exact vehicle fitment</span><span><b>02</b> Custom forged design</span><span><b>03</b> Factory production</span><span><b>04</b> DDP delivery support</span></div></section>
+  <section class="cerui-hero" id="home"><img class="cerui-hero-media" src="${assetUrl('cerui/cerui-motorsport-53-v1.webp')}" alt="CIRUI Forged supported number 53 race car on circuit" width="1800" height="1200" loading="eager" decoding="async" fetchpriority="high"><div class="cerui-hero-shade"></div><div class="container cerui-hero-grid"><div class="cerui-hero-copy reveal"><p class="cerui-overline"><span></span>CIRUI FORGED · OFFICIAL GLOBAL SITE</p><h1>Forged at the source.<br><em>Fitted to your car.</em></h1><p>策锐官网 is the official overseas website of CIRUI Forged — a source wheel factory turning your exact vehicle, stance and finish into a production-ready forged wheel.</p><div class="cerui-hero-actions"><a class="btn btn-primary" href="/fitment-lab" data-app-path>Build my exact fitment</a><a class="btn btn-light" href="#home#vehicles">Shop by vehicle</a><a class="cerui-text-link" href="#about">Meet the factory ${icons.arrowRight}</a></div><div class="cerui-hero-facts"><span><strong>Factory direct</strong><small>Design · forge · machine · finish</small></span><span><strong>3-angle preview</strong><small>See it on your car before production</small></span><span><strong>DDP available</strong><small>Clearer landed delivery for global buyers</small></span></div></div><div class="custom-wheel-stage cerui-visualizer-stage"><div class="cerui-preview-placeholder"><img src="${assetUrl('cerui/catalog-bmw-v1.webp')}" alt="CIRUI forged wheel preview"><span>Loading CIRUI Visual Studio…</span></div></div></div><div class="container cerui-hero-rail"><span><b>01</b> Exact vehicle fitment</span><span><b>02</b> Custom forged design</span><span><b>03</b> Factory production</span><span><b>04</b> DDP delivery support</span></div></section>
   <section class="cerui-proof"><div class="container cerui-proof-grid"><article>${icons.shield}<div><strong>Source wheel factory</strong><span>Real production, machining and finished inventory.</span></div></article><article>${icons.spark}<div><strong>Made to your numbers</strong><span>Diameter, width, PCD, ET, CB and brake clearance.</span></div></article><article>${icons.image}<div><strong>Preview before production</strong><span>Upload a vehicle photo and generate three wheel views.</span></div></article><article>${icons.truck}<div><strong>About 30 business days</strong><span>Target production + delivery timing, confirmed per destination.</span></div></article></div></section>
   <section class="cerui-fitment section" id="custom-build"><div class="container cerui-fitment-grid"><div class="cerui-section-copy"><p class="cerui-overline"><span></span>FITMENT FIRST</p><h2>Start with the car.<br><em>Not a generic wheel.</em></h2><p>Compatibility is the high-risk part of buying wheels online. Start with the exact platform so the wheel drawing can account for the hub, brakes, suspension, tire envelope and intended use.</p><div class="cerui-fitment-notes"><span>PCD + center bore</span><span>Front + rear ET</span><span>Caliper clearance</span><span>Street + show + track</span></div></div><div class="cerui-fitment-panel"><div class="cerui-panel-head"><span>01 / Vehicle brief</span><strong>Tell CIRUI what you drive.</strong><small>The existing fitment calculator remains the engineering core of the site.</small></div><div class="fitment-card custom-fitment-card">${vehicleSelector('hero')}<button class="btn btn-primary" data-action="open-fitment-lab">Open fitment lab</button></div>${fitmentPreview()}</div></div></section>
   <section class="cerui-vehicles section" id="vehicles"><div class="container"><div class="cerui-section-head"><div><p class="cerui-overline"><span></span>SHOP BY VEHICLE</p><h2>Real CIRUI wheel directions,<br><em>organized around the car.</em></h2></div><p>Open any series to review the product and use the existing vehicle-photo preview. Every wheel remains quote-built to the exact vehicle; vehicle names identify compatibility only.</p></div><div class="cerui-vehicle-grid">${vehicleCards}</div><div class="cerui-collection-foot"><span>Need a different platform? The fitment lab supports a broader vehicle catalog.</span><a class="btn btn-dark" href="/fitment-lab" data-app-path>Check another vehicle</a></div></div></section>
@@ -5280,10 +5395,10 @@ function premiumGlobalHomePage() {
       </video>
       <div class="premium-hero-shade" aria-hidden="true"></div>
       <div class="container premium-hero-inner">
-        <div class="premium-hero-copy reveal">
+        <div class="premium-hero-copy">
           <p class="premium-kicker"><span></span>${uiLabel('CIRUI FORGED · OFFICIAL GLOBAL SITE')}</p>
           <h1 id="premium-hero-title">${uiLabel('Forged for your')}<br><em>${uiLabel('exact vehicle.')}</em></h1>
-          <p>${uiLabel('Forcarbox is the official overseas website of CIRUI Forged — a source wheel factory turning your exact vehicle, stance and finish into a production-ready forged wheel.')}</p>
+          <p>${uiLabel('策锐官网 is the official overseas website of CIRUI Forged — a source wheel factory turning your exact vehicle, stance and finish into a production-ready forged wheel.')}</p>
           <div class="premium-hero-actions">
             <a class="btn btn-primary" href="/fitment-lab" data-app-path>${uiLabel('Build my exact fitment')}</a>
             <a class="btn btn-light" href="#store" data-category-link="Wheels">${uiLabel('All wheel directions')}</a>
@@ -5367,8 +5482,8 @@ function ceruiAboutPage() {
     ['Finish + detail', 'Color, gloss level, machined details and center-cap direction complete the visual brief.'],
     ['Inspection + export', 'The finished set is checked, packed and routed through the confirmed export plan.']
   ];
-  return `<main class="cerui-about"><section class="cerui-about-hero"><div class="cerui-about-hero-media" aria-hidden="true"><img src="${assetUrl('cerui/cerui-factory-overview-sign-v1.webp')}" alt="" width="1254" height="1254" loading="eager" decoding="async" fetchpriority="high"><img src="${assetUrl('cerui/cerui-factory-exterior-sign-v1.webp')}" alt="" width="1448" height="1086" loading="eager" decoding="async" fetchpriority="high"></div><div class="cerui-about-hero-shade"></div><div class="container"><p class="cerui-overline"><span></span>ABOUT CIRUI FORGED</p><h1>A source wheel factory<br><em>built for global custom projects.</em></h1><p>Forcarbox is the official overseas website of CIRUI Forged, connecting European and North American drivers, tuning shops and partners directly with the people engineering and producing the wheels.</p></div></section>
-  <section class="cerui-about-intro section"><div class="container cerui-about-intro-grid"><div><img src="${assetUrl('cerui/cerui-logo-black-v1.webp')}" alt="CIRUI Forged 策锐锻造 logo" width="1500" height="477" loading="lazy" decoding="async"></div><div><p class="cerui-overline"><span></span>策锐锻造 · CIRUI FORGED</p><h2>Factory capability.<br><em>Fitment intelligence.</em></h2><p>CIRUI is positioned around one simple advantage: the product and the technical conversation live close to the source. The same site that helps a buyer calculate fitment and preview the wheel also explains how the wheel moves into production.</p><blockquote>“Forcarbox is CIRUI Forged for the global market.”</blockquote></div></div></section>
+  return `<main class="cerui-about"><section class="cerui-about-hero"><div class="cerui-about-hero-media" aria-hidden="true"><img src="${assetUrl('cerui/cerui-factory-overview-sign-v1.webp')}" alt="" width="1254" height="1254" loading="eager" decoding="async" fetchpriority="high"><img src="${assetUrl('cerui/cerui-factory-exterior-sign-v1.webp')}" alt="" width="1448" height="1086" loading="eager" decoding="async" fetchpriority="high"></div><div class="cerui-about-hero-shade"></div><div class="container"><p class="cerui-overline"><span></span>ABOUT CIRUI FORGED</p><h1>A source wheel factory<br><em>built for global custom projects.</em></h1><p>策锐官网 is the official overseas website of CIRUI Forged, connecting European and North American drivers, tuning shops and partners directly with the people engineering and producing the wheels.</p></div></section>
+  <section class="cerui-about-intro section"><div class="container cerui-about-intro-grid"><div><img src="${assetUrl('cerui/cerui-logo-black-v1.webp')}" alt="CIRUI Forged 策锐锻造 logo" width="1500" height="477" loading="lazy" decoding="async"></div><div><p class="cerui-overline"><span></span>策锐锻造 · CIRUI FORGED</p><h2>Factory capability.<br><em>Fitment intelligence.</em></h2><p>CIRUI is positioned around one simple advantage: the product and the technical conversation live close to the source. The same site that helps a buyer calculate fitment and preview the wheel also explains how the wheel moves into production.</p><blockquote>“策锐官网 is CIRUI Forged for the global market.”</blockquote></div></div></section>
   <section class="cerui-about-factory section" id="factory"><div class="container"><div class="cerui-section-head"><div><p class="cerui-overline"><span></span>HOW WE WORK</p><h2>Real production,<br><em>shown clearly.</em></h2></div><p>No invented scale figures and no borrowed factory imagery — only the manufacturing material supplied by CIRUI.</p></div><div class="cerui-about-gallery">${factoryFilmCardMarkup('about')}<figure><img src="${assetUrl('cerui/cerui-factory-cnc-v1.webp')}" alt="CIRUI wheel CNC machining" loading="lazy"><figcaption>CNC machining</figcaption></figure><figure><img src="${assetUrl('cerui/cerui-factory-finished-v1.webp')}" alt="CIRUI finished wheel inventory" loading="lazy"><figcaption>Finished wheels</figcaption></figure><figure class="is-wide"><img src="${assetUrl('cerui/cerui-factory-packaging-v1.webp')}" alt="CIRUI wheel export packaging" loading="lazy"><figcaption>Packaging for delivery</figcaption></figure></div><div class="cerui-manufacturing-grid">${manufacturing.map((item, index) => `<article><span>0${index + 1}</span><h3>${item[0]}</h3><p>${item[1]}</p></article>`).join('')}</div></div></section>
   <section class="cerui-about-racing section"><div class="container cerui-about-racing-grid"><div><img src="${assetUrl('cerui/cerui-motorsport-53-v1.webp')}" alt="CIRUI motorsport number 53 race car" loading="lazy"></div><div><p class="cerui-overline"><span></span>MOTORSPORT + EVENTS</p><h2>Part of the culture<br><em>we build for.</em></h2><p>CIRUI participates in events and motorsport activity, placing the brand in direct contact with modified cars, enthusiast expectations and performance use.</p><ul><li>Track and race participation</li><li>Wheel and tuning exhibitions</li><li>Real-world finish and fitment feedback</li></ul></div></div></section>
   <section class="cerui-global section"><div class="container cerui-global-grid"><div><p class="cerui-overline"><span></span>GLOBAL DELIVERY</p><h2>One technical brief.<br><em>One export route.</em></h2><p>For eligible destinations, CIRUI can quote DDP delivery so the production and landed-delivery conversation is handled together. The confirmed quote defines duties, destination, timing and final scope.</p><div class="cerui-global-facts"><span><strong>Europe + North America</strong><small>Primary overseas market focus</small></span><span><strong>About 30 business days</strong><small>Target production + transport, confirmed per order</small></span></div><a class="btn btn-primary" href="/fitment-lab" data-app-path>Start a global build</a></div><img src="${assetUrl('cerui/cerui-event-porsche-v1.webp')}" alt="CIRUI Forged exhibition with custom vehicles" loading="lazy"></div></section>
@@ -5589,15 +5704,224 @@ function storePage() {
   <main class="container store-layout forged-store-layout"><aside class="filter-rail forged-filter-rail"><div class="filter-head"><strong>${uiLabel('Find the right starting design')}</strong><span>${uiLabel('Filters update the visible catalog immediately. Contact CIRUI to confirm any technical detail.')}</span></div><div class="filter-section"><h3>${uiLabel('Search designs')}</h3><input class="filter-input" data-filter="ai" placeholder="${esc(uiLabel('Model code, spoke style or finish'))}" value="${esc(state.search)}"></div><div class="filter-section"><h3>${uiLabel('Construction')}</h3><div class="catalog-filter-buttons">${Object.entries(catalogCollections).slice(0, 3).map(([key, item]) => `<button class="${state.filters.collection === key ? 'is-active' : ''}" data-action="catalog-collection" data-collection="${key}">${uiLabel(item.label)}</button>`).join('')}</div></div><div class="filter-section"><h3>${uiLabel('Application')}</h3><select class="filter-select" data-filter="application">${applications.map(([value, label]) => `<option value="${value}" ${state.filters.application === value ? 'selected' : ''}>${uiLabel(label)}</option>`).join('')}</select></div><div class="filter-section"><h3>${uiLabel('Vehicle fitment')}</h3>${vehicleSelector('store')}<button class="btn btn-dark btn-small filter-apply" data-action="shop-vehicle">${uiLabel('Attach vehicle')}</button></div></aside><section class="store-main">${visualizerNotice}${fitmentBanner}<div class="store-toolbar"><div class="result-count">${formatUiLabel('{count} results', { count: list.length })}<span> · ${uiLabel(context.label)}</span></div><div class="toolbar-actions"><button class="btn btn-outline btn-small" data-action="clear-filters">${uiLabel('Reset')}</button></div></div>${list.length ? `<div class="product-grid">${list.map(renderProductCard).join('')}</div>` : `<div class="empty-state"><h2>${uiLabel('No wheel matches every filter.')}</h2><p>${uiLabel('Reset the catalog or send the design reference to CIRUI for a custom direction.')}</p><button class="btn btn-primary" data-action="clear-filters">${uiLabel('Reset catalog')}</button></div>`}</section></main>`;
 }
 
+function aiWheelVehicleContext() {
+  const vehicle = state.fitment?.vehicle || state.vehicle;
+  if (!vehicle) return '';
+  return [vehicle.year, vehicle.make, vehicle.model, vehicle.trim, vehicle.drive].filter(Boolean).join(' ');
+}
+
+function aiWheelSelectedConcept() {
+  const current = state.aiWheelDesign;
+  return current.selectedIndex >= 0 ? current.concepts[current.selectedIndex] : null;
+}
+
+function aiWheelDesignProgress() {
+  const current = state.aiWheelDesign;
+  const active = current.stage === 'multiview' ? 3 : current.stage === 'concepts' ? 2 : 1;
+  return `<nav class="ai-wheel-progress" aria-label="${esc(uiLabel('AI Wheel Design Studio'))}">${[
+    ['01 Brief', 1],
+    ['02 Choose', 2],
+    ['03 Multi-view', 3]
+  ].map(([label, index]) => `<span class="${active === index ? 'is-active' : active > index ? 'is-complete' : ''}"><b>${active > index ? '✓' : String(index).padStart(2, '0')}</b><small>${uiLabel(label)}</small></span>`).join('')}</nav>`;
+}
+
+function aiWheelOption(value, selected, label = value) {
+  return `<option value="${esc(value)}" ${String(value) === String(selected) ? 'selected' : ''}>${uiLabel(label)}</option>`;
+}
+
+function aiWheelBriefMarkup() {
+  const current = state.aiWheelDesign;
+  const draft = current.draft || {};
+  const mode = draft.mode || 'text-reference';
+  const showReference = mode !== 'text';
+  const vehicleContext = aiWheelVehicleContext();
+  const referenceMarkup = current.referenceData
+    ? `<div class="ai-wheel-reference-preview"><img src="${esc(current.referenceData)}" alt="${esc(current.referenceName || uiLabel('Optional reference image'))}"><div><strong>${uiLabel('This reference will guide the new design')}</strong><span>${esc(current.referenceName)}</span><button type="button" data-action="ai-design-remove-reference">${uiLabel('Remove reference')}</button></div></div>`
+    : `<label class="ai-wheel-upload"><input type="file" accept="image/jpeg,image/png,image/webp" data-ai-design-upload><span>${icons.image}</span><strong>${uiLabel('Upload a wheel image')}</strong><small>${uiLabel('JPG, PNG or WebP · up to 14 MB')}</small></label>`;
+  return `<form class="ai-wheel-brief" data-form="ai-wheel-design"><div class="ai-wheel-brief-head"><div><p class="eyebrow">${uiLabel('Write what you want')}</p><h2>${uiLabel('Describe the wheel direction')}</h2></div><span>01</span></div><div class="ai-wheel-mode-tabs" role="group" aria-label="${esc(uiLabel('Describe the wheel direction'))}">${[
+    ['text', 'Text only'],
+    ['reference', 'Reference + changes'],
+    ['text-reference', 'Text + reference']
+  ].map(([value, label]) => `<button type="button" class="${mode === value ? 'is-active' : ''}" data-action="ai-design-mode" data-mode="${value}" aria-pressed="${mode === value}">${uiLabel(label)}</button>`).join('')}</div><div class="ai-wheel-brief-grid"><div class="ai-wheel-copy-fields"><label class="ai-wheel-main-prompt"><span>${uiLabel('Describe the wheel direction')} <b>*</b></span><textarea name="prompt" rows="8" minlength="8" maxlength="1600" required placeholder="${esc(uiLabel('Example: an original lightweight 10-spoke forged wheel, deep concavity, thin paired spokes, brushed face and polished step lip; technical motorsport character rather than luxury.'))}">${esc(draft.prompt || '')}</textarea><small>${uiLabel('Be specific about spoke count, spoke shape, concavity, lip, center area and finish. Brand names are treated only as broad inspiration and are never copied.')}</small></label>${showReference ? `<div class="ai-wheel-reference-fields"><div><span>${uiLabel('Optional reference image')}</span>${referenceMarkup}</div><label><span>${uiLabel('What should stay?')}</span><input name="reference_keep" value="${esc(draft.reference_keep || '')}" placeholder="${esc(uiLabel('Example: keep the thin paired-spoke rhythm and deep center.'))}"></label><label><span>${uiLabel('What should change?')}</span><input name="reference_change" value="${esc(draft.reference_change || '')}" placeholder="${esc(uiLabel('Example: change to 10 spokes, cleaner center and bronze brushed finish.'))}"></label></div>` : ''}</div><aside class="ai-wheel-spec-panel"><div class="ai-wheel-spec-grid"><label><span>${uiLabel('Construction')}</span><select name="construction">${['Forged monoblock', 'Forged 2-piece', 'Forged 3-piece'].map(value => aiWheelOption(value, draft.construction)).join('')}</select></label><label><span>${uiLabel('Design character')}</span><select name="character">${['Performance / motorsport', 'Luxury / executive', 'Heritage / classic', 'Aero / technical', 'SUV / off-road'].map(value => aiWheelOption(value, draft.character)).join('')}</select></label><label><span>${uiLabel('Spoke direction')}</span><select name="spoke_count">${aiWheelOption('', draft.spoke_count, 'Let AI propose')}${['5-spoke', '6-spoke', '7-spoke', '8-spoke', '10-spoke', 'Multi-spoke'].map(value => aiWheelOption(value, draft.spoke_count)).join('')}</select></label><label><span>${uiLabel('Finish direction')}</span><select name="finish">${['Brushed clear', 'Satin black', 'Polished silver', 'Bronze', 'Two-tone custom'].map(value => aiWheelOption(value, draft.finish)).join('')}</select></label><label><span>${uiLabel('Visual diameter')}</span><select name="diameter">${aiWheelOption('', draft.diameter, 'Not fixed')}${['17', '18', '19', '20', '21', '22', '23', '24'].map(value => aiWheelOption(value, draft.diameter, `${value} in`)).join('')}</select></label></div><div class="ai-wheel-vehicle-context ${vehicleContext ? 'has-vehicle' : ''}">${icons.shield}<div><small>${vehicleContext ? uiLabel('Vehicle context inherited') : uiLabel('No vehicle selected')}</small><strong>${esc(vehicleContext || uiLabel('Independent wheel concept'))}</strong><p>${uiLabel('The vehicle is used only as design context. Fitment, brake clearance and load are still checked separately in the Fitment Lab.')}</p>${!vehicleContext ? `<a href="/fitment-lab" data-app-path>${uiLabel('Open Fitment Lab')} ${icons.arrowRight}</a>` : ''}</div></div><button class="btn btn-primary ai-wheel-generate" type="submit"><span class="ai-wheel-generate-label">${icons.spark}<span>${uiLabel(state.mallToken && state.account ? 'Generate 4 original concepts' : 'Sign in to generate concepts')}</span></span><span class="ai-wheel-generate-arrow" aria-hidden="true">${icons.arrowRight}</span></button></aside></div></form>`;
+}
+
+function aiWheelLoadingMarkup(multiview = false) {
+  const count = multiview ? 9 : 4;
+  return `<section class="ai-wheel-generating" aria-live="polite"><div class="ai-wheel-generating-copy"><span class="ai-wheel-spinner" aria-hidden="true"></span><div><p class="eyebrow">CIRUI AI DESIGN</p><h2>${uiLabel(multiview ? 'Rendering eight locked angles' : 'Creating four original directions')}</h2><p>${uiLabel(multiview ? 'Each image uses the selected concept as the same identity reference. This may take several minutes.' : 'The studio is varying the spoke rhythm, concavity and surface breaks while keeping your brief fixed.')}</p></div></div><div class="ai-wheel-skeleton-grid ${multiview ? 'is-nine' : ''}">${Array.from({ length: count }, (_, index) => `<span class="${multiview && index === 4 ? 'is-center' : ''}"><i></i><small>${multiview && index === 4 ? uiLabel('Selected concept') : `${index + 1}`}</small></span>`).join('')}</div></section>`;
+}
+
+function aiWheelConceptsMarkup() {
+  const current = state.aiWheelDesign;
+  return `<section class="ai-wheel-concepts"><div class="ai-wheel-section-head"><div><p class="eyebrow">CIRUI ORIGINAL CONCEPTS</p><h2>${uiLabel('Choose one direction')}</h2><p>${uiLabel('The selected image becomes the only visual identity reference for every multi-view angle.')}</p></div><strong>02 / 03</strong></div><div class="ai-wheel-concept-grid">${current.concepts.map((concept, index) => {
+    const imageUrl = concept.image_url || concept.url || '';
+    const selected = current.selectedIndex === index;
+    return `<article class="ai-wheel-concept-card ${selected ? 'is-selected' : ''}"><button type="button" class="ai-wheel-concept-image" data-action="ai-design-select" data-index="${index}" aria-pressed="${selected}"><img src="${esc(imageUrl)}" alt="${esc(`${uiLabel('AI Original Design')} ${index + 1}`)}"><span>${selected ? `✓ ${uiLabel('Selected')}` : String.fromCharCode(65 + index)}</span></button><div><strong>${uiLabel('AI Original Design')} ${String.fromCharCode(65 + index)}</strong><button type="button" data-action="ai-design-view" data-image-url="${esc(imageUrl)}" data-label="${esc(`${uiLabel('AI Original Design')} ${String.fromCharCode(65 + index)}`)}">${uiLabel('View larger')} ↗</button></div></article>`;
+  }).join('')}</div><div class="ai-wheel-concept-actions"><button type="button" class="btn btn-outline" data-action="ai-design-edit">${uiLabel('Edit brief')}</button><button type="button" class="btn btn-primary" data-action="ai-design-multiview" ${current.selectedIndex < 0 ? 'disabled' : ''}>${uiLabel('Generate nine-cell multi-view')} ${icons.arrowRight}</button></div></section>`;
+}
+
+function aiWheelMultiviewMarkup() {
+  const current = state.aiWheelDesign;
+  const selected = aiWheelSelectedConcept();
+  const selectedUrl = selected?.image_url || selected?.url || '';
+  const views = current.views;
+  const cells = [views[0], views[1], views[2], views[7], { id: 'selected', angle: uiLabel('Selected concept'), image_url: selectedUrl, selected: true }, views[3], views[6], views[5], views[4]].filter(Boolean);
+  return `<section class="ai-wheel-multiview"><div class="ai-wheel-section-head"><div><p class="eyebrow">CIRUI MULTI-VIEW LOCK</p><h2>${uiLabel('Nine-cell concept review')}</h2><p>${uiLabel('Eight generated angles surround the selected hero concept. Review spoke count, center, lip, barrel and finish consistency before sending it to engineering.')}</p></div><strong>03 / 03</strong></div><div class="ai-wheel-nine-grid">${cells.map(cell => {
+    const imageUrl = cell.image_url || cell.url || '';
+    return `<button type="button" class="${cell.selected ? 'is-selected' : ''}" data-action="ai-design-view" data-image-url="${esc(imageUrl)}" data-label="${esc(cell.angle || uiLabel('AI Original Design'))}"><img src="${esc(imageUrl)}" alt="${esc(cell.angle || uiLabel('AI Original Design'))}"><span>${esc(cell.angle || '')}</span></button>`;
+  }).join('')}</div><div class="ai-wheel-safety-note">${icons.shield}<div><strong>${uiLabel('Concept preview only')}</strong><span>${uiLabel('AI images do not approve fitment, strength or manufacturing. Final production requires CIRUI engineering CAD, load review and physical-clearance approval.')}</span></div></div><div class="ai-wheel-concept-actions"><button type="button" class="btn btn-outline" data-action="ai-design-reset">${uiLabel('Start a new design')}</button><button type="button" class="btn btn-outline" data-action="ai-design-multiview">${uiLabel('Regenerate multi-view')}</button><button type="button" class="btn btn-primary" data-action="ai-design-contact">${uiLabel('Discuss with CIRUI')} ${icons.arrowRight}</button></div></section>`;
+}
+
+function aiWheelDesignPage() {
+  const current = state.aiWheelDesign;
+  let content = aiWheelBriefMarkup();
+  if (current.status === 'generating-concepts') content = aiWheelLoadingMarkup(false);
+  else if (current.status === 'generating-multiview') content = aiWheelLoadingMarkup(true);
+  else if (current.stage === 'concepts' && current.concepts.length) content = aiWheelConceptsMarkup();
+  else if (current.stage === 'multiview' && current.views.length) content = aiWheelMultiviewMarkup();
+  else if (current.stage === 'multiview' && current.concepts.length) content = aiWheelConceptsMarkup();
+  const footerSafetyNote = current.stage === 'multiview' && current.views.length
+    ? ''
+    : `<section class="ai-wheel-safety-note is-footer">${icons.shield}<div><strong>${uiLabel('Concept preview only')}</strong><span>${uiLabel('AI images do not approve fitment, strength or manufacturing. Final production requires CIRUI engineering CAD, load review and physical-clearance approval.')}</span></div></section>`;
+  return `<main class="ai-wheel-page"><section class="ai-wheel-hero"><div class="container"><div class="breadcrumbs"><a href="#home">${uiLabel('Home')}</a><span>/</span><a href="#custom">${uiLabel('Customization')}</a><span>/</span><span>${uiLabel('AI Original Design')}</span></div><div class="ai-wheel-hero-grid"><div><p class="eyebrow">${uiLabel('FROM IDEA TO A CONSISTENT CONCEPT')}</p><h1>${uiLabel('Describe it. Reference it. Make it original.')}</h1><p>${uiLabel('Start with words, an optional reference image, or both. CIRUI generates four original wheel directions; after you select one, the studio renders eight locked angles as a nine-cell review board.')}</p></div><div class="ai-wheel-hero-mark"><span>CIRUI</span><strong>AI</strong><small>CONCEPT<br>STUDIO</small></div></div>${aiWheelDesignProgress()}</div></section><div class="container ai-wheel-workspace">${current.error ? `<div class="ai-wheel-error" role="alert"><span>!</span><div><strong>${uiLabel('Generation failed')}</strong><p>${esc(current.error)}</p></div><button type="button" data-action="ai-design-edit">${uiLabel('Return to brief')}</button></div>` : ''}${content}${footerSafetyNote}</div></main>`;
+}
+
+function captureAiWheelDraft(form = document.querySelector('[data-form="ai-wheel-design"]')) {
+  if (!form) return state.aiWheelDesign.draft;
+  const values = Object.fromEntries(new FormData(form).entries());
+  state.aiWheelDesign.draft = { ...state.aiWheelDesign.draft, ...values };
+  localStorage.setItem('cirui-ai-wheel-draft', JSON.stringify(state.aiWheelDesign.draft));
+  return state.aiWheelDesign.draft;
+}
+
+async function aiWheelReferenceFile(file) {
+  if (!file) return;
+  if (!/^image\/(?:jpeg|png|webp)$/i.test(file.type) || file.size > 14 * 1024 * 1024) {
+    state.aiWheelDesign.error = uiLabel('Use a JPG, PNG or WebP image smaller than 14 MB.');
+    render();
+    return;
+  }
+  captureAiWheelDraft();
+  state.aiWheelDesign.error = '';
+  try {
+    state.aiWheelDesign.referenceData = await wheelVisualizerPrepareImage(file);
+    state.aiWheelDesign.referenceName = file.name;
+  } catch (error) {
+    state.aiWheelDesign.error = error?.message || uiLabel('The selected image could not be read. Please choose a JPG, PNG or WEBP photo.');
+  }
+  render();
+}
+
+async function pollAiWheelDesignJob(jobId, phase) {
+  for (let attempt = 0; attempt < 240; attempt += 1) {
+    await new Promise(resolve => window.setTimeout(resolve, 3000));
+    const response = await fetch(`/api/wheel-design/jobs/${encodeURIComponent(jobId)}`, { headers: { Accept: 'application/json' } });
+    const payload = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(payload.detail || 'The wheel-design job could not be checked.');
+    const result = payload.data || payload;
+    if (result.status === 'failed') throw new Error(result.message || 'The wheel-design job failed.');
+    if (result.status === 'succeeded' || result.status === 'completed') {
+      const images = (result.results || []).filter(item => item.image_url || item.url);
+      if (phase === 'multiview') {
+        if (images.length !== 8) throw new Error('The multi-view service returned fewer than eight angles.');
+        state.aiWheelDesign.views = images;
+        state.aiWheelDesign.stage = 'multiview';
+      } else {
+        if (images.length !== 4) throw new Error('The concept service returned fewer than four designs.');
+        state.aiWheelDesign.concepts = images;
+        state.aiWheelDesign.selectedIndex = -1;
+        state.aiWheelDesign.views = [];
+        state.aiWheelDesign.stage = 'concepts';
+      }
+      state.aiWheelDesign.status = 'idle';
+      state.aiWheelDesign.error = '';
+      render();
+      return;
+    }
+  }
+  throw new Error('The design is still processing. Please return to this page shortly.');
+}
+
+async function submitAiWheelDesign(form) {
+  const draft = captureAiWheelDraft(form);
+  if (!state.mallToken || !state.account) {
+    state.modal = { type: 'account', mode: 'login', afterLogin: 'ai-wheel-design' };
+    render();
+    return;
+  }
+  if (String(draft.prompt || '').trim().length < 8) {
+    state.aiWheelDesign.error = uiLabel('Describe the wheel direction in at least 8 characters.');
+    render();
+    return;
+  }
+  state.aiWheelDesign.status = 'generating-concepts';
+  state.aiWheelDesign.error = '';
+  state.aiWheelDesign.stage = 'concepts';
+  render();
+  try {
+    const response = await fetch('/api/wheel-design/jobs', {
+      method: 'POST',
+      headers: { Accept: 'application/json', 'Content-Type': 'application/json', Authorization: state.mallToken },
+      body: JSON.stringify({ ...draft, phase: 'concepts', reference_image: state.aiWheelDesign.referenceData, reference_name: state.aiWheelDesign.referenceName, vehicle_context: aiWheelVehicleContext() })
+    });
+    const payload = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(payload.detail || 'CIRUI could not start the concept request.');
+    state.aiWheelDesign.jobId = payload.data?.job_id || payload.job_id || '';
+    state.aiWheelDesign.conceptJobId = state.aiWheelDesign.jobId;
+    await pollAiWheelDesignJob(state.aiWheelDesign.jobId, 'concepts');
+  } catch (error) {
+    state.aiWheelDesign.status = 'idle';
+    state.aiWheelDesign.stage = state.aiWheelDesign.concepts.length ? 'concepts' : 'brief';
+    state.aiWheelDesign.error = error?.message || 'CIRUI could not generate the concepts.';
+    render();
+  }
+}
+
+async function generateAiWheelMultiview() {
+  const selected = aiWheelSelectedConcept();
+  if (!selected) {
+    setToast(uiLabel('Choose a concept first.'));
+    return;
+  }
+  state.aiWheelDesign.status = 'generating-multiview';
+  state.aiWheelDesign.stage = 'multiview';
+  state.aiWheelDesign.error = '';
+  render();
+  try {
+    const sourceJobId = state.aiWheelDesign.conceptJobId || state.aiWheelDesign.jobId || '';
+    const response = await fetch('/api/wheel-design/jobs', {
+      method: 'POST',
+      headers: { Accept: 'application/json', 'Content-Type': 'application/json', Authorization: state.mallToken },
+      body: JSON.stringify({
+        ...state.aiWheelDesign.draft,
+        phase: 'multiview',
+        selected_image: selected.image_url || selected.url,
+        selected_concept_id: selected.id || `concept-${state.aiWheelDesign.selectedIndex + 1}`,
+        selected_concept_index: state.aiWheelDesign.selectedIndex,
+        source_job_id: sourceJobId,
+        vehicle_context: aiWheelVehicleContext()
+      })
+    });
+    const payload = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(payload.detail || 'CIRUI could not start the multi-view request.');
+    state.aiWheelDesign.jobId = payload.data?.job_id || payload.job_id || '';
+    await pollAiWheelDesignJob(state.aiWheelDesign.jobId, 'multiview');
+  } catch (error) {
+    state.aiWheelDesign.status = 'idle';
+    state.aiWheelDesign.stage = 'concepts';
+    state.aiWheelDesign.error = error?.message || 'CIRUI could not generate the multi-view set.';
+    render();
+  }
+}
+
 function customizationPage() {
   const sampleProducts = publicForgedProducts().slice(0, 3);
   const options = [
-    ['finishes', 'Finishes & colors', 'Brushed, polished, satin, gloss, tinted clear and custom color directions are quoted against the selected wheel and use case.', ['Brushed clear', 'Satin black', 'Polished', 'Custom color']],
-    ['lips', 'Lip profiles', 'Flat, stepped and deep-lip directions depend on construction, brake package, offset and the approved wheel drawing.', ['Step lip', 'Reverse lip', 'Polished lip', 'Color-matched lip']],
-    ['caps', 'Center caps', 'Standard CIRUI caps, custom logo artwork and floating-cap directions are treated as product options, not separate empty products.', ['CIRUI cap', 'Custom artwork', 'Floating cap', 'Color matched']],
-    ['hardware', 'Hardware options', 'Visible or concealed hardware is available only where the selected construction supports it. Material and finish are confirmed in the quote.', ['Exposed hardware', 'Hidden hardware', 'Color options', 'Drawing review']]
+    ['finishes', 'Finishes & colors', 'Brushed, polished, satin, gloss, tinted clear and custom color directions are quoted against the selected wheel and use case.', ['Brushed clear', 'Satin black', 'Polished', 'Custom color'], '/assets/halo-20-spoke-03.webp'],
+    ['lips', 'Lip profiles', 'Flat, stepped and deep-lip directions depend on construction, brake package, offset and the approved wheel drawing.', ['Step lip', 'Reverse lip', 'Polished lip', 'Color-matched lip'], '/assets/sv100-03.webp'],
+    ['caps', 'Center caps', 'Standard CIRUI caps, custom logo artwork and floating-cap directions are treated as product options, not separate empty products.', ['CIRUI cap', 'Custom artwork', 'Floating cap', 'Color matched'], '/assets/generated/cirui-center-cap-options-v1.webp'],
+    ['hardware', 'Hardware options', 'Visible or concealed hardware is available only where the selected construction supports it. Material and finish are confirmed in the quote.', ['Exposed hardware', 'Hidden hardware', 'Color options', 'Drawing review'], '/assets/generated/cirui-wheel-hardware-options-v1.webp']
   ];
-  return `<main class="customization-page"><section class="customization-hero"><div class="container"><div class="breadcrumbs"><a href="#home">${uiLabel('Home')}</a><span>/</span><span>${uiLabel('Customization')}</span></div><p class="eyebrow">${uiLabel('BUILT AROUND YOUR BRIEF')}</p><h1>${uiLabel('One wheel direction. Your exact finish and detail.')}</h1><p>${uiLabel('Choose the design first. CIRUI then combines construction, vehicle data, finish, cap, hardware and lip into one production drawing and one RFQ.')}</p><div><a class="btn btn-primary" href="#store" data-action="catalog-collection" data-collection="all">${uiLabel('Choose a wheel')}</a><button class="btn btn-outline" data-action="request-rfq">${uiLabel('Request a custom quote')}</button></div></div></section><section class="section customization-options"><div class="container"><div class="customization-option-grid">${options.map(([id, title, copy, tags]) => `<article id="custom-${id}" class="customization-option ${state.customSection === id ? 'is-highlighted' : ''}"><span>${String(options.findIndex(item => item[0] === id) + 1).padStart(2, '0')}</span><h2>${uiLabel(title)}</h2><p>${uiLabel(copy)}</p><div>${tags.map(tag => `<small>${uiLabel(tag)}</small>`).join('')}</div></article>`).join('')}</div></div></section><section class="section customization-process"><div class="container"><div><p class="eyebrow">${uiLabel('HOW IT BECOMES A REAL ORDER')}</p><h2>${uiLabel('Design choice → fitment → options → approved drawing.')}</h2></div><ol><li><b>01</b><span><strong>${uiLabel('Select a wheel direction')}</strong><small>${uiLabel('Monoblock, 2-piece, aero or off-road.')}</small></span></li><li><b>02</b><span><strong>${uiLabel('Attach the exact vehicle')}</strong><small>${uiLabel('Brake package, suspension and intended use matter.')}</small></span></li><li><b>03</b><span><strong>${uiLabel('Specify finish and details')}</strong><small>${uiLabel('Cap, hardware, lip and color are quoted together.')}</small></span></li><li><b>04</b><span><strong>${uiLabel('Approve the production drawing')}</strong><small>${uiLabel('No classification or preview replaces the final drawing.')}</small></span></li></ol></div></section>${sampleProducts.length ? `<section class="section"><div class="container"><div class="section-heading"><div><p class="eyebrow">${uiLabel('STARTING DIRECTIONS')}</p><h2>${uiLabel('Choose a wheel to customize.')}</h2></div><a class="btn btn-dark" href="#store">${uiLabel('View full catalog')}</a></div><div class="product-grid">${sampleProducts.map(renderProductCard).join('')}</div></div></section>` : ''}</main>`;
+  return `<main class="customization-page"><section class="customization-hero"><div class="container"><div class="breadcrumbs"><a href="#home">${uiLabel('Home')}</a><span>/</span><span>${uiLabel('Customization')}</span></div><p class="eyebrow">${uiLabel('BUILT AROUND YOUR BRIEF')}</p><h1>${uiLabel('One wheel direction. Your exact finish and detail.')}</h1><p>${uiLabel('Choose the design first. CIRUI then combines construction, vehicle data, finish, cap, hardware and lip into one production drawing and one RFQ.')}</p><div><a class="btn btn-primary" href="/ai-wheel-studio" data-app-path>${icons.spark} ${uiLabel('AI Original Design')}</a><a class="btn btn-outline" href="#store" data-action="catalog-collection" data-collection="all">${uiLabel('Choose a wheel')}</a><button class="btn btn-outline" data-action="request-rfq">${uiLabel('Request a custom quote')}</button></div></div></section><section class="section customization-options"><div class="container"><div class="customization-option-grid">${options.map(([id, title, copy, tags, image], index) => `<article id="custom-${id}" class="customization-option customization-option-${id} ${state.customSection === id ? 'is-highlighted' : ''}"><figure class="customization-option-media"><img src="${esc(image)}" alt="${esc(uiLabel(title))}" loading="lazy" decoding="async"><span>${String(index + 1).padStart(2, '0')}</span></figure><div class="customization-option-body"><h2>${uiLabel(title)}</h2><p>${uiLabel(copy)}</p><div class="customization-option-tags">${tags.map(tag => `<small>${uiLabel(tag)}</small>`).join('')}</div></div></article>`).join('')}</div></div></section><section class="section customization-process"><div class="container"><div><p class="eyebrow">${uiLabel('HOW IT BECOMES A REAL ORDER')}</p><h2>${uiLabel('Design choice → fitment → options → approved drawing.')}</h2></div><ol><li><b>01</b><span><strong>${uiLabel('Select a wheel direction')}</strong><small>${uiLabel('Monoblock, 2-piece, aero or off-road.')}</small></span></li><li><b>02</b><span><strong>${uiLabel('Attach the exact vehicle')}</strong><small>${uiLabel('Brake package, suspension and intended use matter.')}</small></span></li><li><b>03</b><span><strong>${uiLabel('Specify finish and details')}</strong><small>${uiLabel('Cap, hardware, lip and color are quoted together.')}</small></span></li><li><b>04</b><span><strong>${uiLabel('Approve the production drawing')}</strong><small>${uiLabel('No classification or preview replaces the final drawing.')}</small></span></li></ol></div></section>${sampleProducts.length ? `<section class="section"><div class="container"><div class="section-heading"><div><p class="eyebrow">${uiLabel('STARTING DIRECTIONS')}</p><h2>${uiLabel('Choose a wheel to customize.')}</h2></div><a class="btn btn-dark" href="#store">${uiLabel('View full catalog')}</a></div><div class="product-grid">${sampleProducts.map(renderProductCard).join('')}</div></div></section>` : ''}</main>`;
 }
 
 function tradePage() {
@@ -6152,30 +6476,233 @@ function wheelVisualizerModal() {
 // First-party analytics beacon: every page/product view and key CTA click is
 // reported to the CIRUI backend so the owner can see where buyers come from.
 // Events are fire-and-forget; failures never affect the storefront.
+function analyticsRandomId(prefix) {
+  const value = typeof crypto?.randomUUID === 'function'
+    ? crypto.randomUUID()
+    : `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 14)}`;
+  return `${prefix}_${value}`;
+}
+
+function analyticsStoredId(storage, key, prefix) {
+  try {
+    const existing = String(storage.getItem(key) || '').trim();
+    if (/^[a-z0-9_-]{10,80}$/i.test(existing)) return existing;
+    const created = analyticsRandomId(prefix);
+    storage.setItem(key, created);
+    return created;
+  } catch {
+    return analyticsRandomId(prefix);
+  }
+}
+
+const analyticsVisitorId = analyticsStoredId(localStorage, 'fbox-analytics-visitor', 'visitor');
+const analyticsSessionId = analyticsStoredId(sessionStorage, 'fbox-analytics-session', 'session');
+const analyticsCampaign = (() => {
+  const params = new URLSearchParams(location.search);
+  const value = name => String(params.get(name) || '').slice(0, 160);
+  return {
+    utm_source: value('utm_source'),
+    utm_medium: value('utm_medium'),
+    utm_campaign: value('utm_campaign'),
+    utm_content: value('utm_content'),
+    // Campaign values are captured separately above. Do not retain arbitrary
+    // query-string values because they can contain customer data.
+    landing_path: `${location.pathname}${location.hash}`.slice(0, 160)
+  };
+})();
+let analyticsEngagement = null;
+const analyticsFitmentInputSteps = new Set();
+const analyticsEngagementMilestones = [10, 30, 60, 120, 300, 600];
+
+function analyticsEventBody(type, payload = {}) {
+  const meta = {
+    ...(type === 'page_view' || type === 'product_view' ? analyticsCampaign : {}),
+    ...(payload.meta && typeof payload.meta === 'object' ? payload.meta : {})
+  };
+  return {
+    type,
+    locale: state.locale,
+    ...payload,
+    visitor_id: analyticsVisitorId,
+    session_id: analyticsSessionId,
+    meta
+  };
+}
+
 function trackEvent(type, payload = {}) {
   try {
     fetch('/api/fbox-content/track', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-      body: JSON.stringify({ type, locale: state.locale, ...payload }),
+      body: JSON.stringify(analyticsEventBody(type, payload)),
       keepalive: true,
       signal: AbortSignal.timeout(4000)
     }).catch(() => {});
   } catch { /* analytics must never break the page */ }
 }
 
+function trackEventBeacon(type, payload = {}) {
+  try {
+    const body = JSON.stringify(analyticsEventBody(type, payload));
+    if (navigator.sendBeacon?.('/api/fbox-content/track', new Blob([body], { type: 'application/json' }))) return;
+    fetch('/api/fbox-content/track', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body, keepalive: true }).catch(() => {});
+  } catch { /* leaving the page must never be delayed by analytics */ }
+}
+
+function analyticsIsFitmentPath(path = location.pathname + location.hash) {
+  return String(path).includes('/fitment-lab') || String(path).includes('#fitment');
+}
+
+function analyticsFitmentStep() {
+  return Math.max(0, Number(document.querySelector('.fitment-flow-form')?.dataset.step || state.fitment?.flow?.step || 0));
+}
+
+function analyticsEngagementPayload(reason) {
+  if (!analyticsEngagement) return null;
+  const now = Date.now();
+  const elapsedSeconds = Math.max(0, Math.round((now - analyticsEngagement.startedAt) / 1000));
+  return {
+    path: analyticsEngagement.path,
+    title: document.title,
+    meta: {
+      funnel: analyticsIsFitmentPath(analyticsEngagement.path) ? 'fitment_lab' : '',
+      action: 'page-engagement',
+      reason,
+      active_seconds: Math.round(analyticsEngagement.activeSeconds),
+      elapsed_seconds: elapsedSeconds,
+      max_scroll: Math.round(analyticsEngagement.maxScroll),
+      step: analyticsFitmentStep()
+    }
+  };
+}
+
+function analyticsFlushEngagement(reason, final = false) {
+  if (!analyticsEngagement || !analyticsIsFitmentPath(analyticsEngagement.path)) return;
+  if (final && analyticsEngagement.finalSent) return;
+  const payload = analyticsEngagementPayload(reason);
+  if (!payload) return;
+  if (final) {
+    analyticsEngagement.finalSent = true;
+    trackEventBeacon('session_end', payload);
+  }
+  else trackEvent('engagement', payload);
+}
+
+function analyticsBeginPage(path) {
+  const now = Date.now();
+  analyticsEngagement = {
+    path,
+    startedAt: now,
+    lastTickAt: now,
+    lastInteractionAt: now,
+    activeSeconds: 0,
+    maxScroll: 0,
+    finalSent: false,
+    sentMilestones: new Set()
+  };
+}
+
+function trackFitmentFunnel(action, extra = {}) {
+  const path = location.pathname + location.hash;
+  trackEvent('funnel', {
+    path,
+    title: action,
+    meta: {
+      funnel: 'fitment_lab',
+      action,
+      step: Number(extra.step ?? analyticsFitmentStep()),
+      mode: extra.mode || state.fitment?.flow?.mode || '',
+      reason: extra.reason || '',
+      error_code: extra.error_code || '',
+      label: extra.label || ''
+    }
+  });
+}
+
+function trackFitmentFieldActivity(element) {
+  if (!element?.closest?.('[data-form="fitment-wizard"], [data-form="fitment-check"]')) return;
+  const step = analyticsFitmentStep() || 1;
+  const key = `${location.pathname}${location.hash}:${step}`;
+  if (analyticsFitmentInputSteps.has(key)) return;
+  analyticsFitmentInputSteps.add(key);
+  trackFitmentFunnel('fitment-field-input', { step });
+}
+
+function analyticsTick() {
+  if (!analyticsEngagement) return;
+  const now = Date.now();
+  const delta = Math.min(2, Math.max(0, (now - analyticsEngagement.lastTickAt) / 1000));
+  analyticsEngagement.lastTickAt = now;
+  if (!document.hidden && now - analyticsEngagement.lastInteractionAt <= 30_000) analyticsEngagement.activeSeconds += delta;
+  if (!analyticsIsFitmentPath(analyticsEngagement.path)) return;
+  for (const milestone of analyticsEngagementMilestones) {
+    if (analyticsEngagement.activeSeconds < milestone || analyticsEngagement.sentMilestones.has(milestone)) continue;
+    analyticsEngagement.sentMilestones.add(milestone);
+    analyticsFlushEngagement(`active-${milestone}s`);
+  }
+}
+
+function analyticsUpdateScroll(event) {
+  if (!analyticsEngagement || !analyticsIsFitmentPath(analyticsEngagement.path)) return;
+  const target = event?.target;
+  const scroller = target === document ? document.documentElement : target;
+  const scrollTop = target === document ? (window.scrollY || document.documentElement.scrollTop) : Number(scroller?.scrollTop || 0);
+  const scrollHeight = target === document ? document.documentElement.scrollHeight : Number(scroller?.scrollHeight || 0);
+  const clientHeight = target === document ? window.innerHeight : Number(scroller?.clientHeight || 0);
+  const available = Math.max(0, scrollHeight - clientHeight);
+  if (!available) return;
+  analyticsEngagement.maxScroll = Math.max(analyticsEngagement.maxScroll, Math.min(100, (scrollTop / available) * 100));
+}
+
+window.setInterval(analyticsTick, 1000);
+['pointerdown', 'keydown', 'touchstart'].forEach(name => document.addEventListener(name, () => {
+  if (analyticsEngagement) analyticsEngagement.lastInteractionAt = Date.now();
+}, { passive: true, capture: true }));
+document.addEventListener('scroll', analyticsUpdateScroll, { passive: true, capture: true });
+document.addEventListener('visibilitychange', () => {
+  analyticsTick();
+  if (document.hidden) analyticsFlushEngagement('page-hidden', true);
+  else if (analyticsEngagement) {
+    analyticsEngagement.finalSent = false;
+    analyticsEngagement.lastInteractionAt = Date.now();
+  }
+});
+window.addEventListener('pagehide', () => { analyticsTick(); analyticsFlushEngagement('pagehide', true); });
+let analyticsLastClientError = '';
+function analyticsTrackClientError(message, code = 'runtime-error') {
+  if (!analyticsIsFitmentPath()) return;
+  const label = String(message || '').slice(0, 160);
+  const signature = `${code}:${label}`;
+  if (!label || signature === analyticsLastClientError) return;
+  analyticsLastClientError = signature;
+  trackEvent('client_error', {
+    path: location.pathname + location.hash,
+    title: 'fitment-error',
+    meta: { funnel: 'fitment_lab', action: 'fitment-error', step: analyticsFitmentStep(), error_code: code, label }
+  });
+}
+window.addEventListener('error', event => analyticsTrackClientError(event.message, event.error?.name || 'runtime-error'));
+window.addEventListener('unhandledrejection', event => analyticsTrackClientError(event.reason?.message || String(event.reason || ''), event.reason?.name || 'unhandled-rejection'));
+
 let lastTrackedPath = '';
 function trackPageView() {
   const path = location.pathname + location.hash;
   if (path === lastTrackedPath) return;
+  if (analyticsEngagement) analyticsFlushEngagement('route-change');
   lastTrackedPath = path;
+  analyticsBeginPage(path);
   const productId = state.route?.name === 'product' ? state.route.id : '';
   trackEvent(productId ? 'product_view' : 'page_view', {
     path,
     title: document.title,
     referrer: document.referrer || '',
     product_id: productId,
-    product_name: productId ? (product(productId)?.name || '') : ''
+    product_name: productId ? (product(productId)?.name || '') : '',
+    meta: {
+      ...(analyticsIsFitmentPath(path) ? { funnel: 'fitment_lab', action: 'fitment-page-view', step: path.includes('/result') ? 6 : 0 } : {}),
+      screen_width: window.innerWidth,
+      screen_height: window.innerHeight
+    }
   });
 }
 
@@ -6208,6 +6735,7 @@ function rfqModalMarkup() {
 
 function modal() {
   if (!state.modal) return '';
+  if (state.modal.type === 'ai-design-image') return `<div class="overlay ai-wheel-image-overlay" data-action="close-modal"><div class="ai-wheel-image-dialog" data-modal-content role="dialog" aria-modal="true" aria-label="${esc(state.modal.label || uiLabel('AI Original Design'))}"><header><div><p class="eyebrow">${uiLabel('Concept preview only')}</p><h2>${esc(state.modal.label || uiLabel('AI Original Design'))}</h2></div><button class="icon-btn modal-close" data-action="close-modal" aria-label="${esc(uiLabel('Close'))}">${icons.close}</button></header><img src="${esc(state.modal.imageUrl || '')}" alt="${esc(state.modal.label || uiLabel('AI Original Design'))}"><p>${uiLabel('AI images do not approve fitment, strength or manufacturing. Final production requires CIRUI engineering CAD, load review and physical-clearance approval.')}</p></div></div>`;
   if (state.modal.type === 'factory-film') return `<div class="overlay factory-film-overlay" data-action="close-modal"><div class="factory-film-dialog" data-modal-content role="dialog" aria-modal="true" aria-labelledby="factory-film-title"><div class="factory-film-dialog-head"><div><p class="eyebrow">CIRUI FORGED · FACTORY FILM</p><h2 id="factory-film-title">${uiLabel('Inside CIRUI manufacturing')}</h2></div><button class="icon-btn modal-close" data-action="close-modal" aria-label="${esc(uiLabel('Close'))}">${icons.close}</button></div><div class="factory-film-player"><video controls autoplay playsinline preload="metadata" poster="${assetUrl(factoryFilm.poster)}" data-factory-film-player><source src="${assetUrl(factoryFilm.source)}" type="video/mp4"></video></div><div class="factory-film-dialog-foot"><p>${uiLabel('Real factory footage from machining through finishing, inspection and packing.')}</p><span>${uiLabel('Full film · 02:16')}</span></div></div></div>`;
   if (state.modal.type === 'rfq') return rfqModalMarkup();
   if (state.modal.type === 'fitment-wizard') return fitmentWizardModalMarkup();
@@ -6236,6 +6764,12 @@ function modal() {
     return `<div class="overlay" data-action="close-modal"><div class="modal modal-wide workshop-history-modal" data-modal-content><button class="icon-btn modal-close" data-action="close-modal" aria-label="${esc(uiLabel('Close'))}">${icons.close}</button><p class="eyebrow">${uiLabel('Customer modification record')}</p><h2>${uiLabel('Modification history')}</h2><p>${uiLabel('Opening an older version loads it as a draft. Saving it creates a new revision and never deletes the later history.')}</p><div class="workshop-history-current"><span>${uiLabel('Current revision')}</span><strong>${String(project.revision || 1).padStart(2, '0')} · ${esc(workshopVehicleLabel(project))}</strong><small>${esc(revisionSpec(project))}</small></div><div class="workshop-history-list">${revisions.length ? revisions.map(revision => `<article><div><span>${uiLabel('Revision')} ${String(revision.revision || 1).padStart(2, '0')}</span><strong>${esc(revision.title || project.title || uiLabel('Untitled project'))}</strong><small>${esc(revisionSpec(revision))}</small><time>${esc(revision.saved_at ? new Date(revision.saved_at).toLocaleString() : '')}</time></div><button type="button" class="btn btn-outline btn-small" data-action="workshop-restore-revision" data-revision="${esc(revision.revision)}">${uiLabel('Open as new draft')}</button></article>`).join('') : `<div class="workshop-project-empty"><strong>${uiLabel('No earlier revisions yet.')}</strong><span>${uiLabel('Save after the next calibration and the previous customer setup will appear here.')}</span></div>`}</div></div></div>`;
   }
   if (!state.modal) return '';
+  if (state.modal.type === 'ai-design-contact') {
+    const selected = aiWheelSelectedConcept();
+    const selectedImage = selected?.image_url || selected?.url || '';
+    const wechatQr = assetUrl('domestic/media/cerui-wechat-contact-qr.webp');
+    return `<div class="overlay contact-inquiry-overlay" data-action="close-modal"><div class="modal contact-inquiry-modal" data-modal-content role="dialog" aria-modal="true" aria-labelledby="ai-design-contact-title"><button class="icon-btn modal-close" data-action="close-modal" aria-label="${esc(uiLabel('Close'))}">${icons.close}</button><div class="contact-inquiry-head"><p class="eyebrow">${uiLabel('AI Original Design')}</p><h2 id="ai-design-contact-title">把选中的概念交给策锐继续深化</h2><p>请联系策锐确认车型、尺寸和设计方向，工程师将进一步转换为制造级 CAD 并完成强度与间隙审核。</p></div>${selectedImage ? `<div class="contact-inquiry-product"><img src="${esc(selectedImage)}" alt="${esc(uiLabel('Selected concept'))}" loading="eager"><div><small>AI 概念预览</small><strong>${esc(uiLabel('Selected concept'))}</strong><span>不是生产图纸 · 需工程审核</span></div></div>` : ''}<div class="contact-inquiry-grid"><a class="contact-inquiry-phone" href="tel:${company.tel}"><span>${icons.phone || icons.chat}</span><small>${esc(company.contactName)} · 电话咨询</small><strong>${company.phone}</strong></a><section class="contact-inquiry-wechat"><div class="contact-inquiry-wechat-title"><small>${esc(company.contactName)} · ${uiLabel('WeChat consultation')}</small><strong>${uiLabel('Scan the QR code to add CIRUI on WeChat.')}</strong></div><div class="contact-inquiry-qr"><a href="${wechatQr}" target="_blank" rel="noopener" aria-label="${esc(uiLabel('WeChat consultation'))}"><img data-contact-qr src="${wechatQr}" alt="${esc(uiLabel('WeChat consultation'))}"></a><div class="contact-inquiry-qr-missing" hidden>${uiLabel('The WeChat QR code has not been uploaded yet.')}</div></div></section></div></div></div>`;
+  }
   if (state.modal.type === 'contact-inquiry') {
     const item = product(state.modal.id);
     if (!item) return '';
@@ -6244,7 +6778,7 @@ function modal() {
     return `<div class="overlay contact-inquiry-overlay" data-action="close-modal"><div class="modal contact-inquiry-modal" data-modal-content role="dialog" aria-modal="true" aria-labelledby="contact-inquiry-title"><button class="icon-btn modal-close" data-action="close-modal" aria-label="${esc(uiLabel('Close'))}">${icons.close}</button><div class="contact-inquiry-head"><p class="eyebrow">${uiLabel('Product inquiry')}</p><h2 id="contact-inquiry-title">${uiLabel('Contact CIRUI directly')}</h2><p>${uiLabel('Mention this model when contacting us')}：<strong>${esc(item.part || displayName)}</strong></p></div><div class="contact-inquiry-product"><img src="${assetUrl(item.image)}" alt="${esc(displayName)}" loading="eager"><div><small>${esc(item.part || 'CIRUI FORGED')}</small><strong>${esc(displayName)}</strong><span>${uiLabel('Price on request')} · ${uiLabel(productConstructionLabel(item))}</span></div></div><div class="contact-inquiry-grid"><a class="contact-inquiry-phone" href="tel:${company.tel}"><span>${icons.phone || icons.chat}</span><small>${esc(company.contactName)} · ${uiLabel('Call us')}</small><strong>${company.phone}</strong></a><section class="contact-inquiry-wechat"><div class="contact-inquiry-wechat-title"><small>${esc(company.contactName)} · ${uiLabel('WeChat consultation')}</small><strong>${uiLabel('Scan the QR code to add CIRUI on WeChat.')}</strong></div><div class="contact-inquiry-qr"><a href="${wechatQr}" target="_blank" rel="noopener" aria-label="${esc(uiLabel('WeChat consultation'))}"><img data-contact-qr src="${wechatQr}" alt="${esc(uiLabel('WeChat consultation'))}"></a><div class="contact-inquiry-qr-missing" hidden>${uiLabel('The WeChat QR code has not been uploaded yet.')}</div></div></section></div></div></div>`;
   }
   if (state.modal.type === 'quick') { const item = product(state.modal.id); const displayName = productNameText(item); return `<div class="overlay" data-action="close-modal"><div class="modal" data-modal-content><button class="icon-btn modal-close" data-action="close-modal">${icons.close}</button><p class="eyebrow">${uiLabel('Quick view')}</p><h2>${esc(displayName)}</h2><div class="quick-product"><img src="${assetUrl(item.image)}" alt="${esc(displayName)}"><div><div class="product-brand">${esc(item.part || item.brand)} · ${uiLabel(productConstructionLabel(item))}</div><p>${uiLabel(productDesignLabel(item))}<br>${uiLabel(productClassificationLabel(item))}</p><strong style="font-size:22px">${uiLabel('Price on request')}</strong><button class="btn btn-primary" data-action="contact-inquiry" data-id="${item.id}" style="width:100%;margin-top:15px">${uiLabel('Inquire now')}</button><a class="btn btn-outline" href="#product/${item.id}" style="width:100%;margin-top:8px">${uiLabel('View full details')}</a></div></div></div></div>`; }
-  if (state.modal.type === 'account') { const register = state.modal.mode === 'register'; return `<div class="overlay" data-action="close-modal"><div class="modal" data-modal-content><button class="icon-btn modal-close" data-action="close-modal">${icons.close}</button><p class="eyebrow">CIRUI account</p><h2>${register ? 'Create your build account.' : 'Save your build.'}</h2><p>${register ? 'Save fitment builds, wishlist, addresses and orders. Dealers: add your company so we can quote wholesale.' : 'Sign in to sync your cart, wishlist and orders with the CIRUI service.'}</p><form class="modal-form" data-form="account" data-mode="${register ? 'register' : 'login'}"><input class="text-input" name="username" placeholder="Username" autocomplete="username" required><input class="text-input" name="password" type="password" placeholder="Password (6+ characters)" autocomplete="${register ? 'new-password' : 'current-password'}" minlength="6" required>${register ? '<input class="text-input" name="email" type="email" autocomplete="email" placeholder="Email (for quotes & order updates)" required><input class="text-input" name="telephone" autocomplete="tel" placeholder="Phone / WhatsApp (optional)"><input class="text-input" name="company" autocomplete="organization" placeholder="Company (dealers & distributors)">' : ''}<button class="btn btn-primary">${register ? 'Create account & sign in' : 'Sign in'}</button><button class="btn btn-outline" type="button" data-action="${register ? 'account-login' : 'account-register'}">${register ? 'I already have an account' : 'Create a new account'}</button></form></div></div>`; }
+  if (state.modal.type === 'account') { const register = state.modal.mode === 'register'; return `<div class="overlay" data-action="close-modal"><div class="modal" data-modal-content><button class="icon-btn modal-close" data-action="close-modal" aria-label="关闭">${icons.close}</button><p class="eyebrow">CIRUI 账号</p><h2>${register ? '创建您的定制账号' : '登录后保存设计方案'}</h2><p>${register ? '保存适配方案、原创设计和询价记录；车行客户可填写公司信息，便于后续沟通。' : '登录后可继续生成 AI 原创轮毂方案，并同步保存您的设计记录。'}</p><form class="modal-form" data-form="account" data-mode="${register ? 'register' : 'login'}"><input class="text-input" name="username" placeholder="用户名" autocomplete="username" required><input class="text-input" name="password" type="password" placeholder="密码（至少 6 位）" autocomplete="${register ? 'new-password' : 'current-password'}" minlength="6" required>${register ? '<input class="text-input" name="email" type="email" autocomplete="email" placeholder="邮箱（用于询价与进度通知）" required><input class="text-input" name="telephone" autocomplete="tel" placeholder="联系电话（选填）"><input class="text-input" name="company" autocomplete="organization" placeholder="公司名称（车行或经销商选填）">' : ''}<button class="btn btn-primary">${register ? '创建账号并登录' : '登录'}</button><button class="btn btn-outline" type="button" data-action="${register ? 'account-login' : 'account-register'}">${register ? '已有账号，直接登录' : '创建新账号'}</button></form></div></div>`; }
   if (state.modal.type === 'orders') return `<div class="overlay" data-action="close-modal"><div class="modal modal-wide" data-modal-content><button class="icon-btn modal-close" data-action="close-modal">${icons.close}</button><p class="eyebrow">CIRUI account</p><h2>Track my orders.</h2><p>订单状态来自 CIRUI 自有订单服务；发货后可在这里继续查看物流信息。</p>${state.accountOrdersLoading ? '<div class="loading-copy">正在读取订单…</div>' : state.accountOrders.length ? `<div class="account-order-list">${state.accountOrders.map(order => `<article class="account-order"><div><strong>${esc(order.orderSn || order.id || 'Order')}</strong><small>${esc(order.createTime || '')}</small></div><div><span>${esc(order.productName || order.receiverName || 'CIRUI order')}</span><small>${esc(order.status === 0 ? '待付款' : order.status === 1 ? '待发货' : order.status === 2 ? '已发货' : order.status === 3 ? '已完成' : order.status === 4 ? '已关闭' : '处理中')}</small></div><strong>${money(order.payAmount || order.totalAmount || 0)}</strong></article>`).join('')}</div>` : '<div class="empty-state"><h3>暂无订单</h3><p>登录后创建的 CIRUI 订单会出现在这里。</p></div>'}</div></div>`;
   if (state.modal.type === 'review') return `<div class="overlay" data-action="close-modal"><div class="modal" data-modal-content><button class="icon-btn modal-close" data-action="close-modal">${icons.close}</button><p class="eyebrow">Your experience</p><h2>Write a review.</h2><form class="modal-form" data-form="review"><div class="review-rating-input" role="radiogroup" aria-label="Rating"><input type="hidden" name="rating" value="5">${[5,4,3,2,1].map(n => `<button type="button" class="rating-star ${n === 5 ? 'is-active' : ''}" data-rating="${n}" aria-label="${n} stars">★</button>`).join('')}</div><input class="text-input" name="title" placeholder="Review title" required><textarea class="text-input" name="body" rows="5" placeholder="What did you install? How does it fit?" required></textarea><input class="text-input" name="vehicle" placeholder="Your vehicle (e.g. 2023 BMW M340i)"><button class="btn btn-primary">Submit review</button></form></div></div>`;
   if (state.modal.type === 'checkout') { const f = state.checkoutForm || {}; return `<div class="overlay" data-action="close-modal"><div class="modal" data-modal-content><button class="icon-btn modal-close" data-action="close-modal">${icons.close}</button><p class="eyebrow">Secure checkout</p><h2>创建 CIRUI 订单</h2><div class="checkout-steps">${['客户信息', '收货信息', '创建订单'].map((label, i) => `<div class="checkout-step ${state.checkoutStep === i + 1 || state.checkoutStep === 3 ? 'is-active' : ''}">${i + 1}. ${label}</div>`).join('')}</div>${state.checkoutStep === 4 ? `<div class="success-box"><h3>订单已创建。</h3><p>订单号：${esc(state.lastOrder?.orderSn || state.lastOrder?.id || '已提交')}。你可以在后台“订单 > 订单列表”继续处理。</p><button class="btn btn-dark" data-action="close-modal">返回商城</button></div>` : `<form class="modal-form" data-form="checkout"><input class="text-input" name="name" value="${esc(f.name || '')}" required placeholder="Full name"><input class="text-input" name="phone" value="${esc(f.phone || '')}" required placeholder="Phone number"><input class="text-input" name="email" value="${esc(f.email || '')}" type="email" required placeholder="Email address"><input class="text-input" name="address" value="${esc(f.address || '')}" required placeholder="Street address"><div class="filter-row"><input class="text-input" name="city" value="${esc(f.city || '')}" required placeholder="City"><input class="text-input" name="province" value="${esc(f.province || '')}" placeholder="State / Province"></div><div class="filter-row"><input class="text-input" name="region" value="${esc(f.region || '')}" placeholder="Region"><input class="text-input" name="postCode" value="${esc(f.postCode || '')}" required placeholder="Postcode"></div><p class="filter-help">订单会先创建为“待付款”，支付由后台配置的支付渠道处理。</p><button class="btn btn-primary" data-submit-order>${state.checkoutStep === 3 ? '提交并创建订单' : '继续填写并创建订单'}</button></form>`}</div></div>`; }
@@ -6337,11 +6871,11 @@ async function captureReturnedPayPalPayment() {
 }
 function legacyFooter() {
   const whatsapp = generalWhatsAppContext();
-  return `<footer class="footer cerui-footer"><div class="container"><div class="footer-top"><div class="cerui-footer-brand"><a class="brand" href="#home"><img src="${assetUrl('cerui/cerui-logo-black-v1.webp')}" alt="CIRUI Forged 策锐锻造"><span><strong>CIRUI FORGED</strong><small>${uiLabel('FORCARBOX · OFFICIAL GLOBAL SITE')}</small></span></a><p class="footer-slogan">${uiLabel('Factory-direct custom forged wheels built around the exact vehicle, fitment and finish.')}</p><div class="company-meta"><strong>${company.legalName}</strong><a href="tel:${company.tel}">${company.phone}</a><a href="${esc(whatsappHref(whatsapp.message))}" data-action="whatsapp" target="_blank" rel="noopener">WhatsApp · ${company.whatsapp}</a></div></div><div class="footer-grid"><div class="footer-col"><h3>${uiLabel('Forged wheels')}</h3><a href="#home#vehicles">${uiLabel('Shop by vehicle')}</a><a href="#store" data-category-link="Wheels">${uiLabel('All wheel directions')}</a><a href="/fitment-lab" data-app-path>${uiLabel('Custom fitment')}</a><a href="#home#engineering">${uiLabel('Engineering')}</a></div><div class="footer-col"><h3>${uiLabel('Tools')}</h3><a href="/fitment-lab" data-app-path>${uiLabel('Fitment Lab')}</a><a href="#product/cerui-bmw-forged-fitment">${uiLabel('Vehicle photo preview')}</a><a href="#blog">${uiLabel('Fitment journal')}</a><a href="#home#resources">${uiLabel('Customer feedback')}</a></div><div class="footer-col"><h3>${uiLabel('Factory + delivery')}</h3><a href="#about">${uiLabel('About CIRUI')}</a><a href="#about">${uiLabel('Manufacturing')}</a><a href="#about">${uiLabel('DDP delivery')}</a><a href="tel:${company.tel}">${uiLabel('Contact')} · ${company.phone}</a></div><div class="footer-col"><h3>${uiLabel('Orders + partners')}</h3><a href="#home" data-action="orders">${uiLabel('Track order')}</a><a href="#account">${uiLabel('My account')}</a><a href="#about">${uiLabel('Wholesale program')}</a><a href="${esc(whatsappHref(whatsapp.message))}" data-action="whatsapp" target="_blank" rel="noopener">${uiLabel('WhatsApp fitment help')}</a></div></div></div><div class="cerui-footer-disclaimer">${uiLabel('Vehicle manufacturer names are used only to identify compatibility. CIRUI Forged is not affiliated with or endorsed by those vehicle manufacturers.')}</div><div class="footer-bottom"><span>© 2026 ${company.legalName} · CIRUI Forged / Forcarbox</span><span>${uiLabel('Terms · Privacy · CCPA')}</span></div></div></footer>`;
+  return `<footer class="footer cerui-footer"><div class="container"><div class="footer-top"><div class="cerui-footer-brand"><a class="brand" href="#home"><img src="${assetUrl('cerui/cerui-logo-black-v1.webp')}" alt="CIRUI Forged 策锐锻造"><span><strong>CIRUI FORGED</strong><small>${uiLabel('策锐官网 · OFFICIAL GLOBAL SITE')}</small></span></a><p class="footer-slogan">${uiLabel('Factory-direct custom forged wheels built around the exact vehicle, fitment and finish.')}</p><div class="company-meta"><strong>${company.legalName}</strong><a href="tel:${company.tel}">${company.phone}</a><a href="${esc(whatsappHref(whatsapp.message))}" data-action="whatsapp" target="_blank" rel="noopener">WhatsApp · ${company.whatsapp}</a></div></div><div class="footer-grid"><div class="footer-col"><h3>${uiLabel('Forged wheels')}</h3><a href="#home#vehicles">${uiLabel('Shop by vehicle')}</a><a href="#store" data-category-link="Wheels">${uiLabel('All wheel directions')}</a><a href="/fitment-lab" data-app-path>${uiLabel('Custom fitment')}</a><a href="#home#engineering">${uiLabel('Engineering')}</a></div><div class="footer-col"><h3>${uiLabel('Tools')}</h3><a href="/fitment-lab" data-app-path>${uiLabel('Fitment Lab')}</a><a href="#product/cerui-bmw-forged-fitment">${uiLabel('Vehicle photo preview')}</a><a href="#blog">${uiLabel('Fitment journal')}</a><a href="#home#resources">${uiLabel('Customer feedback')}</a></div><div class="footer-col"><h3>${uiLabel('Factory + delivery')}</h3><a href="#about">${uiLabel('About CIRUI')}</a><a href="#about">${uiLabel('Manufacturing')}</a><a href="#about">${uiLabel('DDP delivery')}</a><a href="tel:${company.tel}">${uiLabel('Contact')} · ${company.phone}</a></div><div class="footer-col"><h3>${uiLabel('Orders + partners')}</h3><a href="#home" data-action="orders">${uiLabel('Track order')}</a><a href="#account">${uiLabel('My account')}</a><a href="#about">${uiLabel('Wholesale program')}</a><a href="${esc(whatsappHref(whatsapp.message))}" data-action="whatsapp" target="_blank" rel="noopener">${uiLabel('WhatsApp fitment help')}</a></div></div></div><div class="cerui-footer-disclaimer">${uiLabel('Vehicle manufacturer names are used only to identify compatibility. CIRUI Forged is not affiliated with or endorsed by those vehicle manufacturers.')}</div><div class="footer-bottom"><span>© 2026 ${company.legalName} · CIRUI Forged / 策锐官网</span><span>${uiLabel('Terms · Privacy · CCPA')}</span></div></div></footer>`;
 }
 
 function footer() {
-  return `<footer class="footer cerui-footer cn-footer"><div class="container"><div class="footer-top"><div class="cerui-footer-brand"><a class="brand" href="#home"><img src="${assetUrl('cerui/cerui-logo-black-v1.webp')}" alt="策锐锻造 CIRUI Forged"><span><strong>策锐锻造</strong><small>CIRUI FORGED · 中国官网</small></span></a><p class="footer-slogan">围绕真实车型、姿态与制动空间，提供锻造轮毂设计、参数适配、效果生成、生产与交付。</p><div class="company-meta"><strong>杭州策锐贸易有限公司</strong><a href="tel:${company.tel}">${company.phone}</a></div></div><div class="footer-grid"><div class="footer-col"><h3>轮毂定制</h3><a href="#wheels">轮毂系列</a><a href="/fitment-lab" data-app-path>按款式选购</a><a href="/fitment-lab" data-app-path>按车型选购</a></div><div class="footer-col"><h3>适配工具</h3><a href="/fitment-lab" data-app-path>轮毂参数计算</a><a href="/fitment-lab" data-app-path>车辆照片效果生成</a><a href="/fitment-lab" data-app-path>制动空间校验</a></div><div class="footer-col"><h3>品牌与制造</h3><a href="#manufacture">制造实力</a><a href="#network">全国网络</a><a href="#videos">视频专区</a><a href="#about">品牌历程</a></div><div class="footer-col"><h3>业务咨询</h3><a href="tel:${company.tel}">适配咨询 · ${company.phone}</a><a href="/fitment-lab" data-app-path>提交定制需求</a></div></div></div><div class="cerui-footer-disclaimer">车型与汽车品牌名称仅用于识别兼容性，策锐锻造与相关汽车制造商不存在品牌隶属或背书关系。地图及企业信息依据用户提供的策锐企业资料整理。</div><div class="footer-bottom"><span>© 2026 杭州策锐贸易有限公司 · CIRUI Forged</span><span>中国品牌官网 · 隐私与使用条款</span></div></div></footer>`;
+  return `<footer class="footer cerui-footer cn-footer"><div class="container"><div class="footer-top"><div class="cerui-footer-brand"><a class="brand" href="#home"><img src="${assetUrl('cerui/cerui-logo-black-v1.webp')}" alt="策锐锻造 CIRUI Forged"><span><strong>策锐锻造</strong><small>CIRUI FORGED · 中国官网</small></span></a><p class="footer-slogan">围绕真实车型、姿态与制动空间，提供锻造轮毂设计、参数适配、效果生成、生产与交付。</p><div class="company-meta"><strong>杭州策锐贸易有限公司</strong><a href="tel:${company.tel}">${company.phone}</a></div></div><div class="footer-grid"><div class="footer-col"><h3>轮毂定制</h3><a href="#wheels">轮毂系列</a><a href="/fitment-lab" data-app-path>按款式选购</a><a href="/fitment-lab" data-app-path>按车型选购</a></div><div class="footer-col"><h3>适配工具</h3><a href="/fitment-lab" data-app-path>轮毂参数计算</a><a href="/fitment-lab" data-app-path>车辆照片效果生成</a><a href="/fitment-lab" data-app-path>制动空间校验</a></div><div class="footer-col"><h3>品牌与制造</h3><a href="#manufacture">制造实力</a><a href="#network">全国网络</a><a href="#videos">视频专区</a><a href="#about">品牌历程</a></div><div class="footer-col"><h3>业务咨询</h3><a href="tel:${company.tel}">适配咨询 · ${company.phone}</a><a href="/fitment-lab" data-app-path>提交定制需求</a></div></div></div><div class="cerui-footer-disclaimer">车型与汽车品牌名称仅用于识别兼容性，策锐锻造与相关汽车制造商不存在品牌隶属或背书关系。地图及企业信息依据用户提供的策锐企业资料整理。</div><div class="footer-bottom"><span>© 2026 杭州策锐贸易有限公司 · CIRUI Forged</span><span>中国品牌官网 · <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">浙ICP备2026075816号-1</a></span></div></div></footer>`;
 }
 
 function localizedDynamicChineseText(value = '') {
@@ -6680,6 +7214,10 @@ function syncRouteDocumentTitle() {
     document.title = `${title} | ${shop}`;
     return;
   }
+  if (state.route.name === 'ai-wheel-design') {
+    document.title = `${uiLabel('AI Wheel Design Studio')} | CIRUI Forged`;
+    return;
+  }
   if (state.route.name === 'store') { document.title = uiLabel('CIRUI Performance Parts'); return; }
   if (state.route.name === 'cart') { document.title = uiLabel('CIRUI Request for Quotation'); return; }
   if (state.route.name === 'custom') { document.title = uiLabel('CIRUI Wheel Customization | Finishes, Caps and Hardware'); return; }
@@ -6695,20 +7233,20 @@ function syncRouteDocumentTitle() {
 
 function render() {
   state.route = getRoute();
-  if (location.pathname !== '/' && location.hash && ['fitment', 'fitment-result', 'fitment-share', 'account'].includes(state.route.name)) {
+  if (location.pathname !== '/' && location.hash && ['fitment', 'fitment-result', 'fitment-share', 'ai-wheel-design', 'account'].includes(state.route.name)) {
     history.replaceState({}, '', `${location.pathname}${location.search}`);
   }
   syncRouteDocumentTitle();
   const fitmentModuleActive = ['fitment', 'fitment-result', 'fitment-share'].includes(state.route.name)
     || String(state.modal?.type || '').startsWith('fitment-');
-  const premiumSurfaceActive = fitmentModuleActive || ['store', 'product'].includes(state.route.name);
+  const premiumSurfaceActive = fitmentModuleActive || ['store', 'product', 'ai-wheel-design'].includes(state.route.name);
   document.body.classList.toggle('fbox-global-premium', premiumSurfaceActive);
   const fitmentModuleStyles = document.querySelector('#fitment-module-styles');
   if (fitmentModuleStyles) fitmentModuleStyles.media = premiumSurfaceActive ? 'all' : 'not all';
   document.body.classList.toggle('domestic-home-active', state.route.name === 'home');
   document.body.classList.toggle('wf-public-page', state.route.name !== 'home');
   document.body.dataset.publicRoute = state.route.name;
-  const page = state.route.name === 'home' ? domesticHomePage(icons) : state.route.name === 'about' ? ceruiAboutPage() : state.route.name === 'fitment' ? fitmentPage() : state.route.name === 'fitment-result' ? fitmentResultPage() : state.route.name === 'fitment-share' ? fitmentSharePage() : state.route.name === 'account' ? accountPage() : state.route.name === 'store' ? storePage() : state.route.name === 'cart' ? cartPage() : state.route.name === 'blog' ? blogPage() : state.route.name === 'blog-post' ? blogArticlePage(state.blogPosts.find(post => post.slug === state.route.slug)) : productPage(product(state.route.id));
+  const page = state.route.name === 'home' ? domesticHomePage(icons) : state.route.name === 'about' ? ceruiAboutPage() : state.route.name === 'ai-wheel-design' ? aiWheelDesignPage() : state.route.name === 'fitment' ? fitmentPage() : state.route.name === 'fitment-result' ? fitmentResultPage() : state.route.name === 'fitment-share' ? fitmentSharePage() : state.route.name === 'account' ? accountPage() : state.route.name === 'store' ? storePage() : state.route.name === 'cart' ? cartPage() : state.route.name === 'blog' ? blogPage() : state.route.name === 'blog-post' ? blogArticlePage(state.blogPosts.find(post => post.slug === state.route.slug)) : productPage(product(state.route.id));
   const pageWithJournal = page;
   const appRoot = document.querySelector('#app');
   const existingHostedContainer = appRoot.querySelector('[data-paypal-hosted-container]');
@@ -7502,6 +8040,13 @@ document.addEventListener('click', async event => {
   const target = event.target.closest('[data-action], [data-category-link]');
   if (!target) return;
   const action = target.dataset.action;
+  if (action?.startsWith('fitment-')) {
+    trackFitmentFunnel(action, {
+      step: action === 'fitment-start' ? 1 : analyticsFitmentStep(),
+      mode: target.dataset.mode || state.fitment?.flow?.mode || '',
+      label: target.dataset.id || target.dataset.field || ''
+    });
+  }
   if (['add', 'buy-now', 'request-rfq', 'checkout', 'chat', 'write-review', 'customize', 'quote', 'whatsapp', 'whatsapp-fitment', 'whatsapp-product', 'whatsapp-visualizer', 'home-preview-wheel', 'home-preview-prev', 'home-preview-next'].includes(action)) {
     trackEvent('click', { path: location.pathname + location.hash, title: action, meta: { action, product_id: target.dataset.id || '' } });
   }
@@ -7882,6 +8427,59 @@ document.addEventListener('click', async event => {
     void player?.play().catch(() => {});
     return;
   }
+  if (action === 'ai-design-contact') {
+    state.modal = { type: 'ai-design-contact' };
+    render();
+    return;
+  }
+  if (action === 'ai-design-mode') {
+    captureAiWheelDraft();
+    state.aiWheelDesign.draft.mode = ['text', 'reference', 'text-reference'].includes(target.dataset.mode) ? target.dataset.mode : 'text-reference';
+    localStorage.setItem('cirui-ai-wheel-draft', JSON.stringify(state.aiWheelDesign.draft));
+    render();
+    return;
+  }
+  if (action === 'ai-design-remove-reference') {
+    captureAiWheelDraft();
+    state.aiWheelDesign.referenceData = '';
+    state.aiWheelDesign.referenceName = '';
+    state.aiWheelDesign.error = '';
+    render();
+    return;
+  }
+  if (action === 'ai-design-select') {
+    state.aiWheelDesign.selectedIndex = Math.max(0, Math.min(state.aiWheelDesign.concepts.length - 1, Number(target.dataset.index || 0)));
+    state.aiWheelDesign.views = [];
+    state.aiWheelDesign.error = '';
+    render();
+    return;
+  }
+  if (action === 'ai-design-edit') {
+    state.aiWheelDesign.stage = 'brief';
+    state.aiWheelDesign.status = 'idle';
+    state.aiWheelDesign.error = '';
+    render();
+    return;
+  }
+  if (action === 'ai-design-reset') {
+    localStorage.removeItem('cirui-ai-wheel-draft');
+    state.aiWheelDesign = {
+      ...aiWheelDesignDefaults(),
+      draft: { mode: 'text-reference', prompt: '', reference_keep: '', reference_change: '', construction: 'Forged monoblock', character: 'Performance / motorsport', spoke_count: '', finish: 'Brushed clear', diameter: '' }
+    };
+    render();
+    return;
+  }
+  if (action === 'ai-design-multiview') {
+    await generateAiWheelMultiview();
+    return;
+  }
+  if (action === 'ai-design-view') {
+    if (!target.dataset.imageUrl) return;
+    state.modal = { type: 'ai-design-image', imageUrl: target.dataset.imageUrl, label: target.dataset.label || uiLabel('AI Original Design') };
+    render();
+    return;
+  }
   if (action === 'close-modal') { if (event.target.closest('[data-modal-content]') && !target.classList.contains('modal-close')) return; state.modal = null; render(); return; }
   if (action === 'wishlist') {
     const id = target.dataset.id;
@@ -7940,6 +8538,8 @@ document.addEventListener('click', async event => {
 
 document.addEventListener('change', event => {
   const el = event.target;
+  trackFitmentFieldActivity(el);
+  if (el.matches('[data-ai-design-upload]')) { void aiWheelReferenceFile(el.files?.[0]); return; }
   if (el.matches('[data-fitment-style-upload]')) {
     const file = el.files?.[0];
     if (!file || !/^image\/(?:jpeg|png|webp)$/i.test(file.type)) return;
@@ -8011,6 +8611,12 @@ let catalogSearchTimer = 0;
 let fitmentStyleSearchTimer = 0;
 document.addEventListener('input', event => {
   const el = event.target;
+  trackFitmentFieldActivity(el);
+  if (el.closest('[data-form="ai-wheel-design"]')) {
+    captureAiWheelDraft(el.form);
+    state.aiWheelDesign.error = '';
+    return;
+  }
   if (el.matches('[data-fitment-part-search]')) {
     filterFitmentPartPicker(el);
     return;
@@ -8212,14 +8818,17 @@ async function submitFitmentForm(form) {
   localStorage.setItem('fbox-fitment-draft', JSON.stringify(values));
   state.fitment.submitting = true;
   state.fitment.error = '';
+  trackFitmentFunnel('fitment-submit', { step: analyticsFitmentStep() || 5 });
   render();
   try {
     const response = await fetch('/api/fbox-content/fitment/check', { method: 'POST', headers: { Accept: 'application/json', 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
     const result = await response.json().catch(() => ({}));
     if (!response.ok) throw new Error(result.detail || 'Fitment check failed.');
     state.fitment.result = result.data || result;
+    trackFitmentFunnel('fitment-complete', { step: 6 });
   } catch (error) {
     state.fitment.error = error?.message || 'Fitment check failed. Please try again.';
+    trackFitmentFunnel('fitment-error', { step: analyticsFitmentStep() || 5, error_code: 'fitment-check-failed' });
   } finally {
     state.fitment.submitting = false;
     render();
@@ -8232,6 +8841,7 @@ async function submitFitmentWizard(form) {
   state.fitment.submitting = true;
   state.fitment.error = '';
   state.fitment.flow = { ...fitmentFlowState(), error: '' };
+  trackFitmentFunnel('fitment-submit', { step: analyticsFitmentStep() || 5 });
   render();
   try {
     const response = await fetch('/api/fbox-content/fitment/check', { method: 'POST', headers: { Accept: 'application/json', 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
@@ -8246,17 +8856,20 @@ async function submitFitmentWizard(form) {
     else localStorage.removeItem('fbox-fitment-package');
     state.modal = null;
     state.fitment.submitting = false;
+    trackFitmentFunnel('fitment-complete', { step: 6 });
     goPath('/fitment-lab/result');
   } catch (error) {
     state.fitment.error = error?.message || 'Fitment check failed. Please try again.';
     state.fitment.flow = { ...fitmentFlowState(), error: state.fitment.error };
     state.fitment.submitting = false;
+    trackFitmentFunnel('fitment-error', { step: analyticsFitmentStep() || 5, error_code: 'fitment-check-failed' });
     render();
   }
 }
 document.addEventListener('submit', async event => {
   event.preventDefault();
   const form = event.target;
+  if (form.dataset.form === 'ai-wheel-design') { await submitAiWheelDesign(form); return; }
   if (form.dataset.form === 'visualizer-register') { await submitWheelVisualizerRegistration(Object.fromEntries(new FormData(form).entries())); return; }
   if (form.dataset.form === 'fitment-wizard') { await submitFitmentWizard(form); return; }
   if (form.dataset.form === 'fitment-check') { await submitFitmentForm(form); return; }

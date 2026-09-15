@@ -4,9 +4,10 @@ import { fileURLToPath } from 'node:url';
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const projectDir = path.resolve(scriptDir, '..');
+const runtimeDir = path.resolve(process.env.FBOX_RUNTIME_DIR || path.join(projectDir, 'work', 'runtime-cn'));
 const storeFiles = [
   path.join(projectDir, 'data', 'fbox-store.seed.json'),
-  path.resolve(projectDir, '..', 'local-mall-dev', '.runtime', 'fbox-store.json')
+  path.join(runtimeDir, 'fbox-store.json')
 ];
 
 function clearCommercialFields(product) {
@@ -25,6 +26,12 @@ function clearCommercialFields(product) {
 }
 
 for (const storeFile of storeFiles) {
+  try {
+    await fs.access(storeFile);
+  } catch {
+    process.stdout.write(`${path.relative(projectDir, storeFile)}: skipped (not created yet)\n`);
+    continue;
+  }
   const store = JSON.parse(await fs.readFile(storeFile, 'utf8'));
   let updated = 0;
   store.products = (store.products || []).map(product => {
