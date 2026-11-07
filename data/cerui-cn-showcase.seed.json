@@ -1,0 +1,2467 @@
+{
+  "products": [
+    {
+      "id": "cn-brushed-cr-s101",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-S101 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-S101 拉丝银锻造轮毂",
+      "part": "CR-S101",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-s101-01.webp",
+      "image_original": "products/cn-showcase/cr-s101-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-s101-01.webp",
+          "alt": "CR-S101 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-s101-02.webp",
+          "alt": "CR-S101 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-s101-03.webp",
+          "alt": "CR-S101 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-s101-04.webp",
+          "alt": "CR-S101 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 1,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "monoblock",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-s102",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-S102 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-S102 拉丝银锻造轮毂",
+      "part": "CR-S102",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-s102-01.webp",
+      "image_original": "products/cn-showcase/cr-s102-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-s102-01.webp",
+          "alt": "CR-S102 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-s102-02.webp",
+          "alt": "CR-S102 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-s102-03.webp",
+          "alt": "CR-S102 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-s102-04.webp",
+          "alt": "CR-S102 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 2,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "monoblock",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-s103",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-S103 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-S103 拉丝银锻造轮毂",
+      "part": "CR-S103",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-s103-01.webp",
+      "image_original": "products/cn-showcase/cr-s103-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-s103-01.webp",
+          "alt": "CR-S103 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-s103-02.webp",
+          "alt": "CR-S103 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-s103-03.webp",
+          "alt": "CR-S103 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-s103-04.webp",
+          "alt": "CR-S103 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 3,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "monoblock",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-s104",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-S104 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-S104 拉丝银锻造轮毂",
+      "part": "CR-S104",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-s104-01.webp",
+      "image_original": "products/cn-showcase/cr-s104-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-s104-01.webp",
+          "alt": "CR-S104 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-s104-02.webp",
+          "alt": "CR-S104 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-s104-03.webp",
+          "alt": "CR-S104 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-s104-04.webp",
+          "alt": "CR-S104 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 4,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "monoblock",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-s105",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-S105 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-S105 拉丝银锻造轮毂",
+      "part": "CR-S105",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-s105-01.webp",
+      "image_original": "products/cn-showcase/cr-s105-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-s105-01.webp",
+          "alt": "CR-S105 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-s105-02.webp",
+          "alt": "CR-S105 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-s105-03.webp",
+          "alt": "CR-S105 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-s105-04.webp",
+          "alt": "CR-S105 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 5,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "monoblock",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-s106",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-S106 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-S106 拉丝银锻造轮毂",
+      "part": "CR-S106",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-s106-01.webp",
+      "image_original": "products/cn-showcase/cr-s106-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-s106-01.webp",
+          "alt": "CR-S106 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-s106-02.webp",
+          "alt": "CR-S106 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-s106-03.webp",
+          "alt": "CR-S106 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-s106-04.webp",
+          "alt": "CR-S106 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 6,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "monoblock",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-s107",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-S107 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-S107 拉丝银锻造轮毂",
+      "part": "CR-S107",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-s107-01.webp",
+      "image_original": "products/cn-showcase/cr-s107-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-s107-01.webp",
+          "alt": "CR-S107 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-s107-02.webp",
+          "alt": "CR-S107 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-s107-03.webp",
+          "alt": "CR-S107 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-s107-04.webp",
+          "alt": "CR-S107 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 7,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "monoblock",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-s108",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-S108 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-S108 拉丝银锻造轮毂",
+      "part": "CR-S108",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-s108-01.webp",
+      "image_original": "products/cn-showcase/cr-s108-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-s108-01.webp",
+          "alt": "CR-S108 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-s108-02.webp",
+          "alt": "CR-S108 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-s108-03.webp",
+          "alt": "CR-S108 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-s108-04.webp",
+          "alt": "CR-S108 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 8,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "monoblock",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-s109",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-S109 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-S109 拉丝银锻造轮毂",
+      "part": "CR-S109",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-s109-01.webp",
+      "image_original": "products/cn-showcase/cr-s109-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-s109-01.webp",
+          "alt": "CR-S109 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-s109-02.webp",
+          "alt": "CR-S109 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-s109-03.webp",
+          "alt": "CR-S109 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-s109-04.webp",
+          "alt": "CR-S109 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 9,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "monoblock",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-s110",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-S110 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-S110 拉丝银锻造轮毂",
+      "part": "CR-S110",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-s110-01.webp",
+      "image_original": "products/cn-showcase/cr-s110-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-s110-01.webp",
+          "alt": "CR-S110 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-s110-02.webp",
+          "alt": "CR-S110 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-s110-03.webp",
+          "alt": "CR-S110 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-s110-04.webp",
+          "alt": "CR-S110 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 10,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "monoblock",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-s111",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-S111 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-S111 拉丝银锻造轮毂",
+      "part": "CR-S111",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-s111-01.webp",
+      "image_original": "products/cn-showcase/cr-s111-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-s111-01.webp",
+          "alt": "CR-S111 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-s111-02.webp",
+          "alt": "CR-S111 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-s111-03.webp",
+          "alt": "CR-S111 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-s111-04.webp",
+          "alt": "CR-S111 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 11,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "monoblock",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-s112",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-S112 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-S112 拉丝银锻造轮毂",
+      "part": "CR-S112",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-s112-01.webp",
+      "image_original": "products/cn-showcase/cr-s112-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-s112-01.webp",
+          "alt": "CR-S112 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-s112-02.webp",
+          "alt": "CR-S112 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-s112-03.webp",
+          "alt": "CR-S112 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-s112-04.webp",
+          "alt": "CR-S112 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 12,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "monoblock",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-s113",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-S113 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-S113 拉丝银锻造轮毂",
+      "part": "CR-S113",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-s113-01.webp",
+      "image_original": "products/cn-showcase/cr-s113-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-s113-01.webp",
+          "alt": "CR-S113 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-s113-02.webp",
+          "alt": "CR-S113 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-s113-03.webp",
+          "alt": "CR-S113 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-s113-04.webp",
+          "alt": "CR-S113 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 13,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "monoblock",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-s114",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-S114 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-S114 拉丝银锻造轮毂",
+      "part": "CR-S114",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-s114-01.webp",
+      "image_original": "products/cn-showcase/cr-s114-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-s114-01.webp",
+          "alt": "CR-S114 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-s114-02.webp",
+          "alt": "CR-S114 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-s114-03.webp",
+          "alt": "CR-S114 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-s114-04.webp",
+          "alt": "CR-S114 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 14,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "monoblock",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-s115",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-S115 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-S115 拉丝银锻造轮毂",
+      "part": "CR-S115",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-s115-01.webp",
+      "image_original": "products/cn-showcase/cr-s115-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-s115-01.webp",
+          "alt": "CR-S115 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-s115-02.webp",
+          "alt": "CR-S115 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-s115-03.webp",
+          "alt": "CR-S115 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-s115-04.webp",
+          "alt": "CR-S115 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 15,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "monoblock",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-s116",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-S116 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-S116 拉丝银锻造轮毂",
+      "part": "CR-S116",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-s116-01.webp",
+      "image_original": "products/cn-showcase/cr-s116-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-s116-01.webp",
+          "alt": "CR-S116 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-s116-02.webp",
+          "alt": "CR-S116 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-s116-03.webp",
+          "alt": "CR-S116 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-s116-04.webp",
+          "alt": "CR-S116 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 16,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "monoblock",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-c2203",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-C2203 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-C2203 拉丝银锻造轮毂",
+      "part": "CR-C2203",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-c2203-01.webp",
+      "image_original": "products/cn-showcase/cr-c2203-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-c2203-01.webp",
+          "alt": "CR-C2203 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-c2203-02.webp",
+          "alt": "CR-C2203 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-c2203-03.webp",
+          "alt": "CR-C2203 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-c2203-04.webp",
+          "alt": "CR-C2203 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 17,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "two-piece",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-c2204",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-C2204 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-C2204 拉丝银锻造轮毂",
+      "part": "CR-C2204",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-c2204-01.webp",
+      "image_original": "products/cn-showcase/cr-c2204-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-c2204-01.webp",
+          "alt": "CR-C2204 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-c2204-02.webp",
+          "alt": "CR-C2204 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-c2204-03.webp",
+          "alt": "CR-C2204 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-c2204-04.webp",
+          "alt": "CR-C2204 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 18,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "two-piece",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-c2205",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-C2205 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-C2205 拉丝银锻造轮毂",
+      "part": "CR-C2205",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-c2205-01.webp",
+      "image_original": "products/cn-showcase/cr-c2205-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-c2205-01.webp",
+          "alt": "CR-C2205 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-c2205-02.webp",
+          "alt": "CR-C2205 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-c2205-03.webp",
+          "alt": "CR-C2205 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-c2205-04.webp",
+          "alt": "CR-C2205 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 19,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "two-piece",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-c2206",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-C2206 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-C2206 拉丝银锻造轮毂",
+      "part": "CR-C2206",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-c2206-01.webp",
+      "image_original": "products/cn-showcase/cr-c2206-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-c2206-01.webp",
+          "alt": "CR-C2206 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-c2206-02.webp",
+          "alt": "CR-C2206 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-c2206-03.webp",
+          "alt": "CR-C2206 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-c2206-04.webp",
+          "alt": "CR-C2206 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 20,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "two-piece",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-c2207",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-C2207 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-C2207 拉丝银锻造轮毂",
+      "part": "CR-C2207",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-c2207-01.webp",
+      "image_original": "products/cn-showcase/cr-c2207-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-c2207-01.webp",
+          "alt": "CR-C2207 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-c2207-02.webp",
+          "alt": "CR-C2207 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-c2207-03.webp",
+          "alt": "CR-C2207 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-c2207-04.webp",
+          "alt": "CR-C2207 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 21,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "two-piece",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-c2208",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-C2208 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-C2208 拉丝银锻造轮毂",
+      "part": "CR-C2208",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-c2208-01.webp",
+      "image_original": "products/cn-showcase/cr-c2208-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-c2208-01.webp",
+          "alt": "CR-C2208 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-c2208-02.webp",
+          "alt": "CR-C2208 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-c2208-03.webp",
+          "alt": "CR-C2208 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-c2208-04.webp",
+          "alt": "CR-C2208 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 22,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "two-piece",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-c2209",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-C2209 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-C2209 拉丝银锻造轮毂",
+      "part": "CR-C2209",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-c2209-01.webp",
+      "image_original": "products/cn-showcase/cr-c2209-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-c2209-01.webp",
+          "alt": "CR-C2209 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-c2209-02.webp",
+          "alt": "CR-C2209 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-c2209-03.webp",
+          "alt": "CR-C2209 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-c2209-04.webp",
+          "alt": "CR-C2209 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 23,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "two-piece",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-c2210",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-C2210 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-C2210 拉丝银锻造轮毂",
+      "part": "CR-C2210",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-c2210-01.webp",
+      "image_original": "products/cn-showcase/cr-c2210-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-c2210-01.webp",
+          "alt": "CR-C2210 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-c2210-02.webp",
+          "alt": "CR-C2210 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-c2210-03.webp",
+          "alt": "CR-C2210 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-c2210-04.webp",
+          "alt": "CR-C2210 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 24,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "two-piece",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-s117",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-S117 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-S117 拉丝银锻造轮毂",
+      "part": "CR-S117",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-s117-01.webp",
+      "image_original": "products/cn-showcase/cr-s117-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-s117-01.webp",
+          "alt": "CR-S117 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-s117-02.webp",
+          "alt": "CR-S117 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-s117-03.webp",
+          "alt": "CR-S117 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-s117-04.webp",
+          "alt": "CR-S117 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 25,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "monoblock",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-s118",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-S118 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-S118 拉丝银锻造轮毂",
+      "part": "CR-S118",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-s118-01.webp",
+      "image_original": "products/cn-showcase/cr-s118-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-s118-01.webp",
+          "alt": "CR-S118 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-s118-02.webp",
+          "alt": "CR-S118 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-s118-03.webp",
+          "alt": "CR-S118 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-s118-04.webp",
+          "alt": "CR-S118 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 26,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "monoblock",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-as01",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-AS01 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-AS01 拉丝银锻造轮毂",
+      "part": "CR-AS01",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-as01-01.webp",
+      "image_original": "products/cn-showcase/cr-as01-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-as01-01.webp",
+          "alt": "CR-AS01 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-as01-02.webp",
+          "alt": "CR-AS01 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-as01-03.webp",
+          "alt": "CR-AS01 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-as01-04.webp",
+          "alt": "CR-AS01 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 27,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "unknown",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-as02",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-AS02 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-AS02 拉丝银锻造轮毂",
+      "part": "CR-AS02",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-as02-01.webp",
+      "image_original": "products/cn-showcase/cr-as02-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-as02-01.webp",
+          "alt": "CR-AS02 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-as02-02.webp",
+          "alt": "CR-AS02 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-as02-03.webp",
+          "alt": "CR-AS02 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-as02-04.webp",
+          "alt": "CR-AS02 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 28,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "unknown",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-as03",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-AS03 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-AS03 拉丝银锻造轮毂",
+      "part": "CR-AS03",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-as03-01.webp",
+      "image_original": "products/cn-showcase/cr-as03-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-as03-01.webp",
+          "alt": "CR-AS03 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-as03-02.webp",
+          "alt": "CR-AS03 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-as03-03.webp",
+          "alt": "CR-AS03 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-as03-04.webp",
+          "alt": "CR-AS03 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 29,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "unknown",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-as04",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-AS04 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-AS04 拉丝银锻造轮毂",
+      "part": "CR-AS04",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-as04-01.webp",
+      "image_original": "products/cn-showcase/cr-as04-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-as04-01.webp",
+          "alt": "CR-AS04 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-as04-02.webp",
+          "alt": "CR-AS04 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-as04-03.webp",
+          "alt": "CR-AS04 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-as04-04.webp",
+          "alt": "CR-AS04 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 30,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "unknown",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-c2201",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-C2201 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-C2201 拉丝银锻造轮毂",
+      "part": "CR-C2201",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-c2201-01.webp",
+      "image_original": "products/cn-showcase/cr-c2201-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-c2201-01.webp",
+          "alt": "CR-C2201 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-c2201-02.webp",
+          "alt": "CR-C2201 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-c2201-03.webp",
+          "alt": "CR-C2201 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-c2201-04.webp",
+          "alt": "CR-C2201 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 31,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "two-piece",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-brushed-cr-c2202",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR-C2202 拉丝银锻造轮毂",
+      "catalog_display_name": "策锐 CR-C2202 拉丝银锻造轮毂",
+      "part": "CR-C2202",
+      "status": "published",
+      "public_scope": true,
+      "meta": "拉丝银款式参考 · 参数按车型确认 · 图片为效果图",
+      "size_note": "直径、宽度、PCD、ET 和中心孔以确认方案为准",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "拉丝银",
+      "color": "拉丝银",
+      "image": "products/cn-showcase/cr-c2202-01.webp",
+      "image_original": "products/cn-showcase/cr-c2202-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr-c2202-01.webp",
+          "alt": "CR-C2202 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr-c2202-02.webp",
+          "alt": "CR-C2202 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr-c2202-03.webp",
+          "alt": "CR-C2202 轮毂效果图 3"
+        },
+        {
+          "id": "image-4",
+          "url": "products/cn-showcase/cr-c2202-04.webp",
+          "alt": "CR-C2202 轮毂效果图 4"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "拉丝银",
+      "sort": 32,
+      "material": "锻造铝合金",
+      "custom_size": true,
+      "construction": "two-piece",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-stock-cr03053",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR03053 现货款轮毂",
+      "catalog_display_name": "策锐 CR03053 现货款轮毂",
+      "part": "CR03053",
+      "status": "published",
+      "public_scope": true,
+      "meta": "现货款式参考 · 库存与规格请咨询确认 · 图片为效果图",
+      "size_note": "18 x 8J | 5 x 112 | ET +30 | CB 66.56 mm；18 x 9J | 5 x 112 | ET +35 | CB 66.56 mm；18 x 8J | 5 x 120 | ET +30 | CB 72.56 mm；19 x 8.5J | 5 x 112 | ET +25 | CB 66.56 mm；更多规格请咨询。实时库存及适配请咨询确认。",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "以实际库存为准",
+      "color": "以实际库存为准",
+      "image": "products/cn-showcase/cr03053-01.webp",
+      "image_original": "products/cn-showcase/cr03053-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr03053-01.webp",
+          "alt": "CR03053 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr03053-02.webp",
+          "alt": "CR03053 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr03053-03.webp",
+          "alt": "CR03053 轮毂效果图 3"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "现货款",
+      "sort": 100,
+      "material": "材料与工艺以实际产品资料为准",
+      "custom_size": false,
+      "construction": "unknown",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-stock-cr8822",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR8822 现货款轮毂",
+      "catalog_display_name": "策锐 CR8822 现货款轮毂",
+      "part": "CR8822",
+      "status": "published",
+      "public_scope": true,
+      "meta": "现货款式参考 · 库存与规格请咨询确认 · 图片为效果图",
+      "size_note": "18 x 8J | 5 x 120 | ET +25 | CB 72.56 mm；18 x 8J | 5 x 120 | ET +30 | CB 72.56 mm；19 x 8.5J | 5 x 112 | ET +25 | CB 66.56 mm；19 x 9.5J | 5 x 112 | ET +38 | CB 66.56 mm。实时库存及适配请咨询确认。",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "以实际库存为准",
+      "color": "以实际库存为准",
+      "image": "products/cn-showcase/cr8822-01.webp",
+      "image_original": "products/cn-showcase/cr8822-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr8822-01.webp",
+          "alt": "CR8822 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr8822-02.webp",
+          "alt": "CR8822 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr8822-03.webp",
+          "alt": "CR8822 轮毂效果图 3"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "现货款",
+      "sort": 101,
+      "material": "材料与工艺以实际产品资料为准",
+      "custom_size": false,
+      "construction": "unknown",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-stock-cr8815",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR8815 现货款轮毂",
+      "catalog_display_name": "策锐 CR8815 现货款轮毂",
+      "part": "CR8815",
+      "status": "published",
+      "public_scope": true,
+      "meta": "现货款式参考 · 库存与规格请咨询确认 · 图片为效果图",
+      "size_note": "19 x 9J | 5 x 112 | ET +37 | CB 66.56 mm；20 x 9.5J | 5 x 112 | ET +30 | CB 66.56 mm；20 x 10.5J | 5 x 112 | ET +35 | CB 66.56 mm；21 x 9.5J | 5 x 112 | ET +30 | CB 66.56 mm；更多规格请咨询。实时库存及适配请咨询确认。",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "以实际库存为准",
+      "color": "以实际库存为准",
+      "image": "products/cn-showcase/cr8815-01.webp",
+      "image_original": "products/cn-showcase/cr8815-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr8815-01.webp",
+          "alt": "CR8815 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr8815-02.webp",
+          "alt": "CR8815 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr8815-03.webp",
+          "alt": "CR8815 轮毂效果图 3"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "现货款",
+      "sort": 102,
+      "material": "材料与工艺以实际产品资料为准",
+      "custom_size": false,
+      "construction": "unknown",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-stock-cr02010",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR02010 现货款轮毂",
+      "catalog_display_name": "策锐 CR02010 现货款轮毂",
+      "part": "CR02010",
+      "status": "published",
+      "public_scope": true,
+      "meta": "现货款式参考 · 库存与规格请咨询确认 · 图片为效果图",
+      "size_note": "19 x 8.5J | 5 x 112 | ET +36 | CB 66.56 mm；19 x 9.5J | 5 x 112 | ET +43.5 | CB 66.56 mm；20 x 9J | 5 x 112 | ET +34 | CB 66.56 mm；20 x 10J | 5 x 112 | ET +48 | CB 66.56 mm；更多规格请咨询。实时库存及适配请咨询确认。",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "以实际库存为准",
+      "color": "以实际库存为准",
+      "image": "products/cn-showcase/cr02010-01.webp",
+      "image_original": "products/cn-showcase/cr02010-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr02010-01.webp",
+          "alt": "CR02010 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr02010-02.webp",
+          "alt": "CR02010 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr02010-03.webp",
+          "alt": "CR02010 轮毂效果图 3"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "现货款",
+      "sort": 103,
+      "material": "材料与工艺以实际产品资料为准",
+      "custom_size": false,
+      "construction": "unknown",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-stock-cr02027",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR02027 现货款轮毂",
+      "catalog_display_name": "策锐 CR02027 现货款轮毂",
+      "part": "CR02027",
+      "status": "published",
+      "public_scope": true,
+      "meta": "现货款式参考 · 库存与规格请咨询确认 · 图片为效果图",
+      "size_note": "18 x 8J | 5 x 112 | ET +38 | CB 66.56 mm；19 x 8.5J | 5 x 112 | ET +36 | CB 66.56 mm；19 x 9.5J | 5 x 112 | ET +43 | CB 66.56 mm；20 x 8.5J | 5 x 112 | ET +36 | CB 66.56 mm；更多规格请咨询。实时库存及适配请咨询确认。",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "以实际库存为准",
+      "color": "以实际库存为准",
+      "image": "products/cn-showcase/cr02027-01.webp",
+      "image_original": "products/cn-showcase/cr02027-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr02027-01.webp",
+          "alt": "CR02027 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr02027-02.webp",
+          "alt": "CR02027 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr02027-03.webp",
+          "alt": "CR02027 轮毂效果图 3"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "现货款",
+      "sort": 104,
+      "material": "材料与工艺以实际产品资料为准",
+      "custom_size": false,
+      "construction": "unknown",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-stock-cr7706",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR7706 现货款轮毂",
+      "catalog_display_name": "策锐 CR7706 现货款轮毂",
+      "part": "CR7706",
+      "status": "published",
+      "public_scope": true,
+      "meta": "现货款式参考 · 库存与规格请咨询确认 · 图片为效果图",
+      "size_note": "20 x 9.5J | 5 x 112 | ET +45 | CB 66.56 mm；19 x 8J | 5 x 112 | ET +40 | CB 66.56 mm；19 x 9J | 5 x 112 | ET +45 | CB 66.56 mm；18 x 8J | 5 x 112 | ET +38 | CB 66.56 mm；更多规格请咨询。实时库存及适配请咨询确认。",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "以实际库存为准",
+      "color": "以实际库存为准",
+      "image": "products/cn-showcase/cr7706-01.webp",
+      "image_original": "products/cn-showcase/cr7706-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr7706-01.webp",
+          "alt": "CR7706 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr7706-02.webp",
+          "alt": "CR7706 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr7706-03.webp",
+          "alt": "CR7706 轮毂效果图 3"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "现货款",
+      "sort": 105,
+      "material": "材料与工艺以实际产品资料为准",
+      "custom_size": false,
+      "construction": "unknown",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-stock-cr5501",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR5501 现货款轮毂",
+      "catalog_display_name": "策锐 CR5501 现货款轮毂",
+      "part": "CR5501",
+      "status": "published",
+      "public_scope": true,
+      "meta": "现货款式参考 · 库存与规格请咨询确认 · 图片为效果图",
+      "size_note": "18 x 8J | 5 x 112 | ET +35 | CB 66.45 mm；19 x 8.5J | 5 x 112 | ET +28 | CB 66.45 mm；20 x 9J | 5 x 112 | ET +30 | CB 66.45 mm；20 x 9J | 5 x 112 | ET +28 | CB 66.45 mm；更多规格请咨询。实时库存及适配请咨询确认。",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "以实际库存为准",
+      "color": "以实际库存为准",
+      "image": "products/cn-showcase/cr5501-01.webp",
+      "image_original": "products/cn-showcase/cr5501-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr5501-01.webp",
+          "alt": "CR5501 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr5501-02.webp",
+          "alt": "CR5501 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr5501-03.webp",
+          "alt": "CR5501 轮毂效果图 3"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "现货款",
+      "sort": 106,
+      "material": "材料与工艺以实际产品资料为准",
+      "custom_size": false,
+      "construction": "unknown",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-stock-cr5522",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR5522 现货款轮毂",
+      "catalog_display_name": "策锐 CR5522 现货款轮毂",
+      "part": "CR5522",
+      "status": "published",
+      "public_scope": true,
+      "meta": "现货款式参考 · 库存与规格请咨询确认 · 图片为效果图",
+      "size_note": "18 x 8J | 5 x 112 | ET +35 | CB 66.45 mm；19 x 8.5J | 5 x 112 | ET +28 | CB 66.45 mm；20 x 9J | 5 x 112 | ET +28 | CB 66.45 mm；21 x 9.5J | 5 x 112 | ET +28 | CB 66.45 mm。实时库存及适配请咨询确认。",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "以实际库存为准",
+      "color": "以实际库存为准",
+      "image": "products/cn-showcase/cr5522-01.webp",
+      "image_original": "products/cn-showcase/cr5522-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr5522-01.webp",
+          "alt": "CR5522 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr5522-02.webp",
+          "alt": "CR5522 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr5522-03.webp",
+          "alt": "CR5522 轮毂效果图 3"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "现货款",
+      "sort": 107,
+      "material": "材料与工艺以实际产品资料为准",
+      "custom_size": false,
+      "construction": "unknown",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-stock-cr5511",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR5511 现货款轮毂",
+      "catalog_display_name": "策锐 CR5511 现货款轮毂",
+      "part": "CR5511",
+      "status": "published",
+      "public_scope": true,
+      "meta": "现货款式参考 · 库存与规格请咨询确认 · 图片为效果图",
+      "size_note": "19 x 8.5J | 5 x 112 | ET +28 | CB 66.45 mm；20 x 9J | 5 x 112 | ET +28 | CB 66.45 mm。实时库存及适配请咨询确认。",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "以实际库存为准",
+      "color": "以实际库存为准",
+      "image": "products/cn-showcase/cr5511-01.webp",
+      "image_original": "products/cn-showcase/cr5511-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr5511-01.webp",
+          "alt": "CR5511 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr5511-02.webp",
+          "alt": "CR5511 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr5511-03.webp",
+          "alt": "CR5511 轮毂效果图 3"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "现货款",
+      "sort": 108,
+      "material": "材料与工艺以实际产品资料为准",
+      "custom_size": false,
+      "construction": "unknown",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-stock-cr6612",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR6612 现货款轮毂",
+      "catalog_display_name": "策锐 CR6612 现货款轮毂",
+      "part": "CR6612",
+      "status": "published",
+      "public_scope": true,
+      "meta": "现货款式参考 · 库存与规格请咨询确认 · 图片为效果图",
+      "size_note": "20 x 9J | 5 x 112 | ET +26 | CB 66.5 mm；20 x 10J | 5 x 112 | ET +19 | CB 66.5 mm；21 x 9J | 5 x 112 | ET +29 | CB 66.5 mm；21 x 10J | 5 x 112 | ET +19 | CB 66.5 mm。实时库存及适配请咨询确认。",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "以实际库存为准",
+      "color": "以实际库存为准",
+      "image": "products/cn-showcase/cr6612-01.webp",
+      "image_original": "products/cn-showcase/cr6612-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr6612-01.webp",
+          "alt": "CR6612 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr6612-02.webp",
+          "alt": "CR6612 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr6612-03.webp",
+          "alt": "CR6612 轮毂效果图 3"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "现货款",
+      "sort": 109,
+      "material": "材料与工艺以实际产品资料为准",
+      "custom_size": false,
+      "construction": "unknown",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-stock-cr05027",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR05027 现货款轮毂",
+      "catalog_display_name": "策锐 CR05027 现货款轮毂",
+      "part": "CR05027",
+      "status": "published",
+      "public_scope": true,
+      "meta": "现货款式参考 · 库存与规格请咨询确认 · 图片为效果图",
+      "size_note": "21 x 9.5J | 5 x 130 | ET +61 | CB 71.56 mm；21 x 11J | 5 x 130 | ET +61 | CB 71.56 mm。实时库存及适配请咨询确认。",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "以实际库存为准",
+      "color": "以实际库存为准",
+      "image": "products/cn-showcase/cr05027-01.webp",
+      "image_original": "products/cn-showcase/cr05027-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr05027-01.webp",
+          "alt": "CR05027 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr05027-02.webp",
+          "alt": "CR05027 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr05027-03.webp",
+          "alt": "CR05027 轮毂效果图 3"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "现货款",
+      "sort": 110,
+      "material": "材料与工艺以实际产品资料为准",
+      "custom_size": false,
+      "construction": "unknown",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-stock-cr11005",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR11005 现货款轮毂",
+      "catalog_display_name": "策锐 CR11005 现货款轮毂",
+      "part": "CR11005",
+      "status": "published",
+      "public_scope": true,
+      "meta": "现货款式参考 · 库存与规格请咨询确认 · 图片为效果图",
+      "size_note": "18 x 8J | 5 x 114.3 | ET +33 | CB 64.1 mm；20 x 8.5J | 5 x 114.3 | ET +33 | CB 64.1 mm；20 x 9J | 5 x 114.3 | ET +33 | CB 64.1 mm。实时库存及适配请咨询确认。",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "以实际库存为准",
+      "color": "以实际库存为准",
+      "image": "products/cn-showcase/cr11005-01.webp",
+      "image_original": "products/cn-showcase/cr11005-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr11005-01.webp",
+          "alt": "CR11005 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr11005-02.webp",
+          "alt": "CR11005 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr11005-03.webp",
+          "alt": "CR11005 轮毂效果图 3"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "现货款",
+      "sort": 111,
+      "material": "材料与工艺以实际产品资料为准",
+      "custom_size": false,
+      "construction": "unknown",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-stock-cr34-crz613",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 CR34/CRZ613 现货款轮毂",
+      "catalog_display_name": "策锐 CR34/CRZ613 现货款轮毂",
+      "part": "CR34/CRZ613",
+      "status": "published",
+      "public_scope": true,
+      "meta": "现货款式参考 · 库存与规格请咨询确认 · 图片为效果图",
+      "size_note": "19 x 8.5J | 5 x 114.3 | ET +33 | CB 64.1 mm。实时库存及适配请咨询确认。",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "以实际库存为准",
+      "color": "以实际库存为准",
+      "image": "products/cn-showcase/cr34-crz613-01.webp",
+      "image_original": "products/cn-showcase/cr34-crz613-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/cr34-crz613-01.webp",
+          "alt": "CR34/CRZ613 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/cr34-crz613-02.webp",
+          "alt": "CR34/CRZ613 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/cr34-crz613-03.webp",
+          "alt": "CR34/CRZ613 轮毂效果图 3"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "现货款",
+      "sort": 112,
+      "material": "材料与工艺以实际产品资料为准",
+      "custom_size": false,
+      "construction": "unknown",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-stock-xbg2508034",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 XBG2508034 现货款轮毂",
+      "catalog_display_name": "策锐 XBG2508034 现货款轮毂",
+      "part": "XBG2508034",
+      "status": "published",
+      "public_scope": true,
+      "meta": "现货款式参考 · 库存与规格请咨询确认 · 图片为效果图",
+      "size_note": "17 x 8.5J | 6 x 139.7 | ET 0 | CB 100.1 mm。实时库存及适配请咨询确认。",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "以实际库存为准",
+      "color": "以实际库存为准",
+      "image": "products/cn-showcase/xbg2508034-01.webp",
+      "image_original": "products/cn-showcase/xbg2508034-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/xbg2508034-01.webp",
+          "alt": "XBG2508034 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/xbg2508034-02.webp",
+          "alt": "XBG2508034 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/xbg2508034-03.webp",
+          "alt": "XBG2508034 轮毂效果图 3"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "现货款",
+      "sort": 113,
+      "material": "材料与工艺以实际产品资料为准",
+      "custom_size": false,
+      "construction": "unknown",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    },
+    {
+      "id": "cn-stock-l250927",
+      "category": "Wheels",
+      "brand": "策锐锻造",
+      "name": "策锐 L250927 现货款轮毂",
+      "catalog_display_name": "策锐 L250927 现货款轮毂",
+      "part": "L250927",
+      "status": "published",
+      "public_scope": true,
+      "meta": "现货款式参考 · 库存与规格请咨询确认 · 图片为效果图",
+      "size_note": "18 x 8J | 6 x 139.7 | ET +18 | CB 100.1 mm。实时库存及适配请咨询确认。",
+      "price": null,
+      "oldPrice": null,
+      "price_mode": "inquiry",
+      "currency": "",
+      "finish": "以实际库存为准",
+      "color": "以实际库存为准",
+      "image": "products/cn-showcase/l250927-01.webp",
+      "image_original": "products/cn-showcase/l250927-01.webp",
+      "images": [
+        {
+          "id": "image-1",
+          "url": "products/cn-showcase/l250927-01.webp",
+          "alt": "L250927 轮毂效果图 1"
+        },
+        {
+          "id": "image-2",
+          "url": "products/cn-showcase/l250927-02.webp",
+          "alt": "L250927 轮毂效果图 2"
+        },
+        {
+          "id": "image-3",
+          "url": "products/cn-showcase/l250927-03.webp",
+          "alt": "L250927 轮毂效果图 3"
+        }
+      ],
+      "image_cutout": false,
+      "stock": 0,
+      "badge": "现货款",
+      "sort": 114,
+      "material": "材料与工艺以实际产品资料为准",
+      "custom_size": false,
+      "construction": "unknown",
+      "design_family": "custom",
+      "classification_status": "needs-confirmation",
+      "classification_note": "图片为轮毂效果图，实际结构、表面和适配参数以确认的产品资料为准。",
+      "load_rating_note": "承载等级依据具体规格及车型确认",
+      "visualizer_enabled": true
+    }
+  ]
+}

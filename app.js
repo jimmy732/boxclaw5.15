@@ -1,4 +1,4 @@
-import { domesticHomePage, wireDomesticHome } from './domestic-home.js?v=20260829-showcase-media-v3';
+import { domesticHomePage, wireDomesticHome, updateDomesticProducts } from './domestic-home.js?v=20261107-live-showcase-v1';
 
 const ASSET = '/assets/';
 const runtimeConfig = globalThis.__FBOX_RUNTIME__ || {};
@@ -202,6 +202,9 @@ const localCustomProductFallback = products
     ddp_quote_basis: '',
     lead_time_note: ''
   }));
+// Public catalog is authoritative; do not resurrect locally bundled products
+// when an administrator has unpublished them or the API is unavailable.
+products = [];
 
 // Customer reviews and build cases are intentionally empty until verified
 // orders are collected. The storefront must never present invented proof.
@@ -2947,7 +2950,7 @@ function productMinimumOrderSummary(item) {
   if (String(state.locale || '').startsWith('zh')) return `最低起订金额：${subtotal}，${minimum} 只轮毂。`;
   return `Minimum starting subtotal: ${subtotal} for ${minimum} wheels.`;
 }
-function product(id) { return products.find(item => item.id === id) || products[0]; }
+function product(id) { return products.find(item => item.id === id) || { id: String(id || ''), name: '商品暂不可用', category: 'Wheels', public_scope: false, image: '' }; }
 function homeWheelProducts() {
   const fallbackRank = ['fbox-rse', 'fbox-sv100', 'fbox-apex-split-spoke', 'fbox-vanta-10', 'fbox-meridian-multi-spoke', 'fbox-halo-20-spoke'];
   return publicForgedProducts()
@@ -3519,7 +3522,10 @@ function renderBackgroundUpdate() {
   if (isPaymentProductPageMounted()) return;
   // The domestic homepage is static. Background catalog, account and content
   // responses must not remount its hero video or replay its entrance state.
-  if (state.route.name === 'home' && document.querySelector('.wf-home')) return;
+  if (state.route.name === 'home' && document.querySelector('.wf-home')) {
+    updateDomesticProducts(homeShowcase());
+    return;
+  }
   render();
 }
 
@@ -3916,7 +3922,7 @@ async function loadMallCatalog() {
         brand: ciruiPublicBrandText(raw.brand || raw.brandName || base?.brand || 'CIRUI'),
         category: ciruiPublicBrandText(raw.category || raw.productCategoryName || base?.category || 'Wheels'),
          meta: ciruiPublicBrandText(raw.meta || base?.meta || ''),
-         custom_size: true,
+         custom_size: raw.custom_size ?? base?.custom_size ?? true,
          size_note: ciruiPublicBrandText(raw.size_note || base?.size_note || (raw.category === 'Wheels' ? 'All sizes supported - custom diameter, width and fitment' : 'All sizes supported - custom fitment built to order')),
         deal: ciruiPublicBrandText(raw.deal || base?.deal || (Number(raw.stock || 0) > 0 ? 'In stock · live inventory' : 'Contact CIRUI for availability')),
         price: raw.price === null || raw.price === '' ? null : Number(raw.price ?? base?.price ?? 0),
@@ -3932,7 +3938,6 @@ async function loadMallCatalog() {
         stock: Number(raw.stock ?? base?.stock ?? 0)
       };
     }).filter(Boolean);
-    if (!mapped.length) throw new Error('CIRUI catalog is empty');
     const detailed = await Promise.all(mapped.map(async item => {
       try {
         return item;
@@ -3940,14 +3945,11 @@ async function loadMallCatalog() {
         return item;
       }
     }));
-    const merged = [
-      ...detailed,
-      ...localCustomProductFallback.filter(local => !detailed.some(item => item.id === local.id))
-    ];
-    products = applyProductReviewStats(merged);
+    products = applyProductReviewStats(detailed);
     state.catalogLoaded = true;
     renderBackgroundUpdate();
   } catch (error) {
+    products = [];
     state.catalogLoaded = false;
     state.backend.portal = 'testing';
     renderBackgroundUpdate();
@@ -5642,6 +5644,15 @@ function publicForgedProducts() {
     && !item.vehicle_label
     && !String(item.id || '').startsWith('cerui-'));
 }
+function homeShowcase() {
+  const all = publicForgedProducts();
+  const selected = [
+    ...all.filter(item => String(item.id).startsWith('cn-brushed-')).slice(0, 2),
+    ...all.filter(item => String(item.id).startsWith('cn-stock-')).slice(0, 2),
+  ];
+  for (const item of all) if (selected.length < 4 && !selected.some(current => current.id === item.id)) selected.push(item);
+  return selected.map(item => ({ name: productNameText(item), meta: item.meta || '', image: assetUrl(item.image), href: `#product/${encodeURIComponent(item.id)}` }));
+}
 function productMatchesCollection(item, collection = state.filters.collection) {
   if (!collection || collection === 'all') return true;
   if (collection === 'monoblock' || collection === 'two-piece') return item.construction === collection;
@@ -6248,7 +6259,7 @@ function legacyProductPage(item) {
 }
 
 function productPage(item) {
-  if (!item || item.public_scope === false || item.vehicle_label || item.category !== 'Wheels') {
+  if (!item || item.id !== state.route.id || item.status === 'draft' || item.status === 'archived' || item.public_scope === false || item.vehicle_label || item.category !== 'Wheels') {
     return `<main class="detail-wrap"><div class="container"><div class="empty-state"><h1>${uiLabel('This item is not part of the public forged wheel catalog.')}</h1><p>${uiLabel('Browse current CIRUI forged directions or send a custom reference through the RFQ.')}</p><a class="btn btn-primary" href="#store">${uiLabel('Open forged wheel catalog')}</a></div></div></main>`;
   }
   const gallery = productGallery(item);
@@ -7255,7 +7266,7 @@ function render() {
   document.body.classList.toggle('domestic-home-active', state.route.name === 'home');
   document.body.classList.toggle('wf-public-page', state.route.name !== 'home');
   document.body.dataset.publicRoute = state.route.name;
-  const page = state.route.name === 'home' ? domesticHomePage(icons) : state.route.name === 'about' ? ceruiAboutPage() : state.route.name === 'ai-wheel-design' ? aiWheelDesignPage() : state.route.name === 'fitment' ? fitmentPage() : state.route.name === 'fitment-result' ? fitmentResultPage() : state.route.name === 'fitment-share' ? fitmentSharePage() : state.route.name === 'account' ? accountPage() : state.route.name === 'store' ? storePage() : state.route.name === 'cart' ? cartPage() : state.route.name === 'blog' ? blogPage() : state.route.name === 'blog-post' ? blogArticlePage(state.blogPosts.find(post => post.slug === state.route.slug)) : productPage(product(state.route.id));
+  const page = state.route.name === 'home' ? domesticHomePage(icons, homeShowcase()) : state.route.name === 'about' ? ceruiAboutPage() : state.route.name === 'ai-wheel-design' ? aiWheelDesignPage() : state.route.name === 'fitment' ? fitmentPage() : state.route.name === 'fitment-result' ? fitmentResultPage() : state.route.name === 'fitment-share' ? fitmentSharePage() : state.route.name === 'account' ? accountPage() : state.route.name === 'store' ? storePage() : state.route.name === 'cart' ? cartPage() : state.route.name === 'blog' ? blogPage() : state.route.name === 'blog-post' ? blogArticlePage(state.blogPosts.find(post => post.slug === state.route.slug)) : productPage(product(state.route.id));
   const pageWithJournal = page;
   const appRoot = document.querySelector('#app');
   const existingHostedContainer = appRoot.querySelector('[data-paypal-hosted-container]');

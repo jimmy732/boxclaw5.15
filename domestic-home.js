@@ -1,9 +1,4 @@
-const wheelProducts = [
-  { name: 'HALO 20-SPOKE', meta: '单片式 · 多辐深唇', image: '/assets/fbox-products/halo-20-spoke-01.png', href: '#product/fbox-halo-20-spoke' },
-  { name: 'MERIDIAN', meta: '单片式 · 精密多辐', image: '/assets/fbox-products/meridian-multi-spoke-01.png', href: '#product/fbox-meridian-multi-spoke' },
-  { name: 'VANTA 10', meta: '两片式 · 十辐深唇', image: '/assets/fbox-products/vanta-10-01.jpg', href: '#product/fbox-vanta-10' },
-  { name: 'APEX', meta: '单片式 · 性能分叉辐', image: '/assets/fbox-products/apex-split-spoke-01.jpg', href: '#product/fbox-apex-split-spoke' },
-];
+const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
 const featureTiles = [
   { label: '品牌与制造', title: '策锐制造', copy: '从锻造坯料到精密加工', image: '/assets/cerui/cerui-factory-floor-wide-v1.webp', href: '#manufacture' },
@@ -46,10 +41,21 @@ function loadVehicleDirectory() {
 }
 
 function productMarkup(product) {
-  return `<a class="wf-product" href="${product.href}" data-reveal>
-    <figure><img src="${product.image}" alt="策锐 ${product.name} ${product.meta}锻造轮毂" loading="lazy" decoding="async"></figure>
-    <div><h3>${product.name}</h3><p>${product.meta}</p><span>查看轮毂</span></div>
+  return `<a class="wf-product is-visible" href="${escapeHtml(product.href)}" data-reveal>
+    <figure><img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.name)}" loading="lazy" decoding="async"></figure>
+    <div><h3>${escapeHtml(product.name)}</h3><p>${escapeHtml(product.meta)}</p><span>查看轮毂</span></div>
   </a>`;
+}
+
+function dropMarkup(product) {
+  return `<article class="is-visible" data-reveal><img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.name)}" loading="lazy"><div><small>策锐轮毂</small><h3>${escapeHtml(product.name)}</h3><p>${escapeHtml(product.meta)}</p></div></article>`;
+}
+
+export function updateDomesticProducts(products = []) {
+  const grid = document.querySelector('.wf-product-grid');
+  const drops = document.querySelector('.wf-drop-grid');
+  if (grid) grid.innerHTML = products.length ? products.slice(0, 4).map(productMarkup).join('') : '<p>暂无上架轮毂，请稍后查看。</p>';
+  if (drops) drops.innerHTML = products.slice(0, 2).map(dropMarkup).join('');
 }
 
 function featureMarkup(item) {
@@ -59,7 +65,7 @@ function featureMarkup(item) {
   </a>`;
 }
 
-export function domesticHomePage(uiIcons = {}) {
+export function domesticHomePage(uiIcons = {}, wheelProducts = []) {
   const icon = (name, fallback) => uiIcons[name] || fallback;
   return `<main class="wf-home" id="home">
     <header class="wf-header" data-wf-header>
@@ -161,8 +167,7 @@ export function domesticHomePage(uiIcons = {}) {
       <div class="wf-container">
         <header class="wf-section-head wf-section-head-dark" data-reveal><div><p class="wf-eyebrow wf-eyebrow-light">新品与定制</p><h2>最新轮毂方向</h2></div><a href="/fitment-lab" data-app-path>生成我的车型效果</a></header>
         <div class="wf-drop-grid">
-          <article data-reveal><img src="/assets/fbox-products/meridian-multi-spoke-01.png" alt="策锐多辐锻造轮毂" loading="lazy"><div><small>精密多辐</small><h3>MERIDIAN</h3><p>围绕豪华轿车与高性能车型定制宽度、偏距和表面。</p></div></article>
-          <article data-reveal><img src="/assets/fbox-products/apex-split-spoke-01.jpg" alt="策锐性能分叉辐锻造轮毂" loading="lazy"><div><small>性能分叉辐</small><h3>APEX</h3><p>为大尺寸制动与运动姿态保留清晰的结构语言。</p></div></article>
+          ${wheelProducts.slice(0, 2).map(dropMarkup).join('')}
         </div>
       </div>
     </section>

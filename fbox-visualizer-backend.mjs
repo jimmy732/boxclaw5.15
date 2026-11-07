@@ -827,9 +827,16 @@ function copyDefaultStore() {
 async function loadStoreSeed() {
   try {
     const raw = JSON.parse(await fs.readFile(seedStorePath, 'utf8'));
+    let showcase = [];
+    try {
+      const extra = JSON.parse(await fs.readFile(path.join(moduleDir, 'data', 'cerui-cn-showcase.seed.json'), 'utf8'));
+      showcase = Array.isArray(extra.products) ? extra.products : [];
+    } catch (error) {
+      if (error.code !== 'ENOENT') throw error;
+    }
     return {
       ...copyDefaultStore(),
-      products: Array.isArray(raw?.products) ? raw.products : [],
+      products: [...(Array.isArray(raw?.products) ? raw.products : []), ...showcase],
       accounts: Array.isArray(raw?.accounts) ? raw.accounts : [],
       orders: Array.isArray(raw?.orders) ? raw.orders : []
     };
