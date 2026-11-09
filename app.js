@@ -1,4 +1,4 @@
-import { domesticHomePage, wireDomesticHome, updateDomesticProducts } from './domestic-home.js?v=20261107-live-showcase-v1';
+import { domesticHomePage, wireDomesticHome, updateDomesticProducts } from './domestic-home.js?v=20261110-vehicle-nav-v3';
 
 const ASSET = '/assets/';
 const runtimeConfig = globalThis.__FBOX_RUNTIME__ || {};
@@ -3523,7 +3523,7 @@ function renderBackgroundUpdate() {
   // The domestic homepage is static. Background catalog, account and content
   // responses must not remount its hero video or replay its entrance state.
   if (state.route.name === 'home' && document.querySelector('.wf-home')) {
-    updateDomesticProducts(homeShowcase());
+    updateDomesticProducts(homeShowcase(), cnHomeCatalogSubnav());
     return;
   }
   render();
@@ -5592,6 +5592,36 @@ function iconForCategory(type) {
   return icons.spark;
 }
 
+let cnBrowse = { mode: 'all', brand: '' };
+const cnBrowseFallbackBrands = {
+  ready: ['aftermarket', 'aito', 'alfa-romeo', 'audi', 'bbs', 'bmw', 'jaguar', 'land-rover', 'mercedes-benz', 'off-road', 'porsche', 'tesla'],
+  vehicle: ['aftermarket', 'aito', 'alfa-romeo', 'audi', 'bbs', 'bmw', 'corvette', 'dodge', 'jaguar', 'land-rover', 'mercedes-benz', 'mustang', 'off-road', 'porsche', 'rolls-royce', 'tesla']
+};
+const cnBrandNames = {
+  'aftermarket': '改装通用', 'aito': '问界 AITO', 'alfa-romeo': '阿尔法·罗密欧',
+  'audi': '奥迪 Audi', 'bbs': 'BBS 款式', 'bmw': '宝马 BMW', 'corvette': '科尔维特',
+  'dodge': '道奇 Dodge', 'jaguar': '捷豹 Jaguar', 'land-rover': '路虎 Land Rover',
+  'mercedes-benz': '奔驰 Mercedes-Benz', 'mustang': '野马 Mustang', 'off-road': '越野款',
+  'porsche': '保时捷 Porsche', 'rolls-royce': '劳斯莱斯', 'tesla': '特斯拉 Tesla'
+};
+function cnBrandLabel(value) { return cnBrandNames[value] || value.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase()); }
+function cnBrowseBrands(mode) {
+  const field = mode === 'ready' ? 'ready_categories' : 'vehicle_categories';
+  const brands = [...new Set(publicForgedProducts().flatMap(item => item[field] || []))];
+  return (brands.length ? brands : cnBrowseFallbackBrands[mode] || []).sort((a, b) => cnBrandLabel(a).localeCompare(cnBrandLabel(b), 'zh-CN'));
+}
+function cnHomeCatalogSubnav() {
+  const group = (mode, title, english) => `<details class="wf-menu-category"><summary><span>${title}</span><small>${english}</small></summary><div class="wf-menu-category-links"><a class="wf-menu-see-all" href="#store" data-action="cn-browse" data-mode="${mode}">查看全部${mode === 'ready' ? '现货' : '车型款'}</a>${cnBrowseBrands(mode).map(brand => `<a href="#store" data-action="cn-browse" data-mode="${mode}" data-brand="${esc(brand)}">${esc(cnBrandLabel(brand))}</a>`).join('')}${mode === 'ready' ? '<a href="#store" data-action="cn-browse" data-mode="floating">悬浮盖与大饼</a>' : ''}</div></details>`;
+  return `${group('ready', '现货轮毂', 'READY STOCK')}${group('vehicle', '按车型选轮毂', 'SHOP BY VEHICLE')}`;
+}
+function cnCatalogSubnav() {
+  const choices = mode => {
+    return `<button type="button" data-action="cn-browse" data-mode="${mode}">全部${mode === 'ready' ? '现货款' : '车型款'}</button>${cnBrowseBrands(mode).map(brand => `<button type="button" data-action="cn-browse" data-mode="${mode}" data-brand="${esc(brand)}">${esc(cnBrandLabel(brand))}</button>`).join('')}${mode === 'ready' ? '<button type="button" data-action="cn-browse" data-mode="floating">悬浮盖与大饼</button>' : ''}`;
+  };
+  const current = cnBrowse.mode === 'all' ? '全部轮毂' : `${cnBrowse.mode === 'ready' ? '现货款' : cnBrowse.mode === 'floating' ? '悬浮盖与大饼' : '按车型'}${cnBrowse.brand ? ` · ${cnBrandLabel(cnBrowse.brand)}` : ''}`;
+  return `<nav class="cn-catalog-subnav" aria-label="轮毂分类"><div class="container cn-catalog-subnav-inner"><button type="button" data-action="cn-browse" data-mode="all">全部轮毂</button><details><summary>现货轮毂</summary><div class="cn-catalog-subnav-menu">${choices('ready')}</div></details><details><summary>按车型选轮毂</summary><div class="cn-catalog-subnav-menu">${choices('vehicle')}</div></details><span class="cn-catalog-current">${esc(current)}</span></div></nav>`;
+}
+
 const catalogCollections = {
   all: {
     label: 'All forged wheels',
@@ -5661,6 +5691,7 @@ function productMatchesCollection(item, collection = state.filters.collection) {
   return true;
 }
 function setCatalogCollection(collection = 'all') {
+  cnBrowse = { mode: 'all', brand: '' };
   state.filters.category = 'Wheels';
   state.filters.collection = catalogCollections[collection] ? collection : 'all';
   state.filters.application = 'all';
@@ -5672,7 +5703,10 @@ function filterProducts() {
     const f = state.filters;
     const query = state.search.trim().toLowerCase();
     const applicationMatch = !f.application || f.application === 'all' || (item.applications || []).includes(f.application) || item.design_family === f.application;
+    const group = cnBrowse.mode === 'ready' ? item.ready_categories : cnBrowse.mode === 'vehicle' ? item.vehicle_categories : [];
+    const browseMatch = cnBrowse.mode === 'all' || (cnBrowse.mode === 'floating' ? item.floating_design || item.design_family === 'aero-disc' : Array.isArray(group) && group.length > 0 && (!cnBrowse.brand || group.includes(cnBrowse.brand)));
     return productMatchesCollection(item, f.collection)
+      && browseMatch
       && applicationMatch
       && (f.finish === 'All' || item.finish === f.finish)
       && (!query || [item.catalog_display_name, item.name, item.brand, item.part, item.meta, item.construction, item.design_family, item.spoke_style, ...(item.applications || []), productSizeNote(item)].join(' ').toLowerCase().includes(query));
@@ -5720,7 +5754,7 @@ function storePage() {
   const visualizerNotice = state.catalogNotice === 'visualizer'
     ? `<div class="catalog-visualizer-notice">${icons.image}<div><strong>${uiLabel('Choose a wheel to preview on your car.')}</strong><span>${uiLabel('Open any design, then use the vehicle-photo visualizer on the product page.')}</span></div></div>`
     : '';
-  return `<section class="store-hero forged-catalog-hero"><div class="container"><div class="breadcrumbs"><a href="#home">${uiLabel('Home')}</a><span>/</span><span>${uiLabel('Forged wheel catalog')}</span></div><p class="eyebrow">${uiLabel(context.eyebrow)}</p><h1>${uiLabel(context.title)}</h1><p>${uiLabel(context.copy)}</p><div class="catalog-collection-tabs">${Object.entries(catalogCollections).map(([key, item]) => `<a href="#store" class="${state.filters.collection === key ? 'is-active' : ''}" data-action="catalog-collection" data-collection="${key}">${uiLabel(item.label)}</a>`).join('')}</div></div></section>
+  return `${cnCatalogSubnav()}<section class="store-hero forged-catalog-hero"><div class="container"><div class="breadcrumbs"><a href="#home">${uiLabel('Home')}</a><span>/</span><span>${uiLabel('Forged wheel catalog')}</span></div><p class="eyebrow">${uiLabel(context.eyebrow)}</p><h1>${uiLabel(context.title)}</h1><p>${uiLabel(context.copy)}</p><div class="catalog-collection-tabs">${Object.entries(catalogCollections).map(([key, item]) => `<a href="#store" class="${state.filters.collection === key ? 'is-active' : ''}" data-action="catalog-collection" data-collection="${key}">${uiLabel(item.label)}</a>`).join('')}</div></div></section>
   <main class="container store-layout forged-store-layout"><aside class="filter-rail forged-filter-rail"><div class="filter-head"><strong>${uiLabel('Find the right starting design')}</strong><span>${uiLabel('Filters update the visible catalog immediately. Contact CIRUI to confirm any technical detail.')}</span></div><div class="filter-section"><h3>${uiLabel('Search designs')}</h3><input class="filter-input" data-filter="ai" placeholder="${esc(uiLabel('Model code, spoke style or finish'))}" value="${esc(state.search)}"></div><div class="filter-section"><h3>${uiLabel('Construction')}</h3><div class="catalog-filter-buttons">${Object.entries(catalogCollections).slice(0, 3).map(([key, item]) => `<button class="${state.filters.collection === key ? 'is-active' : ''}" data-action="catalog-collection" data-collection="${key}">${uiLabel(item.label)}</button>`).join('')}</div></div><div class="filter-section"><h3>${uiLabel('Application')}</h3><select class="filter-select" data-filter="application">${applications.map(([value, label]) => `<option value="${value}" ${state.filters.application === value ? 'selected' : ''}>${uiLabel(label)}</option>`).join('')}</select></div><div class="filter-section"><h3>${uiLabel('Vehicle fitment')}</h3>${vehicleSelector('store')}<button class="btn btn-dark btn-small filter-apply" data-action="shop-vehicle">${uiLabel('Attach vehicle')}</button></div></aside><section class="store-main">${visualizerNotice}${fitmentBanner}<div class="store-toolbar"><div class="result-count">${formatUiLabel('{count} results', { count: list.length })}<span> · ${uiLabel(context.label)}</span></div><div class="toolbar-actions"><button class="btn btn-outline btn-small" data-action="clear-filters">${uiLabel('Reset')}</button></div></div>${list.length ? `<div class="product-grid">${list.map(renderProductCard).join('')}</div>` : `<div class="empty-state"><h2>${uiLabel('No wheel matches every filter.')}</h2><p>${uiLabel('Reset the catalog or send the design reference to CIRUI for a custom direction.')}</p><button class="btn btn-primary" data-action="clear-filters">${uiLabel('Reset catalog')}</button></div>`}</section></main>`;
 }
 
@@ -7266,7 +7300,7 @@ function render() {
   document.body.classList.toggle('domestic-home-active', state.route.name === 'home');
   document.body.classList.toggle('wf-public-page', state.route.name !== 'home');
   document.body.dataset.publicRoute = state.route.name;
-  const page = state.route.name === 'home' ? domesticHomePage(icons, homeShowcase()) : state.route.name === 'about' ? ceruiAboutPage() : state.route.name === 'ai-wheel-design' ? aiWheelDesignPage() : state.route.name === 'fitment' ? fitmentPage() : state.route.name === 'fitment-result' ? fitmentResultPage() : state.route.name === 'fitment-share' ? fitmentSharePage() : state.route.name === 'account' ? accountPage() : state.route.name === 'store' ? storePage() : state.route.name === 'cart' ? cartPage() : state.route.name === 'blog' ? blogPage() : state.route.name === 'blog-post' ? blogArticlePage(state.blogPosts.find(post => post.slug === state.route.slug)) : productPage(product(state.route.id));
+  const page = state.route.name === 'home' ? domesticHomePage(icons, homeShowcase(), cnHomeCatalogSubnav()) : state.route.name === 'about' ? ceruiAboutPage() : state.route.name === 'ai-wheel-design' ? aiWheelDesignPage() : state.route.name === 'fitment' ? fitmentPage() : state.route.name === 'fitment-result' ? fitmentResultPage() : state.route.name === 'fitment-share' ? fitmentSharePage() : state.route.name === 'account' ? accountPage() : state.route.name === 'store' ? storePage() : state.route.name === 'cart' ? cartPage() : state.route.name === 'blog' ? blogPage() : state.route.name === 'blog-post' ? blogArticlePage(state.blogPosts.find(post => post.slug === state.route.slug)) : productPage(product(state.route.id));
   const pageWithJournal = page;
   const appRoot = document.querySelector('#app');
   const existingHostedContainer = appRoot.querySelector('[data-paypal-hosted-container]');
@@ -7341,7 +7375,7 @@ function updateFitmentVehicle(field, value) {
   if (state.fitment.vehicle?.year && state.fitment.vehicle?.make && state.fitment.vehicle?.model) void loadFitmentVehicleReference(state.fitment.vehicle);
   if (state.fitment.vehicle?.trim) void loadSelectedVehicleRecord(state.fitment.vehicle);
 }
-function clearFilters() { state.search = ''; state.filters = { category: 'Wheels', collection: 'all', application: 'all', saleOnly: false, finish: 'All', diameter: 'All', minPrice: '', maxPrice: '', minRating: '0' }; state.sort = 'latest'; render(); }
+function clearFilters() { cnBrowse = { mode: 'all', brand: '' }; state.search = ''; state.filters = { category: 'Wheels', collection: 'all', application: 'all', saleOnly: false, finish: 'All', diameter: 'All', minPrice: '', maxPrice: '', minRating: '0' }; state.sort = 'latest'; render(); }
 
 function workshopDraftFromProject(project = {}) {
   const request = project.request || {};
@@ -8077,6 +8111,7 @@ document.addEventListener('click', async event => {
     trackEvent('click', { path: location.pathname + location.hash, title: action, meta: { action, product_id: target.dataset.id || '' } });
   }
   if (target.dataset.categoryLink !== undefined) { event.preventDefault(); setCatalogCollection('all'); state.catalogNotice = ''; state.menuOpen = false; if (state.route.name === 'store') render(); else go('#store'); return; }
+  if (action === 'cn-browse') { event.preventDefault(); cnBrowse = { mode: target.dataset.mode || 'all', brand: target.dataset.brand || '' }; state.filters.collection = 'all'; state.filters.application = 'all'; state.search = ''; state.mobileNav = false; if (state.route.name === 'store') render(); else go('#store'); return; }
   if (action === 'catalog-collection') { event.preventDefault(); setCatalogCollection(target.dataset.collection || 'all'); state.catalogNotice = ''; state.menuOpen = false; if (state.route.name === 'store') render(); else go('#store'); return; }
   if (action === 'catalog-visualizer') { event.preventDefault(); setCatalogCollection('all'); state.catalogNotice = 'visualizer'; state.menuOpen = false; if (state.route.name === 'store') render(); else go('#store'); return; }
   if (action === 'custom-section') {

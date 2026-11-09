@@ -51,11 +51,13 @@ function dropMarkup(product) {
   return `<article class="is-visible" data-reveal><img src="${escapeHtml(product.image)}" alt="${escapeHtml(product.name)}" loading="lazy"><div><small>策锐轮毂</small><h3>${escapeHtml(product.name)}</h3><p>${escapeHtml(product.meta)}</p></div></article>`;
 }
 
-export function updateDomesticProducts(products = []) {
+export function updateDomesticProducts(products = [], catalogNavigationHtml = '') {
   const grid = document.querySelector('.wf-product-grid');
   const drops = document.querySelector('.wf-drop-grid');
+  const catalogNavigation = document.querySelector('[data-wf-catalog-nav]');
   if (grid) grid.innerHTML = products.length ? products.slice(0, 4).map(productMarkup).join('') : '<p>暂无上架轮毂，请稍后查看。</p>';
   if (drops) drops.innerHTML = products.slice(0, 2).map(dropMarkup).join('');
+  if (catalogNavigation && catalogNavigationHtml) catalogNavigation.innerHTML = catalogNavigationHtml;
 }
 
 function featureMarkup(item) {
@@ -65,7 +67,7 @@ function featureMarkup(item) {
   </a>`;
 }
 
-export function domesticHomePage(uiIcons = {}, wheelProducts = []) {
+export function domesticHomePage(uiIcons = {}, wheelProducts = [], catalogNavigationHtml = '') {
   const icon = (name, fallback) => uiIcons[name] || fallback;
   return `<main class="wf-home" id="home">
     <header class="wf-header" data-wf-header>
@@ -81,6 +83,7 @@ export function domesticHomePage(uiIcons = {}, wheelProducts = []) {
       <button class="wf-menu-close" type="button" data-wf-menu-close aria-label="关闭导航菜单">${icon('close', '关闭')}</button>
       <nav aria-label="策锐官网导航">
         <a href="#wheels"><span>01</span>轮毂系列</a>
+        <div class="wf-menu-catalog" data-wf-catalog-nav>${catalogNavigationHtml}</div>
         <a href="/fitment-lab" data-app-path><span>02</span>车型适配实验室</a>
         <a href="#manufacture"><span>03</span>制造实力</a>
         <a href="#technology"><span>04</span>生产与技术</a>
