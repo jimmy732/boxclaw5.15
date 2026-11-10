@@ -1065,6 +1065,13 @@ body.domestic-home-active > #app > .cn-footer {
   font-size: 11px;
 }
 
+.wf-footer-bottom-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
 .wf-footer-bottom a:hover,
 .wf-footer-bottom a:focus-visible {
   color: #fff;

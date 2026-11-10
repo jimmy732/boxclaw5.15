@@ -212,7 +212,7 @@ export function domesticHomePage(uiIcons = {}, wheelProducts = [], catalogNaviga
     <footer class="wf-footer">
       <div class="wf-container">
         <div class="wf-footer-main"><div><img src="/assets/cerui/cerui-logo-black-v1.webp" alt="策锐锻造 CIRUI FORGED"><p>车型适配 · 锻造轮毂设计 · 参数计算 · 效果生成 · 定制生产</p></div><nav><section><h3>轮毂与适配</h3><a href="#wheels">轮毂系列</a><a href="/fitment-lab" data-app-path>车型适配实验室</a><a href="#technology">生产与技术</a></section><section><h3>品牌信息</h3><a href="#manufacture">制造实力</a><a href="#videos">视频专区</a><a href="#network">全国网络</a></section><section class="wf-footer-contact"><h3>业务咨询 · 李炜</h3><button type="button" class="wf-footer-contact-phone" data-wf-contact-open>186 5819 1106</button><span>杭州策锐贸易有限公司</span><button type="button" class="wf-footer-wechat" data-wf-contact-open aria-label="打开李炜的电话和微信二维码联系卡片"><img src="/assets/domestic/media/cerui-wechat-contact-qr.webp" alt="李炜微信二维码" loading="lazy" decoding="async"><small>扫码加微信 · 点击查看</small></button></section></nav></div>
-        <div class="wf-footer-bottom"><span>© 2026 杭州策锐贸易有限公司</span><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">浙ICP备2026075816号-1</a></div>
+        <div class="wf-footer-bottom"><span>© 2026 杭州策锐贸易有限公司</span><span class="wf-footer-bottom-links"><a href="https://shop.forcarbox.cn/" target="_blank" rel="noopener noreferrer">海外官网 · shop.forcarbox.cn</a><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">浙ICP备2026075816号-1</a></span></div>
       </div>
     </footer>
     <dialog class="wf-contact-dialog" data-wf-contact-dialog aria-labelledby="wf-contact-title">
