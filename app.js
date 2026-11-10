@@ -1,4 +1,4 @@
-import { domesticHomePage, wireDomesticHome, updateDomesticProducts } from './domestic-home.js?v=20261110-vehicle-nav-v3';
+import { domesticHomePage, wireDomesticHome, updateDomesticProducts } from './domestic-home.js?v=20261110-overseas-footer-v1';
 
 const ASSET = '/assets/';
 const runtimeConfig = globalThis.__FBOX_RUNTIME__ || {};
